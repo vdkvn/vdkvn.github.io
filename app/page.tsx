@@ -59,10 +59,6 @@ export default function Home() {
 
       <header className="site-header">
         <div className="shell header-inner">
-          <a className="brand" href="#dau-trang" aria-label="VDK Projects, về đầu trang">
-            <span className="brand-mark" aria-hidden="true">VDK</span>
-            <span>VDK Projects</span>
-          </a>
           <nav aria-label="Điều hướng chính">
             <ul className="nav-list">
               <li><a href="#du-an">Dự án</a></li>
@@ -78,8 +74,7 @@ export default function Home() {
         <section className="hero" id="dau-trang" aria-labelledby="hero-title">
           <div className="shell hero-grid">
             <div className="hero-copy">
-              <p className="eyebrow">Công nghệ dễ tiếp cận, do người dùng dẫn đường</p>
-              <h1 id="hero-title">Một nơi chung cho các dự án của Võ Duy Khánh</h1>
+              <h1 id="hero-title">Chào mừng tới với Võ Duy Khánh, trang web mở dành cho người mù</h1>
               <p className="hero-lead">
                 Các phần mềm thiết thực dành cho cộng đồng, được xây dựng với ưu tiên rõ ràng:
                 dễ dùng bằng bàn phím, thân thiện với NVDA và minh bạch về tiến độ.

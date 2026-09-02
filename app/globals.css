@@ -139,31 +139,8 @@ a:focus-visible {
   display: flex;
   min-height: 5rem;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 2rem;
-}
-
-.brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.8rem;
-  color: var(--green-dark);
-  font-size: 1.12rem;
-  font-weight: 850;
-  text-decoration: none;
-}
-
-.brand-mark {
-  display: grid;
-  width: 2.75rem;
-  height: 2.75rem;
-  place-items: center;
-  border-radius: 0.8rem;
-  background: var(--green);
-  color: white;
-  font-size: 0.82rem;
-  letter-spacing: 0.07em;
-  box-shadow: 0 8px 20px rgb(8 100 90 / 0.2);
 }
 
 .nav-list {
@@ -737,7 +714,6 @@ h3 {
 }
 
 @media (forced-colors: active) {
-  .brand-mark,
   .status-icon,
   .project-icon,
   .large-icon,

@@ -4,19 +4,19 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://vdk-projects.voduykhanh150.chatgpt.site"),
   title: {
-    default: "VDK Projects | Võ Duy Khánh",
-    template: "%s | VDK Projects",
+    default: "Võ Duy Khánh | Trang web mở dành cho người mù",
+    template: "%s | Võ Duy Khánh",
   },
   description:
     "Nơi giới thiệu các dự án phần mềm dễ tiếp cận của Võ Duy Khánh dành cho cộng đồng người dùng NVDA.",
-  applicationName: "VDK Projects",
+  applicationName: "Võ Duy Khánh",
   authors: [{ name: "Võ Duy Khánh" }],
   creator: "Võ Duy Khánh",
   keywords: ["Võ Duy Khánh", "NVDA", "RadioTV", "phần mềm tiếp cận"],
   openGraph: {
-    title: "VDK Projects | Võ Duy Khánh",
+    title: "Chào mừng tới với Võ Duy Khánh",
     description:
-      "Công nghệ dễ tiếp cận cho cộng đồng: RadioTV, NVDA Network Optimizer và các dự án của Võ Duy Khánh.",
+      "Trang web mở dành cho người mù, giới thiệu RadioTV, NVDA Network Optimizer và các dự án của Võ Duy Khánh.",
     type: "website",
     url: "https://vdk-projects.voduykhanh150.chatgpt.site",
     images: [
@@ -24,15 +24,15 @@ export const metadata: Metadata = {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "VDK Projects — Công nghệ dễ tiếp cận cho cộng đồng",
+        alt: "Chào mừng tới với Võ Duy Khánh — Trang web mở dành cho người mù",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "VDK Projects | Võ Duy Khánh",
+    title: "Chào mừng tới với Võ Duy Khánh",
     description:
-      "Công nghệ dễ tiếp cận cho cộng đồng: RadioTV, NVDA Network Optimizer và các dự án của Võ Duy Khánh.",
+      "Trang web mở dành cho người mù, giới thiệu RadioTV, NVDA Network Optimizer và các dự án của Võ Duy Khánh.",
     images: ["/og.png"],
   },
 };
