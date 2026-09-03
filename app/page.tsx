@@ -21,6 +21,17 @@ import updatesData from "../lib/updates.json";
 
 const baseProjects = [
   {
+    slug: "nvda-screen-reader",
+    name: "NVDA Screen Reader (Bản mới nhất)",
+    description:
+      "Trình đọc màn hình mã nguồn mở miễn phí hàng đầu thế giới cho Windows. Tối ưu hoàn toàn cho Windows 11, Office 365, kho Add-on Store và hỗ trợ tiếng Việt toàn diện.",
+    status: "Bản phát hành chính thức mới nhất",
+    icon: Accessibility,
+    detailUrl: "/du-an/nvda-screen-reader",
+    link: "https://www.nvaccess.org/download/",
+    linkText: "Tải bản chính thức",
+  },
+  {
     slug: "radiotv",
     name: "RadioTV",
     description:

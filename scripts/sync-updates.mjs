@@ -7,6 +7,13 @@ const outputPath = path.join(__dirname, "..", "lib", "updates.json");
 
 const trackedRepos = [
   {
+    slug: "nvda-screen-reader",
+    projectName: "NVDA Screen Reader",
+    repo: "nvaccess/nvda",
+    fallbackType: "Trình đọc màn hình",
+    category: "Phần mềm tiếp cận",
+  },
+  {
     slug: "nvda-network-optimizer",
     projectName: "NVDA Network Optimizer",
     repo: "voduykhanhmata-ctrl/nvda-network-optimizer",

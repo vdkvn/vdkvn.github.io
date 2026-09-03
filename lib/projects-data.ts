@@ -27,7 +27,7 @@ export interface ProjectDetail {
   status: string;
   author: string;
   coAuthors?: string[];
-  iconName: "Radio" | "Wifi" | "Volume2";
+  iconName: "Radio" | "Wifi" | "Volume2" | "Accessibility";
   repoUrl: string | null;
   downloadUrl: string | null;
   introduction: string[];
@@ -40,6 +40,92 @@ export interface ProjectDetail {
 }
 
 export const projectsDetailList: ProjectDetail[] = [
+  {
+    slug: "nvda-screen-reader",
+    name: "NVDA Screen Reader (Bản mới nhất)",
+    subtitle: "Trình đọc màn hình miễn phí, mã nguồn mở hàng đầu thế giới cho Windows",
+    tagline: "Cập nhật NVDA mới nhất: Tối ưu Windows 11 & Office 365, nâng cấp Add-on Store, phản hồi phím siêu tốc và hỗ trợ tiếng Việt toàn diện.",
+    category: "Trình đọc màn hình",
+    status: "Bản phát hành chính thức mới nhất",
+    author: "NV Access & Cộng đồng toàn cầu",
+    coAuthors: ["Cộng đồng người dùng & dịch giả NVDA Việt Nam"],
+    iconName: "Accessibility",
+    repoUrl: "https://github.com/nvaccess/nvda",
+    downloadUrl: "https://www.nvaccess.org/download/",
+    introduction: [
+      "NVDA (NonVisual Desktop Access) là phần mềm đọc màn hình mã nguồn mở hàng đầu thế giới dành riêng cho hệ điều hành Microsoft Windows, được sáng lập và duy trì bởi tổ chức phi lợi nhuận NV Access (Úc) cùng mạng lưới hàng nghìn lập trình viên khiếm thị trên toàn cầu.",
+      "Thông qua việc chuyển đổi toàn bộ giao diện đồ họa, tài liệu văn bản, bảng biểu và trang web thành giọng nói tổng hợp hoặc hiển thị trên màn hình chữ nổi Braille, NVDA mở ra cánh cửa tri thức và cơ hội việc làm bình đẳng cho hàng triệu người mù trên khắp thế giới.",
+      "Phiên bản cập nhật mới nhất mang đến những bước tiến công nghệ vượt trội: Tối ưu hóa sâu cho Windows 11 23H2/24H2, nâng cấp kho tiện ích Add-on Store trực quan giúp tự động cập nhật tiện ích chỉ với một phím bấm, tăng cường độ ổn định khi làm việc với Microsoft Word, Excel 365, duyệt web trên Google Chrome, Microsoft Edge và các ứng dụng giao tiếp hàng ngày."
+    ],
+    purpose: [
+      "Xóa bỏ hoàn toàn rào cản tài chính đối với công nghệ trợ giúp, đảm bảo mọi người khiếm thị ở bất kỳ đâu đều được sử dụng máy tính miễn phí 100%.",
+      "Xây dựng một hệ sinh thái mã nguồn mở mạnh mẽ, cho phép cộng đồng lập trình viên Việt Nam tự do phát triển các tiện ích bổ trợ (add-ons) và bộ đọc tiếng Việt chuyên biệt.",
+      "Cung cấp khả năng di động tối đa với chế độ Portable (chạy từ USB) không cần quyền Admin, giúp người dùng tự tin làm việc tại mọi văn phòng, trường học hay thư viện."
+    ],
+    features: [
+      {
+        title: "Tương thích hoàn hảo Windows 11 & Office 365",
+        desc: "Đọc chính xác và mượt mà từng ô bảng tính Excel, tài liệu Word, bài thuyết trình PowerPoint và các thông báo hệ thống mới nhất của Windows."
+      },
+      {
+        title: "Kho tiện ích Add-on Store tích hợp sẵn",
+        desc: "Tìm kiếm, cài đặt, bật/tắt và cập nhật tự động hàng trăm tiện ích mở rộng trực tiếp ngay trong menu NVDA mà không phải tải tệp thủ công."
+      },
+      {
+        title: "Hỗ trợ phong phú các bộ đọc tiếng Việt",
+        desc: "Tương thích hoàn hảo với các giải pháp tổng hợp tiếng nói tiếng Việt chất lượng cao như Google TTS WASM Offline, Windows OneCore, SAPI5 và eSpeak NG."
+      },
+      {
+        title: "Kết nối màn hình chữ nổi Braille tự động",
+        desc: "Hỗ trợ tự động nhận diện và xuất chữ nổi sang hầu hết các dòng máy hiển thị Braille phổ biến qua kết nối Bluetooth hoặc cáp USB."
+      },
+      {
+        title: "Chế độ chạy Portable không cần cài đặt",
+        desc: "Cho phép tạo bản chạy trực tiếp trên ổ USB để bạn có thể cắm vào bất kỳ máy tính nào và sử dụng ngay lập tức với đầy đủ cấu hình quen thuộc."
+      },
+      {
+        title: "Duyệt web thông minh với Quick Navigation",
+        desc: "Dùng các phím đơn chữ cái (H để duyệt tiêu đề, K để duyệt liên kết, T để duyệt bảng, F để duyệt ô nhập liệu) giúp lướt web nhanh gấp nhiều lần."
+      }
+    ],
+    shortcuts: [
+      { key: "NVDA + Mũi tên Xuống", action: "Bắt đầu đọc liên tục toàn bộ nội dung từ con trỏ (Say All)" },
+      { key: "Phím Ctrl", action: "Ngắt/dừng giọng đọc ngay lập tức (Stop speech)" },
+      { key: "NVDA + T", action: "Đọc tiêu đề của cửa sổ đang mở hiện tại" },
+      { key: "NVDA + Tab", action: "Đọc đối tượng và vị trí đang được lấy nét (Focus)" },
+      { key: "NVDA + F12 (1 lần / 2 lần)", action: "Đọc giờ hiện tại / Đọc ngày tháng năm" },
+      { key: "NVDA + N", action: "Mở Menu chính của NVDA để cấu hình, cài Add-on và trợ giúp" },
+      { key: "NVDA + Ctrl + S", action: "Mở hộp thoại chọn Bộ tổng hợp âm thanh (Synthesizer)" },
+      { key: "NVDA + Ctrl + K", action: "Bật/Tắt chế độ trợ giúp phím (Input Help Mode)" },
+      { key: "NVDA + Q", action: "Thoát trình đọc màn hình NVDA" }
+    ],
+    usageGuide: [
+      "Bước 1: Bấm nút 'Tải về bản mới nhất' ở phía trên để tải bộ cài đặt NVDA chính hãng từ NV Access.",
+      "Bước 2: Mở tệp nvda_*.exe vừa tải về. Ngay khi mở, âm thanh mở đầu của NVDA sẽ vang lên và giọng đọc bắt đầu hoạt động.",
+      "Bước 3: Nhấn phím 'A' để đồng ý điều khoản, sau đó nhấn phím 'I' để Cài đặt trực tiếp vào máy tính (Install NVDA on this computer) hoặc nhấn phím 'C' để tạo bản Portable trên USB.",
+      "Bước 4: Nhấn nút 'Continue' (Tiếp tục) và chờ vài giây. NVDA sẽ khởi động lại và sẵn sàng phục vụ bạn."
+    ],
+    faq: [
+      {
+        question: "Cập nhật NVDA lên bản mới có làm mất các add-on và cài đặt hiện có không?",
+        answer: "Hoàn toàn KHÔNG. Bộ cài đặt NVDA luôn tự động sao lưu và bảo tồn nguyên vẹn toàn bộ thiết lập giọng đọc, phím tắt, từ điển phát âm và các tiện ích add-on đang hoạt động của bạn."
+      },
+      {
+        question: "Làm thế nào để NVDA đọc tiếng Việt tự nhiên và mượt mà hơn?",
+        answer: "Sau khi cài NVDA, bạn hãy cài thêm tiện ích 'Google TTS for NVDA' (có sẵn trên trang web này). Add-on này sẽ mang giọng đọc Google tiếng Việt tự nhiên, êm tai và đọc ngoại tuyến 100% vào NVDA của bạn."
+      },
+      {
+        question: "NVDA có yêu cầu trả phí định kỳ hay bản quyền không?",
+        answer: "NVDA là phần mềm mã nguồn mở hoàn toàn MIỄN PHÍ vĩnh viễn cho tất cả mọi người theo giấy phép GNU General Public License (GPLv2). Bạn có thể tự do sử dụng cho mục đích cá nhân, học tập hoặc làm việc tại các cơ quan, doanh nghiệp."
+      }
+    ],
+    techSpecs: [
+      { label: "Nhà phát triển chính", value: "NV Access Limited (Tổ chức phi lợi nhuận Úc)" },
+      { label: "Nền tảng hỗ trợ", value: "Windows 7 SP1, 8.1, 10, 11 (32-bit & 64-bit)" },
+      { label: "Dung lượng cài đặt", value: "Rất nhẹ (~40 MB)" },
+      { label: "Giấy phép bản quyền", value: "Mã nguồn mở miễn phí (GNU GPLv2)" }
+    ]
+  },
   {
     slug: "radiotv",
     name: "RadioTV",

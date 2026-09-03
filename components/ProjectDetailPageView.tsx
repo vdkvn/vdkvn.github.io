@@ -2,6 +2,7 @@ import { projectsDetailList, ProjectDetail } from "@/lib/projects-data";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import {
+  Accessibility,
   ArrowLeft,
   CheckCircle2,
   Download,
@@ -25,6 +26,7 @@ const iconMap = {
   Radio: Radio,
   Wifi: Wifi,
   Volume2: Volume2,
+  Accessibility: Accessibility,
 };
 
 export function ProjectDetailPageView({ slug }: { slug: string }) {
