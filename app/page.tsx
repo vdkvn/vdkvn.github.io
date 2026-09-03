@@ -2,16 +2,20 @@ import {
   Accessibility,
   ArrowRight,
   CheckCircle2,
+  Clock,
   Code2,
   Download,
   ExternalLink,
+  GitCommit,
   Heart,
+  History,
   MessagesSquare,
   Radio,
   ShieldCheck,
   Volume2,
   Wifi,
 } from "lucide-react";
+import updatesData from "../lib/updates.json";
 
 const projects = [
   {
@@ -62,6 +66,7 @@ export default function Home() {
           <nav aria-label="Điều hướng chính">
             <ul className="nav-list">
               <li><a href="#du-an">Dự án</a></li>
+              <li><a href="#nhat-ky">Tiến độ</a></li>
               <li><a href="#cong-dong">Cộng đồng</a></li>
               <li><a href="#tiep-can">Tiếp cận</a></li>
               <li><a href="#tro-giup">Trợ giúp</a></li>
@@ -138,6 +143,47 @@ export default function Home() {
                   </article>
                 );
               })}
+            </div>
+          </div>
+        </section>
+
+        <section className="section updates-section" id="nhat-ky" aria-labelledby="updates-title">
+          <div className="shell">
+            <div className="section-heading">
+              <p className="eyebrow">Theo dõi tự động</p>
+              <h2 id="updates-title">Nhật ký tiến độ dự án</h2>
+              <p>
+                Hệ thống tự động kiểm tra và ghi nhận các thay đổi, đóng góp mã nguồn mới nhất từ các kho GitHub hàng ngày.
+              </p>
+            </div>
+
+            <div className="update-grid">
+              {updatesData.items.map((item) => (
+                <article className="update-card" key={item.projectName + item.sha}>
+                  <div className="update-meta">
+                    <span className="update-badge">
+                      <GitCommit size={14} aria-hidden="true" />
+                      {item.type}
+                    </span>
+                    <span className="update-date" aria-label={`Ngày cập nhật: ${item.date}`}>
+                      {item.date}
+                    </span>
+                  </div>
+                  <h3>{item.projectName}</h3>
+                  <p>{item.summary}</p>
+                  <a href={item.url} target="_blank" rel="noreferrer">
+                    Xem thay đổi trên GitHub <ExternalLink size={16} aria-hidden="true" />
+                    <span className="sr-only"> (mở trong thẻ mới)</span>
+                  </a>
+                </article>
+              ))}
+            </div>
+
+            <div className="update-sync-info" role="status">
+              <Clock size={18} aria-hidden="true" />
+              <span>
+                Kiểm tra tự động lần cuối: <strong>{updatesData.lastCheckedVN}</strong>. Lịch kiểm tra định kỳ: 07:00 sáng hàng ngày.
+              </span>
             </div>
           </div>
         </section>
