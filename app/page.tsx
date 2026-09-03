@@ -35,11 +35,11 @@ const projects = [
   {
     name: "Google TTS for NVDA",
     description:
-      "Tiện ích bổ trợ (add-on) tích hợp giọng đọc Google Text-to-Speech vào NVDA, mang lại trải nghiệm đọc văn bản tự nhiên, mượt mà và hỗ trợ tiếng Việt chuẩn xác.",
-    status: "Đang phát triển",
+      "Tiện ích bổ trợ (add-on) tích hợp giọng đọc Google TTS (WASM) chất lượng cao cho NVDA, hỗ trợ đọc tiếng Việt tự nhiên và chạy ngoại tuyến mượt mà. Tác giả phát triển: Nguyễn Anh Đức (nguyenanhduc09).",
+    status: "Dự án cộng đồng",
     icon: Volume2,
-    link: "https://github.com/voduykhanhmata-ctrl?tab=repositories",
-    linkText: "Theo dõi trên GitHub",
+    link: "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA",
+    linkText: "Mở trang tác giả trên GitHub",
   },
 ];
 
