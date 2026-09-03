@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "vinext dev",
     "sync": "node scripts/sync-updates.mjs",
-    "build": "node scripts/sync-updates.mjs && vinext build",
+    "build": "node scripts/sync-updates.mjs && vinext build && node scripts/postbuild.mjs",
     "start": "wrangler dev --config dist/server/wrangler.json",
     "lint": "oxlint",
     "format": "oxfmt"

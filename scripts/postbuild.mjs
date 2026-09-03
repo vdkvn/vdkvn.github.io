@@ -1,0 +1,22 @@
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const distClient = path.join(__dirname, "..", "dist", "client");
+const duAnDir = path.join(distClient, "du-an");
+
+if (fs.existsSync(duAnDir)) {
+  const files = fs.readdirSync(duAnDir);
+  for (const file of files) {
+    if (file.endsWith(".html") && file !== "index.html") {
+      const slug = file.replace(/\.html$/, "");
+      const targetDir = path.join(duAnDir, slug);
+      if (!fs.existsSync(targetDir)) {
+        fs.mkdirSync(targetDir, { recursive: true });
+      }
+      fs.copyFileSync(path.join(duAnDir, file), path.join(targetDir, "index.html"));
+      console.log(`Created ${slug}/index.html for GitHub Pages routing`);
+    }
+  }
+}
