@@ -98,13 +98,13 @@ export default function Home() {
             <aside className="status-card" aria-labelledby="status-title">
               <div className="status-icon" aria-hidden="true"><CheckCircle2 size={26} /></div>
               <p className="status-label">Trạng thái website</p>
-              <h2 id="status-title">Bản xem thử đầu tiên</h2>
+              <h2 id="status-title">Website đang mở</h2>
               <p>
-                Khung nội dung và thiết kế tiếp cận đã sẵn sàng. Thông tin dự án sẽ được cập nhật dần.
+                Bạn đã có thể khám phá các dự án. Nội dung và hướng dẫn sẽ tiếp tục được hoàn thiện.
               </p>
               <div className="status-row">
                 <span className="status-dot" aria-hidden="true" />
-                Đang xây dựng
+                Đang cập nhật
               </div>
             </aside>
           </div>
