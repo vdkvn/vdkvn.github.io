@@ -6,7 +6,6 @@ import {
   Download,
   ExternalLink,
   Heart,
-  MessageCircle,
   MessagesSquare,
   Radio,
   ShieldCheck,
@@ -31,15 +30,6 @@ const projects = [
     icon: Wifi,
     link: "https://github.com/voduykhanhmata-ctrl/NVDA-Network-Optimizer",
     linkText: "Xem mã nguồn",
-  },
-  {
-    name: "ZaloAccess",
-    description:
-      "Dự án hướng đến trải nghiệm Zalo thuận tiện hơn cho người dùng bàn phím và công nghệ hỗ trợ.",
-    status: "Đang phát triển",
-    icon: MessageCircle,
-    link: "https://github.com/voduykhanhmata-ctrl?tab=repositories",
-    linkText: "Theo dõi trên GitHub",
   },
 ];
 
