@@ -28,7 +28,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build static website
-        run: npm run build
+        run: |
+          npm run build
+          touch dist/client/.nojekyll
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
