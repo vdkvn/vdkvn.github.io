@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   applicationName: "Võ Duy Khánh",
   authors: [{ name: "Võ Duy Khánh" }],
   creator: "Võ Duy Khánh",
-  keywords: ["Võ Duy Khánh", "NVDA", "RadioTV", "phần mềm tiếp cận"],
+  keywords: ["Võ Duy Khánh", "NVDA", "RadioTV", "Google TTS", "phần mềm tiếp cận"],
   openGraph: {
     title: "Chào mừng tới với Võ Duy Khánh",
     description:

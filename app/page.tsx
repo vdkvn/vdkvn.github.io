@@ -9,6 +9,7 @@ import {
   MessagesSquare,
   Radio,
   ShieldCheck,
+  Volume2,
   Wifi,
 } from "lucide-react";
 
@@ -30,6 +31,15 @@ const projects = [
     icon: Wifi,
     link: "https://github.com/voduykhanhmata-ctrl/NVDA-Network-Optimizer",
     linkText: "Xem mã nguồn",
+  },
+  {
+    name: "Google TTS for NVDA",
+    description:
+      "Tiện ích bổ trợ (add-on) tích hợp giọng đọc Google Text-to-Speech vào NVDA, mang lại trải nghiệm đọc văn bản tự nhiên, mượt mà và hỗ trợ tiếng Việt chuẩn xác.",
+    status: "Đang phát triển",
+    icon: Volume2,
+    link: "https://github.com/voduykhanhmata-ctrl?tab=repositories",
+    linkText: "Theo dõi trên GitHub",
   },
 ];
 
