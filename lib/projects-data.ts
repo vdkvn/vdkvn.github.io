@@ -1,3 +1,23 @@
+export interface ProjectFeature {
+  title: string;
+  desc: string;
+}
+
+export interface ShortcutItem {
+  key: string;
+  action: string;
+}
+
+export interface FaqItem {
+  question: string;
+  answer: string;
+}
+
+export interface TechSpec {
+  label: string;
+  value: string;
+}
+
 export interface ProjectDetail {
   slug: string;
   name: string;
@@ -6,22 +26,25 @@ export interface ProjectDetail {
   category: string;
   status: string;
   author: string;
+  coAuthors?: string[];
   iconName: "Radio" | "Wifi" | "Volume2";
   repoUrl: string | null;
   downloadUrl: string | null;
   introduction: string[];
   purpose: string[];
-  features: { title: string; desc: string }[];
+  features: ProjectFeature[];
+  shortcuts: ShortcutItem[];
   usageGuide: string[];
-  techSpecs: { label: string; value: string }[];
+  faq: FaqItem[];
+  techSpecs: TechSpec[];
 }
 
 export const projectsDetailList: ProjectDetail[] = [
   {
     slug: "radiotv",
     name: "RadioTV",
-    subtitle: "Ứng dụng nghe đài phát thanh và xem truyền hình tiếp cận",
-    tagline: "Giao diện tối giản, điều khiển 100% bằng phím tắt, thân thiện tuyệt đối với người khiếm thị.",
+    subtitle: "Ứng dụng nghe đài phát thanh và xem truyền hình thuần tiếp cận",
+    tagline: "Giao diện siêu tối giản, điều khiển 100% bằng phím bấm, không quảng cáo, tương thích hoàn hảo với NVDA.",
     category: "Đa phương tiện tiếp cận",
     status: "Phiên bản 0.1 đang thử nghiệm",
     author: "Võ Duy Khánh",
@@ -29,51 +52,77 @@ export const projectsDetailList: ProjectDetail[] = [
     repoUrl: null,
     downloadUrl: null,
     introduction: [
-      "RadioTV là giải pháp giải trí đa phương tiện được thiết kế riêng cho người khiếm thị, người lớn tuổi và những ai ưa thích sự tinh gọn, nhanh chóng.",
-      "Thay vì phải truy cập vào các trang web xem truyền hình phức tạp chứa đầy quảng cáo, bẫy nhấp chuột và các nút bấm không có nhãn tiếp cận (accessibility label), RadioTV đưa toàn bộ các kênh phát thanh và truyền hình thiết yếu vào một giao diện danh sách đơn giản.",
-      "Chỉ cần mở phần mềm, bạn có thể dùng các phím mũi tên để chọn đài, bấm Enter để phát hoặc tạm dừng, và điều chỉnh âm lượng mà không gặp bất kỳ rào cản nào."
+      "RadioTV ra đời từ nhu cầu thực tế của người khiếm thị và người cao tuổi tại Việt Nam: mong muốn thưởng thức tin tức thời sự, các chương trình ca nhạc, kịch truyền thanh và các kênh truyền hình thiết yếu một cách nhanh chóng mà không bị lạc trong mê cung giao diện web hiện đại.",
+      "Trên các trang web xem truyền hình hoặc ứng dụng đa phương tiện thông thường, người dùng khiếm thị thường xuyên phải đối mặt với vô số pop-up quảng cáo, biểu ngữ che mất nội dung, các trình phát video tự động bật âm thanh hỗn loạn và các nút bấm không có nhãn tiếp cận (unlabelled buttons). Điều này khiến việc chọn một kênh radio yêu thích trở nên vô cùng vất vả.",
+      "RadioTV giải quyết triệt để rào cản này bằng triết lý 'Tối giản vì con người'. Ứng dụng gom toàn bộ các luồng phát thanh và truyền hình chính thống vào một danh sách văn bản thuần túy, phản hồi tức thì với từng phím gõ, giúp bạn lắng nghe cả thế giới chỉ sau 2 giây mở ứng dụng."
     ],
     purpose: [
-      "Xóa bỏ rào cản tiếp cận thông tin thời sự, văn hóa và giải trí cho người khiếm thị.",
-      "Mang lại trải nghiệm nghe đài, xem TV thuần khiết, không quảng cáo làm phiền và không tốn tài nguyên máy tính.",
-      "Tạo ra một phần mềm chuẩn tiếp cận mẫu, tuân thủ nghiêm ngặt các nguyên tắc điều hướng bàn phím của NVDA và Windows."
+      "Xóa bỏ hoàn toàn rào cản tiếp cận thông tin thời sự, văn hóa và giải trí cho cộng đồng người mù và khiếm thị.",
+      "Đem lại trải nghiệm nghe đài và xem truyền hình thuần khiết: 0% quảng cáo chèn ép, 0% phần mềm gián điệp, tải nhanh và tiết kiệm dung lượng mạng.",
+      "Xây dựng một tiêu chuẩn ứng dụng mẫu về khả năng tiếp cận (Accessibility First), làm bằng chứng thực nghiệm rằng phần mềm đẹp và tiện ích có thể song hành cùng sự thân thiện với trình đọc màn hình."
     ],
     features: [
       {
-        title: "Kênh phát thanh phong phú",
-        desc: "Hỗ trợ đầy đủ các kênh của Đài Tiếng nói Việt Nam (VOV1, VOV2, VOV3, VOV Giao thông TP.HCM, Hà Nội) và nhiều đài truyền thanh địa phương."
+        title: "Kênh phát thanh toàn quốc phong phú",
+        desc: "Truy cập trực tiếp các kênh của Đài Tiếng nói Việt Nam (VOV1 - Thời sự, VOV2 - Văn hóa, VOV3 - Âm nhạc, VOV Giao thông Hà Nội & TP.HCM, VOV5 - Đối ngoại) và các đài phát thanh địa phương trên cả nước."
       },
       {
-        title: "Truyền hình thiết yếu",
-        desc: "Truyền phát âm thanh/hình ảnh ổn định các kênh VTV1, VTV2, VTV3, HTV... với độ trễ thấp."
+        title: "Truyền hình thiết yếu chất lượng cao",
+        desc: "Truyền phát âm thanh và hình ảnh ổn định của các đài truyền hình quốc gia (VTV1, VTV2, VTV3, VTV Cần Thơ, HTV...) với máy chủ ổn định và độ trễ cực thấp."
       },
       {
-        title: "Phím tắt toàn diện",
-        desc: "Mọi chức năng như chuyển kênh (Mũi tên), Tăng giảm âm lượng (Mũi tên Lên/Xuống), Tắt/bật tiếng (M), Yêu thích (F) đều thao tác nhanh gọn."
+        title: "Điều khiển bàn phím trực quan",
+        desc: "Thiết kế hệ thống phím tắt tiêu chuẩn: phím Mũi tên để chọn kênh, Space/Enter để phát/dừng, phím số để chuyển đài nhanh và phím F để đánh dấu yêu thích."
       },
       {
-        title: "Tương thích 100% với NVDA",
-        desc: "Mọi trạng thái kết nối, tên chương trình đang phát và thông báo đều được đọc to, rõ ràng qua trình đọc màn hình."
+        title: "Tương thích tuyệt đối với NVDA & Jaws",
+        desc: "Mọi hành động như kết nối đài, gián đoạn mạng, tên bài hát/chương trình đang phát và mức âm lượng đều được phát âm rõ ràng qua giọng đọc của trình đọc màn hình."
+      },
+      {
+        title: "Tiết kiệm tài nguyên và bộ nhớ",
+        desc: "Phần mềm chạy cực nhẹ, không ngốn RAM, không sinh nhiệt cho máy tính và hoạt động ổn định ngay cả trên các máy tính cấu hình yếu."
       }
     ],
+    shortcuts: [
+      { key: "Mũi tên Lên / Xuống", action: "Duyệt lên hoặc xuống trong danh sách kênh" },
+      { key: "Enter hoặc Space (Cách)", action: "Phát hoặc Tạm dừng kênh đang chọn" },
+      { key: "Mũi tên Trái / Phải", action: "Giảm hoặc Tăng âm lượng phát thanh" },
+      { key: "Phím M", action: "Tắt tiếng (Mute) hoặc Bật lại tiếng" },
+      { key: "Phím F", action: "Thêm hoặc Xóa kênh hiện tại khỏi danh sách Yêu thích" },
+      { key: "Phím Tab", action: "Chuyển đổi giữa danh sách Radio và danh sách Truyền hình" }
+    ],
     usageGuide: [
-      "Tải về và mở file chạy RadioTV (không cần cài đặt phức tạp).",
-      "Dùng phím Mũi tên Lên / Xuống để duyệt qua danh sách các kênh.",
-      "Nhấn phím Enter hoặc Phím cách (Space) để Bắt đầu phát / Tạm dừng.",
-      "Nhấn phím F để lưu kênh vào danh sách yêu thích và truy cập nhanh."
+      "Bước 1: Tải tệp RadioTV về máy tính và giải nén vào thư mục bạn muốn.",
+      "Bước 2: Mở file RadioTV.exe (phần mềm dạng Portable, không yêu cầu cài đặt rườm rà).",
+      "Bước 3: Dùng phím Mũi tên Lên/Xuống để duyệt danh sách kênh yêu thích, nhấn Enter để nghe đài ngay lập tức.",
+      "Bước 4: Nhấn phím F để ghim những đài thường nghe lên đầu danh sách để truy cập nhanh cho những lần sau."
+    ],
+    faq: [
+      {
+        question: "RadioTV có yêu cầu kết nối Internet liên tục không?",
+        answer: "Có, vì đây là ứng dụng truyền phát trực tiếp luồng âm thanh từ các đài phát thanh và truyền hình nên máy tính cần có kết nối mạng Internet (tốc độ từ 1 Mbps trở lên là đã nghe rất mượt)."
+      },
+      {
+        question: "RadioTV có thu phí hay chèn quảng cáo không?",
+        answer: "Hoàn toàn KHÔNG. RadioTV được phát triển phi lợi nhuận bởi Võ Duy Khánh vì cộng đồng người khiếm thị Việt Nam. Phần mềm vĩnh viễn miễn phí và không bao giờ chèn quảng cáo."
+      },
+      {
+        question: "Tôi có thể đề xuất thêm đài phát thanh của tỉnh tôi không?",
+        answer: "Rất hoan nghênh! Bạn có thể gửi thông tin luồng phát thanh đài tỉnh của bạn qua phần Góp ý cộng đồng hoặc GitHub để tôi cập nhật vào danh sách kênh chính thức."
+      }
     ],
     techSpecs: [
-      { label: "Nền tảng hỗ trợ", value: "Windows 10, Windows 11 (64-bit / 32-bit)" },
-      { label: "Trình đọc màn hình tương thích", value: "NVDA, JAWS, Windows Narrator" },
-      { label: "Yêu cầu mạng", value: "Kết nối Internet từ 2 Mbps trở lên" },
-      { label: "Giấy phép", value: "Miễn phí cho cộng đồng" }
+      { label: "Nền tảng hỗ trợ", value: "Windows 10, Windows 11 (32-bit & 64-bit)" },
+      { label: "Trình đọc màn hình hỗ trợ", value: "NVDA 2020+, JAWS, Windows Narrator" },
+      { label: "Định dạng luồng âm thanh", value: "HLS (m3u8), AAC, MP3 Direct Stream" },
+      { label: "Giấy phép phân phối", value: "Miễn phí cho cộng đồng người khiếm thị" }
     ]
   },
   {
     slug: "nvda-network-optimizer",
     name: "NVDA Network Optimizer",
-    subtitle: "Tiện ích bổ trợ (Add-on) tối ưu và chẩn đoán mạng cho NVDA",
-    tagline: "Kiểm tra kết nối, đo độ trễ và đổi DNS an toàn với quy trình có hướng dẫn bằng giọng đọc.",
+    subtitle: "Tiện ích bổ trợ (Add-on) tối ưu và chẩn đoán mạng toàn diện cho NVDA",
+    tagline: "Kiểm tra ping, đổi DNS sạch/an toàn và khắc phục sự cố mạng với phản hồi giọng nói trực quan.",
     category: "Tiện ích hệ thống",
     status: "Đang hoàn thiện hồ sơ phát hành",
     author: "Võ Duy Khánh",
@@ -81,96 +130,145 @@ export const projectsDetailList: ProjectDetail[] = [
     repoUrl: "https://github.com/voduykhanhmata-ctrl/NVDA-Network-Optimizer",
     downloadUrl: "https://github.com/voduykhanhmata-ctrl/NVDA-Network-Optimizer/releases",
     introduction: [
-      "NVDA Network Optimizer là một add-on mạnh mẽ dành cho trình đọc màn hình NVDA, giúp người dùng dễ dàng quản lý, kiểm tra và tối ưu kết nối Internet trên hệ điều hành Windows.",
-      "Thông thường, việc kiểm tra kết nối mạng hoặc đổi địa chỉ máy chủ DNS trên Windows đòi hỏi phải đi qua nhiều tầng menu cài đặt phức tạp của Control Panel. Điều này gây mất nhiều thời gian và dễ gây nhầm lẫn đối với người dùng sử dụng phím.",
-      "Add-on này tích hợp trực tiếp vào menu công cụ của NVDA, cung cấp các quy trình từng bước (wizard) đơn giản, đọc to các thông số kỹ thuật mạng bằng ngôn ngữ dễ hiểu."
+      "NVDA Network Optimizer là một add-on thiết yếu dành riêng cho người dùng trình đọc màn hình NVDA trên Windows, mang đến giải pháp quản lý, chẩn đoán và tối ưu hóa kết nối Internet hoàn toàn thông qua bàn phím.",
+      "Đối với người khiếm thị, mỗi khi máy tính gặp sự cố mạng (như không vào được một trang web, tốc độ mạng bị chậm, mất kết nối DNS), việc phải mở Control Panel, tìm Adapter Settings, chuột phải vào Ethernet/Wi-Fi để nhập từng dãy số IP tĩnh là một thử thách rất phức tạp và dễ nhầm lẫn.",
+      "NVDA Network Optimizer sinh ra để thay đổi điều đó. Add-on cung cấp một bảng điều khiển ngay trong menu NVDA, tích hợp các trình thuật sĩ (Wizard) tự động đo ping, kiểm tra tình trạng kết nối tới các máy chủ trọng điểm, và cho phép chuyển đổi sang các dịch vụ DNS công cộng uy tín chỉ bằng một phím bấm duy nhất."
     ],
     purpose: [
-      "Hỗ trợ người dùng khiếm thị tự kiểm tra và khắc phục sự cố mạng mà không cần nhờ người sáng mắt trợ giúp.",
-      "Tối ưu tốc độ tải trang web và độ phản hồi khi lướt mạng thông qua các dịch vụ DNS công cộng chất lượng cao và an toàn.",
-      "Cung cấp công cụ đo ping, độ trễ và tình trạng kết nối một cách nhanh chóng ngay trên phím tắt NVDA."
+      "Trao quyền tự chủ cho người khiếm thị trong việc chẩn đoán và xử lý các sự cố mạng phổ biến mà không phải phụ thuộc vào sự trợ giúp của người sáng mắt.",
+      "Tăng tốc độ duyệt web, giảm độ trễ khi tải trang và bảo vệ người dùng trước các trang web độc hại thông qua hệ thống DNS bảo mật cao.",
+      "Cung cấp thông tin tình trạng mạng bằng giọng nói tự nhiên, ngắn gọn, súc tích và báo cáo chi tiết khi có lỗi phát sinh."
     ],
     features: [
       {
-        title: "Kiểm tra kết nối & Đo ping",
-        desc: "Đo độ trễ đến các máy chủ phổ biến trong nước và quốc tế, tự động thông báo mạng nhanh hay chậm."
+        title: "Kiểm tra kết nối mạng & Đo Ping tức thì",
+        desc: "Gửi gói tin kiểm tra độ trễ (latency) đến máy chủ trong nước (VNPT, Viettel, FPT) và quốc tế (Google, Cloudflare), thông báo rõ mạng đang ở mức Rất tốt, Trung bình hay Chậm."
       },
       {
-        title: "Đổi DNS nhanh chóng & an toàn",
-        desc: "Chuyển đổi một chạm giữa các DNS hàng đầu thế giới như Cloudflare (1.1.1.1), Google (8.8.8.8), Quad9 với độ bảo mật cao."
+        title: "Chuyển đổi máy chủ DNS an toàn 1 chạm",
+        desc: "Hỗ trợ cấu hình nhanh các máy chủ DNS hàng đầu thế giới: Cloudflare 1.1.1.1 (tốc độ cao nhất), Google 8.8.8.8 (ổn định nhất), Quad9 9.9.9.9 (chặn mã độc) và AdGuard DNS (chặn quảng cáo)."
       },
       {
-        title: "Xóa bộ nhớ đệm DNS (Flush DNS)",
-        desc: "Tự động dọn dẹp cache DNS hệ thống để khắc phục lỗi không truy cập được một số website cụ thể."
+        title: "Xóa sạch bộ nhớ đệm DNS (Flush DNS)",
+        desc: "Tự động dọn dẹp bộ nhớ đệm phân giải tên miền của Windows để giải quyết tức thì lỗi trang web không tải được sau khi đổi mạng."
       },
       {
-        title: "Quy trình có hướng dẫn âm thanh",
-        desc: "Tất cả các bước thiết lập đều có thông báo phản hồi bằng giọng nói và âm báo hiệu quả trực quan."
+        title: "Khôi phục cấu hình mặc định (DHCP Restore)",
+        desc: "Chức năng an toàn cho phép bạn quay trở về thiết lập nhận DNS tự động từ nhà mạng bất cứ khi nào chỉ với một cú nhấn Enter."
+      },
+      {
+        title: "Báo cáo âm thanh chuyên biệt cho NVDA",
+        desc: "Tất cả các thông báo kết quả kiểm tra đều được đọc to qua giọng đọc NVDA và có âm báo ngắn (beeps) báo hiệu thành công hoặc thất bại."
       }
     ],
+    shortcuts: [
+      { key: "NVDA + N -> T -> N", action: "Mở menu nhanh NVDA Network Optimizer từ thanh công cụ" },
+      { key: "Phím D", action: "Mở hộp thoại chọn và đổi máy chủ DNS" },
+      { key: "Phím P", action: "Bắt đầu đo kiểm tra độ trễ Ping mạng tức thì" },
+      { key: "Phím F", action: "Thực thi lệnh dọn dẹp Flush DNS hệ thống" },
+      { key: "Phím R", action: "Khôi phục DNS về chế độ tự động mặc định" }
+    ],
     usageGuide: [
-      "Tải file cài đặt có đuôi .nvda-addon từ trang phát hành GitHub.",
-      "Mở file và nhấn Yes để NVDA tiến hành cài đặt, sau đó khởi động lại NVDA.",
-      "Nhấn phím tắt NVDA+N -> chọn Công cụ (Tools) -> NVDA Network Optimizer.",
-      "Chọn tính năng bạn muốn: Đo tốc độ mạng, Đổi DNS hoặc Khắc phục sự cố."
+      "Bước 1: Tải tệp cài đặt có đuôi .nvda-addon từ trang phát hành chính thức trên GitHub.",
+      "Bước 2: Mở tệp vừa tải về, NVDA sẽ hiển thị hộp thoại xác nhận cài đặt, nhấn phím 'Yes' (hoặc nhấn phím Y).",
+      "Bước 3: Khởi động lại NVDA khi được nhắc để tiện ích có hiệu lực.",
+      "Bước 4: Nhấn phím NVDA + N, chọn mục 'Công cụ' (Tools) -> 'NVDA Network Optimizer' và bắt đầu trải nghiệm."
+    ],
+    faq: [
+      {
+        question: "Đổi DNS có làm ảnh hưởng đến tài khoản hay dữ liệu máy tính của tôi không?",
+        answer: "Không. Đổi DNS chỉ thay đổi máy chủ phân giải tên miền (giống như đổi danh bạ điện thoại để tìm số nhanh hơn). Các máy chủ DNS như Cloudflare (1.1.1.1) và Google (8.8.8.8) là những dịch vụ an toàn, uy tín bậc nhất thế giới."
+      },
+      {
+        question: "Nếu sau khi đổi DNS bị mất mạng thì tôi phải làm thế nào?",
+        answer: "Bạn chỉ cần mở lại addon, chọn mục 'Khôi phục DNS mặc định' (Reset to DHCP), hệ thống sẽ ngay lập tức trả về trạng thái ban đầu của nhà mạng."
+      },
+      {
+        question: "Addon có hỗ trợ cả mạng Wi-Fi và mạng dây LAN không?",
+        answer: "Có, addon tự động quét tất cả các card mạng đang hoạt động (Ethernet, Wi-Fi) và áp dụng cấu hình tối ưu chính xác cho kết nối hiện tại."
+      }
     ],
     techSpecs: [
-      { label: "Phiên bản NVDA tương thích", value: "NVDA 2024.1 trở lên" },
-      { label: "Hệ điều hành", value: "Windows 10, Windows 11" },
-      { label: "Mã nguồn", value: "Mở (Open Source trên GitHub)" },
-      { label: "Ngôn ngữ", value: "Tiếng Việt, Tiếng Anh" }
+      { label: "Phiên bản NVDA tương thích", value: "NVDA 2024.1, 2024.2, 2025.1 và các bản mới hơn" },
+      { label: "Hệ điều hành yêu cầu", value: "Windows 10, Windows 11 (yêu cầu quyền Administrator khi đổi DNS)" },
+      { label: "Ngôn ngữ giao diện", value: "Tiếng Việt chuẩn xác và Tiếng Anh" },
+      { label: "Mã nguồn", value: "Mở hoàn toàn theo giấy phép GNU General Public License v2" }
     ]
   },
   {
     slug: "google-tts-for-nvda",
     name: "Google TTS for NVDA",
-    subtitle: "Add-on tổng hợp tiếng nói Google TTS chất lượng cao chạy ngoại tuyến",
+    subtitle: "Add-on tổng hợp tiếng nói Google TTS chạy ngoại tuyến chất lượng cao",
     tagline: "Giọng đọc tiếng Việt và quốc tế tự nhiên, phát âm mượt mà, độ trễ siêu thấp và hoạt động hoàn toàn offline.",
     category: "Bộ đọc tiếng nói (TTS)",
     status: "Dự án cộng đồng (Đã phát hành)",
-    author: "Nguyễn Anh Đức (nguyenanhduc09), Đào Đức Trung, Phạm Hùng Vương",
+    author: "Nguyễn Anh Đức (nguyenanhduc09)",
+    coAuthors: ["Đào Đức Trung", "Phạm Hùng Vương"],
     iconName: "Volume2",
     repoUrl: "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA",
     downloadUrl: "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/releases",
     introduction: [
-      "Google TTS for NVDA là một tiện ích bổ trợ đột phá giúp tích hợp công nghệ tổng hợp tiếng nói tiên tiến của Google (WASM Engine) vào trình đọc màn hình NVDA.",
-      "Trước đây, việc sử dụng giọng đọc Google thường yêu cầu phải có kết nối mạng Internet liên tục và dễ gặp tình trạng trễ âm thanh. Add-on này giải quyết triệt để vấn đề bằng cách tải các gói giọng đọc trực tiếp về máy và chạy thông qua nền tảng Chromium ngầm có sẵn trên máy tính (như Google Chrome, Microsoft Edge, Brave).",
-      "Kết quả mang lại là giọng đọc tiếng Việt cực kỳ tự nhiên, ngữ điệu truyền cảm, êm tai khi đọc sách, tài liệu dài mà không lo gián đoạn hay mất kết nối mạng."
+      "Google TTS for NVDA là một bước tiến vượt bậc trong trải nghiệm tiếp cận kỹ thuật số của người khiếm thị tại Việt Nam, mang chất lượng tổng hợp tiếng nói tự nhiên, êm dịu và chính xác của Google vào trình đọc màn hình NVDA.",
+      "Trong nhiều năm qua, người dùng NVDA tiếng Việt chủ yếu phải sử dụng các bộ đọc máy móc như eSpeak NG (phát âm cứng nhắc, gây mỏi tai khi đọc tài liệu dài) hoặc các giải pháp TTS đám mây đòi hỏi phải có mạng Internet liên tục và thường bị trễ tiếng khi thao tác phím nhanh.",
+      "Được phát triển bởi lập trình viên Nguyễn Anh Đức cùng các cộng tác viên tài năng Đào Đức Trung và Phạm Hùng Vương, add-on này ứng dụng công nghệ WebAssembly (WASM Engine) hiện đại chạy trực tiếp trên nền tảng Chromium ngầm sẵn có trong Windows. Sau khi tải gói giọng đọc một lần duy nhất, toàn bộ quá trình đọc văn bản diễn ra 100% ngoại tuyến (Offline), không gửi bất kỳ dữ liệu nào ra bên ngoài và đảm bảo tốc độ phản hồi tức thì."
     ],
     purpose: [
-      "Nâng cao chất lượng trải nghiệm âm thanh hàng ngày cho người sử dụng NVDA tại Việt Nam và trên thế giới.",
-      "Cung cấp bộ đọc tiếng Việt chuẩn, không bị gắt tai như các bộ tổng hợp âm cũ (eSpeak).",
-      "Đảm bảo quyền riêng tư và sự tiện lợi tối đa khi người dùng có thể đọc mọi văn bản ngoại tuyến 100% không cần gửi dữ liệu lên máy chủ đám mây."
+      "Cung cấp giọng đọc tiếng Việt truyền cảm, phát âm tự nhiên, ngắt nghỉ đúng ngữ pháp, giúp học sinh, sinh viên và người đi làm khiếm thị đọc sách, giáo trình và tài liệu mà không bị căng thẳng thính giác.",
+      "Đảm bảo khả năng làm việc liên tục ở mọi lúc, mọi nơi ngay cả khi không có kết nối Internet hoặc khi đang di chuyển trên tàu xe.",
+      "Bảo vệ quyền riêng tư tuyệt đối cho người dùng khi toàn bộ văn bản cá nhân, mật khẩu và nội dung riêng tư được xử lý hoàn toàn cục bộ trên máy tính."
     ],
     features: [
       {
-        title: "Giọng đọc tự nhiên & chuẩn xác",
-        desc: "Sử dụng engine WASM mới nhất của Google, ngữ điệu mượt mà, hỗ trợ phát âm tiếng Việt và hơn 40 ngôn ngữ phổ biến."
+        title: "Chất lượng giọng đọc tự nhiên chuẩn Google",
+        desc: "Sử dụng engine WASM cao cấp nhất của Google, hỗ trợ phát âm tiếng Việt chuẩn xác (cả giọng Bắc và Nam) cùng hơn 40 ngôn ngữ phổ biến trên toàn cầu."
       },
       {
-        title: "Trình quản lý giọng đọc (Voice Manager)",
-        desc: "Giao diện tiếp cận dễ sử dụng giúp bạn dễ dàng tải xuống, xóa và cập nhật các gói ngôn ngữ mong muốn."
+        title: "Hoạt động Ngoại tuyến 100% (Offline)",
+        desc: "Các gói dữ liệu giọng nói (Voice Packs) được lưu trữ ngay trên ổ cứng máy tính, không tiêu tốn băng thông mạng khi đọc văn bản."
       },
       {
-        title: "Tối ưu độ trễ siêu thấp (Low Latency)",
-        desc: "Áp dụng kỹ thuật phân đoạn văn bản thông minh và bộ nhớ đệm cụm từ (phrase caching), phản hồi tức thì khi di chuyển phím."
+        title: "Trình quản lý giọng đọc (Voice Manager) trực quan",
+        desc: "Giao diện quản lý tiếp cận thông minh, cho phép người dùng dễ dàng tìm kiếm, tải về, cập nhật hoặc gỡ bỏ các gói ngôn ngữ chỉ với vài phím bấm."
       },
       {
-        title: "Cấu hình ngôn ngữ tự động (Language Profiles)",
-        desc: "Hỗ trợ tự động chuyển đổi giọng đọc tương ứng khi gặp văn bản tiếng Anh, tiếng Việt hoặc đa ngữ."
+        title: "Tối ưu độ trễ phản hồi siêu thấp (Low Latency)",
+        desc: "Tích hợp thuật toán phân đoạn từ thông minh (Wordwise Phrase Pronounce) và bộ nhớ đệm phát âm, đảm bảo khi bạn gõ phím hoặc lướt mũi tên là âm thanh phát ra ngay tức thì."
+      },
+      {
+        title: "Hỗ trợ đa ngôn ngữ và chuyển đổi linh hoạt",
+        desc: "Tự động phát hiện và chuyển đổi giọng đọc phù hợp khi bạn đọc tài liệu song ngữ Anh - Việt hoặc các ngôn ngữ khác."
       }
     ],
+    shortcuts: [
+      { key: "NVDA + Ctrl + S", action: "Mở hộp thoại chọn Bộ tổng hợp âm (Synthesizer) để chọn Google TTS" },
+      { key: "NVDA + Ctrl + V", action: "Mở cài đặt giọng đọc (tốc độ, cao độ, âm lượng, chọn giọng Nam/Nữ)" },
+      { key: "NVDA + N -> T -> Google TTS", action: "Mở Trình quản lý giọng đọc (Voice Manager) để tải thêm giọng mới" }
+    ],
     usageGuide: [
-      "Tải file .nvda-addon mới nhất từ trang phát hành GitHub của tác giả nguyenanhduc09.",
-      "Cài đặt addon vào NVDA và khởi động lại trình đọc màn hình.",
-      "Hộp thoại Voice Manager sẽ tự động mở lên để bạn tải gói giọng đọc tiếng Việt (hoặc ngôn ngữ khác).",
-      "Nhấn phím tắt NVDA+Ctrl+S để mở cài đặt Bộ tổng hợp âm thanh (Synthesizer), chọn 'Google TTS For NVDA' và bắt đầu sử dụng."
+      "Bước 1: Tải bản phát hành mới nhất (.nvda-addon) từ trang GitHub chính thức của tác giả nguyenanhduc09.",
+      "Bước 2: Mở file để NVDA tiến hành cài đặt và khởi động lại NVDA.",
+      "Bước 3: Hộp thoại Voice Manager sẽ xuất hiện, chọn ngôn ngữ 'Vietnamese' và nhấn nút 'Download' để tải giọng đọc về máy.",
+      "Bước 4: Nhấn phím NVDA + Ctrl + S, chọn 'Google TTS For NVDA', nhấn OK để tận hưởng giọng đọc tự nhiên mới."
+    ],
+    faq: [
+      {
+        question: "Máy tính của tôi cần có trình duyệt nào để chạy add-on này?",
+        answer: "Add-on tận dụng nhân Chromium có sẵn trong các trình duyệt phổ biến như Microsoft Edge (có sẵn trên mọi máy Windows 10/11), Google Chrome hoặc Brave. Bạn không cần cài đặt thêm phần mềm phụ nào khác."
+      },
+      {
+        question: "Tôi có thể điều chỉnh tốc độ đọc nhanh/chậm được không?",
+        answer: "Hoàn toàn được. Bạn có thể nhấn phím NVDA + Ctrl + V để tăng giảm tốc độ đọc (Rate), cao độ (Pitch) và âm lượng (Volume) theo đúng sở thích của mình."
+      },
+      {
+        question: "Dự án do ai phát triển và có được cập nhật thường xuyên không?",
+        answer: "Dự án được sáng lập và phát triển chính bởi tác giả Nguyễn Anh Đức (nguyenanhduc09), cùng sự đồng phát triển nhiệt huyết của Đào Đức Trung và Phạm Hùng Vương. Dự án là mã nguồn mở và liên tục được cải tiến trên GitHub."
+      }
     ],
     techSpecs: [
-      { label: "Phiên bản NVDA tương thích", value: "NVDA 2024.1 trở lên" },
-      { label: "Yêu cầu trình duyệt nền", value: "Microsoft Edge, Google Chrome hoặc Brave" },
-      { label: "Chế độ hoạt động", value: "Ngoại tuyến (Offline 100% sau khi tải voice pack)" },
-      { label: "Tác giả chính", value: "Nguyễn Anh Đức, Đào Đức Trung, Phạm Hùng Vương" }
+      { label: "Phiên bản NVDA tương thích", value: "NVDA 2024.1 trở lên (hỗ trợ đầy đủ kiến trúc mới)" },
+      { label: "Nhân công nghệ", value: "Google WASM TTS Engine + Chromium Audio Bridge" },
+      { label: "Chế độ hoạt động", value: "100% Ngoại tuyến (Offline sau khi tải voice pack)" },
+      { label: "Tác giả & Đồng phát triển", value: "Nguyễn Anh Đức (nguyenanhduc09), Đào Đức Trung, Phạm Hùng Vương" }
     ]
   }
 ];

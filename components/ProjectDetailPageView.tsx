@@ -16,6 +16,9 @@ import {
   ShieldCheck,
   User,
   Heart,
+  Keyboard,
+  HelpCircle,
+  Users,
 } from "lucide-react";
 
 const iconMap = {
@@ -55,12 +58,16 @@ export function ProjectDetailPageView({ slug }: { slug: string }) {
               <li>
                 <Link href="/#nhat-ky">Tiến độ</Link>
               </li>
+              <li>
+                <Link href="/#cong-dong">Cộng đồng</Link>
+              </li>
             </ul>
           </nav>
         </div>
       </header>
 
       <main id="noi-dung-chinh">
+        {/* Header Hero của Dự án */}
         <section className="project-detail-hero" aria-labelledby="project-title">
           <div className="shell">
             <nav className="breadcrumb" aria-label="Đường dẫn trang">
@@ -111,33 +118,36 @@ export function ProjectDetailPageView({ slug }: { slug: string }) {
                 </a>
               )}
               <Link href="/#du-an" className="button button-secondary">
-                <ArrowLeft size={18} aria-hidden="true" /> Quay lại danh sách
+                <ArrowLeft size={18} aria-hidden="true" /> Quay lại danh sách dự án
               </Link>
             </div>
           </div>
         </section>
 
+        {/* Nội dung chi tiết */}
         <section className="section project-detail-content">
           <div className="shell detail-grid">
             <div className="main-content-col">
+              {/* 1. Giới thiệu tổng quan */}
               <article className="content-block" aria-labelledby="intro-heading">
                 <div className="block-header">
                   <div className="block-icon" aria-hidden="true">
                     <BookOpen size={24} />
                   </div>
-                  <h2 id="intro-heading">1. Giới thiệu tổng quan</h2>
+                  <h2 id="intro-heading">1. Giới thiệu tổng quan & Bối cảnh</h2>
                 </div>
                 {project.introduction.map((paragraph, index) => (
                   <p key={index}>{paragraph}</p>
                 ))}
               </article>
 
+              {/* 2. Mục đích & Ý nghĩa */}
               <article className="content-block" aria-labelledby="purpose-heading">
                 <div className="block-header">
                   <div className="block-icon" aria-hidden="true">
                     <Target size={24} />
                   </div>
-                  <h2 id="purpose-heading">2. Mục đích & Ý nghĩa dự án</h2>
+                  <h2 id="purpose-heading">2. Mục đích & Ý nghĩa đối với cộng đồng</h2>
                 </div>
                 <ul className="purpose-list">
                   {project.purpose.map((item, index) => (
@@ -149,6 +159,7 @@ export function ProjectDetailPageView({ slug }: { slug: string }) {
                 </ul>
               </article>
 
+              {/* 3. Các tính năng nổi bật */}
               <article className="content-block" aria-labelledby="features-heading">
                 <div className="block-header">
                   <div className="block-icon" aria-hidden="true">
@@ -166,12 +177,48 @@ export function ProjectDetailPageView({ slug }: { slug: string }) {
                 </div>
               </article>
 
+              {/* 4. Bảng phím tắt điều khiển */}
+              {project.shortcuts && project.shortcuts.length > 0 && (
+                <article className="content-block" aria-labelledby="shortcuts-heading">
+                  <div className="block-header">
+                    <div className="block-icon" aria-hidden="true">
+                      <Keyboard size={24} />
+                    </div>
+                    <h2 id="shortcuts-heading">4. Bảng phím tắt thao tác nhanh</h2>
+                  </div>
+                  <p className="shortcut-note">
+                    Dành riêng cho người dùng bàn phím và trình đọc màn hình NVDA:
+                  </p>
+                  <div className="shortcuts-table-wrapper">
+                    <table className="shortcuts-table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Phím tắt</th>
+                          <th scope="col">Hành động / Chức năng</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {project.shortcuts.map((sc, index) => (
+                          <tr key={index}>
+                            <td>
+                              <kbd className="kbd-key">{sc.key}</kbd>
+                            </td>
+                            <td>{sc.action}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </article>
+              )}
+
+              {/* 5. Hướng dẫn sử dụng cơ bản */}
               <article className="content-block" aria-labelledby="guide-heading">
                 <div className="block-header">
                   <div className="block-icon" aria-hidden="true">
                     <Settings size={24} />
                   </div>
-                  <h2 id="guide-heading">4. Hướng dẫn sử dụng cơ bản</h2>
+                  <h2 id="guide-heading">5. Hướng dẫn cài đặt & Sử dụng</h2>
                 </div>
                 <ol className="usage-steps">
                   {project.usageGuide.map((step, index) => (
@@ -184,19 +231,49 @@ export function ProjectDetailPageView({ slug }: { slug: string }) {
                   ))}
                 </ol>
               </article>
+
+              {/* 6. Câu hỏi thường gặp */}
+              {project.faq && project.faq.length > 0 && (
+                <article className="content-block" aria-labelledby="faq-heading">
+                  <div className="block-header">
+                    <div className="block-icon" aria-hidden="true">
+                      <HelpCircle size={24} />
+                    </div>
+                    <h2 id="faq-heading">6. Câu hỏi thường gặp (FAQ)</h2>
+                  </div>
+                  <div className="faq-list">
+                    {project.faq.map((item, index) => (
+                      <div className="faq-card" key={index}>
+                        <h3>{item.question}</h3>
+                        <p>{item.answer}</p>
+                      </div>
+                    ))}
+                  </div>
+                </article>
+              )}
             </div>
 
+            {/* Cột thông tin phụ bên phải */}
             <aside className="sidebar-col" aria-label="Thông tin kỹ thuật và tác giả">
               <div className="sidebar-card">
                 <div className="sidebar-header">
-                  <User size={22} aria-hidden="true" />
-                  <h3>Thông tin phát triển</h3>
+                  <Users size={22} aria-hidden="true" />
+                  <h3>Nhóm phát triển</h3>
                 </div>
-                <p className="author-name">
-                  <strong>Tác giả / Nhóm phát triển:</strong>
-                  <br />
-                  {project.author}
-                </p>
+                <div className="author-details">
+                  <p className="author-name">
+                    <strong>Tác giả chính:</strong>
+                    <br />
+                    {project.author}
+                  </p>
+                  {project.coAuthors && project.coAuthors.length > 0 && (
+                    <p className="co-authors">
+                      <strong>Đồng phát triển:</strong>
+                      <br />
+                      {project.coAuthors.join(", ")}
+                    </p>
+                  )}
+                </div>
                 <div className="specs-list">
                   {project.techSpecs.map((spec, index) => (
                     <div className="spec-row" key={index}>
@@ -213,8 +290,8 @@ export function ProjectDetailPageView({ slug }: { slug: string }) {
                   <h3>Cam kết cộng đồng</h3>
                 </div>
                 <p>
-                  Mọi sản phẩm được phát triển hoặc chia sẻ trên trang web này đều hoàn toàn miễn phí,
-                  không chứa phần mềm độc hại và ưu tiên tối đa khả năng tiếp cận bằng phím.
+                  Mọi sản phẩm được chia sẻ trên website đều hoàn toàn miễn phí,
+                  không chứa phần mềm độc hại, mã nguồn mở minh bạch và ưu tiên tối đa khả năng tiếp cận cho người khiếm thị.
                 </p>
               </div>
             </aside>
