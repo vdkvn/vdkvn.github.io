@@ -15,35 +15,42 @@ import {
   Volume2,
   Wifi,
 } from "lucide-react";
+import Link from "next/link";
 import updatesData from "../lib/updates.json";
 
 const projects = [
   {
+    slug: "radiotv",
     name: "RadioTV",
     description:
       "Nghe đài phát thanh và xem truyền hình trong một giao diện đơn giản, ưu tiên thao tác bằng bàn phím và trình đọc màn hình.",
     status: "Phiên bản 0.1 đang thử nghiệm",
     icon: Radio,
+    detailUrl: "/du-an/radiotv",
     link: null,
-    linkText: "Trang chi tiết sắp có",
+    linkText: null,
   },
   {
+    slug: "nvda-network-optimizer",
     name: "NVDA Network Optimizer",
     description:
       "Tiện ích NVDA hỗ trợ kiểm tra và tối ưu một số thiết lập mạng trên Windows bằng quy trình có hướng dẫn.",
     status: "Đang hoàn thiện hồ sơ phát hành",
     icon: Wifi,
+    detailUrl: "/du-an/nvda-network-optimizer",
     link: "https://github.com/voduykhanhmata-ctrl/NVDA-Network-Optimizer",
-    linkText: "Xem mã nguồn",
+    linkText: "Kho mã nguồn",
   },
   {
+    slug: "google-tts-for-nvda",
     name: "Google TTS for NVDA",
     description:
       "Tiện ích bổ trợ (add-on) tích hợp giọng đọc Google TTS (WASM) chất lượng cao cho NVDA, hỗ trợ đọc tiếng Việt tự nhiên và chạy ngoại tuyến mượt mà. Tác giả & đồng phát triển: Nguyễn Anh Đức (nguyenanhduc09), Đào Đức Trung, Phạm Hùng Vương.",
     status: "Dự án cộng đồng",
     icon: Volume2,
+    detailUrl: "/du-an/google-tts-for-nvda",
     link: "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA",
-    linkText: "Mở trang tác giả trên GitHub",
+    linkText: "Mã nguồn tác giả",
   },
 ];
 
@@ -132,14 +139,17 @@ export default function Home() {
                     <p className="project-status"><span aria-hidden="true" />{project.status}</p>
                     <h3>{project.name}</h3>
                     <p>{project.description}</p>
-                    {project.link ? (
-                      <a href={project.link} target="_blank" rel="noreferrer">
-                        {project.linkText} <ExternalLink size={17} aria-hidden="true" />
-                        <span className="sr-only"> (mở trong thẻ mới)</span>
-                      </a>
-                    ) : (
-                      <span className="coming-soon">{project.linkText}</span>
-                    )}
+                    <div className="project-card-actions">
+                      <Link href={project.detailUrl} className="project-detail-link">
+                        Xem chi tiết & mục đích <ArrowRight size={17} aria-hidden="true" />
+                      </Link>
+                      {project.link && (
+                        <a href={project.link} target="_blank" rel="noreferrer" className="project-source-link">
+                          {project.linkText} <ExternalLink size={15} aria-hidden="true" />
+                          <span className="sr-only"> (mở trong thẻ mới)</span>
+                        </a>
+                      )}
+                    </div>
                   </article>
                 );
               })}
