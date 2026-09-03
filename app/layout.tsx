@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     template: "%s | Võ Duy Khánh",
   },
   description:
-    "Nơi giới thiệu các dự án phần mềm dễ tiếp cận dành cho cộng đồng người dùng NVDA.",
+    "Trang web dành cho người mù, giới thiệu dự án của tôi và những dự án khác đang làm phục vụ cho cộng đồng NVDA.",
   applicationName: "Võ Duy Khánh",
   authors: [{ name: "Võ Duy Khánh" }],
   creator: "Võ Duy Khánh",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Chào mừng tới với Võ Duy Khánh",
     description:
-      "Trang web mở dành cho người mù, giới thiệu RadioTV, NVDA Network Optimizer và các dự án của Võ Duy Khánh.",
+      "Trang web dành cho người mù, giới thiệu dự án của tôi và những dự án khác đang làm phục vụ cho cộng đồng NVDA.",
     type: "website",
     url: "https://vdkvn.github.io",
     images: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "Chào mừng tới với Võ Duy Khánh — Trang web mở dành cho người mù",
+        alt: "Chào mừng tới với Võ Duy Khánh — Trang web dành cho người mù",
       },
     ],
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Chào mừng tới với Võ Duy Khánh",
     description:
-      "Trang web mở dành cho người mù, giới thiệu RadioTV, NVDA Network Optimizer và các dự án của Võ Duy Khánh.",
+      "Trang web dành cho người mù, giới thiệu dự án của tôi và những dự án khác đang làm phục vụ cho cộng đồng NVDA.",
     images: ["/og.png"],
   },
 };
