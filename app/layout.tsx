@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://voduykhanhmata-ctrl.github.io"),
+  metadataBase: new URL("https://vdkvn.github.io"),
   title: {
     default: "Võ Duy Khánh | Trang web mở dành cho người mù",
     template: "%s | Võ Duy Khánh",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description:
       "Trang web mở dành cho người mù, giới thiệu RadioTV, NVDA Network Optimizer và các dự án của Võ Duy Khánh.",
     type: "website",
-    url: "https://voduykhanhmata-ctrl.github.io",
+    url: "https://vdkvn.github.io",
     images: [
       {
         url: "/og.png",
