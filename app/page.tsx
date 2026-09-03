@@ -12,13 +12,14 @@ import {
   MessagesSquare,
   Radio,
   ShieldCheck,
+  Sparkles,
   Volume2,
   Wifi,
 } from "lucide-react";
 import Link from "next/link";
 import updatesData from "../lib/updates.json";
 
-const projects = [
+const baseProjects = [
   {
     slug: "radiotv",
     name: "RadioTV",
@@ -53,6 +54,15 @@ const projects = [
     linkText: "Mã nguồn tác giả",
   },
 ];
+
+// Tự động sắp xếp: Dự án nào có commit / cập nhật mới nhất sẽ tự động đưa lên vị trí đầu tiên
+const sortedProjects = [...baseProjects].sort((a, b) => {
+  const updateA = updatesData.items.find((item) => item.slug === a.slug);
+  const updateB = updatesData.items.find((item) => item.slug === b.slug);
+  const timeA = updateA?.timestamp ? new Date(updateA.timestamp).getTime() : 0;
+  const timeB = updateB?.timestamp ? new Date(updateB.timestamp).getTime() : 0;
+  return timeB - timeA;
+});
 
 const principles = [
   "Điều khiển đầy đủ bằng bàn phím",
@@ -131,14 +141,32 @@ export default function Home() {
             </div>
 
             <div className="project-grid">
-              {projects.map((project) => {
+              {sortedProjects.map((project, index) => {
                 const Icon = project.icon;
+                const updateInfo = updatesData.items.find((item) => item.slug === project.slug);
+                const isFirst = index === 0;
+
                 return (
-                  <article className="project-card" key={project.name}>
-                    <div className="project-icon" aria-hidden="true"><Icon size={26} /></div>
+                  <article
+                    className={`project-card ${isFirst ? "project-card-highlight" : ""}`}
+                    key={project.name}
+                  >
+                    <div className="project-card-top">
+                      <div className="project-icon" aria-hidden="true"><Icon size={26} /></div>
+                      {isFirst && (
+                        <span className="newest-badge">
+                          <Sparkles size={13} aria-hidden="true" /> Mới cập nhật
+                        </span>
+                      )}
+                    </div>
                     <p className="project-status"><span aria-hidden="true" />{project.status}</p>
                     <h3>{project.name}</h3>
                     <p>{project.description}</p>
+                    {updateInfo?.date && (
+                      <p className="project-latest-date">
+                        <Clock size={14} aria-hidden="true" /> Cập nhật gần nhất: {updateInfo.date}
+                      </p>
+                    )}
                     <div className="project-card-actions">
                       <Link href={project.detailUrl} className="project-detail-link">
                         Xem chi tiết & mục đích <ArrowRight size={17} aria-hidden="true" />

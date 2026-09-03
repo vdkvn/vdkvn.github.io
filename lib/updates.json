@@ -1,11 +1,25 @@
 {
-  "lastChecked": "2026-09-03T03:13:29.643Z",
+  "lastChecked": "2026-09-03T03:33:56.197Z",
   "lastCheckedVN": "03/09/2026",
   "items": [
     {
+      "slug": "radiotv",
+      "projectName": "RadioTV",
+      "category": "Đa phương tiện tiếp cận",
+      "type": "Phần mềm",
+      "timestamp": "2026-09-03T08:00:00.000Z",
+      "date": "03/09/2026",
+      "summary": "Đang hoàn thiện giao diện nghe đài & truyền hình tối ưu phím tắt",
+      "fullMessage": "Phiên bản 0.1 đang trong quá trình thử nghiệm nội bộ",
+      "sha": "v0.1.0",
+      "url": "https://vdkvn.github.io/du-an/radiotv/"
+    },
+    {
+      "slug": "nvda-network-optimizer",
       "projectName": "NVDA Network Optimizer",
       "category": "Tiện ích hệ thống",
       "type": "Addon NVDA",
+      "timestamp": "2026-08-31T10:11:06Z",
       "date": "31/08/2026",
       "summary": "Make owner check independent of line endings",
       "fullMessage": "Make owner check independent of line endings",
@@ -13,24 +27,16 @@
       "url": "https://github.com/voduykhanhmata-ctrl/nvda-network-optimizer/commit/5e765e2bffeb0b81c36fc365c440f3b283ee2488"
     },
     {
+      "slug": "google-tts-for-nvda",
       "projectName": "Google TTS for NVDA",
       "category": "Bộ đọc tiếng nói",
       "type": "Addon NVDA",
+      "timestamp": "2026-08-29T00:04:40Z",
       "date": "29/08/2026",
       "summary": "Update WASM TTS Engine to 20260820.1, rewrite Ukrainian docs, and sync translations",
       "fullMessage": "Update WASM TTS Engine to 20260820.1, rewrite Ukrainian docs, and sync translations\n\n- Update bundled Google WASM TTS engine from 20260806.1 to 20260820.1:\n  * Added C++ core enhancements for phrase pronunciation (WordwisePhrasePronounce) and regex text normalization (RegexpRewriteRuleGroup).\n  * Refined OpenFST finite-state memory allocation for cleaner heap usage.\n  * Updated browser harness to dynamically detect the AudioContext instance instead of relying on minified property names.\n- Rewrite and standardize Ukrainian documentation (doc/uk/readme.html):\n  * Generated with AI assistance to strictly adhere to official NVDA Ukrainian UI translations and documentation, as well as the add-on translation by @George-br.\n  * Replaced the previous Ukrainian doc, which appeared to be an outdated copy of the legacy repository readme.md that was inconsistent with the layout and structure of readme.html.\n- Synchronize all translations and documentation:\n  * Automatically bumped the version 1.0 release date and last modified date to August 29, 2026 across all documentation and manifest files.\n  * Automatically updated the WASM TTS engine version string across all 6 localization catalogs (es, ru, uk, vi, zh_CN, zh_TW) and recompiled binary .mo catalogs with zero missing or obsolete strings, requiring no manual actions from translation contributors.",
       "sha": "e77fee1",
       "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/e77fee19c8b6a63daebd0ffb9cac8cf92641e308"
-    },
-    {
-      "projectName": "RadioTV",
-      "category": "Đa phương tiện tiếp cận",
-      "type": "Phần mềm",
-      "date": "03/09/2026",
-      "summary": "Đang hoàn thiện giao diện nghe đài & truyền hình tối ưu phím tắt",
-      "fullMessage": "Phiên bản 0.1 đang trong quá trình thử nghiệm nội bộ",
-      "sha": "v0.1.0",
-      "url": "https://vdkvn.github.io/#du-an"
     }
   ]
 }
