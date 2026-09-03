@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     template: "%s | Võ Duy Khánh",
   },
   description:
-    "Nơi giới thiệu các dự án phần mềm dễ tiếp cận của Võ Duy Khánh dành cho cộng đồng người dùng NVDA.",
+    "Nơi giới thiệu các dự án phần mềm dễ tiếp cận dành cho cộng đồng người dùng NVDA.",
   applicationName: "Võ Duy Khánh",
   authors: [{ name: "Võ Duy Khánh" }],
   creator: "Võ Duy Khánh",
