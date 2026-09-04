@@ -34,24 +34,24 @@ export function generateAccessibleReview(addon) {
       }`,
     },
     {
-      heading: "2. Hỗ trợ tiếng Việt & Trải nghiệm đọc màn hình",
+      heading: "2. Hỗ trợ tiếng Việt & Trải nghiệm thực tế",
       content: isVN
-        ? `🇻🇳 **Điểm cộng lớn:** Tiện ích đã hỗ trợ giao diện và thông báo bằng Tiếng Việt, giúp người khiếm thị tại Việt Nam thao tác trực quan, dễ dàng nắm bắt các phản hồi giọng nói mà không gặp rào cản ngôn ngữ.`
-        : `🌐 **Lưu ý ngôn ngữ:** Phiên bản hiện tại chủ yếu sử dụng giao diện Tiếng Anh hoặc ngôn ngữ quốc tế. Tuy nhiên các phím lệnh và cấu trúc menu đều tuân thủ chuẩn NVDA, các bộ đọc tiếng Việt (Sao Mai, Google TTS) vẫn có thể phát âm tốt các nhãn điều khiển.`,
+        ? `Tiện ích đã có sẵn giao diện tiếng Việt. Giọng đọc NVDA sẽ phát âm các nút bấm và thông báo rất rõ ràng, người dùng chỉ cần cài vào là dùng được ngay mà không cần chỉnh sửa gì thêm.`
+        : `Hiện tại tác giả chưa dịch tiếng Việt nên các menu vẫn hiển thị tiếng Anh. Tuy nhiên, cấu trúc phím bấm tuân theo chuẩn NVDA thông thường, các bộ đọc tiếng Việt vẫn đọc được các mục bình thường.`,
     },
     {
-      heading: "3. Hướng dẫn sử dụng & Phím tắt nhanh",
+      heading: "3. Phím tắt và cách dùng nhanh",
       content: addon.shortcuts
-        ? `Tiện ích được tích hợp sẵn các phím tắt chính sau:\n- **${addon.shortcuts}**\n\n*Mẹo:* Bạn luôn có thể tùy chỉnh lại tổ hợp phím này bằng cách vào menu NVDA (NVDA + N) &rarr; Tùy chọn (Preferences) &rarr; Cử chỉ nhập liệu (Input Gestures).`
-        : `Tiện ích hoạt động tự động khi NVDA khởi chạy hoặc tích hợp trực tiếp vào các menu ngữ cảnh của ứng dụng. Bạn có thể kiểm tra danh sách phím tắt gán cho tiện ích tại menu *Cử chỉ nhập liệu* của NVDA.`,
+        ? `Tổ hợp phím thao tác:\n- **${addon.shortcuts}**\n\nNếu muốn đổi phím khác theo thói quen: Nhấn NVDA + N &rarr; Tùy chọn &rarr; Cử chỉ nhập liệu.`
+        : `Tiện ích không có phím tắt riêng mà tự động chạy nền hoặc nằm trong menu ngữ cảnh của ứng dụng liên quan. Bạn có thể kiểm tra thêm trong menu *Cử chỉ nhập liệu*.`,
     },
     {
-      heading: "4. Đánh giá ưu điểm và hạn chế thực tế",
-      content: `### Ưu điểm:\n- Tương thích tốt với phiên bản **${addon.testedVersion || "NVDA 2024.x"}**.\n- Mã nguồn minh bạch, tôn trọng bản quyền cộng đồng với liên kết GitHub chính thức.\n- Tối ưu hóa phản hồi âm thanh/lời nói nhanh chóng, không gây giật lag máy tính.\n\n### Hạn chế cần lưu ý:\n- Khi nâng cấp các bản NVDA lớn hàng năm (như NVDA 2024 sang 2025), người dùng cần kiểm tra lại độ tương thích API nếu tiện ích chưa kịp cập nhật.`,
+      heading: "4. Điểm cần lưu ý khi dùng",
+      content: `- Phiên bản đã kiểm tra hoạt động tốt trên: **${addon.testedVersion || "NVDA 2024.x trở lên"}**.\n- Mã nguồn mở minh bạch từ kho GitHub chính thức của tác giả.\n- Không gây xung đột âm thanh hay làm chậm tốc độ phản hồi của NVDA.`,
     },
     {
-      heading: "5. Hướng dẫn tải và cài đặt an toàn",
-      content: `1. Nhấn nút **Tải tệp .nvda-addon** từ trang Kho Tiện Ích hoặc liên kết chính thức: [Tải ${addon.name}](${addon.downloadUrl}).\n2. Mở tệp vừa tải về trong thư mục Downloads.\n3. Khi NVDA hiện thông báo xác nhận cài đặt add-on, nhấn phím **Y** (Yes).\n4. Khởi động lại NVDA để hoàn tất kích hoạt.`,
+      heading: "5. Các bước cài đặt",
+      content: `1. Nhấn nút [Tải ${addon.name}](${addon.downloadUrl}) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, nhấn Enter vào tệp vừa tải.\n3. Khi NVDA hỏi xác nhận, nhấn phím Y (hoặc chọn Đồng ý).\n4. Bấm khởi động lại NVDA là xong.`,
     },
   ];
 
