@@ -29,9 +29,9 @@ export default function Home() {
       <main id="noi-dung-chinh" tabIndex={-1}>
         <section className="hero" aria-labelledby="hero-title">
           <div className="shell hero-copy">
-            <p className="eyebrow">Dự án của Khánh · Phần mềm cộng đồng</p>
+            <p className="eyebrow">Dự án của Khánh · Tiện ích cộng đồng NVDA</p>
             <h1 id="hero-title">Công nghệ dễ tiếp cận,<br />bắt đầu từ việc hằng ngày.</h1>
-            <p className="hero-lead">Tìm phần mềm, tải trực tiếp phiên bản NVDA mới nhất và xem hướng dẫn sử dụng bằng tiếng Việt. Tra cứu hơn 530+ add-on được phân loại tự động và hỗ trợ bởi AI.</p>
+            <p className="hero-lead">Tìm và tải tiện ích cho NVDA, cập nhật phiên bản NVDA mới nhất và xem hướng dẫn sử dụng bằng tiếng Việt. Tra cứu hơn 530+ add-on được phân loại tự động và hỗ trợ bởi AI.</p>
             
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.85rem", marginTop: "1rem" }}>
               <a 
@@ -77,7 +77,7 @@ export default function Home() {
           <div className="shell">
             <div className="section-heading">
               <h2 id="projects-title">Bạn muốn làm gì?</h2>
-              <p>Chọn dự án để xem cách cài đặt, phím tắt và nơi tải phần mềm.</p>
+              <p>Chọn mục để xem cách cài đặt, phím tắt và nơi tải tiện ích.</p>
             </div>
             <div className="project-grid">
               {/* Thẻ nổi bật: Kho 530+ Tiện Ích NVDA Toàn Diện */}
