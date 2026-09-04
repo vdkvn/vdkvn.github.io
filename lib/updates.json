@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-09-04T07:52:01.900Z",
+  "lastChecked": "2026-09-04T09:13:56.799Z",
   "lastCheckedVN": "04/09/2026",
   "items": [
     {
@@ -7,12 +7,12 @@
       "projectName": "NVDA Screen Reader",
       "category": "Phần mềm tiếp cận",
       "type": "Trình đọc màn hình",
-      "timestamp": "2026-09-04T07:22:06Z",
+      "timestamp": "2026-09-04T08:20:41Z",
       "date": "04/09/2026",
-      "summary": "Review 2026.3 changelog documentation changes (#20783)",
-      "fullMessage": "Review 2026.3 changelog documentation changes (#20783)\n\n**Must be a squash merge**\n\nChanges from this PR to the previous release:\n- Files to check: `user_docs/en/userGuide.md`, `user_docs/en/changes.md`\n`developerGuide.md`\n- [Compare this branch to the previous\nrelease](https://github.com/nvaccess/nvda/compare/release-2026.2...docsFor20263?expand=1)\n- Comparison command:\n`git diff release-2026.2...docsFor20263 -- \"**/en/*.md\"\n\"**/developerGuide.md\"`\n\nCommon mistakes to check for:\n\n- [x] Issue/PR reference in changes file is incorrect\n- [x] Incorrect spelling.\n- [x] Shortcuts added without code markdown (e.g. `NVDA+d`)\n- [x] List items not indented by a multiple of 2 spaces (regex `^ (\n)*\\*`)\n- [x] Double spaces (regex `[^ ]  `)\n- [x] Inconsistent use of single vs double quote. (regex `' `)\n\n---------\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\nCo-authored-by: Sascha Cowley <16543535+SaschaCowley@users.noreply.github.com>",
-      "sha": "934659c",
-      "url": "https://github.com/nvaccess/nvda/commit/934659c0426db6569670cef22b548a6df0466d88"
+      "summary": "Start dev cycle for 2027.1 (#20787)",
+      "fullMessage": "Start dev cycle for 2027.1 (#20787)\n\nStart the dev cycle for the 2027.1 release.\nThis will be a compatibility breaking release.",
+      "sha": "4dd8aec",
+      "url": "https://github.com/nvaccess/nvda/commit/4dd8aec18f27b4c583180fda235fd596cef74de0"
     },
     {
       "slug": "radiotv",

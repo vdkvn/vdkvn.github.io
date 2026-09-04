@@ -280,3 +280,312 @@ kbd { font-family: inherit; font-size: .9375rem; white-space: normal; }
 .facebook-button:hover, .facebook-button:focus-visible {
   background: #0d65d9;
 }
+
+/* ==========================================================================
+   Add-on Hub / Kho Tiện Ích NVDA
+   ========================================================================== */
+.addon-hub-main {
+  padding-bottom: 4rem;
+}
+
+.store-notice-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1.25rem;
+  border-radius: .75rem;
+  background: #fdfaf2;
+  border: 1px solid #f1ddb6;
+  margin: 1.5rem 0;
+}
+@media (max-width: 768px) {
+  .store-notice-card {
+    grid-template-columns: 1fr;
+  }
+}
+.notice-item {
+  display: flex;
+  align-items: flex-start;
+  gap: .85rem;
+}
+.notice-item strong {
+  display: block;
+  font-size: 1rem;
+  color: #2e261d;
+  margin-bottom: .25rem;
+}
+.notice-item p {
+  margin: 0;
+  font-size: .9125rem;
+  color: var(--muted-ink);
+  line-height: 1.5;
+}
+
+.addon-controls {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  border-radius: .85rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .04);
+}
+
+.search-box-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  color: var(--muted-ink);
+  pointer-events: none;
+}
+.search-input {
+  width: 100%;
+  padding: .85rem 3rem .85rem 2.85rem;
+  font-size: 1.0625rem;
+  font-family: inherit;
+  border-radius: .6rem;
+  border: 2px solid var(--line);
+  background: var(--bg);
+  color: var(--ink);
+  outline: none;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.search-input:focus {
+  border-color: var(--green);
+  box-shadow: 0 0 0 3px var(--green-soft);
+}
+.clear-search-btn {
+  position: absolute;
+  right: .85rem;
+  background: transparent;
+  border: none;
+  font-size: 1.1rem;
+  color: var(--muted-ink);
+  cursor: pointer;
+  padding: .35rem .65rem;
+  border-radius: .35rem;
+}
+.clear-search-btn:hover {
+  background: var(--surface-subtle);
+  color: var(--ink);
+}
+
+.filter-button-rows {
+  display: flex;
+  flex-direction: column;
+  gap: .85rem;
+}
+.filter-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+.filter-label {
+  font-weight: 700;
+  font-size: .9125rem;
+  color: var(--ink);
+  min-width: 85px;
+}
+.filter-chip {
+  padding: .4rem .85rem;
+  border-radius: 2rem;
+  font-size: .875rem;
+  font-weight: 550;
+  font-family: inherit;
+  background: var(--bg);
+  border: 1.5px solid var(--line);
+  color: var(--ink);
+  cursor: pointer;
+  transition: all .15s ease;
+  min-height: 38px;
+  display: inline-flex;
+  align-items: center;
+}
+.filter-chip:hover {
+  border-color: var(--green-light);
+  background: var(--surface-subtle);
+}
+.filter-chip.active {
+  background: var(--green-dark);
+  border-color: var(--green-dark);
+  color: #ffffff;
+  font-weight: 650;
+}
+
+.search-result-count {
+  margin: 1.25rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  font-size: .95rem;
+  color: var(--muted-ink);
+}
+
+.addon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 1.35rem;
+  margin-top: 1rem;
+}
+@media (max-width: 480px) {
+  .addon-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.addon-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: .85rem;
+  padding: 1.35rem;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.addon-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .06);
+  border-color: var(--green-light);
+}
+
+.addon-card-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+  margin-bottom: .85rem;
+}
+.badge-instore {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  padding: .25rem .55rem;
+  background: #e6f6ee;
+  color: #12573a;
+  border: 1px solid #bce8d2;
+  border-radius: .35rem;
+  font-size: .8125rem;
+  font-weight: 650;
+}
+.badge-external {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  padding: .25rem .55rem;
+  background: #fff4e5;
+  color: #8c4300;
+  border: 1px solid #fed8a7;
+  border-radius: .35rem;
+  font-size: .8125rem;
+  font-weight: 650;
+}
+.badge-vi {
+  padding: .25rem .55rem;
+  background: #eff6ff;
+  color: #1e40af;
+  border: 1px solid #bfdbfe;
+  border-radius: .35rem;
+  font-size: .8125rem;
+  font-weight: 600;
+}
+.badge-intl {
+  padding: .25rem .55rem;
+  background: var(--surface-subtle);
+  color: var(--muted-ink);
+  border: 1px solid var(--line);
+  border-radius: .35rem;
+  font-size: .8125rem;
+}
+.badge-origin {
+  padding: .25rem .55rem;
+  background: var(--bg);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: .35rem;
+  font-size: .8125rem;
+  font-weight: 500;
+}
+
+.addon-title {
+  font-size: 1.25rem;
+  font-weight: 750;
+  color: var(--ink);
+  margin: 0 0 .5rem;
+  line-height: 1.35;
+}
+.addon-desc {
+  font-size: .95rem;
+  color: var(--muted-ink);
+  line-height: 1.55;
+  margin: 0 0 1rem;
+  flex-grow: 1;
+}
+
+.addon-shortcut-box {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .6rem .85rem;
+  background: #f8fafc;
+  border-left: 3px solid var(--green);
+  border-radius: 0 .4rem .4rem 0;
+  font-size: .875rem;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.addon-meta {
+  border-top: 1px dashed var(--line);
+  padding-top: .85rem;
+  margin-bottom: 1.15rem;
+  font-size: .875rem;
+  color: var(--muted-ink);
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+}
+.addon-meta p {
+  margin: 0;
+}
+.addon-meta strong {
+  color: var(--ink);
+}
+
+.addon-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem;
+  margin-top: auto;
+}
+.addon-card-actions .button {
+  flex: 1 1 auto;
+  justify-content: center;
+  font-size: .9125rem;
+}
+
+.no-result-box {
+  text-align: center;
+  padding: 4rem 1.5rem;
+  background: var(--surface);
+  border-radius: 1rem;
+  border: 1px dashed var(--line);
+  color: var(--muted-ink);
+  margin-top: 1.5rem;
+}
+.no-result-box svg {
+  margin-bottom: 1rem;
+  color: var(--muted-ink);
+}
+.no-result-box h3 {
+  font-size: 1.3rem;
+  color: var(--ink);
+  margin: 0 0 .5rem;
+}
+.no-result-box p {
+  max-width: 50ch;
+  margin: 0 auto 1.5rem;
+}
+

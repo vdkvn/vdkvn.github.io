@@ -12,6 +12,7 @@ export function SiteHeader() {
           </Link>
           <nav aria-label="Điều hướng chính">
             <ul className="nav-list">
+              <li><Link href="/kho-addon">Kho Add-on</Link></li>
               <li><Link href="/#chuyen-muc">Dự án</Link></li>
               <li><Link href="/#nhat-ky">Cập nhật</Link></li>
               <li><Link href="/#cong-dong">Góp ý</Link></li>
@@ -30,6 +31,7 @@ export function SiteFooter() {
         <p>© 2026 Võ Duy Khánh</p>
         <nav aria-label="Liên kết cuối trang">
           <ul className="footer-links">
+            <li><Link href="/kho-addon">Kho Add-on NVDA</Link></li>
             <li><Link href="/#tiep-can">Khả năng tiếp cận</Link></li>
             <li><a href="https://www.facebook.com/vo.voduykhanh.12/" target="_blank" rel="noreferrer">Facebook của Khánh</a></li>
             <li><a href="mailto:voduykhanh.mata@gmail.com">Email: voduykhanh.mata@gmail.com</a></li>

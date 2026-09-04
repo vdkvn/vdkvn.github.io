@@ -21,6 +21,17 @@ if (fs.existsSync(duAnDir)) {
   }
 }
 
+// Ensure kho-addon has index.html
+const khoAddonHtml = path.join(distClient, "kho-addon.html");
+const khoAddonDir = path.join(distClient, "kho-addon");
+if (fs.existsSync(khoAddonHtml)) {
+  if (!fs.existsSync(khoAddonDir)) {
+    fs.mkdirSync(khoAddonDir, { recursive: true });
+  }
+  fs.copyFileSync(khoAddonHtml, path.join(khoAddonDir, "index.html"));
+  console.log("Created kho-addon/index.html for GitHub Pages routing");
+}
+
 // Copy public assets if needed
 const publicDir = path.join(__dirname, "..", "public");
 for (const file of ["robots.txt", "sitemap.xml", ".nojekyll", "CNAME"]) {
