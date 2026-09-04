@@ -208,35 +208,35 @@ export default function KhoAddonPage() {
                     className={`filter-chip ${originFilter === "all" ? "active" : ""}`}
                     onClick={() => setOriginFilter("all")}
                   >
-                    Mọi nguồn
+                    Mọi nguồn ({allAddonsList.length})
                   </button>
                   <button
                     type="button"
                     className={`filter-chip ${originFilter === "vietnam" ? "active" : ""}`}
                     onClick={() => setOriginFilter("vietnam")}
                   >
-                    🇻🇳 Việt Nam
+                    🇻🇳 Việt Nam ({allAddonsList.filter((a) => a.origin === "vietnam").length})
                   </button>
                   <button
                     type="button"
                     className={`filter-chip ${originFilter === "spain" ? "active" : ""}`}
                     onClick={() => setOriginFilter("spain")}
                   >
-                    🇪🇸 Tây Ban Nha (NVDA.es)
+                    🇪🇸 Tây Ban Nha ({allAddonsList.filter((a) => a.origin === "spain").length})
                   </button>
                   <button
                     type="button"
                     className={`filter-chip ${originFilter === "russia" ? "active" : ""}`}
                     onClick={() => setOriginFilter("russia")}
                   >
-                    🇷🇺 Nga (NVDA.ru)
+                    🇷🇺 Nga ({allAddonsList.filter((a) => a.origin === "russia").length})
                   </button>
                   <button
                     type="button"
                     className={`filter-chip ${originFilter === "international" ? "active" : ""}`}
                     onClick={() => setOriginFilter("international")}
                   >
-                    🌐 Quốc tế
+                    🌐 Quốc tế ({allAddonsList.filter((a) => a.origin === "international").length})
                   </button>
                 </div>
               </div>

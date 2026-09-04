@@ -390,8 +390,58 @@ export const addonsList: AddonItem[] = [
 
 import storeAddonsJson from "./addons-store.json";
 
+// Hàm phát hiện nguồn gốc cộng đồng tự động (Tây Ban Nha, Nga, Việt Nam)
+function detectCommunityOrigin(item: AddonItem): { origin: "vietnam" | "spain" | "russia" | "international"; originLabel: string } {
+  const text = (item.author + " " + (item.repoUrl || "") + " " + (item.authorGithub || "") + " " + item.id).toLowerCase();
+  
+  if (
+    text.includes("nvdaes") ||
+    text.includes("nvda.es") ||
+    text.includes("noelia") ||
+    text.includes("hector") ||
+    text.includes("spanish") ||
+    text.includes("reyes2005") ||
+    text.includes("javier") ||
+    text.includes("romañach") ||
+    text.includes("romanach")
+  ) {
+    return { origin: "spain", originLabel: "Tây Ban Nha (NVDA.es)" };
+  }
+
+  if (
+    text.includes("nvdaru") ||
+    text.includes("nvda.ru") ||
+    text.includes("kostya") ||
+    text.includes("gladkiy") ||
+    text.includes("russia") ||
+    text.includes("dollar84") ||
+    text.includes("dolovaniuk") ||
+    text.includes("zvuk") ||
+    text.includes("unigramplus") ||
+    text.includes("whatsappplus") ||
+    text.includes("yandextranslate") ||
+    text.includes("belousov") ||
+    text.includes("alekssamos") ||
+    text.includes("newfon") ||
+    text.includes("shishmintsev")
+  ) {
+    return { origin: "russia", originLabel: "Nga (NVDA.ru)" };
+  }
+
+  if (
+    text.includes("nguyenanhduc") ||
+    text.includes("voduykhanh") ||
+    text.includes("vietnam") ||
+    text.includes("saomai") ||
+    text.includes("daoductrung")
+  ) {
+    return { origin: "vietnam", originLabel: "Việt Nam" };
+  }
+
+  return { origin: "international", originLabel: "Quốc tế" };
+}
+
 // Hợp nhất dữ liệu tuyển chọn với toàn bộ kho Store (500+ add-on)
-// Giữ lại mô tả tiếng Việt và phím tắt chi tiết của các add-on đã được tinh chỉnh
 const curatedMap = new Map(addonsList.map((item) => [item.id, item]));
 const storeList: AddonItem[] = (storeAddonsJson as AddonItem[]).map((item) => {
   const curated = curatedMap.get(item.id);
@@ -404,7 +454,14 @@ const storeList: AddonItem[] = (storeAddonsJson as AddonItem[]).map((item) => {
       downloadUrl: item.downloadUrl || curated.downloadUrl,
     };
   }
-  return item;
+
+  // Tự động phân loại cộng đồng Tây Ban Nha hoặc Nga nếu khớp metadata
+  const detected = detectCommunityOrigin(item);
+  return {
+    ...item,
+    origin: detected.origin,
+    originLabel: detected.originLabel,
+  };
 });
 
 // Các add-on tuyển chọn độc lập ngoài Store (RadioTV, Network Optimizer, v.v.)
@@ -418,4 +475,5 @@ export const allAddonsList: AddonItem[] = [...externalCurated, ...storeList].sor
     return timeB - timeA;
   }
 );
+
 
