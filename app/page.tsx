@@ -1,4 +1,4 @@
-import { Accessibility, ArrowRight, Download, Mail, Radio, Store, Volume2, Wifi } from "lucide-react";
+import { Accessibility, ArrowRight, Download, HelpCircle, Mail, Radio, Store, Volume2, Wifi } from "lucide-react";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/components/SiteNavigation";
 import { projectsDetailList } from "@/lib/projects-data";
@@ -170,6 +170,59 @@ export default function Home() {
               </li>)}
             </ul> : <p>Chưa có dữ liệu cập nhật. Bạn có thể mở trang dự án để xem thông tin từ tác giả.</p>}
             <p className="section-note">Lần kiểm tra gần nhất: <time dateTime={updatesData.lastChecked}>{updatesData.lastCheckedVN}</time>. Nội dung thay đổi giữ theo thông báo của từng dự án.</p>
+          </div>
+        </section>
+
+        <section className="section home-faq-section" id="hoi-dap" tabIndex={-1} aria-labelledby="home-faq-title">
+          <div className="shell">
+            <div className="section-heading">
+              <p className="eyebrow">Hỏi đáp & Hỗ trợ cộng đồng</p>
+              <h2 id="home-faq-title">Câu hỏi thường gặp khi dùng NVDA</h2>
+              <p>Đúc kết từ kinh nghiệm thực tế của cộng đồng NVDA Việt Nam và quốc tế, giải thích ngắn gọn, dễ hiểu.</p>
+            </div>
+            <div className="faq-card-grid">
+              <article className="faq-card">
+                <h3>1. NVDA bị mất tiếng hoặc đơ đột ngột, xử lý thế nào?</h3>
+                <p>
+                  Nhấn tổ hợp phím <strong>Ctrl + Alt + N</strong> để khởi động lại NVDA ngay lập tức. Nếu vẫn chưa có tiếng, kiểm tra âm lượng hoặc nhấn <strong>Windows + Ctrl + Enter</strong> để mở tạm Windows Narrator kiểm tra âm thanh.
+                </p>
+              </article>
+              <article className="faq-card">
+                <h3>2. Làm sao để NVDA có giọng đọc tiếng Việt mượt mà?</h3>
+                <p>
+                  Mặc định NVDA dùng eSpeak NG giọng máy tính. Bạn nên cài thêm tiện ích <strong>Google TTS for NVDA</strong> (có sẵn trong Kho Add-on của Khánh) hoặc chọn bộ đọc <strong>Windows OneCore Vietnamese / Sao Mai Voice</strong> trong menu Cài đặt Tiếng nói (NVDA + Ctrl + V).
+                </p>
+              </article>
+              <article className="faq-card">
+                <h3>3. Cài đặt và gỡ bỏ tiện ích (.nvda-addon) như thế nào?</h3>
+                <p>
+                  Để cài: Tải tệp <code>.nvda-addon</code> về máy, nhấn <strong>Enter</strong> khi NVDA đang chạy &rarr; chọn <strong>Yes</strong> &rarr; khởi động lại NVDA. Để gỡ: Mở menu NVDA (NVDA + N) &rarr; Công cụ &rarr; Quản lý tiện ích &rarr; chọn tiện ích và nhấn <strong>Gỡ bỏ</strong>.
+                </p>
+              </article>
+              <article className="faq-card">
+                <h3>4. Phím NVDA là phím nào trên máy tính bàn và laptop?</h3>
+                <p>
+                  Mặc định phím NVDA là phím <strong>Insert</strong>. Trên máy tính xách tay (Laptop) không có phím Insert rời, bạn có thể gán phím <strong>Caps Lock</strong> làm phím NVDA trong menu Tùy chọn &rarr; Bàn phím &rarr; tích chọn <em>Dùng CapsLock làm phím bổ trợ</em>.
+                </p>
+              </article>
+              <article className="faq-card">
+                <h3>5. Cập nhật NVDA lên bản mới có làm lỗi các add-on cũ không?</h3>
+                <p>
+                  Các bản cập nhật thường kỳ hoạt động rất ổn định. Đối với các bản cập nhật lớn của năm, một số tiện ích cũ có thể tạm dừng. Bạn có thể vào <strong>Kho Add-on của Khánh</strong> để tải các bản đã được tác giả quốc tế cập nhật tương thích mới nhất.
+                </p>
+              </article>
+              <article className="faq-card">
+                <h3>6. Làm sao để đọc lướt trang web nhanh nhất bằng NVDA?</h3>
+                <p>
+                  Khi lướt web, dùng phím <strong>H</strong> để nhảy nhanh qua các Tiêu đề (Heading), phím <strong>K</strong> qua các Liên kết (Link), phím <strong>F</strong> qua các Ô nhập liệu và phím <strong>T</strong> qua Bảng. Nhấn thêm <strong>Shift</strong> để quay lui về mục trước.
+                </p>
+              </article>
+            </div>
+            <div style={{ marginTop: "1.5rem" }}>
+              <Link href="/du-an/nvda-screen-reader#faq-heading" className="text-link">
+                Xem thêm chi tiết & bảng phím tắt đầy đủ của NVDA <ArrowRight size={17} aria-hidden="true" />
+              </Link>
+            </div>
           </div>
         </section>
 

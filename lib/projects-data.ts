@@ -58,8 +58,34 @@ export const projectsDetailList: ProjectDetail[] = [
       { title: "Bản di động", desc: "Có thể tạo bản chạy từ USB; một số chức năng hệ thống cần bản cài đặt." },
     ],
     faq: [
-      { question: "Cập nhật NVDA có ảnh hưởng tới tiện ích không?", answer: "Một số tiện ích có thể chưa tương thích với phiên bản mới. Hãy xem thông báo của bộ cài và ghi chú phát hành trước khi cập nhật." },
-      { question: "Có thể dùng giọng đọc tiếng Việt không?", answer: "Có. Bạn có thể chọn giọng tiếng Việt trong bộ tổng hợp được hỗ trợ hoặc cài thêm bộ đọc phù hợp." },
+      {
+        question: "Cập nhật NVDA lên bản mới có làm hỏng các add-on đang dùng không?",
+        answer: "Hầu hết các bản cập nhật nhỏ vẫn giữ tương thích tốt. Với các bản nâng cấp lớn (như đầu năm), một số add-on cũ có thể bị tạm vô hiệu hóa nếu tác giả chưa cập nhật. Bạn nên kiểm tra ghi chú phiên bản trước khi nâng cấp hoặc cài add-on mới nhất từ Kho Add-on của Khánh."
+      },
+      {
+        question: "Làm cách nào để NVDA đọc được tiếng Việt chuẩn và tự nhiên?",
+        answer: "NVDA mặc định đi kèm bộ đọc eSpeak NG (phát âm máy tính). Để có giọng đọc tiếng Việt mượt mà, bạn có thể cài thêm add-on 'Google TTS for NVDA' (giọng Google tiếng Việt chất lượng cao) hoặc tích hợp bộ đọc Sao Mai Voice / Windows OneCore tiếng Việt trong mục Cài đặt Tiếng nói (NVDA + Ctrl + V)."
+      },
+      {
+        question: "Cách cài đặt và gỡ bỏ một tiện ích (.nvda-addon) như thế nào?",
+        answer: "Để cài đặt: Tải tệp .nvda-addon về máy, nhấn Enter vào tệp khi NVDA đang chạy & chọn 'Yes' (Đồng ý) để cài rồi khởi động lại NVDA. Để gỡ bỏ: Mở menu NVDA (NVDA + N) &rarr; Công cụ (Tools) &rarr; Quản lý tiện ích bổ sung (Add-ons Manager), chọn tiện ích cần gỡ và nhấn nút 'Gỡ bỏ' (Remove)."
+      },
+      {
+        question: "Nếu NVDA bị đơ hoặc mất tiếng đột ngột, xử lý thế nào nhanh nhất?",
+        answer: "Bạn nhấn tổ hợp phím tắt Ctrl + Alt + N để khởi động lại NVDA ngay lập tức mà không cần khởi động lại máy tính. Nếu NVDA vẫn không lên tiếng, hãy kiểm tra âm lượng hệ thống hoặc nhấn Windows + Ctrl + Enter để bật tạm thời Windows Narrator."
+      },
+      {
+        question: "Phím NVDA (NVDA modifier key) là phím nào trên bàn phím?",
+        answer: "Mặc định phím NVDA là phím Insert (trên cả bàn phím số và cụm phím điều hướng). Nếu bạn dùng máy tính xách tay (Laptop), bạn có thể cấu hình thêm phím Caps Lock làm phím NVDA bằng cách vào menu NVDA &rarr; Tùy chọn &rarr; Bàn phím & chọn 'Dùng CapsLock làm phím bổ trợ NVDA'."
+      },
+      {
+        question: "NVDA bản Cài đặt (Installer) và bản Di động (Portable) khác nhau điểm gì?",
+        answer: "Bản Cài đặt có thể tự khởi động cùng Windows, đọc được màn hình đăng nhập / khóa máy và chạy với quyền quản trị hệ thống (UAC). Bản Di động có thể lưu trong USB để cắm vào bất kỳ máy tính nào dùng ngay mà không cần quyền cài đặt phần mềm."
+      },
+      {
+        question: "Làm sao để duyệt web nhanh và dễ dàng bằng NVDA?",
+        answer: "Khi ở chế độ duyệt web (Browse Mode), bạn chỉ cần dùng các phím tắt chữ cái đơn: H (chuyển qua các Tiêu đề - Heading), K (qua các Liên kết - Link), F (qua các Ô nhập liệu biểu mẫu - Form field), T (qua các Bảng dữ liệu - Table). Muốn lùi lại mục trước, chỉ cần nhấn thêm Shift (ví dụ: Shift + H)."
+      }
     ],
     techSpecs: [
       { label: "Hệ điều hành", value: "NVDA 2026.2 yêu cầu Windows 10/11 64 bit hoặc Windows Server được hỗ trợ; xem hướng dẫn NV Access." },
