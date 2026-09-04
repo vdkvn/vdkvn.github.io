@@ -31,7 +31,7 @@ export default function Home() {
           <div className="shell hero-copy">
             <p className="eyebrow">Dự án của Khánh · Tiện ích cộng đồng NVDA</p>
             <h1 id="hero-title">Công nghệ dễ tiếp cận,<br />bắt đầu từ việc hằng ngày.</h1>
-            <p className="hero-lead">Tìm và tải tiện ích cho NVDA, cập nhật phiên bản NVDA mới nhất và xem hướng dẫn sử dụng bằng tiếng Việt. Tra cứu hơn 530+ add-on được phân loại tự động và hỗ trợ bởi AI.</p>
+            <p className="hero-lead">Tìm và tải tiện ích cho NVDA, cập nhật bản NVDA mới nhất và xem hướng dẫn bằng tiếng Việt. Tra cứu nhanh hơn 530+ add-on với đầy đủ thông tin phím tắt và ghi chú cài đặt.</p>
             
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.85rem", marginTop: "1rem" }}>
               <a 
@@ -42,7 +42,7 @@ export default function Home() {
                 <Download size={18} aria-hidden="true" /> Tải NVDA 2026.2 mới nhất (61.5 MB)
               </a>
               <Link className="button button-secondary" href="/kho-addon">
-                🔥 Khám phá Kho 530+ Add-on <ArrowRight size={18} aria-hidden="true" />
+                Khám phá Kho 530+ Add-on <ArrowRight size={18} aria-hidden="true" />
               </Link>
             </div>
 
@@ -50,11 +50,11 @@ export default function Home() {
             <div className="nvda-hero-banner" role="region" aria-label="Thông tin phát hành NVDA mới nhất">
               <div className="nvda-hero-info">
                 <span className="nvda-hero-tag">
-                  <Accessibility size={15} aria-hidden="true" /> Phiên bản chính thức mới nhất
+                  <Accessibility size={15} aria-hidden="true" /> Bản chính thức từ NV Access
                 </span>
                 <h2 className="nvda-hero-title">NVDA 2026.2 dành cho Windows</h2>
                 <p className="nvda-hero-desc">
-                  Trình đọc màn hình miễn phí, mã nguồn mở hàng đầu thế giới. Bản 2026.2 mang đến nâng cấp lớn về khả năng đọc trình duyệt web tốc độ cao, hỗ trợ chuẩn Unicode mới và tối ưu độ ổn định cho Windows 10/11 64-bit.
+                  Bản phát hành ổn định nhất hiện nay. Nâng cấp khả năng duyệt web nhanh, hỗ trợ chuẩn hiển thị mới và tối ưu cho máy tính Windows 10/11 64-bit.
                 </p>
               </div>
               <div className="nvda-hero-actions">
@@ -92,17 +92,17 @@ export default function Home() {
                     <Store size={24} />
                   </span>
                   <p className="project-category" style={{ color: "var(--green-dark)", fontWeight: 700 }}>
-                    530+ Tiện Ích Tự Động & AI
+                    Kho tiện ích tổng hợp
                   </p>
                 </div>
                 <h3 id="addon-hub-spotlight-title">
                   <Link href="/kho-addon">Kho Add-on NVDA (Việt Nam & Quốc Tế)</Link>
                 </h3>
                 <p className="project-description">
-                  Tra cứu, tìm kiếm và tải trực tiếp hơn 530 tiện ích từ Cửa hàng chính thức và cộng đồng Tây Ban Nha, Nga, Việt Nam. Sắp xếp thông minh mới cập nhật lên đầu và có AI phân tích chuyên sâu.
+                  Tổng hợp hơn 530 tiện ích từ Cửa hàng chính thức và các cộng đồng Tây Ban Nha, Nga, Việt Nam. Tiện ích mới cập nhật luôn nằm ở đầu trang kèm phím tắt và hướng dẫn cài đặt.
                 </p>
                 <p className="project-status" style={{ color: "#166534", background: "#dcfce7" }}>
-                  ⚡ Cập nhật tự động liên tục
+                  Tự động đồng bộ hàng ngày
                 </p>
                 <div className="project-card-actions">
                   <Link href="/kho-addon" className="button button-primary" style={{ width: "100%", justifyContent: "center" }}>

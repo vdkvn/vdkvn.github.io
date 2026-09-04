@@ -82,10 +82,10 @@ export default function KhoAddonPage() {
             </nav>
 
             <div className="section-heading">
-              <p className="eyebrow">Tra cứu & Tuyển chọn toàn diện</p>
+              <p className="eyebrow">Kho tiện ích NVDA</p>
               <h1 id="hub-title">Kho Tiện Ích NVDA (Việt Nam & Quốc Tế)</h1>
               <p className="hero-lead" style={{ fontSize: "1.0625rem" }}>
-                Tổng hợp đầy đủ tiện ích trên Cửa hàng Add-on Store chính thức cùng các công cụ xuất sắc từ cộng đồng Tây Ban Nha (NVDA.es), Nga (NVDA.ru) và Việt Nam. Phân biệt rõ tiện ích đã có trên Store hay phát hành độc lập, ghi nhận bản quyền và GitHub cá nhân của tác giả.
+                Tổng hợp add-on từ Cửa hàng NVDA chính thức và các cộng đồng Tây Ban Nha, Nga, Việt Nam. Bạn có thể tìm nhanh phím tắt, tải trực tiếp tệp cài đặt và xem ghi chú từ tác giả.
               </p>
             </div>
 
@@ -94,15 +94,15 @@ export default function KhoAddonPage() {
               <div className="notice-item">
                 <Store size={22} aria-hidden="true" color="#165b45" />
                 <div>
-                  <strong>🏪 Đã có trên Cửa hàng Add-on Store:</strong>
-                  <p>Có thể tìm thấy và cài trực tiếp ngay trong Menu NVDA &rarr; Cửa hàng Add-on (NVDA Store) hoặc tải file bên dưới.</p>
+                  <strong>Có trên Cửa hàng NVDA Store:</strong>
+                  <p>Bạn có thể cài trực tiếp trong Menu NVDA &rarr; Cửa hàng Add-on, hoặc bấm tải tệp tại đây.</p>
                 </div>
               </div>
               <div className="notice-item">
                 <Sparkles size={22} aria-hidden="true" color="#c26100" />
                 <div>
-                  <strong>🌟 Cộng đồng phát hành độc lập (Chưa có trên Store):</strong>
-                  <p>Các dự án mới hoặc độc quyền của cộng đồng. Bạn hãy bấm nút <strong>Tải tệp .nvda-addon</strong> bên dưới, sau đó mở file để cài đặt vào máy.</p>
+                  <strong>Cộng đồng phát hành độc lập:</strong>
+                  <p>Các tiện ích riêng của cộng đồng. Bạn nhấn nút <strong>Tải tệp .nvda-addon</strong>, sau đó mở tệp để cài vào máy.</p>
                 </div>
               </div>
             </div>
@@ -388,12 +388,12 @@ export default function KhoAddonPage() {
             <div className="article-modal-content">
               <div className="article-modal-header">
                 <div>
-                  <p className="eyebrow" style={{ margin: 0, color: "var(--green-dark)" }}>AI Phân Tích & Tiếp Cận</p>
+                  <p className="eyebrow" style={{ margin: 0, color: "var(--green-dark)" }}>Ghi chú & Đánh giá tiện ích</p>
                   <h2 id="article-modal-title" style={{ fontSize: "1.45rem", margin: "0.35rem 0" }}>
                     {selectedArticle.title}
                   </h2>
                   <p style={{ margin: 0, fontSize: "0.875rem", color: "var(--muted-ink)" }}>
-                    Đăng ngày: {selectedArticle.publishedDate} • Tác giả: {selectedArticle.author}
+                    Cập nhật: {selectedArticle.publishedDate}
                   </p>
                 </div>
                 <button

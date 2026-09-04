@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 const siteUrl = "https://vdk.is-a.dev";
-const siteTitle = "Võ Duy Khánh | Kho Tiện Ích NVDA Add-on Việt Nam & Quốc Tế";
+const siteTitle = "Võ Duy Khánh | Kho Tiện Ích NVDA Việt Nam & Quốc Tế";
 const siteDescription =
-  "Kho tiện ích NVDA Add-on lớn nhất cho người khiếm thị: hơn 530+ tiện ích Store và cộng đồng (RadioTV, Google TTS, tối ưu mạng, Access8Math...). Cập nhật tự động, có đánh giá AI và hướng dẫn phím tắt tiếng Việt.";
+  "Kho tiện ích bổ trợ NVDA dành cho người khiếm thị: hơn 530+ add-on từ Cửa hàng chính thức và cộng đồng quốc tế. Tải NVDA mới nhất, tìm phím tắt và xem hướng dẫn sử dụng tiếng Việt.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
