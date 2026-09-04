@@ -78,7 +78,11 @@ const jsonLdSchema = {
       "@id": "https://vdkvn.github.io/#person",
       name: "Võ Duy Khánh",
       url: "https://vdkvn.github.io/",
-      sameAs: ["https://github.com/voduykhanhmata-ctrl", "https://github.com/vdkvn"],
+      sameAs: [
+        "https://github.com/voduykhanhmata-ctrl",
+        "https://github.com/vdkvn",
+        "https://www.facebook.com/vo.voduykhanh.12/"
+      ],
       jobTitle: "Accessibility Developer & NVDA Community Contributor",
       description: "Nhà phát triển phần mềm tiếp cận và tiện ích bổ trợ cho cộng đồng người khiếm thị Việt Nam.",
     },

@@ -264,3 +264,19 @@ kbd { font-family: inherit; font-size: .9375rem; white-space: normal; }
 .not-found-tip p {
   margin: 0;
 }
+
+.facebook-button {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .65rem 1.2rem;
+  border-radius: .5rem;
+  background: #1877f2;
+  color: #fff;
+  font-weight: 650;
+  text-decoration: none;
+  min-height: 44px;
+}
+.facebook-button:hover, .facebook-button:focus-visible {
+  background: #0d65d9;
+}

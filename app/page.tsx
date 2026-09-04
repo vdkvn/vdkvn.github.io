@@ -4,6 +4,14 @@ import { SiteFooter, SiteHeader } from "@/components/SiteNavigation";
 import { projectsDetailList } from "@/lib/projects-data";
 import updatesData from "@/lib/updates.json";
 
+function FacebookIcon({ size = 18 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+    </svg>
+  );
+}
+
 const icons = { Radio, Accessibility, Volume2, Wifi };
 const projectOrder = ["radiotv", "nvda-screen-reader", "google-tts-for-nvda", "nvda-network-optimizer"];
 const sectionIds: Record<string, string> = {
@@ -90,18 +98,33 @@ export default function Home() {
               <h2 id="feedback-title">Có điều gì chưa thuận tiện?</h2>
               <p>Hãy cho tác giả biết bạn gặp khó khăn ở bước nào, phiên bản đang dùng và kết quả mong muốn.</p>
               <div className="email-feedback-card">
-                <h3>Góp ý nhanh qua hộp thư điện tử</h3>
-                <p>Không cần tài khoản GitHub. Bấm nút bên dưới để gửi email trực tiếp cho Khánh:</p>
-                <a
-                  href="mailto:voduykhanh.mata@gmail.com?subject=[VDK-Website]%20Góp%20ý%20cùng%20Võ%20Duy%20Khánh&body=Chào%20Khánh,%0D%0A%0D%0ATôi%20muốn%20góp%20ý/báo%20lỗi%20về:%0D%0A-%20Dự%20án:%20%0D%0A-%20Nội%20dung:%20%0D%0A-%20Phiên%20bản%20NVDA%20đang%20dùng:%20"
-                  className="email-button"
-                >
-                  <Mail size={18} aria-hidden="true" /> Gửi email: voduykhanh.mata@gmail.com
-                </a>
+                <h3>Góp ý nhanh qua Email & Facebook</h3>
+                <p>Không cần tài khoản GitHub. Bạn có thể nhắn tin hoặc gửi email trực tiếp cho Khánh:</p>
+                <div style={{ display: "flex", flexWrap: "wrap", gap: ".6rem" }}>
+                  <a
+                    href="mailto:voduykhanh.mata@gmail.com?subject=[VDK-Website]%20Góp%20ý%20cùng%20Võ%20Duy%20Khánh&body=Chào%20Khánh,%0D%0A%0D%0ATôi%20muốn%20góp%20ý/báo%20lỗi%20về:%0D%0A-%20Dự%20án:%20%0D%0A-%20Nội%20dung:%20%0D%0A-%20Phiên%20bản%20NVDA%20đang%20dùng:%20"
+                    className="email-button"
+                  >
+                    <Mail size={18} aria-hidden="true" /> Gửi email cho Khánh
+                  </a>
+                  <a
+                    href="https://www.facebook.com/vo.voduykhanh.12/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="facebook-button"
+                  >
+                    <FacebookIcon size={18} /> Facebook Võ Duy Khánh
+                    <span className="sr-only"> (mở trong thẻ mới)</span>
+                  </a>
+                </div>
               </div>
             </div>
             <div className="feedback-links">
               <p className="section-note" style={{ marginTop: 0, fontWeight: 700 }}>Hoặc theo dõi và báo lỗi công khai trên GitHub:</p>
+              <a href="https://www.facebook.com/vo.voduykhanh.12/" target="_blank" rel="noreferrer">
+                Nhắn tin qua Facebook Võ Duy Khánh <ArrowRight size={18} aria-hidden="true" />
+                <span className="sr-only"> (mở trong thẻ mới)</span>
+              </a>
               <a href="https://github.com/vdkvn/vdkvn.github.io/issues">Góp ý về website trên GitHub <ArrowRight size={18} aria-hidden="true" /></a>
               <a href="https://github.com/voduykhanhmata-ctrl/radiotv/issues">Báo lỗi hoặc đề xuất kênh RadioTV <ArrowRight size={18} aria-hidden="true" /></a>
               <a href="https://github.com/voduykhanhmata-ctrl/nvda-network-optimizer/issues">Góp ý NVDA Network Optimizer <ArrowRight size={18} aria-hidden="true" /></a>
