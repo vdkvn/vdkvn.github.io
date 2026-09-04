@@ -1,4 +1,4 @@
-import { Accessibility, ArrowRight, Download, Mail, Radio, Volume2, Wifi } from "lucide-react";
+import { Accessibility, ArrowRight, Download, Mail, Radio, Store, Volume2, Wifi } from "lucide-react";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/components/SiteNavigation";
 import { projectsDetailList } from "@/lib/projects-data";
@@ -31,10 +31,15 @@ export default function Home() {
           <div className="shell hero-copy">
             <p className="eyebrow">Dự án của Khánh · Phần mềm cộng đồng</p>
             <h1 id="hero-title">Công nghệ dễ tiếp cận,<br />bắt đầu từ việc hằng ngày.</h1>
-            <p className="hero-lead">Tìm phần mềm, tải tiện ích và xem hướng dẫn sử dụng NVDA bằng tiếng Việt.</p>
-            <a className="button button-primary" href="#chuyen-muc">
-              Chọn phần mềm <ArrowRight size={18} aria-hidden="true" />
-            </a>
+            <p className="hero-lead">Tìm phần mềm, tải tiện ích và xem hướng dẫn sử dụng NVDA bằng tiếng Việt. Tra cứu hơn 530+ add-on được phân loại tự động và hỗ trợ bởi AI.</p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "0.85rem", marginTop: "1rem" }}>
+              <Link className="button button-primary" href="/kho-addon">
+                🔥 Khám phá Kho 530+ Add-on <ArrowRight size={18} aria-hidden="true" />
+              </Link>
+              <a className="button button-secondary" href="#chuyen-muc">
+                Các dự án trọng điểm
+              </a>
+            </div>
           </div>
         </section>
 
@@ -46,6 +51,37 @@ export default function Home() {
               <p>Chọn dự án để xem cách cài đặt, phím tắt và nơi tải.</p>
             </div>
             <div className="project-grid">
+              {/* Thẻ nổi bật: Kho 530+ Tiện Ích NVDA Toàn Diện */}
+              <article
+                className="project-card"
+                style={{ border: "2px solid var(--green)", background: "linear-gradient(to bottom, #f0fdf4, #ffffff)" }}
+                tabIndex={-1}
+                aria-labelledby="addon-hub-spotlight-title"
+              >
+                <div className="project-card-top">
+                  <span className="project-icon" style={{ background: "var(--green)", color: "#fff" }} aria-hidden="true">
+                    <Store size={24} />
+                  </span>
+                  <p className="project-category" style={{ color: "var(--green-dark)", fontWeight: 700 }}>
+                    530+ Tiện Ích Tự Động & AI
+                  </p>
+                </div>
+                <h3 id="addon-hub-spotlight-title">
+                  <Link href="/kho-addon">Kho Add-on NVDA (Việt Nam & Quốc Tế)</Link>
+                </h3>
+                <p className="project-description">
+                  Tra cứu, tìm kiếm và tải trực tiếp hơn 530 tiện ích từ Cửa hàng chính thức và cộng đồng Tây Ban Nha, Nga, Việt Nam. Sắp xếp thông minh mới cập nhật lên đầu và có AI phân tích chuyên sâu.
+                </p>
+                <p className="project-status" style={{ color: "#166534", background: "#dcfce7" }}>
+                  ⚡ Cập nhật tự động liên tục
+                </p>
+                <div className="project-card-actions">
+                  <Link href="/kho-addon" className="button button-primary" style={{ width: "100%", justifyContent: "center" }}>
+                    Vào Kho Add-on ngay <ArrowRight size={17} aria-hidden="true" />
+                  </Link>
+                </div>
+              </article>
+
               {projects.map((project) => {
                 const Icon = icons[project.iconName];
                 return (

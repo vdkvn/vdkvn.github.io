@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 const siteUrl = "https://vdkvn.github.io";
-const siteTitle = "Võ Duy Khánh | Phần mềm và tiện ích cho NVDA";
+const siteTitle = "Võ Duy Khánh | Kho Tiện Ích NVDA Add-on Việt Nam & Quốc Tế";
 const siteDescription =
-  "Tìm phần mềm và tiện ích cho NVDA: RadioTV, giọng đọc Google TTS và công cụ kiểm tra mạng. Có hướng dẫn tiếng Việt và liên kết tải từ tác giả.";
+  "Kho tiện ích NVDA Add-on lớn nhất cho người khiếm thị: hơn 500+ tiện ích Store và cộng đồng (RadioTV, Google TTS, tối ưu mạng, Access8Math...). Cập nhật tự động, có đánh giá AI và hướng dẫn phím tắt tiếng Việt.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -13,11 +13,24 @@ export const metadata: Metadata = {
     template: "%s | Võ Duy Khánh",
   },
   description: siteDescription,
-  applicationName: "Võ Duy Khánh - Accessibility Hub",
+  applicationName: "Võ Duy Khánh - NVDA Accessibility Hub",
   authors: [{ name: "Võ Duy Khánh", url: siteUrl }],
   creator: "Võ Duy Khánh",
   publisher: "Võ Duy Khánh",
-  keywords: ["NVDA", "RadioTV", "Google TTS for NVDA", "NVDA Network Optimizer", "phần mềm tiếp cận", "Võ Duy Khánh"],
+  keywords: [
+    "NVDA",
+    "kho addon NVDA",
+    "tải addon NVDA",
+    "addon NVDA tiếng việt",
+    "tiện ích NVDA",
+    "RadioTV NVDA",
+    "Google TTS for NVDA",
+    "NVDA Network Optimizer",
+    "phần mềm tiếp cận",
+    "người khiếm thị",
+    "Võ Duy Khánh",
+    "NVDA Add-on Store"
+  ],
   alternates: {
     canonical: siteUrl,
   },
