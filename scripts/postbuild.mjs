@@ -34,7 +34,7 @@ if (fs.existsSync(khoAddonHtml)) {
 
 // Copy public assets if needed
 const publicDir = path.join(__dirname, "..", "public");
-for (const file of ["robots.txt", "sitemap.xml", ".nojekyll", "CNAME"]) {
+for (const file of ["robots.txt", "sitemap.xml", ".nojekyll", "CNAME", "vdkisadevindexnow2026.txt"]) {
   const src = path.join(publicDir, file);
   const dest = path.join(distClient, file);
   if (fs.existsSync(src)) {
