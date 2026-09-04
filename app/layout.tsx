@@ -38,7 +38,17 @@ export const metadata: Metadata = {
     "vdk is a dev",
     "vdk",
     "vdkvn",
-    "vdk addon"
+    "vdk addon",
+    // Từ khóa quốc tế (International & Multilingual search queries)
+    "NVDA addons",
+    "download NVDA addons",
+    "NVDA addon store",
+    "NVDA screen reader download",
+    "free NVDA addons",
+    "complementos NVDA",
+    "descargar complementos NVDA",
+    "дополнения NVDA",
+    "скачать дополнения NVDA"
   ],
   verification: {
     google: "google-site-verification-token",
@@ -93,7 +103,7 @@ const jsonLdSchema = {
       url: "https://vdk.is-a.dev/",
       name: "Võ Duy Khánh - Kho Tiện Ích NVDA & Công nghệ tiếp cận",
       description: siteDescription,
-      inLanguage: "vi",
+      inLanguage: ["vi", "en", "es", "ru"],
       publisher: {
         "@id": "https://vdk.is-a.dev/#person",
       },
