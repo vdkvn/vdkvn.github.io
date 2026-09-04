@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://vdkvn.github.io/sitemap.xml
+Sitemap: https://vdk.is-a.dev/sitemap.xml
+

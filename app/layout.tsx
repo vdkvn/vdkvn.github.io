@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const siteUrl = "https://vdkvn.github.io";
+const siteUrl = "https://vdk.is-a.dev";
 const siteTitle = "Võ Duy Khánh | Kho Tiện Ích NVDA Add-on Việt Nam & Quốc Tế";
 const siteDescription =
-  "Kho tiện ích NVDA Add-on lớn nhất cho người khiếm thị: hơn 500+ tiện ích Store và cộng đồng (RadioTV, Google TTS, tối ưu mạng, Access8Math...). Cập nhật tự động, có đánh giá AI và hướng dẫn phím tắt tiếng Việt.";
+  "Kho tiện ích NVDA Add-on lớn nhất cho người khiếm thị: hơn 530+ tiện ích Store và cộng đồng (RadioTV, Google TTS, tối ưu mạng, Access8Math...). Cập nhật tự động, có đánh giá AI và hướng dẫn phím tắt tiếng Việt.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -29,7 +29,8 @@ export const metadata: Metadata = {
     "phần mềm tiếp cận",
     "người khiếm thị",
     "Võ Duy Khánh",
-    "NVDA Add-on Store"
+    "NVDA Add-on Store",
+    "vdk is a dev"
   ],
   alternates: {
     canonical: siteUrl,
@@ -58,7 +59,7 @@ export const metadata: Metadata = {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "Võ Duy Khánh — Trang web công nghệ tiếp cận & Dự án NVDA cho người khiếm thị",
+        alt: "Võ Duy Khánh — Trang web công nghệ tiếp cận & Kho Tiện Ích NVDA cho người khiếm thị",
       },
     ],
   },
@@ -77,20 +78,25 @@ const jsonLdSchema = {
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://vdkvn.github.io/#website",
-      url: "https://vdkvn.github.io/",
-      name: "Võ Duy Khánh - Công nghệ tiếp cận cho người khiếm thị",
+      "@id": "https://vdk.is-a.dev/#website",
+      url: "https://vdk.is-a.dev/",
+      name: "Võ Duy Khánh - Kho Tiện Ích NVDA & Công nghệ tiếp cận",
       description: siteDescription,
       inLanguage: "vi",
       publisher: {
-        "@id": "https://vdkvn.github.io/#person",
+        "@id": "https://vdk.is-a.dev/#person",
       },
+      potentialAction: {
+        "@type": "SearchAction",
+        target: "https://vdk.is-a.dev/kho-addon/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
     },
     {
       "@type": "Person",
-      "@id": "https://vdkvn.github.io/#person",
+      "@id": "https://vdk.is-a.dev/#person",
       name: "Võ Duy Khánh",
-      url: "https://vdkvn.github.io/",
+      url: "https://vdk.is-a.dev/",
       sameAs: [
         "https://github.com/voduykhanhmata-ctrl",
         "https://github.com/vdkvn",
@@ -101,15 +107,16 @@ const jsonLdSchema = {
     },
     {
       "@type": "ItemList",
+      name: "Dự án tiếp cận và tiện ích NVDA",
       itemListElement: [
         {
           "@type": "SoftwareApplication",
           position: 1,
-          name: "NVDA Screen Reader",
-          applicationCategory: "AccessibilityApplication",
+          name: "Kho Add-on NVDA (Việt Nam & Quốc Tế)",
+          applicationCategory: "UtilitiesApplication",
           operatingSystem: "Windows 10, Windows 11",
-          url: "https://vdkvn.github.io/du-an/nvda-screen-reader/",
-          description: "Trình đọc màn hình miễn phí, mã nguồn mở cho Windows của NV Access.",
+          url: "https://vdk.is-a.dev/kho-addon/",
+          description: "Kho lưu trữ hơn 530 tiện ích bổ trợ cho NVDA với phân loại tự động và AI đánh giá chuyên sâu.",
           offers: {
             "@type": "Offer",
             price: "0",
@@ -119,10 +126,28 @@ const jsonLdSchema = {
         {
           "@type": "SoftwareApplication",
           position: 2,
+          name: "RadioTV",
+          applicationCategory: "MultimediaApplication",
+          operatingSystem: "Windows 10, Windows 11",
+          url: "https://vdk.is-a.dev/du-an/radiotv/",
+          description: "Tiện ích nghe radio và âm thanh kênh TV trực tiếp trong NVDA.",
+          author: {
+            "@type": "Person",
+            name: "Võ Duy Khánh",
+          },
+          offers: {
+            "@type": "Offer",
+            price: "0",
+            priceCurrency: "VND",
+          },
+        },
+        {
+          "@type": "SoftwareApplication",
+          position: 3,
           name: "Google TTS for NVDA",
           applicationCategory: "UtilitiesApplication",
           operatingSystem: "Windows 10, Windows 11",
-          url: "https://vdkvn.github.io/du-an/google-tts-for-nvda/",
+          url: "https://vdk.is-a.dev/du-an/google-tts-for-nvda/",
           description: "Add-on tổng hợp giọng đọc Google TTS tiếng Việt tự nhiên chạy ngoại tuyến cho NVDA.",
           author: {
             "@type": "Person",
@@ -136,11 +161,11 @@ const jsonLdSchema = {
         },
         {
           "@type": "SoftwareApplication",
-          position: 3,
+          position: 4,
           name: "NVDA Network Optimizer",
           applicationCategory: "UtilitiesApplication",
           operatingSystem: "Windows 10, Windows 11",
-          url: "https://vdkvn.github.io/du-an/nvda-network-optimizer/",
+          url: "https://vdk.is-a.dev/du-an/nvda-network-optimizer/",
           description: "Tiện ích kiểm tra kết nối, đo phản hồi DNS và hỗ trợ đổi DNS trong NVDA.",
           author: {
             "@type": "Person",
@@ -154,16 +179,12 @@ const jsonLdSchema = {
         },
         {
           "@type": "SoftwareApplication",
-          position: 4,
-          name: "RadioTV",
-          applicationCategory: "MultimediaApplication",
+          position: 5,
+          name: "NVDA Screen Reader",
+          applicationCategory: "AccessibilityApplication",
           operatingSystem: "Windows 10, Windows 11",
-          url: "https://vdkvn.github.io/du-an/radiotv/",
-          description: "Tiện ích nghe radio và âm thanh kênh TV ngay trong NVDA.",
-          author: {
-            "@type": "Person",
-            name: "Võ Duy Khánh",
-          },
+          url: "https://vdk.is-a.dev/du-an/nvda-screen-reader/",
+          description: "Trình đọc màn hình miễn phí, mã nguồn mở cho Windows của NV Access.",
           offers: {
             "@type": "Offer",
             price: "0",
