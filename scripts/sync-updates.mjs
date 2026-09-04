@@ -51,7 +51,11 @@ function cleanMessage(rawMsg) {
 
 async function fetchRepoData(item) {
   try {
-    const headers = { "User-Agent": "vdkvn-sync-bot" };
+    const GITHUB_TOKEN = process.env.GITHUB_TOKEN || "";
+    const headers = {
+      "User-Agent": "vdkvn-sync-bot",
+      ...(GITHUB_TOKEN ? { "Authorization": `token ${GITHUB_TOKEN}` } : {}),
+    };
     const res = await fetch(`https://api.github.com/repos/${item.repo}/commits?per_page=1`, { headers, signal: AbortSignal.timeout(15000) });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const commits = await res.json();

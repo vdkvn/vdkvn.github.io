@@ -15,6 +15,9 @@ export interface AddonItem {
   shortcuts?: string;
   downloadUrl: string;
   testedVersion: string;
+  version?: string;
+  updatedAt?: string; // ISO 8601 string
+  updatedAtVN?: string; // dd/mm/yyyy
 }
 
 export const addonsList: AddonItem[] = [
@@ -384,3 +387,35 @@ export const addonsList: AddonItem[] = [
     testedVersion: "NVDA 2024.x",
   },
 ];
+
+import storeAddonsJson from "./addons-store.json";
+
+// Hợp nhất dữ liệu tuyển chọn với toàn bộ kho Store (500+ add-on)
+// Giữ lại mô tả tiếng Việt và phím tắt chi tiết của các add-on đã được tinh chỉnh
+const curatedMap = new Map(addonsList.map((item) => [item.id, item]));
+const storeList: AddonItem[] = (storeAddonsJson as AddonItem[]).map((item) => {
+  const curated = curatedMap.get(item.id);
+  if (curated) {
+    return {
+      ...curated,
+      version: item.version || curated.version,
+      updatedAt: item.updatedAt || curated.updatedAt,
+      updatedAtVN: item.updatedAtVN || curated.updatedAtVN,
+      downloadUrl: item.downloadUrl || curated.downloadUrl,
+    };
+  }
+  return item;
+});
+
+// Các add-on tuyển chọn độc lập ngoài Store (RadioTV, Network Optimizer, v.v.)
+const externalCurated = addonsList.filter((item) => !item.inStore);
+
+// Gộp chung và SẮP XẾP MỚI CẬP NHẬT LÊN ĐẦU TIÊN (Newest update first)
+export const allAddonsList: AddonItem[] = [...externalCurated, ...storeList].sort(
+  (a, b) => {
+    const timeA = a.updatedAt ? new Date(a.updatedAt).getTime() : 0;
+    const timeB = b.updatedAt ? new Date(b.updatedAt).getTime() : 0;
+    return timeB - timeA;
+  }
+);
+

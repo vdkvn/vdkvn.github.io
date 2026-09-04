@@ -1,0 +1,542 @@
+[
+  {
+    "id": "review-whatsAppPlus",
+    "addonId": "whatsAppPlus",
+    "addonName": "WhatsAppPlus",
+    "version": "2.1.0",
+    "title": "Đánh giá tiện ích NVDA: WhatsAppPlus (Phiên bản 2.1.0)",
+    "summary": "Phân tích chuyên sâu về tiện ích WhatsAppPlus dành cho trình đọc màn hình NVDA. Cung cấp hướng dẫn phím tắt, đối tượng người dùng phù hợp và đánh giá khả năng tiếp cận thực tế.",
+    "author": "AI Assistant & Võ Duy Khánh",
+    "publishedDate": "04/09/2026",
+    "timestamp": "2026-09-04T12:06:53.709Z",
+    "sections": [
+      {
+        "heading": "1. Giới thiệu tổng quan",
+        "content": "Tiện ích **WhatsAppPlus** được phát triển bởi tác giả/nhóm **Kostya Gladkiy** dưới giấy phép mã nguồn mở **GPL v2**.\n\nThis add-on adds many hotkeys for quick navigation through the main elements of the window, convenient interaction with chat messages, and also adds many minor improvements that make working in WhatsApp much easier.\n\nTrạng thái phát hành: ✅ Đã có sẵn trên Cửa hàng Add-on Store chính thức của NVDA, người dùng có thể cài đặt trực tiếp không cần tải tệp rời."
+      },
+      {
+        "heading": "2. Hỗ trợ tiếng Việt & Trải nghiệm đọc màn hình",
+        "content": "🌐 **Lưu ý ngôn ngữ:** Phiên bản hiện tại chủ yếu sử dụng giao diện Tiếng Anh hoặc ngôn ngữ quốc tế. Tuy nhiên các phím lệnh và cấu trúc menu đều tuân thủ chuẩn NVDA, các bộ đọc tiếng Việt (Sao Mai, Google TTS) vẫn có thể phát âm tốt các nhãn điều khiển."
+      },
+      {
+        "heading": "3. Hướng dẫn sử dụng & Phím tắt nhanh",
+        "content": "Tiện ích hoạt động tự động khi NVDA khởi chạy hoặc tích hợp trực tiếp vào các menu ngữ cảnh của ứng dụng. Bạn có thể kiểm tra danh sách phím tắt gán cho tiện ích tại menu *Cử chỉ nhập liệu* của NVDA."
+      },
+      {
+        "heading": "4. Đánh giá ưu điểm và hạn chế thực tế",
+        "content": "### Ưu điểm:\n- Tương thích tốt với phiên bản **NVDA 2024.1**.\n- Mã nguồn minh bạch, tôn trọng bản quyền cộng đồng với liên kết GitHub chính thức.\n- Tối ưu hóa phản hồi âm thanh/lời nói nhanh chóng, không gây giật lag máy tính.\n\n### Hạn chế cần lưu ý:\n- Khi nâng cấp các bản NVDA lớn hàng năm (như NVDA 2024 sang 2025), người dùng cần kiểm tra lại độ tương thích API nếu tiện ích chưa kịp cập nhật."
+      },
+      {
+        "heading": "5. Hướng dẫn tải và cài đặt an toàn",
+        "content": "1. Nhấn nút **Tải tệp .nvda-addon** từ trang Kho Tiện Ích hoặc liên kết chính thức: [Tải WhatsAppPlus](https://github.com/Kostya-Gladkiy/whatsappplus/releases/download/2.1.0/whatsappplus-2.1.0.nvda-addon).\n2. Mở tệp vừa tải về trong thư mục Downloads.\n3. Khi NVDA hiện thông báo xác nhận cài đặt add-on, nhấn phím **Y** (Yes).\n4. Khởi động lại NVDA để hoàn tất kích hoạt."
+      }
+    ],
+    "repoUrl": "https://github.com/Kostya-Gladkiy/WhatsAppPlus",
+    "downloadUrl": "https://github.com/Kostya-Gladkiy/whatsappplus/releases/download/2.1.0/whatsappplus-2.1.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-webAccess",
+    "addonId": "webAccess",
+    "addonName": "Web Access for NVDA (Multicriteria)",
+    "version": "2024.04.11",
+    "title": "Đánh giá tiện ích NVDA: Web Access for NVDA (Multicriteria) (Phiên bản 2024.04.11)",
+    "summary": "Phân tích chuyên sâu về tiện ích Web Access for NVDA (Multicriteria) dành cho trình đọc màn hình NVDA. Cung cấp hướng dẫn phím tắt, đối tượng người dùng phù hợp và đánh giá khả năng tiếp cận thực tế.",
+    "author": "AI Assistant & Võ Duy Khánh",
+    "publishedDate": "04/09/2026",
+    "timestamp": "2026-09-04T12:06:53.641Z",
+    "sections": [
+      {
+        "heading": "1. Giới thiệu tổng quan",
+        "content": "Tiện ích **Web Access for NVDA (Multicriteria)** được phát triển bởi tác giả/nhóm **Accessolutions** dưới giấy phép mã nguồn mở **GPL v2**.\n\nWeb application modules support for modern or complex web sites.\n\nTrạng thái phát hành: ✅ Đã có sẵn trên Cửa hàng Add-on Store chính thức của NVDA, người dùng có thể cài đặt trực tiếp không cần tải tệp rời."
+      },
+      {
+        "heading": "2. Hỗ trợ tiếng Việt & Trải nghiệm đọc màn hình",
+        "content": "🌐 **Lưu ý ngôn ngữ:** Phiên bản hiện tại chủ yếu sử dụng giao diện Tiếng Anh hoặc ngôn ngữ quốc tế. Tuy nhiên các phím lệnh và cấu trúc menu đều tuân thủ chuẩn NVDA, các bộ đọc tiếng Việt (Sao Mai, Google TTS) vẫn có thể phát âm tốt các nhãn điều khiển."
+      },
+      {
+        "heading": "3. Hướng dẫn sử dụng & Phím tắt nhanh",
+        "content": "Tiện ích hoạt động tự động khi NVDA khởi chạy hoặc tích hợp trực tiếp vào các menu ngữ cảnh của ứng dụng. Bạn có thể kiểm tra danh sách phím tắt gán cho tiện ích tại menu *Cử chỉ nhập liệu* của NVDA."
+      },
+      {
+        "heading": "4. Đánh giá ưu điểm và hạn chế thực tế",
+        "content": "### Ưu điểm:\n- Tương thích tốt với phiên bản **NVDA 2024.1**.\n- Mã nguồn minh bạch, tôn trọng bản quyền cộng đồng với liên kết GitHub chính thức.\n- Tối ưu hóa phản hồi âm thanh/lời nói nhanh chóng, không gây giật lag máy tính.\n\n### Hạn chế cần lưu ý:\n- Khi nâng cấp các bản NVDA lớn hàng năm (như NVDA 2024 sang 2025), người dùng cần kiểm tra lại độ tương thích API nếu tiện ích chưa kịp cập nhật."
+      },
+      {
+        "heading": "5. Hướng dẫn tải và cài đặt an toàn",
+        "content": "1. Nhấn nút **Tải tệp .nvda-addon** từ trang Kho Tiện Ích hoặc liên kết chính thức: [Tải Web Access for NVDA (Multicriteria)](https://github.com/accessolutions/WebAccessForNVDA/releases/download/2024.04.11-dev/webAccess-2024.04.11.nvda-addon).\n2. Mở tệp vừa tải về trong thư mục Downloads.\n3. Khi NVDA hiện thông báo xác nhận cài đặt add-on, nhấn phím **Y** (Yes).\n4. Khởi động lại NVDA để hoàn tất kích hoạt."
+      }
+    ],
+    "repoUrl": "https://github.com/accessolutions/",
+    "downloadUrl": "https://github.com/accessolutions/WebAccessForNVDA/releases/download/2024.04.11-dev/webAccess-2024.04.11.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-whiteNoise",
+    "addonId": "whiteNoise",
+    "addonName": "whiteNoise",
+    "version": "2023.1",
+    "title": "Đánh giá tiện ích NVDA: whiteNoise (Phiên bản 2023.1)",
+    "summary": "Phân tích chuyên sâu về tiện ích whiteNoise dành cho trình đọc màn hình NVDA. Cung cấp hướng dẫn phím tắt, đối tượng người dùng phù hợp và đánh giá khả năng tiếp cận thực tế.",
+    "author": "AI Assistant & Võ Duy Khánh",
+    "publishedDate": "04/09/2026",
+    "timestamp": "2026-09-04T12:06:53.574Z",
+    "sections": [
+      {
+        "heading": "1. Giới thiệu tổng quan",
+        "content": "Tiện ích **whiteNoise** được phát triển bởi tác giả/nhóm **Alberto Zanella** dưới giấy phép mã nguồn mở **GPL v2**.\n\nPrevents sound card to get into standby by playing white noise\n\nTrạng thái phát hành: ✅ Đã có sẵn trên Cửa hàng Add-on Store chính thức của NVDA, người dùng có thể cài đặt trực tiếp không cần tải tệp rời."
+      },
+      {
+        "heading": "2. Hỗ trợ tiếng Việt & Trải nghiệm đọc màn hình",
+        "content": "🌐 **Lưu ý ngôn ngữ:** Phiên bản hiện tại chủ yếu sử dụng giao diện Tiếng Anh hoặc ngôn ngữ quốc tế. Tuy nhiên các phím lệnh và cấu trúc menu đều tuân thủ chuẩn NVDA, các bộ đọc tiếng Việt (Sao Mai, Google TTS) vẫn có thể phát âm tốt các nhãn điều khiển."
+      },
+      {
+        "heading": "3. Hướng dẫn sử dụng & Phím tắt nhanh",
+        "content": "Tiện ích hoạt động tự động khi NVDA khởi chạy hoặc tích hợp trực tiếp vào các menu ngữ cảnh của ứng dụng. Bạn có thể kiểm tra danh sách phím tắt gán cho tiện ích tại menu *Cử chỉ nhập liệu* của NVDA."
+      },
+      {
+        "heading": "4. Đánh giá ưu điểm và hạn chế thực tế",
+        "content": "### Ưu điểm:\n- Tương thích tốt với phiên bản **NVDA 2023.1**.\n- Mã nguồn minh bạch, tôn trọng bản quyền cộng đồng với liên kết GitHub chính thức.\n- Tối ưu hóa phản hồi âm thanh/lời nói nhanh chóng, không gây giật lag máy tính.\n\n### Hạn chế cần lưu ý:\n- Khi nâng cấp các bản NVDA lớn hàng năm (như NVDA 2024 sang 2025), người dùng cần kiểm tra lại độ tương thích API nếu tiện ích chưa kịp cập nhật."
+      },
+      {
+        "heading": "5. Hướng dẫn tải và cài đặt an toàn",
+        "content": "1. Nhấn nút **Tải tệp .nvda-addon** từ trang Kho Tiện Ích hoặc liên kết chính thức: [Tải whiteNoise](https://github.com/albzan/whiteNoise/releases/download/2023.1/whiteNoise-2023.1.nvda-addon).\n2. Mở tệp vừa tải về trong thư mục Downloads.\n3. Khi NVDA hiện thông báo xác nhận cài đặt add-on, nhấn phím **Y** (Yes).\n4. Khởi động lại NVDA để hoàn tất kích hoạt."
+      }
+    ],
+    "repoUrl": "https://github.com/albzan/whiteNoise",
+    "downloadUrl": "https://github.com/albzan/whiteNoise/releases/download/2023.1/whiteNoise-2023.1.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-versionCollector",
+    "addonId": "versionCollector",
+    "addonName": "Version Collector",
+    "version": "23.00.065",
+    "title": "Đánh giá tiện ích NVDA: Version Collector (Phiên bản 23.00.065)",
+    "summary": "Phân tích chuyên sâu về tiện ích Version Collector dành cho trình đọc màn hình NVDA. Cung cấp hướng dẫn phím tắt, đối tượng người dùng phù hợp và đánh giá khả năng tiếp cận thực tế.",
+    "author": "AI Assistant & Võ Duy Khánh",
+    "publishedDate": "04/09/2026",
+    "timestamp": "2026-09-04T12:06:52.364Z",
+    "sections": [
+      {
+        "heading": "1. Giới thiệu tổng quan",
+        "content": "Tiện ích **Version Collector** được phát triển bởi tác giả/nhóm **Luke Davis** dưới giấy phép mã nguồn mở **GPL v2**.\n\nKeeps a record of all software names and versions used while running NVDA.\nProvides a list that can be copied/exported for diagnostics and support.\n\nTrạng thái phát hành: ✅ Đã có sẵn trên Cửa hàng Add-on Store chính thức của NVDA, người dùng có thể cài đặt trực tiếp không cần tải tệp rời."
+      },
+      {
+        "heading": "2. Hỗ trợ tiếng Việt & Trải nghiệm đọc màn hình",
+        "content": "🌐 **Lưu ý ngôn ngữ:** Phiên bản hiện tại chủ yếu sử dụng giao diện Tiếng Anh hoặc ngôn ngữ quốc tế. Tuy nhiên các phím lệnh và cấu trúc menu đều tuân thủ chuẩn NVDA, các bộ đọc tiếng Việt (Sao Mai, Google TTS) vẫn có thể phát âm tốt các nhãn điều khiển."
+      },
+      {
+        "heading": "3. Hướng dẫn sử dụng & Phím tắt nhanh",
+        "content": "Tiện ích hoạt động tự động khi NVDA khởi chạy hoặc tích hợp trực tiếp vào các menu ngữ cảnh của ứng dụng. Bạn có thể kiểm tra danh sách phím tắt gán cho tiện ích tại menu *Cử chỉ nhập liệu* của NVDA."
+      },
+      {
+        "heading": "4. Đánh giá ưu điểm và hạn chế thực tế",
+        "content": "### Ưu điểm:\n- Tương thích tốt với phiên bản **NVDA 2024.1**.\n- Mã nguồn minh bạch, tôn trọng bản quyền cộng đồng với liên kết GitHub chính thức.\n- Tối ưu hóa phản hồi âm thanh/lời nói nhanh chóng, không gây giật lag máy tính.\n\n### Hạn chế cần lưu ý:\n- Khi nâng cấp các bản NVDA lớn hàng năm (như NVDA 2024 sang 2025), người dùng cần kiểm tra lại độ tương thích API nếu tiện ích chưa kịp cập nhật."
+      },
+      {
+        "heading": "5. Hướng dẫn tải và cài đặt an toàn",
+        "content": "1. Nhấn nút **Tải tệp .nvda-addon** từ trang Kho Tiện Ích hoặc liên kết chính thức: [Tải Version Collector](https://github.com/opensourcesys/versionCollector/releases/download/v23.00.065-beta/versionCollector-23.00.065.nvda-addon).\n2. Mở tệp vừa tải về trong thư mục Downloads.\n3. Khi NVDA hiện thông báo xác nhận cài đặt add-on, nhấn phím **Y** (Yes).\n4. Khởi động lại NVDA để hoàn tất kích hoạt."
+      }
+    ],
+    "repoUrl": "https://github.com/opensourcesys/versionCollector/",
+    "downloadUrl": "https://github.com/opensourcesys/versionCollector/releases/download/v23.00.065-beta/versionCollector-23.00.065.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-unigram",
+    "addonId": "unigram",
+    "addonName": "unigram",
+    "version": "2.0.0",
+    "title": "Đánh giá tiện ích NVDA: unigram (Phiên bản 2.0.0)",
+    "summary": "Phân tích chuyên sâu về tiện ích unigram dành cho trình đọc màn hình NVDA. Cung cấp hướng dẫn phím tắt, đối tượng người dùng phù hợp và đánh giá khả năng tiếp cận thực tế.",
+    "author": "AI Assistant & Võ Duy Khánh",
+    "publishedDate": "04/09/2026",
+    "timestamp": "2026-09-04T12:06:51.778Z",
+    "sections": [
+      {
+        "heading": "1. Giới thiệu tổng quan",
+        "content": "Tiện ích **unigram** được phát triển bởi tác giả/nhóm **GerardKessler** dưới giấy phép mã nguồn mở **GPL v2**.\n\nMódulo que agrega enfoques automáticos y atajos de teclado a funciones importantes de la aplicación\n\nTrạng thái phát hành: ✅ Đã có sẵn trên Cửa hàng Add-on Store chính thức của NVDA, người dùng có thể cài đặt trực tiếp không cần tải tệp rời."
+      },
+      {
+        "heading": "2. Hỗ trợ tiếng Việt & Trải nghiệm đọc màn hình",
+        "content": "🌐 **Lưu ý ngôn ngữ:** Phiên bản hiện tại chủ yếu sử dụng giao diện Tiếng Anh hoặc ngôn ngữ quốc tế. Tuy nhiên các phím lệnh và cấu trúc menu đều tuân thủ chuẩn NVDA, các bộ đọc tiếng Việt (Sao Mai, Google TTS) vẫn có thể phát âm tốt các nhãn điều khiển."
+      },
+      {
+        "heading": "3. Hướng dẫn sử dụng & Phím tắt nhanh",
+        "content": "Tiện ích hoạt động tự động khi NVDA khởi chạy hoặc tích hợp trực tiếp vào các menu ngữ cảnh của ứng dụng. Bạn có thể kiểm tra danh sách phím tắt gán cho tiện ích tại menu *Cử chỉ nhập liệu* của NVDA."
+      },
+      {
+        "heading": "4. Đánh giá ưu điểm và hạn chế thực tế",
+        "content": "### Ưu điểm:\n- Tương thích tốt với phiên bản **NVDA 2023.1**.\n- Mã nguồn minh bạch, tôn trọng bản quyền cộng đồng với liên kết GitHub chính thức.\n- Tối ưu hóa phản hồi âm thanh/lời nói nhanh chóng, không gây giật lag máy tính.\n\n### Hạn chế cần lưu ý:\n- Khi nâng cấp các bản NVDA lớn hàng năm (như NVDA 2024 sang 2025), người dùng cần kiểm tra lại độ tương thích API nếu tiện ích chưa kịp cập nhật."
+      },
+      {
+        "heading": "5. Hướng dẫn tải và cài đặt an toàn",
+        "content": "1. Nhấn nút **Tải tệp .nvda-addon** từ trang Kho Tiện Ích hoặc liên kết chính thức: [Tải unigram](https://github.com/GerardKessler/Unigram/releases/download/2.0.0/unigram-2.0.0.nvda-addon).\n2. Mở tệp vừa tải về trong thư mục Downloads.\n3. Khi NVDA hiện thông báo xác nhận cài đặt add-on, nhấn phím **Y** (Yes).\n4. Khởi động lại NVDA để hoàn tất kích hoạt."
+      }
+    ],
+    "repoUrl": "https://github.com/GerardKessler/unigram",
+    "downloadUrl": "https://github.com/GerardKessler/Unigram/releases/download/2.0.0/unigram-2.0.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-typing_settings",
+    "addonId": "typing_settings",
+    "addonName": "typing_settings",
+    "version": "0.2",
+    "title": "Đánh giá tiện ích NVDA: typing_settings (Phiên bản 0.2)",
+    "summary": "Phân tích chuyên sâu về tiện ích typing_settings dành cho trình đọc màn hình NVDA. Cung cấp hướng dẫn phím tắt, đối tượng người dùng phù hợp và đánh giá khả năng tiếp cận thực tế.",
+    "author": "AI Assistant & Võ Duy Khánh",
+    "publishedDate": "04/09/2026",
+    "timestamp": "2026-09-04T12:06:50.893Z",
+    "sections": [
+      {
+        "heading": "1. Giới thiệu tổng quan",
+        "content": "Tiện ích **typing_settings** được phát triển bởi tác giả/nhóm **abdallah hayder** dưới giấy phép mã nguồn mở **GPL v2**.\n\nProvide some options that improve typing on the keyboard\n\nTrạng thái phát hành: ✅ Đã có sẵn trên Cửa hàng Add-on Store chính thức của NVDA, người dùng có thể cài đặt trực tiếp không cần tải tệp rời."
+      },
+      {
+        "heading": "2. Hỗ trợ tiếng Việt & Trải nghiệm đọc màn hình",
+        "content": "🌐 **Lưu ý ngôn ngữ:** Phiên bản hiện tại chủ yếu sử dụng giao diện Tiếng Anh hoặc ngôn ngữ quốc tế. Tuy nhiên các phím lệnh và cấu trúc menu đều tuân thủ chuẩn NVDA, các bộ đọc tiếng Việt (Sao Mai, Google TTS) vẫn có thể phát âm tốt các nhãn điều khiển."
+      },
+      {
+        "heading": "3. Hướng dẫn sử dụng & Phím tắt nhanh",
+        "content": "Tiện ích hoạt động tự động khi NVDA khởi chạy hoặc tích hợp trực tiếp vào các menu ngữ cảnh của ứng dụng. Bạn có thể kiểm tra danh sách phím tắt gán cho tiện ích tại menu *Cử chỉ nhập liệu* của NVDA."
+      },
+      {
+        "heading": "4. Đánh giá ưu điểm và hạn chế thực tế",
+        "content": "### Ưu điểm:\n- Tương thích tốt với phiên bản **NVDA 2023.2**.\n- Mã nguồn minh bạch, tôn trọng bản quyền cộng đồng với liên kết GitHub chính thức.\n- Tối ưu hóa phản hồi âm thanh/lời nói nhanh chóng, không gây giật lag máy tính.\n\n### Hạn chế cần lưu ý:\n- Khi nâng cấp các bản NVDA lớn hàng năm (như NVDA 2024 sang 2025), người dùng cần kiểm tra lại độ tương thích API nếu tiện ích chưa kịp cập nhật."
+      },
+      {
+        "heading": "5. Hướng dẫn tải và cài đặt an toàn",
+        "content": "1. Nhấn nút **Tải tệp .nvda-addon** từ trang Kho Tiện Ích hoặc liên kết chính thức: [Tải typing_settings](https://github.com/abdallah-hader/typing_settings/releases/download/v0.2/typing_settings.nvda-addon).\n2. Mở tệp vừa tải về trong thư mục Downloads.\n3. Khi NVDA hiện thông báo xác nhận cài đặt add-on, nhấn phím **Y** (Yes).\n4. Khởi động lại NVDA để hoàn tất kích hoạt."
+      }
+    ],
+    "repoUrl": "https://github.com/abdallah-hader/typing_settings",
+    "downloadUrl": "https://github.com/abdallah-hader/typing_settings/releases/download/v0.2/typing_settings.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-ttAnnouncer",
+    "addonId": "ttAnnouncer",
+    "addonName": "TT-announcer",
+    "version": "0.4",
+    "title": "Đánh giá tiện ích NVDA: TT-announcer (Phiên bản 0.4)",
+    "summary": "Phân tích chuyên sâu về tiện ích TT-announcer dành cho trình đọc màn hình NVDA. Cung cấp hướng dẫn phím tắt, đối tượng người dùng phù hợp và đánh giá khả năng tiếp cận thực tế.",
+    "author": "AI Assistant & Võ Duy Khánh",
+    "publishedDate": "04/09/2026",
+    "timestamp": "2026-09-04T12:06:50.740Z",
+    "sections": [
+      {
+        "heading": "1. Giới thiệu tổng quan",
+        "content": "Tiện ích **TT-announcer** được phát triển bởi tác giả/nhóm **Gozaltech** dưới giấy phép mã nguồn mở **GPL v2**.\n\nThis addon makes it possible to read chats in TeamTalk client with separate tts engine selected in addon settings.\n\nTrạng thái phát hành: ✅ Đã có sẵn trên Cửa hàng Add-on Store chính thức của NVDA, người dùng có thể cài đặt trực tiếp không cần tải tệp rời."
+      },
+      {
+        "heading": "2. Hỗ trợ tiếng Việt & Trải nghiệm đọc màn hình",
+        "content": "🌐 **Lưu ý ngôn ngữ:** Phiên bản hiện tại chủ yếu sử dụng giao diện Tiếng Anh hoặc ngôn ngữ quốc tế. Tuy nhiên các phím lệnh và cấu trúc menu đều tuân thủ chuẩn NVDA, các bộ đọc tiếng Việt (Sao Mai, Google TTS) vẫn có thể phát âm tốt các nhãn điều khiển."
+      },
+      {
+        "heading": "3. Hướng dẫn sử dụng & Phím tắt nhanh",
+        "content": "Tiện ích hoạt động tự động khi NVDA khởi chạy hoặc tích hợp trực tiếp vào các menu ngữ cảnh của ứng dụng. Bạn có thể kiểm tra danh sách phím tắt gán cho tiện ích tại menu *Cử chỉ nhập liệu* của NVDA."
+      },
+      {
+        "heading": "4. Đánh giá ưu điểm và hạn chế thực tế",
+        "content": "### Ưu điểm:\n- Tương thích tốt với phiên bản **NVDA 2023.1**.\n- Mã nguồn minh bạch, tôn trọng bản quyền cộng đồng với liên kết GitHub chính thức.\n- Tối ưu hóa phản hồi âm thanh/lời nói nhanh chóng, không gây giật lag máy tính.\n\n### Hạn chế cần lưu ý:\n- Khi nâng cấp các bản NVDA lớn hàng năm (như NVDA 2024 sang 2025), người dùng cần kiểm tra lại độ tương thích API nếu tiện ích chưa kịp cập nhật."
+      },
+      {
+        "heading": "5. Hướng dẫn tải và cài đặt an toàn",
+        "content": "1. Nhấn nút **Tải tệp .nvda-addon** từ trang Kho Tiện Ích hoặc liên kết chính thức: [Tải TT-announcer](https://github.com/beqabeqa473/ttAnnouncer/releases/download/v0.4/ttAnnouncer-0.4.nvda-addon).\n2. Mở tệp vừa tải về trong thư mục Downloads.\n3. Khi NVDA hiện thông báo xác nhận cài đặt add-on, nhấn phím **Y** (Yes).\n4. Khởi động lại NVDA để hoàn tất kích hoạt."
+      }
+    ],
+    "repoUrl": "https://github.com/beqabeqa473/ttAnnouncer/",
+    "downloadUrl": "https://github.com/beqabeqa473/ttAnnouncer/releases/download/v0.4/ttAnnouncer-0.4.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-thunderbirdPlus",
+    "addonId": "thunderbirdPlus",
+    "addonName": "Thunderbird+ (G4, TB 102)",
+    "version": "4.9.8",
+    "title": "Đánh giá tiện ích NVDA: Thunderbird+ (G4, TB 102) (Phiên bản 4.9.8)",
+    "summary": "Phân tích chuyên sâu về tiện ích Thunderbird+ (G4, TB 102) dành cho trình đọc màn hình NVDA. Cung cấp hướng dẫn phím tắt, đối tượng người dùng phù hợp và đánh giá khả năng tiếp cận thực tế.",
+    "author": "AI Assistant & Võ Duy Khánh",
+    "publishedDate": "04/09/2026",
+    "timestamp": "2026-09-04T12:06:49.285Z",
+    "sections": [
+      {
+        "heading": "1. Giới thiệu tổng quan",
+        "content": "Tiện ích **Thunderbird+ (G4, TB 102)** được phát triển bởi tác giả/nhóm **Pierre-Louis Renaud** dưới giấy phép mã nguồn mở **GPL v2**.\n\nThis add-on adds commands to Thunderbird 102.x to make it more accessible, efficient and comfortable to use.\nFor more information, visit :\nhttps://www.rptools.org/NVDA-Thunderbird/get.php?pg=manual&lang=en\n\nTrạng thái phát hành: ✅ Đã có sẵn trên Cửa hàng Add-on Store chính thức của NVDA, người dùng có thể cài đặt trực tiếp không cần tải tệp rời."
+      },
+      {
+        "heading": "2. Hỗ trợ tiếng Việt & Trải nghiệm đọc màn hình",
+        "content": "🌐 **Lưu ý ngôn ngữ:** Phiên bản hiện tại chủ yếu sử dụng giao diện Tiếng Anh hoặc ngôn ngữ quốc tế. Tuy nhiên các phím lệnh và cấu trúc menu đều tuân thủ chuẩn NVDA, các bộ đọc tiếng Việt (Sao Mai, Google TTS) vẫn có thể phát âm tốt các nhãn điều khiển."
+      },
+      {
+        "heading": "3. Hướng dẫn sử dụng & Phím tắt nhanh",
+        "content": "Tiện ích hoạt động tự động khi NVDA khởi chạy hoặc tích hợp trực tiếp vào các menu ngữ cảnh của ứng dụng. Bạn có thể kiểm tra danh sách phím tắt gán cho tiện ích tại menu *Cử chỉ nhập liệu* của NVDA."
+      },
+      {
+        "heading": "4. Đánh giá ưu điểm và hạn chế thực tế",
+        "content": "### Ưu điểm:\n- Tương thích tốt với phiên bản **NVDA 2024.1**.\n- Mã nguồn minh bạch, tôn trọng bản quyền cộng đồng với liên kết GitHub chính thức.\n- Tối ưu hóa phản hồi âm thanh/lời nói nhanh chóng, không gây giật lag máy tính.\n\n### Hạn chế cần lưu ý:\n- Khi nâng cấp các bản NVDA lớn hàng năm (như NVDA 2024 sang 2025), người dùng cần kiểm tra lại độ tương thích API nếu tiện ích chưa kịp cập nhật."
+      },
+      {
+        "heading": "5. Hướng dẫn tải và cài đặt an toàn",
+        "content": "1. Nhấn nút **Tải tệp .nvda-addon** từ trang Kho Tiện Ích hoặc liên kết chính thức: [Tải Thunderbird+ (G4, TB 102)](https://github.com/RPTools-org/ThunderbirdPlus/releases/download/v4.9.8/thunderbirdPlus-4.9.8.nvda-addon).\n2. Mở tệp vừa tải về trong thư mục Downloads.\n3. Khi NVDA hiện thông báo xác nhận cài đặt add-on, nhấn phím **Y** (Yes).\n4. Khởi động lại NVDA để hoàn tất kích hoạt."
+      }
+    ],
+    "repoUrl": "https://github.com/RPTools-org/ThunderbirdPlus/",
+    "downloadUrl": "https://github.com/RPTools-org/ThunderbirdPlus/releases/download/v4.9.8/thunderbirdPlus-4.9.8.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-toneMaster",
+    "addonId": "toneMaster",
+    "addonName": "Tone Master",
+    "version": "1.5",
+    "title": "Đánh giá tiện ích NVDA: Tone Master (Phiên bản 1.5)",
+    "summary": "Phân tích chuyên sâu về tiện ích Tone Master dành cho trình đọc màn hình NVDA. Cung cấp hướng dẫn phím tắt, đối tượng người dùng phù hợp và đánh giá khả năng tiếp cận thực tế.",
+    "author": "AI Assistant & Võ Duy Khánh",
+    "publishedDate": "04/09/2026",
+    "timestamp": "2026-09-04T12:06:49.283Z",
+    "sections": [
+      {
+        "heading": "1. Giới thiệu tổng quan",
+        "content": "Tiện ích **Tone Master** được phát triển bởi tác giả/nhóm **Hrvoje Katić** dưới giấy phép mã nguồn mở **GPL v2**.\n\nPlays musical tunes created from tone data files by using NVDA's beeps.\nTo begin, go to NVDA menu->Tools->Tone Master.\nPress NVDA+Alt+T to play loaded tone data file. Press NVDA+Alt+Shift+T to stop playback.\n\nTrạng thái phát hành: ✅ Đã có sẵn trên Cửa hàng Add-on Store chính thức của NVDA, người dùng có thể cài đặt trực tiếp không cần tải tệp rời."
+      },
+      {
+        "heading": "2. Hỗ trợ tiếng Việt & Trải nghiệm đọc màn hình",
+        "content": "🌐 **Lưu ý ngôn ngữ:** Phiên bản hiện tại chủ yếu sử dụng giao diện Tiếng Anh hoặc ngôn ngữ quốc tế. Tuy nhiên các phím lệnh và cấu trúc menu đều tuân thủ chuẩn NVDA, các bộ đọc tiếng Việt (Sao Mai, Google TTS) vẫn có thể phát âm tốt các nhãn điều khiển."
+      },
+      {
+        "heading": "3. Hướng dẫn sử dụng & Phím tắt nhanh",
+        "content": "Tiện ích hoạt động tự động khi NVDA khởi chạy hoặc tích hợp trực tiếp vào các menu ngữ cảnh của ứng dụng. Bạn có thể kiểm tra danh sách phím tắt gán cho tiện ích tại menu *Cử chỉ nhập liệu* của NVDA."
+      },
+      {
+        "heading": "4. Đánh giá ưu điểm và hạn chế thực tế",
+        "content": "### Ưu điểm:\n- Tương thích tốt với phiên bản **NVDA 2023.1**.\n- Mã nguồn minh bạch, tôn trọng bản quyền cộng đồng với liên kết GitHub chính thức.\n- Tối ưu hóa phản hồi âm thanh/lời nói nhanh chóng, không gây giật lag máy tính.\n\n### Hạn chế cần lưu ý:\n- Khi nâng cấp các bản NVDA lớn hàng năm (như NVDA 2024 sang 2025), người dùng cần kiểm tra lại độ tương thích API nếu tiện ích chưa kịp cập nhật."
+      },
+      {
+        "heading": "5. Hướng dẫn tải và cài đặt an toàn",
+        "content": "1. Nhấn nút **Tải tệp .nvda-addon** từ trang Kho Tiện Ích hoặc liên kết chính thức: [Tải Tone Master](https://github.com/hkatic/toneMaster/releases/download/v1.5/toneMaster-1.5.nvda-addon).\n2. Mở tệp vừa tải về trong thư mục Downloads.\n3. Khi NVDA hiện thông báo xác nhận cài đặt add-on, nhấn phím **Y** (Yes).\n4. Khởi động lại NVDA để hoàn tất kích hoạt."
+      }
+    ],
+    "repoUrl": "https://github.com/hkatic/tonemaster",
+    "downloadUrl": "https://github.com/hkatic/toneMaster/releases/download/v1.5/toneMaster-1.5.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-soundSplitter",
+    "addonId": "soundSplitter",
+    "addonName": "Sound Splitter",
+    "version": "24.0.504",
+    "title": "Đánh giá tiện ích NVDA: Sound Splitter (Phiên bản 24.0.504)",
+    "summary": "Phân tích chuyên sâu về tiện ích Sound Splitter dành cho trình đọc màn hình NVDA. Cung cấp hướng dẫn phím tắt, đối tượng người dùng phù hợp và đánh giá khả năng tiếp cận thực tế.",
+    "author": "AI Assistant & Võ Duy Khánh",
+    "publishedDate": "04/09/2026",
+    "timestamp": "2026-09-04T12:06:47.271Z",
+    "sections": [
+      {
+        "heading": "1. Giới thiệu tổng quan",
+        "content": "Tiện ích **Sound Splitter** được phát triển bởi tác giả/nhóm **Luke Davis** dưới giấy phép mã nguồn mở **GPL v2**.\n\nSplits sound from NvDA screen reader and other programs to separate channels\n\nTrạng thái phát hành: ✅ Đã có sẵn trên Cửa hàng Add-on Store chính thức của NVDA, người dùng có thể cài đặt trực tiếp không cần tải tệp rời."
+      },
+      {
+        "heading": "2. Hỗ trợ tiếng Việt & Trải nghiệm đọc màn hình",
+        "content": "🌐 **Lưu ý ngôn ngữ:** Phiên bản hiện tại chủ yếu sử dụng giao diện Tiếng Anh hoặc ngôn ngữ quốc tế. Tuy nhiên các phím lệnh và cấu trúc menu đều tuân thủ chuẩn NVDA, các bộ đọc tiếng Việt (Sao Mai, Google TTS) vẫn có thể phát âm tốt các nhãn điều khiển."
+      },
+      {
+        "heading": "3. Hướng dẫn sử dụng & Phím tắt nhanh",
+        "content": "Tiện ích hoạt động tự động khi NVDA khởi chạy hoặc tích hợp trực tiếp vào các menu ngữ cảnh của ứng dụng. Bạn có thể kiểm tra danh sách phím tắt gán cho tiện ích tại menu *Cử chỉ nhập liệu* của NVDA."
+      },
+      {
+        "heading": "4. Đánh giá ưu điểm và hạn chế thực tế",
+        "content": "### Ưu điểm:\n- Tương thích tốt với phiên bản **NVDA 2024.3**.\n- Mã nguồn minh bạch, tôn trọng bản quyền cộng đồng với liên kết GitHub chính thức.\n- Tối ưu hóa phản hồi âm thanh/lời nói nhanh chóng, không gây giật lag máy tính.\n\n### Hạn chế cần lưu ý:\n- Khi nâng cấp các bản NVDA lớn hàng năm (như NVDA 2024 sang 2025), người dùng cần kiểm tra lại độ tương thích API nếu tiện ích chưa kịp cập nhật."
+      },
+      {
+        "heading": "5. Hướng dẫn tải và cài đặt an toàn",
+        "content": "1. Nhấn nút **Tải tệp .nvda-addon** từ trang Kho Tiện Ích hoặc liên kết chính thức: [Tải Sound Splitter](https://github.com/opensourcesys/soundSplitter/releases/download/v24.0.504-dev/soundSplitter-24.0.504.nvda-addon).\n2. Mở tệp vừa tải về trong thư mục Downloads.\n3. Khi NVDA hiện thông báo xác nhận cài đặt add-on, nhấn phím **Y** (Yes).\n4. Khởi động lại NVDA để hoàn tất kích hoạt."
+      }
+    ],
+    "repoUrl": "https://github.com/opensourcesys/soundSplitter",
+    "downloadUrl": "https://github.com/opensourcesys/soundSplitter/releases/download/v24.0.504-dev/soundSplitter-24.0.504.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-soundmanager",
+    "addonId": "soundmanager",
+    "addonName": "Sound Manager",
+    "version": "2023.07.26",
+    "title": "Đánh giá tiện ích NVDA: Sound Manager (Phiên bản 2023.07.26)",
+    "summary": "Phân tích chuyên sâu về tiện ích Sound Manager dành cho trình đọc màn hình NVDA. Cung cấp hướng dẫn phím tắt, đối tượng người dùng phù hợp và đánh giá khả năng tiếp cận thực tế.",
+    "author": "AI Assistant & Võ Duy Khánh",
+    "publishedDate": "04/09/2026",
+    "timestamp": "2026-09-04T12:06:46.524Z",
+    "sections": [
+      {
+        "heading": "1. Giới thiệu tổng quan",
+        "content": "Tiện ích **Sound Manager** được phát triển bởi tác giả/nhóm **Yannick Plassiard <plassiardyannick@gmail.com>** dưới giấy phép mã nguồn mở **GPL v2**.\n\nManages Windows and applications volumes directly within NVDA\n\nTrạng thái phát hành: ✅ Đã có sẵn trên Cửa hàng Add-on Store chính thức của NVDA, người dùng có thể cài đặt trực tiếp không cần tải tệp rời."
+      },
+      {
+        "heading": "2. Hỗ trợ tiếng Việt & Trải nghiệm đọc màn hình",
+        "content": "🌐 **Lưu ý ngôn ngữ:** Phiên bản hiện tại chủ yếu sử dụng giao diện Tiếng Anh hoặc ngôn ngữ quốc tế. Tuy nhiên các phím lệnh và cấu trúc menu đều tuân thủ chuẩn NVDA, các bộ đọc tiếng Việt (Sao Mai, Google TTS) vẫn có thể phát âm tốt các nhãn điều khiển."
+      },
+      {
+        "heading": "3. Hướng dẫn sử dụng & Phím tắt nhanh",
+        "content": "Tiện ích hoạt động tự động khi NVDA khởi chạy hoặc tích hợp trực tiếp vào các menu ngữ cảnh của ứng dụng. Bạn có thể kiểm tra danh sách phím tắt gán cho tiện ích tại menu *Cử chỉ nhập liệu* của NVDA."
+      },
+      {
+        "heading": "4. Đánh giá ưu điểm và hạn chế thực tế",
+        "content": "### Ưu điểm:\n- Tương thích tốt với phiên bản **NVDA 2023.1**.\n- Mã nguồn minh bạch, tôn trọng bản quyền cộng đồng với liên kết GitHub chính thức.\n- Tối ưu hóa phản hồi âm thanh/lời nói nhanh chóng, không gây giật lag máy tính.\n\n### Hạn chế cần lưu ý:\n- Khi nâng cấp các bản NVDA lớn hàng năm (như NVDA 2024 sang 2025), người dùng cần kiểm tra lại độ tương thích API nếu tiện ích chưa kịp cập nhật."
+      },
+      {
+        "heading": "5. Hướng dẫn tải và cài đặt an toàn",
+        "content": "1. Nhấn nút **Tải tệp .nvda-addon** từ trang Kho Tiện Ích hoặc liên kết chính thức: [Tải Sound Manager](https://github.com/yplassiard/nvda-soundmanager/releases/download/v2023.07.26/soundmanager-2023.07.26.nvda-addon).\n2. Mở tệp vừa tải về trong thư mục Downloads.\n3. Khi NVDA hiện thông báo xác nhận cài đặt add-on, nhấn phím **Y** (Yes).\n4. Khởi động lại NVDA để hoàn tất kích hoạt."
+      }
+    ],
+    "repoUrl": "https://github.com/yplassiard/nvda-soundmanager/",
+    "downloadUrl": "https://github.com/yplassiard/nvda-soundmanager/releases/download/v2023.07.26/soundmanager-2023.07.26.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-remote",
+    "addonId": "remote",
+    "addonName": "Remote Support",
+    "version": "2.6.4",
+    "title": "Đánh giá tiện ích NVDA: Remote Support (Phiên bản 2.6.4)",
+    "summary": "Phân tích chuyên sâu về tiện ích Remote Support dành cho trình đọc màn hình NVDA. Cung cấp hướng dẫn phím tắt, đối tượng người dùng phù hợp và đánh giá khả năng tiếp cận thực tế.",
+    "author": "AI Assistant & Võ Duy Khánh",
+    "publishedDate": "04/09/2026",
+    "timestamp": "2026-09-04T12:06:44.160Z",
+    "sections": [
+      {
+        "heading": "1. Giới thiệu tổng quan",
+        "content": "Tiện ích **Remote Support** được phát triển bởi tác giả/nhóm **Tyler Spivey <tspivey@pcdesk.net>, Christopher Toth <q@q-continuum.net>** dưới giấy phép mã nguồn mở **GPL v2**.\n\nAllows remote control of and remote access to another machine.\n\nTrạng thái phát hành: ✅ Đã có sẵn trên Cửa hàng Add-on Store chính thức của NVDA, người dùng có thể cài đặt trực tiếp không cần tải tệp rời."
+      },
+      {
+        "heading": "2. Hỗ trợ tiếng Việt & Trải nghiệm đọc màn hình",
+        "content": "🌐 **Lưu ý ngôn ngữ:** Phiên bản hiện tại chủ yếu sử dụng giao diện Tiếng Anh hoặc ngôn ngữ quốc tế. Tuy nhiên các phím lệnh và cấu trúc menu đều tuân thủ chuẩn NVDA, các bộ đọc tiếng Việt (Sao Mai, Google TTS) vẫn có thể phát âm tốt các nhãn điều khiển."
+      },
+      {
+        "heading": "3. Hướng dẫn sử dụng & Phím tắt nhanh",
+        "content": "Tiện ích hoạt động tự động khi NVDA khởi chạy hoặc tích hợp trực tiếp vào các menu ngữ cảnh của ứng dụng. Bạn có thể kiểm tra danh sách phím tắt gán cho tiện ích tại menu *Cử chỉ nhập liệu* của NVDA."
+      },
+      {
+        "heading": "4. Đánh giá ưu điểm và hạn chế thực tế",
+        "content": "### Ưu điểm:\n- Tương thích tốt với phiên bản **NVDA 2024.1**.\n- Mã nguồn minh bạch, tôn trọng bản quyền cộng đồng với liên kết GitHub chính thức.\n- Tối ưu hóa phản hồi âm thanh/lời nói nhanh chóng, không gây giật lag máy tính.\n\n### Hạn chế cần lưu ý:\n- Khi nâng cấp các bản NVDA lớn hàng năm (như NVDA 2024 sang 2025), người dùng cần kiểm tra lại độ tương thích API nếu tiện ích chưa kịp cập nhật."
+      },
+      {
+        "heading": "5. Hướng dẫn tải và cài đặt an toàn",
+        "content": "1. Nhấn nút **Tải tệp .nvda-addon** từ trang Kho Tiện Ích hoặc liên kết chính thức: [Tải Remote Support](https://github.com/NVDARemote/NVDARemote/releases/download/v2.6.4/remote-2.6.4.nvda-addon).\n2. Mở tệp vừa tải về trong thư mục Downloads.\n3. Khi NVDA hiện thông báo xác nhận cài đặt add-on, nhấn phím **Y** (Yes).\n4. Khởi động lại NVDA để hoàn tất kích hoạt."
+      }
+    ],
+    "repoUrl": "https://github.com/nvdaremote/nvdaremote",
+    "downloadUrl": "https://github.com/NVDARemote/NVDARemote/releases/download/v2.6.4/remote-2.6.4.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-referenceStyler",
+    "addonId": "referenceStyler",
+    "addonName": "Reference Styler",
+    "version": "24.0.0",
+    "title": "Đánh giá tiện ích NVDA: Reference Styler (Phiên bản 24.0.0)",
+    "summary": "Phân tích chuyên sâu về tiện ích Reference Styler dành cho trình đọc màn hình NVDA. Cung cấp hướng dẫn phím tắt, đối tượng người dùng phù hợp và đánh giá khả năng tiếp cận thực tế.",
+    "author": "AI Assistant & Võ Duy Khánh",
+    "publishedDate": "04/09/2026",
+    "timestamp": "2026-09-04T12:06:44.110Z",
+    "sections": [
+      {
+        "heading": "1. Giới thiệu tổng quan",
+        "content": "Tiện ích **Reference Styler** được phát triển bởi tác giả/nhóm **Asamoah Emmanuel** dưới giấy phép mã nguồn mở **GPL v2**.\n\nThis add-on allows users to manage and insert references in various citation styles.\nIt supports APA, MLA, Chicago, Vancouver, Harvard, IEEE, AMA, and ACS styles.\n\nTrạng thái phát hành: ✅ Đã có sẵn trên Cửa hàng Add-on Store chính thức của NVDA, người dùng có thể cài đặt trực tiếp không cần tải tệp rời."
+      },
+      {
+        "heading": "2. Hỗ trợ tiếng Việt & Trải nghiệm đọc màn hình",
+        "content": "🌐 **Lưu ý ngôn ngữ:** Phiên bản hiện tại chủ yếu sử dụng giao diện Tiếng Anh hoặc ngôn ngữ quốc tế. Tuy nhiên các phím lệnh và cấu trúc menu đều tuân thủ chuẩn NVDA, các bộ đọc tiếng Việt (Sao Mai, Google TTS) vẫn có thể phát âm tốt các nhãn điều khiển."
+      },
+      {
+        "heading": "3. Hướng dẫn sử dụng & Phím tắt nhanh",
+        "content": "Tiện ích hoạt động tự động khi NVDA khởi chạy hoặc tích hợp trực tiếp vào các menu ngữ cảnh của ứng dụng. Bạn có thể kiểm tra danh sách phím tắt gán cho tiện ích tại menu *Cử chỉ nhập liệu* của NVDA."
+      },
+      {
+        "heading": "4. Đánh giá ưu điểm và hạn chế thực tế",
+        "content": "### Ưu điểm:\n- Tương thích tốt với phiên bản **NVDA 2024.1**.\n- Mã nguồn minh bạch, tôn trọng bản quyền cộng đồng với liên kết GitHub chính thức.\n- Tối ưu hóa phản hồi âm thanh/lời nói nhanh chóng, không gây giật lag máy tính.\n\n### Hạn chế cần lưu ý:\n- Khi nâng cấp các bản NVDA lớn hàng năm (như NVDA 2024 sang 2025), người dùng cần kiểm tra lại độ tương thích API nếu tiện ích chưa kịp cập nhật."
+      },
+      {
+        "heading": "5. Hướng dẫn tải và cài đặt an toàn",
+        "content": "1. Nhấn nút **Tải tệp .nvda-addon** từ trang Kho Tiện Ích hoặc liên kết chính thức: [Tải Reference Styler](https://github.com/jasonpython50/referenceStyler/releases/download/v24.0.0/referenceStyler-24.0.0.nvda-addon).\n2. Mở tệp vừa tải về trong thư mục Downloads.\n3. Khi NVDA hiện thông báo xác nhận cài đặt add-on, nhấn phím **Y** (Yes).\n4. Khởi động lại NVDA để hoàn tất kích hoạt."
+      }
+    ],
+    "repoUrl": "https://github.com/jasonpython50/referenceStyler",
+    "downloadUrl": "https://github.com/jasonpython50/referenceStyler/releases/download/v24.0.0/referenceStyler-24.0.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-quickNotetaker",
+    "addonId": "quickNotetaker",
+    "addonName": "Quick Notetaker",
+    "version": "1.2",
+    "title": "Đánh giá tiện ích NVDA: Quick Notetaker (Phiên bản 1.2)",
+    "summary": "Phân tích chuyên sâu về tiện ích Quick Notetaker dành cho trình đọc màn hình NVDA. Cung cấp hướng dẫn phím tắt, đối tượng người dùng phù hợp và đánh giá khả năng tiếp cận thực tế.",
+    "author": "AI Assistant & Võ Duy Khánh",
+    "publishedDate": "04/09/2026",
+    "timestamp": "2026-09-04T12:06:42.524Z",
+    "sections": [
+      {
+        "heading": "1. Giới thiệu tổng quan",
+        "content": "Tiện ích **Quick Notetaker** được phát triển bởi tác giả/nhóm **Mohammad Suliman & Eilana Benish** dưới giấy phép mã nguồn mở **GPL v2**.\n\nA note taker for NVDA. Allows the user to create, edit, view, manage and export notes to different formats.\n\nTrạng thái phát hành: ✅ Đã có sẵn trên Cửa hàng Add-on Store chính thức của NVDA, người dùng có thể cài đặt trực tiếp không cần tải tệp rời."
+      },
+      {
+        "heading": "2. Hỗ trợ tiếng Việt & Trải nghiệm đọc màn hình",
+        "content": "🌐 **Lưu ý ngôn ngữ:** Phiên bản hiện tại chủ yếu sử dụng giao diện Tiếng Anh hoặc ngôn ngữ quốc tế. Tuy nhiên các phím lệnh và cấu trúc menu đều tuân thủ chuẩn NVDA, các bộ đọc tiếng Việt (Sao Mai, Google TTS) vẫn có thể phát âm tốt các nhãn điều khiển."
+      },
+      {
+        "heading": "3. Hướng dẫn sử dụng & Phím tắt nhanh",
+        "content": "Tiện ích hoạt động tự động khi NVDA khởi chạy hoặc tích hợp trực tiếp vào các menu ngữ cảnh của ứng dụng. Bạn có thể kiểm tra danh sách phím tắt gán cho tiện ích tại menu *Cử chỉ nhập liệu* của NVDA."
+      },
+      {
+        "heading": "4. Đánh giá ưu điểm và hạn chế thực tế",
+        "content": "### Ưu điểm:\n- Tương thích tốt với phiên bản **NVDA 2023.1**.\n- Mã nguồn minh bạch, tôn trọng bản quyền cộng đồng với liên kết GitHub chính thức.\n- Tối ưu hóa phản hồi âm thanh/lời nói nhanh chóng, không gây giật lag máy tính.\n\n### Hạn chế cần lưu ý:\n- Khi nâng cấp các bản NVDA lớn hàng năm (như NVDA 2024 sang 2025), người dùng cần kiểm tra lại độ tương thích API nếu tiện ích chưa kịp cập nhật."
+      },
+      {
+        "heading": "5. Hướng dẫn tải và cài đặt an toàn",
+        "content": "1. Nhấn nút **Tải tệp .nvda-addon** từ trang Kho Tiện Ích hoặc liên kết chính thức: [Tải Quick Notetaker](https://github.com/mohammad-suliman/quickNotetaker/releases/download/v1.2/quickNotetaker-1.2.nvda-addon).\n2. Mở tệp vừa tải về trong thư mục Downloads.\n3. Khi NVDA hiện thông báo xác nhận cài đặt add-on, nhấn phím **Y** (Yes).\n4. Khởi động lại NVDA để hoàn tất kích hoạt."
+      }
+    ],
+    "repoUrl": "https://github.com/mohammad-suliman/quickNotetaker",
+    "downloadUrl": "https://github.com/mohammad-suliman/quickNotetaker/releases/download/v1.2/quickNotetaker-1.2.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-nvdaChatGPT",
+    "addonId": "nvdaChatGPT",
+    "addonName": "Ask ChatGPT",
+    "version": "0.26",
+    "title": "Đánh giá tiện ích NVDA: Ask ChatGPT (Phiên bản 0.26)",
+    "summary": "Phân tích chuyên sâu về tiện ích Ask ChatGPT dành cho trình đọc màn hình NVDA. Cung cấp hướng dẫn phím tắt, đối tượng người dùng phù hợp và đánh giá khả năng tiếp cận thực tế.",
+    "author": "AI Assistant & Võ Duy Khánh",
+    "publishedDate": "04/09/2026",
+    "timestamp": "2026-09-04T12:06:39.031Z",
+    "sections": [
+      {
+        "heading": "1. Giới thiệu tổng quan",
+        "content": "Tiện ích **Ask ChatGPT** được phát triển bởi tác giả/nhóm **Satoshi Suzuki** dưới giấy phép mã nguồn mở **GPL v2**.\n\nprovide an access to chatGPT\n\nTrạng thái phát hành: ✅ Đã có sẵn trên Cửa hàng Add-on Store chính thức của NVDA, người dùng có thể cài đặt trực tiếp không cần tải tệp rời."
+      },
+      {
+        "heading": "2. Hỗ trợ tiếng Việt & Trải nghiệm đọc màn hình",
+        "content": "🌐 **Lưu ý ngôn ngữ:** Phiên bản hiện tại chủ yếu sử dụng giao diện Tiếng Anh hoặc ngôn ngữ quốc tế. Tuy nhiên các phím lệnh và cấu trúc menu đều tuân thủ chuẩn NVDA, các bộ đọc tiếng Việt (Sao Mai, Google TTS) vẫn có thể phát âm tốt các nhãn điều khiển."
+      },
+      {
+        "heading": "3. Hướng dẫn sử dụng & Phím tắt nhanh",
+        "content": "Tiện ích hoạt động tự động khi NVDA khởi chạy hoặc tích hợp trực tiếp vào các menu ngữ cảnh của ứng dụng. Bạn có thể kiểm tra danh sách phím tắt gán cho tiện ích tại menu *Cử chỉ nhập liệu* của NVDA."
+      },
+      {
+        "heading": "4. Đánh giá ưu điểm và hạn chế thực tế",
+        "content": "### Ưu điểm:\n- Tương thích tốt với phiên bản **NVDA 2024.1**.\n- Mã nguồn minh bạch, tôn trọng bản quyền cộng đồng với liên kết GitHub chính thức.\n- Tối ưu hóa phản hồi âm thanh/lời nói nhanh chóng, không gây giật lag máy tính.\n\n### Hạn chế cần lưu ý:\n- Khi nâng cấp các bản NVDA lớn hàng năm (như NVDA 2024 sang 2025), người dùng cần kiểm tra lại độ tương thích API nếu tiện ích chưa kịp cập nhật."
+      },
+      {
+        "heading": "5. Hướng dẫn tải và cài đặt an toàn",
+        "content": "1. Nhấn nút **Tải tệp .nvda-addon** từ trang Kho Tiện Ích hoặc liên kết chính thức: [Tải Ask ChatGPT](https://github.com/mo29cg/nvda-chatGPT/releases/download/v0.26/nvdaChatGPT-0.26.nvda-addon).\n2. Mở tệp vừa tải về trong thư mục Downloads.\n3. Khi NVDA hiện thông báo xác nhận cài đặt add-on, nhấn phím **Y** (Yes).\n4. Khởi động lại NVDA để hoàn tất kích hoạt."
+      }
+    ],
+    "repoUrl": "https://github.com/mo29cg/nvda-chatGPT",
+    "downloadUrl": "https://github.com/mo29cg/nvda-chatGPT/releases/download/v0.26/nvdaChatGPT-0.26.nvda-addon",
+    "license": "GPL v2"
+  }
+]

@@ -8,6 +8,9 @@
   "scripts": {
     "dev": "vinext dev",
     "sync": "node scripts/sync-updates.mjs",
+    "sync:store": "node scripts/sync-store-addons.mjs",
+    "ai:articles": "node scripts/generate-addon-article.mjs",
+    "sync:all": "node scripts/sync-store-addons.mjs && node scripts/generate-addon-article.mjs && node scripts/sync-updates.mjs",
     "build": "node scripts/sync-updates.mjs && vinext build && node scripts/postbuild.mjs",
     "start": "wrangler dev --config dist/server/wrangler.json",
     "lint": "oxlint",
