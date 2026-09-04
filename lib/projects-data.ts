@@ -129,14 +129,14 @@ export const projectsDetailList: ProjectDetail[] = [
   {
     slug: "radiotv",
     name: "RadioTV",
-    subtitle: "Ứng dụng nghe đài phát thanh và xem truyền hình thuần tiếp cận",
+    subtitle: "Tiện ích (Add-on) nghe đài phát thanh và xem truyền hình thuần tiếp cận cho NVDA",
     tagline: "Giao diện siêu tối giản, điều khiển 100% bằng phím bấm, không quảng cáo, tương thích hoàn hảo với NVDA.",
     category: "Đa phương tiện tiếp cận",
-    status: "Phiên bản 0.1 đang thử nghiệm",
+    status: "Phiên bản 0.1.0 (Đã phát hành thử nghiệm)",
     author: "Võ Duy Khánh",
     iconName: "Radio",
-    repoUrl: null,
-    downloadUrl: null,
+    repoUrl: "https://github.com/voduykhanhmata-ctrl/radiotv",
+    downloadUrl: "https://github.com/voduykhanhmata-ctrl/radiotv/releases/download/v0.1.0/RadioTV-0.1.0.nvda-addon",
     introduction: [
       "RadioTV ra đời từ nhu cầu thực tế của người khiếm thị và người cao tuổi tại Việt Nam: mong muốn thưởng thức tin tức thời sự, các chương trình ca nhạc, kịch truyền thanh và các kênh truyền hình thiết yếu một cách nhanh chóng mà không bị lạc trong mê cung giao diện web hiện đại.",
       "Trên các trang web xem truyền hình hoặc ứng dụng đa phương tiện thông thường, người dùng khiếm thị thường xuyên phải đối mặt với vô số pop-up quảng cáo, biểu ngữ che mất nội dung, các trình phát video tự động bật âm thanh hỗn loạn và các nút bấm không có nhãn tiếp cận (unlabelled buttons). Điều này khiến việc chọn một kênh radio yêu thích trở nên vô cùng vất vả.",
@@ -178,10 +178,10 @@ export const projectsDetailList: ProjectDetail[] = [
       { key: "Phím Tab", action: "Chuyển đổi giữa danh sách Radio và danh sách Truyền hình" }
     ],
     usageGuide: [
-      "Bước 1: Tải tệp RadioTV về máy tính và giải nén vào thư mục bạn muốn.",
-      "Bước 2: Mở file RadioTV.exe (phần mềm dạng Portable, không yêu cầu cài đặt rườm rà).",
-      "Bước 3: Dùng phím Mũi tên Lên/Xuống để duyệt danh sách kênh yêu thích, nhấn Enter để nghe đài ngay lập tức.",
-      "Bước 4: Nhấn phím F để ghim những đài thường nghe lên đầu danh sách để truy cập nhanh cho những lần sau."
+      "Bước 1: Bấm nút 'Tải về bản mới nhất' ở đầu trang để tải tệp cài đặt RadioTV-0.1.0.nvda-addon từ GitHub Releases.",
+      "Bước 2: Mở tệp vừa tải về, NVDA sẽ hiển thị hộp thoại xác nhận cài đặt, nhấn phím 'Yes' (hoặc nhấn phím Y).",
+      "Bước 3: Khởi động lại NVDA khi được nhắc để add-on được nạp vào hệ thống.",
+      "Bước 4: Mở menu RadioTV từ thanh công cụ NVDA, dùng phím Mũi tên Lên/Xuống để duyệt danh sách kênh và nhấn Enter để nghe đài ngay lập tức."
     ],
     faq: [
       {
@@ -198,10 +198,11 @@ export const projectsDetailList: ProjectDetail[] = [
       }
     ],
     techSpecs: [
-      { label: "Nền tảng hỗ trợ", value: "Windows 10, Windows 11 (32-bit & 64-bit)" },
-      { label: "Trình đọc màn hình hỗ trợ", value: "NVDA 2020+, JAWS, Windows Narrator" },
+      { label: "Phiên bản phát hành", value: "RadioTV 0.1.0 (Bản thử nghiệm)" },
+      { label: "Tác giả phát triển", value: "Võ Duy Khánh" },
+      { label: "Nền tảng hỗ trợ", value: "NVDA 2024.1 trở lên trên Windows 10 & 11" },
       { label: "Định dạng luồng âm thanh", value: "HLS (m3u8), AAC, MP3 Direct Stream" },
-      { label: "Giấy phép phân phối", value: "Miễn phí cho cộng đồng người khiếm thị" }
+      { label: "Giấy phép mã nguồn", value: "Mã nguồn mở miễn phí trên GitHub" }
     ]
   },
   {

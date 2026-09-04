@@ -7,6 +7,13 @@ const outputPath = path.join(__dirname, "..", "lib", "updates.json");
 
 const trackedRepos = [
   {
+    slug: "radiotv",
+    projectName: "RadioTV",
+    repo: "voduykhanhmata-ctrl/radiotv",
+    fallbackType: "Addon NVDA",
+    category: "Đa phương tiện tiếp cận",
+  },
+  {
     slug: "nvda-screen-reader",
     projectName: "NVDA Screen Reader",
     repo: "nvaccess/nvda",
@@ -85,20 +92,6 @@ async function main() {
       results.push(data);
     }
   }
-
-  // Thêm mục RadioTV thử nghiệm (với timestamp thực tế để sắp xếp theo thời gian mới nhất)
-  results.push({
-    slug: "radiotv",
-    projectName: "RadioTV",
-    category: "Đa phương tiện tiếp cận",
-    type: "Phần mềm",
-    timestamp: "2026-09-03T08:00:00.000Z",
-    date: "03/09/2026",
-    summary: "Đang hoàn thiện giao diện nghe đài & truyền hình tối ưu phím tắt",
-    fullMessage: "Phiên bản 0.1 đang trong quá trình thử nghiệm nội bộ",
-    sha: "v0.1.0",
-    url: "https://vdkvn.github.io/du-an/radiotv/",
-  });
 
   // Sắp xếp các mục theo thời gian cập nhật mới nhất lên đầu tiên (Newest first)
   results.sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime());

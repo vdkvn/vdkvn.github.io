@@ -35,12 +35,12 @@ const baseProjects = [
     slug: "radiotv",
     name: "RadioTV",
     description:
-      "Nghe đài phát thanh và xem truyền hình trong một giao diện đơn giản, ưu tiên thao tác bằng bàn phím và trình đọc màn hình.",
-    status: "Phiên bản 0.1 đang thử nghiệm",
+      "Tiện ích (Add-on) NVDA nghe đài phát thanh và xem truyền hình thuần tiếp cận, 100% điều khiển bằng bàn phím và phản hồi giọng đọc tức thì.",
+    status: "Phiên bản 0.1.0 (Đã phát hành thử nghiệm)",
     icon: Radio,
     detailUrl: "/du-an/radiotv",
-    link: null,
-    linkText: null,
+    link: "https://github.com/voduykhanhmata-ctrl/radiotv/releases/tag/v0.1.0",
+    linkText: "Tải bản v0.1.0",
   },
   {
     slug: "nvda-network-optimizer",

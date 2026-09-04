@@ -1,30 +1,42 @@
 {
-  "lastChecked": "2026-09-03T03:47:47.812Z",
-  "lastCheckedVN": "03/09/2026",
+  "lastChecked": "2026-09-04T06:56:55.133Z",
+  "lastCheckedVN": "04/09/2026",
   "items": [
-    {
-      "slug": "radiotv",
-      "projectName": "RadioTV",
-      "category": "Đa phương tiện tiếp cận",
-      "type": "Phần mềm",
-      "timestamp": "2026-09-03T08:00:00.000Z",
-      "date": "03/09/2026",
-      "summary": "Đang hoàn thiện giao diện nghe đài & truyền hình tối ưu phím tắt",
-      "fullMessage": "Phiên bản 0.1 đang trong quá trình thử nghiệm nội bộ",
-      "sha": "v0.1.0",
-      "url": "https://vdkvn.github.io/du-an/radiotv/"
-    },
     {
       "slug": "nvda-screen-reader",
       "projectName": "NVDA Screen Reader",
       "category": "Phần mềm tiếp cận",
       "type": "Trình đọc màn hình",
-      "timestamp": "2026-09-03T02:20:33Z",
+      "timestamp": "2026-09-04T05:20:45Z",
+      "date": "04/09/2026",
+      "summary": "Make public getDictionaryDefinition (#20759)",
+      "fullMessage": "Make public getDictionaryDefinition (#20759)\n\nFixes #20675\nSummary of the issue:\n\nspeechDictHandler.dictionaries is deprecated without public replacement. Therefore, there's not any public component in the API to manipulate existing dictionaries for add-ons.\nDescription of user facing changes:\nDescription of developer facing changes:\n\n    speechDictHandler.definitions._getDictionaryDefinition can be used to get speech dictionary definitions, which may be used to manipulate speech dictionaries.\n\nDescription of development approach:\n\nspeechDictHandler.definitions._getDictionaryDefinition is marked as public, and calls to the private function have been replaced with the public one.",
+      "sha": "938abba",
+      "url": "https://github.com/nvaccess/nvda/commit/938abba6a550113b2256aed41fac537718da14f5"
+    },
+    {
+      "slug": "radiotv",
+      "projectName": "RadioTV",
+      "category": "Đa phương tiện tiếp cận",
+      "type": "Addon NVDA",
+      "timestamp": "2026-09-04T03:46:27Z",
+      "date": "04/09/2026",
+      "summary": "Prepare RadioTV 0.1.0 experimental source release",
+      "fullMessage": "Prepare RadioTV 0.1.0 experimental source release",
+      "sha": "ed1d319",
+      "url": "https://github.com/voduykhanhmata-ctrl/radiotv/commit/ed1d3191212b628e72ccadc6ba66a56528afe2a5"
+    },
+    {
+      "slug": "google-tts-for-nvda",
+      "projectName": "Google TTS for NVDA",
+      "category": "Bộ đọc tiếng nói",
+      "type": "Addon NVDA",
+      "timestamp": "2026-09-03T08:18:31Z",
       "date": "03/09/2026",
-      "summary": "Use current focus state to filter UIA focus events (#20764)",
-      "fullMessage": "Use current focus state to filter UIA focus events (#20764)\n\nFixes #20763\nSummary of the issue:\n\nIn the current NVDA alpha snapshot, pressing Page Up or Page Down in WeChat's conversation list causes NVDA to announce the conversation-list container (会话，列表) before announcing the focused conversation item.\n\nThe issue is specific to Page Up and Page Down. Up Arrow and Down Arrow do not reproduce it.\nDescription of user facing changes:\n\nNVDA no longer announces the intermediate conversation-list container when the user presses Page Up or Page Down in WeChat. The focused conversation item is announced directly.\nDescription of developer facing changes:\n\nNo public API changes.\nDescription of development approach:\n\nThe regression was introduced by #20608, which expanded the UIA base cache and made event-created UIA objects use cached base properties, including HasKeyboardFocus.\n\nWeChat's Qt UIA provider emits an intermediate focus event for the conversation-list container (session_list, mmui::XTableView) during Page Up/Page Down scrolling, followed by a focus event for the conversation item (session_item_*, mmui::ChatSessionCell). The cached focus state may be stale by the time NVDA validates the intermediate event, causing the container announcement.\n\nThe focus-event validation now reads the current UIA HasKeyboardFocus value instead of the event sender's cached value. This filters out stale intermediate events while keeping the broader UIA caching optimization unchanged.",
-      "sha": "3ca80a5",
-      "url": "https://github.com/nvaccess/nvda/commit/3ca80a5faaee941bb4deb76728088cef091012e0"
+      "summary": "Remove third-party brand references from source comments and developer docs",
+      "fullMessage": "Remove third-party brand references from source comments and developer docs\n\nClean up mentions of third-party products found across source comments, docstrings, and developer-facing files.",
+      "sha": "48d1027",
+      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/48d102771ae0682671b1c02e463b126f390c16ed"
     },
     {
       "slug": "nvda-network-optimizer",
@@ -37,18 +49,6 @@
       "fullMessage": "Make owner check independent of line endings",
       "sha": "5e765e2",
       "url": "https://github.com/voduykhanhmata-ctrl/nvda-network-optimizer/commit/5e765e2bffeb0b81c36fc365c440f3b283ee2488"
-    },
-    {
-      "slug": "google-tts-for-nvda",
-      "projectName": "Google TTS for NVDA",
-      "category": "Bộ đọc tiếng nói",
-      "type": "Addon NVDA",
-      "timestamp": "2026-08-29T00:04:40Z",
-      "date": "29/08/2026",
-      "summary": "Update WASM TTS Engine to 20260820.1, rewrite Ukrainian docs, and sync translations",
-      "fullMessage": "Update WASM TTS Engine to 20260820.1, rewrite Ukrainian docs, and sync translations\n\n- Update bundled Google WASM TTS engine from 20260806.1 to 20260820.1:\n  * Added C++ core enhancements for phrase pronunciation (WordwisePhrasePronounce) and regex text normalization (RegexpRewriteRuleGroup).\n  * Refined OpenFST finite-state memory allocation for cleaner heap usage.\n  * Updated browser harness to dynamically detect the AudioContext instance instead of relying on minified property names.\n- Rewrite and standardize Ukrainian documentation (doc/uk/readme.html):\n  * Generated with AI assistance to strictly adhere to official NVDA Ukrainian UI translations and documentation, as well as the add-on translation by @George-br.\n  * Replaced the previous Ukrainian doc, which appeared to be an outdated copy of the legacy repository readme.md that was inconsistent with the layout and structure of readme.html.\n- Synchronize all translations and documentation:\n  * Automatically bumped the version 1.0 release date and last modified date to August 29, 2026 across all documentation and manifest files.\n  * Automatically updated the WASM TTS engine version string across all 6 localization catalogs (es, ru, uk, vi, zh_CN, zh_TW) and recompiled binary .mo catalogs with zero missing or obsolete strings, requiring no manual actions from translation contributors.",
-      "sha": "e77fee1",
-      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/e77fee19c8b6a63daebd0ffb9cac8cf92641e308"
     }
   ]
 }
