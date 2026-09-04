@@ -4,10 +4,25 @@ import type { Metadata } from "next";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "NVDA Screen Reader (Bản mới nhất) | Giới thiệu & Tải về",
-  description: "Trình đọc màn hình NVDA phiên bản mới nhất, hỗ trợ tiếng Việt, tối ưu cho Windows 11 và Office 365.",
+  title: "NVDA — Hướng dẫn và tải xuống",
+  description: "Làm quen với trình đọc màn hình NVDA: cách cài đặt, phím tắt cơ bản và liên kết tải từ NV Access.",
+  alternates: { canonical: "https://vdkvn.github.io/du-an/nvda-screen-reader/" },
+  openGraph: {
+    title: "NVDA — Hướng dẫn và tải xuống",
+    description: "Làm quen với trình đọc màn hình NVDA: cách cài đặt, phím tắt cơ bản và liên kết tải từ NV Access.",
+    url: "https://vdkvn.github.io/du-an/nvda-screen-reader/",
+    images: ["/og.png"],
+    locale: "vi_VN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "NVDA — Hướng dẫn và tải xuống",
+    description: "Làm quen với trình đọc màn hình NVDA: cách cài đặt, phím tắt cơ bản và liên kết tải từ NV Access.",
+    images: ["/og.png"],
+  },
 };
 
-export default function NVDAScreenReaderPage() {
+export default function NVDAPage() {
   return <ProjectDetailPageView slug="nvda-screen-reader" />;
 }

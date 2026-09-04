@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 const siteUrl = "https://vdkvn.github.io";
-const siteTitle = "Võ Duy Khánh | Công nghệ tiếp cận & Dự án NVDA cho người khiếm thị";
+const siteTitle = "Võ Duy Khánh | Phần mềm và tiện ích cho NVDA";
 const siteDescription =
-  "Trang web mở dành cho người khiếm thị và cộng đồng NVDA Việt Nam: Tổng hợp phần mềm đọc màn hình NVDA mới nhất, các tiện ích bổ trợ (NVDA Add-on), giọng đọc Google TTS tiếng Việt offline, tối ưu mạng và ứng dụng RadioTV tiếp cận.";
+  "Tìm phần mềm và tiện ích cho NVDA: RadioTV, giọng đọc Google TTS và công cụ kiểm tra mạng. Có hướng dẫn tiếng Việt và liên kết tải từ tác giả.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -17,50 +17,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Võ Duy Khánh", url: siteUrl }],
   creator: "Võ Duy Khánh",
   publisher: "Võ Duy Khánh",
-  keywords: [
-    "NVDA",
-    "NVDA tiếng Việt",
-    "NVDA mới nhất",
-    "tải NVDA",
-    "cài đặt NVDA",
-    "trình đọc màn hình",
-    "screen reader",
-    "screen reader tiếng Việt",
-    "NVDA 2024",
-    "NVDA 2025",
-    "phần mềm đọc màn hình",
-    "NonVisual Desktop Access",
-    "NV Access",
-    "Addon NVDA",
-    "NVDA Addons",
-    "tiện ích NVDA",
-    "Google TTS for NVDA",
-    "Google TTS tiếng Việt cho NVDA",
-    "giọng đọc Google cho NVDA",
-    "NVDA Network Optimizer",
-    "tối ưu mạng NVDA",
-    "đổi DNS NVDA",
-    "người khiếm thị",
-    "người mù",
-    "công nghệ trợ giúp",
-    "tiếp cận kỹ thuật số",
-    "web tiếp cận",
-    "accessibility",
-    "a11y",
-    "WCAG",
-    "chữ nổi Braille",
-    "phím tắt cho người khiếm thị",
-    "RadioTV",
-    "RadioTV tiếp cận",
-    "nghe đài cho người khiếm thị",
-    "xem tivi cho người mù",
-    "VOV",
-    "VTV tiếp cận",
-    "Võ Duy Khánh",
-    "vdkvn",
-    "vdkvn.github.io",
-    "voduykhanhmata-ctrl",
-  ],
+  keywords: ["NVDA", "RadioTV", "Google TTS for NVDA", "NVDA Network Optimizer", "phần mềm tiếp cận", "Võ Duy Khánh"],
   alternates: {
     canonical: siteUrl,
   },
@@ -135,7 +92,7 @@ const jsonLdSchema = {
           applicationCategory: "AccessibilityApplication",
           operatingSystem: "Windows 10, Windows 11",
           url: "https://vdkvn.github.io/du-an/nvda-screen-reader/",
-          description: "Trình đọc màn hình mã nguồn mở miễn phí hàng đầu thế giới cho Windows.",
+          description: "Trình đọc màn hình miễn phí, mã nguồn mở cho Windows của NV Access.",
           offers: {
             "@type": "Offer",
             price: "0",
@@ -167,7 +124,7 @@ const jsonLdSchema = {
           applicationCategory: "UtilitiesApplication",
           operatingSystem: "Windows 10, Windows 11",
           url: "https://vdkvn.github.io/du-an/nvda-network-optimizer/",
-          description: "Tiện ích tối ưu, đo ping và đổi DNS an toàn cho người dùng NVDA.",
+          description: "Tiện ích kiểm tra kết nối, đo phản hồi DNS và hỗ trợ đổi DNS trong NVDA.",
           author: {
             "@type": "Person",
             name: "Võ Duy Khánh",
@@ -185,7 +142,7 @@ const jsonLdSchema = {
           applicationCategory: "MultimediaApplication",
           operatingSystem: "Windows 10, Windows 11",
           url: "https://vdkvn.github.io/du-an/radiotv/",
-          description: "Ứng dụng nghe đài phát thanh và xem truyền hình thuần tiếp cận cho người mù.",
+          description: "Tiện ích nghe radio và âm thanh kênh TV ngay trong NVDA.",
           author: {
             "@type": "Person",
             name: "Võ Duy Khánh",

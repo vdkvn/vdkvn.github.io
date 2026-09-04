@@ -38,11 +38,9 @@ const trackedRepos = [
 
 function formatDate(isoString) {
   if (!isoString) return "";
-  const d = new Date(isoString);
-  const day = String(d.getDate()).padStart(2, "0");
-  const month = String(d.getMonth() + 1).padStart(2, "0");
-  const year = d.getFullYear();
-  return `${day}/${month}/${year}`;
+  return new Intl.DateTimeFormat("vi-VN", {
+    day: "2-digit", month: "2-digit", year: "numeric", timeZone: "Asia/Ho_Chi_Minh",
+  }).format(new Date(isoString));
 }
 
 function cleanMessage(rawMsg) {
@@ -54,7 +52,7 @@ function cleanMessage(rawMsg) {
 async function fetchRepoData(item) {
   try {
     const headers = { "User-Agent": "vdkvn-sync-bot" };
-    const res = await fetch(`https://api.github.com/repos/${item.repo}/commits?per_page=1`, { headers });
+    const res = await fetch(`https://api.github.com/repos/${item.repo}/commits?per_page=1`, { headers, signal: AbortSignal.timeout(15000) });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const commits = await res.json();
     if (!commits || !commits.length) return null;
@@ -84,13 +82,25 @@ async function fetchRepoData(item) {
 
 async function main() {
   console.log("Fetching latest updates from repositories...");
+  let previousItems = [];
+  try {
+    const previous = JSON.parse(fs.readFileSync(outputPath, "utf8"));
+    previousItems = Array.isArray(previous.items) ? previous.items : [];
+  } catch {
+    // A first build can run without a cached update list.
+  }
   const results = [];
 
   for (const item of trackedRepos) {
-    const data = await fetchRepoData(item);
+    const data = await fetchRepoData(item) || previousItems.find((entry) => entry.slug === item.slug);
     if (data) {
       results.push(data);
     }
+  }
+
+  if (!results.length) {
+    console.warn("No updates available; leaving the existing file unchanged.");
+    return;
   }
 
   // Sắp xếp các mục theo thời gian cập nhật mới nhất lên đầu tiên (Newest first)
@@ -106,4 +116,4 @@ async function main() {
   console.log("Successfully wrote sorted updates to", outputPath);
 }
 
-main();
+await main();
