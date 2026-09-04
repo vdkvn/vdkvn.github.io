@@ -30,8 +30,8 @@ export const projectsDetailList: ProjectDetail[] = [
     author: "NV Access và cộng đồng đóng góp",
     iconName: "Accessibility",
     repoUrl: "https://github.com/nvaccess/nvda",
-    downloadUrl: "https://www.nvaccess.org/download/",
-    downloadLabel: "Tải NVDA từ NV Access",
+    downloadUrl: "https://github.com/nvaccess/nvda/releases/download/release-2026.2/nvda_2026.2.exe",
+    downloadLabel: "Tải NVDA 2026.2 (Bản mới nhất · 61.5 MB)",
     docsUrl: "https://download.nvaccess.org/documentation/userGuide.html",
     introduction: [
       "NVDA là trình đọc màn hình miễn phí, mã nguồn mở cho Windows. Phần mềm đọc nội dung bằng giọng nói và hỗ trợ nhiều thiết bị hiển thị chữ nổi.",

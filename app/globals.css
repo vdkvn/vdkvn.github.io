@@ -682,4 +682,118 @@ kbd { font-family: inherit; font-size: .9375rem; white-space: normal; }
   border-top: 1px dashed var(--line);
 }
 
+/* ==========================================================================
+   NVDA Latest Release Spotlight on Homepage
+   ========================================================================== */
+.nvda-hero-banner {
+  margin-top: 2rem;
+  padding: 1.5rem 1.75rem;
+  background: linear-gradient(135deg, #064e3b 0%, #047857 50%, #059669 100%);
+  color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px -5px rgba(5, 150, 105, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .nvda-hero-banner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.nvda-hero-info {
+  max-width: 38rem;
+}
+
+.nvda-hero-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+  margin-bottom: 0.75rem;
+}
+
+.nvda-hero-title {
+  color: #ffffff;
+  font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  line-height: 1.25;
+}
+
+.nvda-hero-desc {
+  color: #ecfdf5;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.nvda-hero-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  min-width: 260px;
+}
+
+.btn-nvda-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: #ffffff;
+  color: #064e3b;
+  font-weight: 750;
+  font-size: 1rem;
+  padding: 0.85rem 1.4rem;
+  border-radius: 0.6rem;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.btn-nvda-download:hover,
+.btn-nvda-download:focus-visible {
+  background: #f0fdf4;
+  transform: translateY(-1px);
+  color: #047857;
+}
+
+.btn-nvda-info {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  font-weight: 650;
+  font-size: 0.9rem;
+  padding: 0.65rem 1.1rem;
+  border-radius: 0.6rem;
+  text-decoration: none;
+}
+
+.btn-nvda-info:hover,
+.btn-nvda-info:focus-visible {
+  background: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+
+.nvda-featured-card {
+  grid-column: 1 / -1;
+  border: 2px solid var(--green) !important;
+  background: linear-gradient(180deg, #f0fdf4 0%, #ffffff 100%) !important;
+}
+
+
 

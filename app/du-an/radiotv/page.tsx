@@ -6,11 +6,11 @@ export const dynamic = "force-static";
 export const metadata: Metadata = {
   title: "RadioTV — Hướng dẫn và tải xuống",
   description: "Nghe radio và âm thanh kênh TV trong NVDA. Tải bản thử nghiệm 0.1.0, xem cách cài đặt và phím tắt.",
-  alternates: { canonical: "https://vdkvn.github.io/du-an/radiotv/" },
+  alternates: { canonical: "https://vdk.is-a.dev/du-an/radiotv/" },
   openGraph: {
     title: "RadioTV — Hướng dẫn và tải xuống",
     description: "Nghe radio và âm thanh kênh TV trong NVDA. Tải bản thử nghiệm 0.1.0, xem cách cài đặt và phím tắt.",
-    url: "https://vdkvn.github.io/du-an/radiotv/",
+    url: "https://vdk.is-a.dev/du-an/radiotv/",
     images: ["/og.png"],
     locale: "vi_VN",
     type: "website",

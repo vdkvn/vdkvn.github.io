@@ -6,11 +6,11 @@ export const dynamic = "force-static";
 export const metadata: Metadata = {
   title: "NVDA Network Optimizer — Hướng dẫn và tải xuống",
   description: "Kiểm tra kết nối và phản hồi DNS trong NVDA. Xem hướng dẫn cài đặt và tải tiện ích từ tác giả.",
-  alternates: { canonical: "https://vdkvn.github.io/du-an/nvda-network-optimizer/" },
+  alternates: { canonical: "https://vdk.is-a.dev/du-an/nvda-network-optimizer/" },
   openGraph: {
     title: "NVDA Network Optimizer — Hướng dẫn và tải xuống",
     description: "Kiểm tra kết nối và phản hồi DNS trong NVDA. Xem hướng dẫn cài đặt và tải tiện ích từ tác giả.",
-    url: "https://vdkvn.github.io/du-an/nvda-network-optimizer/",
+    url: "https://vdk.is-a.dev/du-an/nvda-network-optimizer/",
     images: ["/og.png"],
     locale: "vi_VN",
     type: "website",

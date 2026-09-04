@@ -13,10 +13,10 @@ function FacebookIcon({ size = 18 }: { size?: number }) {
 }
 
 const icons = { Radio, Accessibility, Volume2, Wifi };
-const projectOrder = ["radiotv", "nvda-screen-reader", "google-tts-for-nvda", "nvda-network-optimizer"];
+const projectOrder = ["nvda-screen-reader", "radiotv", "google-tts-for-nvda", "nvda-network-optimizer"];
 const sectionIds: Record<string, string> = {
-  radiotv: "radiotv-section",
   "nvda-screen-reader": "nvda-section",
+  radiotv: "radiotv-section",
   "google-tts-for-nvda": "google-tts-section",
   "nvda-network-optimizer": "network-optimizer-section",
 };
@@ -31,14 +31,43 @@ export default function Home() {
           <div className="shell hero-copy">
             <p className="eyebrow">Dự án của Khánh · Phần mềm cộng đồng</p>
             <h1 id="hero-title">Công nghệ dễ tiếp cận,<br />bắt đầu từ việc hằng ngày.</h1>
-            <p className="hero-lead">Tìm phần mềm, tải tiện ích và xem hướng dẫn sử dụng NVDA bằng tiếng Việt. Tra cứu hơn 530+ add-on được phân loại tự động và hỗ trợ bởi AI.</p>
+            <p className="hero-lead">Tìm phần mềm, tải trực tiếp phiên bản NVDA mới nhất và xem hướng dẫn sử dụng bằng tiếng Việt. Tra cứu hơn 530+ add-on được phân loại tự động và hỗ trợ bởi AI.</p>
+            
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.85rem", marginTop: "1rem" }}>
-              <Link className="button button-primary" href="/kho-addon">
+              <a 
+                className="button button-primary" 
+                href="https://github.com/nvaccess/nvda/releases/download/release-2026.2/nvda_2026.2.exe"
+                title="Tải bộ cài đặt chính thức NVDA 2026.2 cho Windows"
+              >
+                <Download size={18} aria-hidden="true" /> Tải NVDA 2026.2 mới nhất (61.5 MB)
+              </a>
+              <Link className="button button-secondary" href="/kho-addon">
                 🔥 Khám phá Kho 530+ Add-on <ArrowRight size={18} aria-hidden="true" />
               </Link>
-              <a className="button button-secondary" href="#chuyen-muc">
-                Các dự án trọng điểm
-              </a>
+            </div>
+
+            {/* Banner nổi bật phiên bản NVDA mới nhất */}
+            <div className="nvda-hero-banner" role="region" aria-label="Thông tin phát hành NVDA mới nhất">
+              <div className="nvda-hero-info">
+                <span className="nvda-hero-tag">
+                  <Accessibility size={15} aria-hidden="true" /> Phiên bản chính thức mới nhất
+                </span>
+                <h2 className="nvda-hero-title">NVDA 2026.2 dành cho Windows</h2>
+                <p className="nvda-hero-desc">
+                  Trình đọc màn hình miễn phí, mã nguồn mở hàng đầu thế giới. Bản 2026.2 mang đến nâng cấp lớn về khả năng đọc trình duyệt web tốc độ cao, hỗ trợ chuẩn Unicode mới và tối ưu độ ổn định cho Windows 10/11 64-bit.
+                </p>
+              </div>
+              <div className="nvda-hero-actions">
+                <a 
+                  href="https://github.com/nvaccess/nvda/releases/download/release-2026.2/nvda_2026.2.exe" 
+                  className="btn-nvda-download"
+                >
+                  <Download size={18} aria-hidden="true" /> Tải bộ cài đặt ngay
+                </a>
+                <Link href="/du-an/nvda-screen-reader" className="btn-nvda-info">
+                  Xem hướng dẫn & phím tắt <ArrowRight size={16} aria-hidden="true" />
+                </Link>
+              </div>
             </div>
           </div>
         </section>
@@ -48,7 +77,7 @@ export default function Home() {
           <div className="shell">
             <div className="section-heading">
               <h2 id="projects-title">Bạn muốn làm gì?</h2>
-              <p>Chọn dự án để xem cách cài đặt, phím tắt và nơi tải.</p>
+              <p>Chọn dự án để xem cách cài đặt, phím tắt và nơi tải phần mềm.</p>
             </div>
             <div className="project-grid">
               {/* Thẻ nổi bật: Kho 530+ Tiện Ích NVDA Toàn Diện */}
@@ -84,22 +113,39 @@ export default function Home() {
 
               {projects.map((project) => {
                 const Icon = icons[project.iconName];
+                const isNVDA = project.slug === "nvda-screen-reader";
                 return (
-                  <article className="project-card" id={sectionIds[project.slug]} key={project.slug} tabIndex={-1} aria-labelledby={`${project.slug}-title`}>
+                  <article 
+                    className={`project-card ${isNVDA ? "nvda-featured-card" : ""}`} 
+                    id={sectionIds[project.slug]} 
+                    key={project.slug} 
+                    tabIndex={-1} 
+                    aria-labelledby={`${project.slug}-title`}
+                  >
                     <div className="project-card-top">
-                      <span className="project-icon" aria-hidden="true"><Icon size={24} /></span>
-                      <p className="project-category">{project.category}</p>
+                      <span className="project-icon" style={isNVDA ? { background: "var(--green)", color: "#fff" } : undefined} aria-hidden="true">
+                        <Icon size={24} />
+                      </span>
+                      <p className="project-category" style={isNVDA ? { color: "var(--green-dark)", fontWeight: 700 } : undefined}>
+                        {isNVDA ? "Trình đọc màn hình tiêu chuẩn · 2026.2" : project.category}
+                      </p>
                     </div>
                     <h3 id={`${project.slug}-title`}><Link href={`/du-an/${project.slug}`}>{project.name}</Link></h3>
                     <p className="project-description">{project.subtitle}</p>
                     <p className="project-status">{project.status}</p>
                     <div className="project-card-actions">
+                      {project.downloadUrl && (
+                        <a 
+                          href={project.downloadUrl} 
+                          className={isNVDA ? "button button-primary" : "download-link"}
+                          style={isNVDA ? { marginBottom: "0.5rem", width: "100%", justifyContent: "center" } : undefined}
+                        >
+                          <Download size={17} aria-hidden="true" /> {project.downloadLabel}
+                        </a>
+                      )}
                       <Link href={`/du-an/${project.slug}`} className="text-link">
-                        Hướng dẫn {project.name} <ArrowRight size={17} aria-hidden="true" />
+                        Hướng dẫn & Phím tắt {project.name} <ArrowRight size={17} aria-hidden="true" />
                       </Link>
-                      {project.downloadUrl && <a href={project.downloadUrl} className="download-link">
-                        <Download size={17} aria-hidden="true" /> {project.downloadLabel}
-                      </a>}
                     </div>
                   </article>
                 );

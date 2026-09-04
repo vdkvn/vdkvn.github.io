@@ -6,11 +6,11 @@ export const dynamic = "force-static";
 export const metadata: Metadata = {
   title: "NVDA — Hướng dẫn và tải xuống",
   description: "Làm quen với trình đọc màn hình NVDA: cách cài đặt, phím tắt cơ bản và liên kết tải từ NV Access.",
-  alternates: { canonical: "https://vdkvn.github.io/du-an/nvda-screen-reader/" },
+  alternates: { canonical: "https://vdk.is-a.dev/du-an/nvda-screen-reader/" },
   openGraph: {
     title: "NVDA — Hướng dẫn và tải xuống",
     description: "Làm quen với trình đọc màn hình NVDA: cách cài đặt, phím tắt cơ bản và liên kết tải từ NV Access.",
-    url: "https://vdkvn.github.io/du-an/nvda-screen-reader/",
+    url: "https://vdk.is-a.dev/du-an/nvda-screen-reader/",
     images: ["/og.png"],
     locale: "vi_VN",
     type: "website",
