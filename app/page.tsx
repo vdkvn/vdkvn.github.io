@@ -1,4 +1,4 @@
-import { Accessibility, ArrowRight, Download, Radio, Volume2, Wifi } from "lucide-react";
+import { Accessibility, ArrowRight, Download, Mail, Radio, Volume2, Wifi } from "lucide-react";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/components/SiteNavigation";
 import { projectsDetailList } from "@/lib/projects-data";
@@ -89,9 +89,20 @@ export default function Home() {
               <p className="eyebrow">Cùng cải thiện</p>
               <h2 id="feedback-title">Có điều gì chưa thuận tiện?</h2>
               <p>Hãy cho tác giả biết bạn gặp khó khăn ở bước nào, phiên bản đang dùng và kết quả mong muốn.</p>
+              <div className="email-feedback-card">
+                <h3>Góp ý nhanh qua hộp thư điện tử</h3>
+                <p>Không cần tài khoản GitHub. Bấm nút bên dưới để gửi email trực tiếp cho Khánh:</p>
+                <a
+                  href="mailto:voduykhanh.mata@gmail.com?subject=[VDK-Website]%20Góp%20ý%20cùng%20Võ%20Duy%20Khánh&body=Chào%20Khánh,%0D%0A%0D%0ATôi%20muốn%20góp%20ý/báo%20lỗi%20về:%0D%0A-%20Dự%20án:%20%0D%0A-%20Nội%20dung:%20%0D%0A-%20Phiên%20bản%20NVDA%20đang%20dùng:%20"
+                  className="email-button"
+                >
+                  <Mail size={18} aria-hidden="true" /> Gửi email: voduykhanh.mata@gmail.com
+                </a>
+              </div>
             </div>
             <div className="feedback-links">
-              <a href="https://github.com/vdkvn/vdkvn.github.io/issues">Góp ý về website <ArrowRight size={18} aria-hidden="true" /></a>
+              <p className="section-note" style={{ marginTop: 0, fontWeight: 700 }}>Hoặc theo dõi và báo lỗi công khai trên GitHub:</p>
+              <a href="https://github.com/vdkvn/vdkvn.github.io/issues">Góp ý về website trên GitHub <ArrowRight size={18} aria-hidden="true" /></a>
               <a href="https://github.com/voduykhanhmata-ctrl/radiotv/issues">Báo lỗi hoặc đề xuất kênh RadioTV <ArrowRight size={18} aria-hidden="true" /></a>
               <a href="https://github.com/voduykhanhmata-ctrl/nvda-network-optimizer/issues">Góp ý NVDA Network Optimizer <ArrowRight size={18} aria-hidden="true" /></a>
               <p className="section-note">Gửi góp ý qua GitHub cần có tài khoản.</p>

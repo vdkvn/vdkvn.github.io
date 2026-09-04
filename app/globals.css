@@ -189,3 +189,78 @@ kbd { font-family: inherit; font-size: .9375rem; white-space: normal; }
   :where(a, button, summary):focus-visible { outline-color: Highlight; box-shadow: none; }
   .button, .brand-mark, .project-icon { border: 1px solid ButtonText; }
 }
+
+/* Email Feedback & 404 Not Found */
+.email-feedback-card {
+  padding: 1.4rem 1.6rem;
+  margin-bottom: 1.5rem;
+  border-radius: .8rem;
+  background: var(--surface);
+  border: 2px solid var(--green);
+}
+.email-feedback-card h3 {
+  margin: 0 0 .5rem;
+  font-size: 1.25rem;
+}
+.email-feedback-card p {
+  margin: 0 0 1rem;
+  color: var(--muted-ink);
+}
+.email-button {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .65rem 1.2rem;
+  border-radius: .5rem;
+  background: var(--green);
+  color: #fff;
+  font-weight: 650;
+  text-decoration: none;
+  min-height: 44px;
+}
+.email-button:hover, .email-button:focus-visible {
+  background: var(--green-dark);
+}
+.not-found-main {
+  padding-block: clamp(3rem, 6vw, 5rem);
+}
+.not-found-card {
+  max-width: 44rem;
+  padding: 2.5rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: var(--surface);
+  text-align: left;
+}
+.not-found-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 1rem;
+  background: var(--green-soft);
+  color: var(--green-dark);
+  margin-bottom: 1.25rem;
+}
+.not-found-lead {
+  font-size: 1.15rem;
+  color: var(--muted-ink);
+  margin: .75rem 0 1.75rem;
+  max-width: 60ch;
+}
+.not-found-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .85rem;
+  margin-bottom: 1.75rem;
+}
+.not-found-tip {
+  padding: 1rem 1.25rem;
+  border-radius: .6rem;
+  background: var(--green-soft);
+  border-left: 4px solid var(--green);
+  font-size: .9375rem;
+}
+.not-found-tip p {
+  margin: 0;
+}

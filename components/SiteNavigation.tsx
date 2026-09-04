@@ -31,6 +31,7 @@ export function SiteFooter() {
         <nav aria-label="Liên kết cuối trang">
           <ul className="footer-links">
             <li><Link href="/#tiep-can">Khả năng tiếp cận</Link></li>
+            <li><a href="mailto:voduykhanh.mata@gmail.com">Email: voduykhanh.mata@gmail.com</a></li>
             <li><a href="https://github.com/voduykhanhmata-ctrl">GitHub của Khánh</a></li>
             <li><a href="#noi-dung-chinh">Về đầu nội dung</a></li>
           </ul>
