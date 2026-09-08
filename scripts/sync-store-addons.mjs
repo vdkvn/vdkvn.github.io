@@ -75,6 +75,40 @@ function extractAuthorGithub(sourceUrl) {
   return null;
 }
 
+function detectCommunityOrigin(author, repoUrl, authorGithub, id, desc) {
+  const text = (
+    (author || "") +
+    " " +
+    (repoUrl || "") +
+    " " +
+    (authorGithub || "") +
+    " " +
+    (id || "") +
+    " " +
+    (desc || "")
+  ).toLowerCase();
+
+  if (/saomai|vietnam|tiengviet|voduykhanh|nguyenanhduc|daoductrung|phamhungvuong|phùng hải yến/i.test(text)) {
+    return { origin: "vietnam", originLabel: "Việt Nam" };
+  }
+  if (/nvdaes|nvda\.es|noelia|hector.*benitez|reyes2005|romañach|romanach|javier|álvaro|alvaro|alberto.*buffolino|jose manuel.*delicado|carlitos|spanish/i.test(text)) {
+    return { origin: "spain", originLabel: "Tây Ban Nha (NVDA.es)" };
+  }
+  if (/nvdaru|nvda\.ru|kostya|gladkiy|dollar84|dolovaniuk|zvuk|unigramplus|whatsappplus|alekssamos|shishmintsev|belousov|newfon|yandextranslate|russian/i.test(text)) {
+    return { origin: "russia", originLabel: "Nga (NVDA.ru)" };
+  }
+  if (/nvda\.fr|nvdafr|blindhelp|corentin|mathieu.*barbe|francophone|french/i.test(text)) {
+    return { origin: "france", originLabel: "Pháp (NVDA.fr)" };
+  }
+  if (/nvdajp|nvda\.jp|takuya.*nishimoto|japanese|osdn.*nvdajp/i.test(text)) {
+    return { origin: "japan", originLabel: "Nhật Bản (NVDA.jp)" };
+  }
+  if (/nvdaaddons|nvda-addons|joseph.*lee/i.test(text)) {
+    return { origin: "nvdaaddons", originLabel: "NVDA Addons GitHub" };
+  }
+  return { origin: "international", originLabel: "Cửa hàng Quốc tế" };
+}
+
 export async function syncStoreAddons() {
   console.log("=== BẮT ĐẦU ĐỒNG BỘ NVDA ADD-ON STORE TỰ ĐỘNG ===");
   const GITHUB_TOKEN = process.env.GITHUB_TOKEN || "";
@@ -175,7 +209,18 @@ export async function syncStoreAddons() {
     const recentRelease = recentReleases.get(addonId);
 
     if (cached && !recentRelease && cached.versionFile === latestFile.versionFile) {
-      results.push(cached);
+      const comm = detectCommunityOrigin(
+        cached.author,
+        cached.repoUrl,
+        cached.authorGithub,
+        cached.id,
+        cached.description
+      );
+      results.push({
+        ...cached,
+        origin: comm.origin,
+        originLabel: comm.originLabel,
+      });
     } else {
       listToFetch.push({ addonId, latestFile, cached, recentRelease });
     }
@@ -218,6 +263,14 @@ export async function syncStoreAddons() {
           updatedAt = new Date().toISOString();
         }
 
+        const communityOrigin = detectCommunityOrigin(
+          d.publisher,
+          d.sourceURL || d.homepage,
+          authorGh,
+          d.addonId,
+          (viTrans && viTrans.description) || d.description
+        );
+
         const item = {
           id: d.addonId,
           name: (viTrans && viTrans.displayName) || d.displayName || d.addonId,
@@ -225,8 +278,8 @@ export async function syncStoreAddons() {
           categoryLabel: catInfo.categoryLabel,
           hasVietnamese: hasVi,
           inStore: true,
-          origin: "international",
-          originLabel: "Cửa hàng NVDA Store",
+          origin: communityOrigin.origin,
+          originLabel: communityOrigin.originLabel,
           description:
             (viTrans && viTrans.description) ||
             d.description ||

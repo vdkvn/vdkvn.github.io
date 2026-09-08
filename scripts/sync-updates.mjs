@@ -14,13 +14,6 @@ const trackedRepos = [
     category: "Đa phương tiện tiếp cận",
   },
   {
-    slug: "nvda-screen-reader",
-    projectName: "NVDA Screen Reader",
-    repo: "nvaccess/nvda",
-    fallbackType: "Trình đọc màn hình",
-    category: "Phần mềm tiếp cận",
-  },
-  {
     slug: "nvda-network-optimizer",
     projectName: "NVDA Network Optimizer",
     repo: "voduykhanhmata-ctrl/nvda-network-optimizer",
@@ -33,6 +26,34 @@ const trackedRepos = [
     repo: "nguyenanhduc09/Google-TTS-For-NVDA",
     fallbackType: "Addon NVDA",
     category: "Bộ đọc tiếng nói",
+  },
+  {
+    slug: "nvda-screen-reader",
+    projectName: "NVDA Screen Reader",
+    repo: "nvaccess/nvda",
+    fallbackType: "Trình đọc màn hình",
+    category: "Phần mềm tiếp cận",
+  },
+  {
+    slug: "nvdaes-clip-contents-designer",
+    projectName: "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
+    repo: "nvdaes/clipContentsDesigner",
+    fallbackType: "Addon Tây Ban Nha",
+    category: "Công cụ tiếp cận",
+  },
+  {
+    slug: "nvdajp-community",
+    projectName: "Cộng đồng Nhật Bản (NVDA Japanese Team)",
+    repo: "nvdajp/nvdajp",
+    fallbackType: "NVDA Nhật Bản",
+    category: "Bản địa hóa & Giọng đọc",
+  },
+  {
+    slug: "nvdaru-unigram-plus",
+    projectName: "Cộng đồng Nga (UnigramPlus Telegram)",
+    repo: "Kostya-Gladkiy/UnigramPlus",
+    fallbackType: "Addon Nga",
+    category: "Tiện ích ứng dụng",
   },
 ];
 

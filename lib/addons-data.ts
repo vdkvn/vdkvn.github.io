@@ -5,7 +5,7 @@ export interface AddonItem {
   categoryLabel: string;
   hasVietnamese: boolean;
   inStore: boolean; // true: Có trên Cửa hàng Add-on NVDA chính thức; false: Cộng đồng độc lập (chưa có trên Store)
-  origin: "vietnam" | "spain" | "russia" | "international";
+  origin: "vietnam" | "spain" | "russia" | "france" | "japan" | "nvdaaddons" | "international";
   originLabel: string;
   description: string;
   author: string;
@@ -386,59 +386,108 @@ export const addonsList: AddonItem[] = [
     downloadUrl: "https://addons.nvaccess.org/addons/crashLogViewer/",
     testedVersion: "NVDA 2024.x",
   },
+  {
+    id: "nvdajp-jtalk",
+    name: "JTalk TTS Japanese Voice",
+    category: "speech",
+    categoryLabel: "Giọng đọc & Ngôn ngữ",
+    hasVietnamese: false,
+    inStore: false,
+    origin: "japan",
+    originLabel: "Nhật Bản (NVDA.jp)",
+    description: "Bộ giọng đọc tiếng Nhật mã nguồn mở chất lượng cao do nhóm NVDA Japanese Team đóng gói độc lập, tương thích mượt mà với phiên bản NVDA quốc tế.",
+    author: "NVDA Japanese Team (Takuya Nishimoto)",
+    authorGithub: "https://github.com/nvdajp",
+    repoUrl: "https://github.com/nvdajp/nvdajp",
+    license: "Modified BSD / GPLv2",
+    shortcuts: "NVDA + Ctrl + S để chọn bộ đọc JTalk",
+    downloadUrl: "https://github.com/nvdajp/nvdajp/releases/download/release-2026.2jp/nvdajp-jtalk-2026.2jp.nvda-addon",
+    testedVersion: "NVDA 2026.x / 2024.x",
+    version: "2026.2jp",
+    updatedAt: "2026-09-04T06:40:25Z",
+    updatedAtVN: "04/09/2026",
+  },
+  {
+    id: "kgsbraille-jp",
+    name: "KGS Braille Display Driver",
+    category: "tools",
+    categoryLabel: "Công cụ & Tiện ích",
+    hasVietnamese: false,
+    inStore: false,
+    origin: "japan",
+    originLabel: "Nhật Bản (NVDA.jp)",
+    description: "Trình điều khiển dòng màn hình chữ nổi KGS (BM Series) nổi tiếng của Nhật Bản, giúp người khiếm thị kết nối chữ nổi qua cổng USB hoặc Bluetooth.",
+    author: "NVDA Japanese Team & KGS Corporation",
+    authorGithub: "https://github.com/nvdajp",
+    repoUrl: "https://github.com/nvdajp/nvdajp",
+    license: "GPL v2",
+    shortcuts: "Cấu hình trong menu Tùy chọn -> Hiển thị chữ nổi",
+    downloadUrl: "https://github.com/nvdajp/nvdajp/releases/download/release-2026.2jp/kgsbraille-2026.2jp.nvda-addon",
+    testedVersion: "NVDA 2026.x / 2024.x",
+    version: "2026.2jp",
+    updatedAt: "2026-09-04T06:40:25Z",
+    updatedAtVN: "04/09/2026",
+  },
 ];
 
 import storeAddonsJson from "./addons-store.json";
 
-// Hàm phát hiện nguồn gốc cộng đồng tự động (Tây Ban Nha, Nga, Việt Nam)
-function detectCommunityOrigin(item: AddonItem): { origin: "vietnam" | "spain" | "russia" | "international"; originLabel: string } {
-  const text = (item.author + " " + (item.repoUrl || "") + " " + (item.authorGithub || "") + " " + item.id).toLowerCase();
-  
+// Hàm phát hiện nguồn gốc cộng đồng tự động (Việt Nam, Tây Ban Nha, Nga, Pháp, Nhật Bản, nvdaaddons, Quốc tế)
+function detectCommunityOrigin(item: AddonItem): {
+  origin: "vietnam" | "spain" | "russia" | "france" | "japan" | "nvdaaddons" | "international";
+  originLabel: string;
+} {
+  const text = (
+    item.author +
+    " " +
+    (item.repoUrl || "") +
+    " " +
+    (item.authorGithub || "") +
+    " " +
+    item.id +
+    " " +
+    (item.description || "")
+  ).toLowerCase();
+
+  // 1. Việt Nam
+  if (/saomai|vietnam|tiengviet|voduykhanh|nguyenanhduc|daoductrung|phamhungvuong|phùng hải yến/i.test(text)) {
+    return { origin: "vietnam", originLabel: "Việt Nam" };
+  }
+
+  // 2. Tây Ban Nha (NVDA.es)
   if (
-    text.includes("nvdaes") ||
-    text.includes("nvda.es") ||
-    text.includes("noelia") ||
-    text.includes("hector") ||
-    text.includes("spanish") ||
-    text.includes("reyes2005") ||
-    text.includes("javier") ||
-    text.includes("romañach") ||
-    text.includes("romanach")
+    /nvdaes|nvda\.es|noelia|hector.*benitez|reyes2005|romañach|romanach|javier|álvaro|alvaro|alberto.*buffolino|jose manuel.*delicado|carlitos|spanish/i.test(
+      text
+    )
   ) {
     return { origin: "spain", originLabel: "Tây Ban Nha (NVDA.es)" };
   }
 
+  // 3. Nga & Đông Âu (NVDA.ru)
   if (
-    text.includes("nvdaru") ||
-    text.includes("nvda.ru") ||
-    text.includes("kostya") ||
-    text.includes("gladkiy") ||
-    text.includes("russia") ||
-    text.includes("dollar84") ||
-    text.includes("dolovaniuk") ||
-    text.includes("zvuk") ||
-    text.includes("unigramplus") ||
-    text.includes("whatsappplus") ||
-    text.includes("yandextranslate") ||
-    text.includes("belousov") ||
-    text.includes("alekssamos") ||
-    text.includes("newfon") ||
-    text.includes("shishmintsev")
+    /nvdaru|nvda\.ru|kostya|gladkiy|dollar84|dolovaniuk|zvuk|unigramplus|whatsappplus|alekssamos|shishmintsev|belousov|newfon|yandextranslate|russian/i.test(
+      text
+    )
   ) {
     return { origin: "russia", originLabel: "Nga (NVDA.ru)" };
   }
 
-  if (
-    text.includes("nguyenanhduc") ||
-    text.includes("voduykhanh") ||
-    text.includes("vietnam") ||
-    text.includes("saomai") ||
-    text.includes("daoductrung")
-  ) {
-    return { origin: "vietnam", originLabel: "Việt Nam" };
+  // 4. Pháp (NVDA.fr)
+  if (/nvda\.fr|nvdafr|blindhelp|corentin|mathieu.*barbe|francophone|french/i.test(text)) {
+    return { origin: "france", originLabel: "Pháp (NVDA.fr)" };
   }
 
-  return { origin: "international", originLabel: "Quốc tế" };
+  // 5. Nhật Bản (NVDA.jp)
+  if (/nvdajp|nvda\.jp|takuya.*nishimoto|japanese|osdn.*nvdajp/i.test(text)) {
+    return { origin: "japan", originLabel: "Nhật Bản (NVDA.jp)" };
+  }
+
+  // 6. NVDA Addons GitHub (nvdaaddons.github.io)
+  if (/nvdaaddons|nvda-addons|joseph.*lee/i.test(text)) {
+    return { origin: "nvdaaddons", originLabel: "NVDA Addons GitHub" };
+  }
+
+  return { origin: "international", originLabel: "Cửa hàng Quốc tế" };
 }
 
 // Hợp nhất dữ liệu tuyển chọn với toàn bộ kho Store (500+ add-on)

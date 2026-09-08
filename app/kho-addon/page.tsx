@@ -329,10 +329,31 @@ export default function KhoAddonPage() {
                   </button>
                   <button
                     type="button"
+                    className={`filter-chip ${originFilter === "france" ? "active" : ""}`}
+                    onClick={() => setOriginFilter("france")}
+                  >
+                    🇫🇷 Pháp ({allAddonsList.filter((a) => a.origin === "france").length})
+                  </button>
+                  <button
+                    type="button"
+                    className={`filter-chip ${originFilter === "japan" ? "active" : ""}`}
+                    onClick={() => setOriginFilter("japan")}
+                  >
+                    🇯🇵 Nhật Bản ({allAddonsList.filter((a) => a.origin === "japan").length})
+                  </button>
+                  <button
+                    type="button"
+                    className={`filter-chip ${originFilter === "nvdaaddons" ? "active" : ""}`}
+                    onClick={() => setOriginFilter("nvdaaddons")}
+                  >
+                    📦 NVDA Addons ({allAddonsList.filter((a) => a.origin === "nvdaaddons").length})
+                  </button>
+                  <button
+                    type="button"
                     className={`filter-chip ${originFilter === "international" ? "active" : ""}`}
                     onClick={() => setOriginFilter("international")}
                   >
-                    🌐 Quốc tế ({allAddonsList.filter((a) => a.origin === "international").length})
+                    🌐 Cửa hàng Quốc tế ({allAddonsList.filter((a) => a.origin === "international").length})
                   </button>
                 </div>
               </div>
