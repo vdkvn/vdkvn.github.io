@@ -13,9 +13,9 @@ export function SiteHeader() {
           <nav aria-label="Điều hướng chính">
             <ul className="nav-list">
               <li><Link href="/kho-addon">Kho Add-on</Link></li>
-              <li><Link href="/#chuyen-muc">Dự án</Link></li>
+              <li><Link href="/#moi-cap-nhat">Mới cập nhật</Link></li>
               <li><Link href="/#hoi-dap">Hỏi đáp NVDA</Link></li>
-              <li><Link href="/#nhat-ky">Cập nhật</Link></li>
+              <li><Link href="/#tac-gia">Dự án của Khánh</Link></li>
               <li><Link href="/#cong-dong">Góp ý</Link></li>
             </ul>
           </nav>

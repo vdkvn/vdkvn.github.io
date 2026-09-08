@@ -1,6 +1,20 @@
-import { Accessibility, ArrowRight, Download, HelpCircle, Mail, Radio, Store, Volume2, Wifi } from "lucide-react";
+import {
+  Accessibility,
+  ArrowRight,
+  Calendar,
+  Compass,
+  Download,
+  ExternalLink,
+  HelpCircle,
+  Mail,
+  Radio,
+  Sparkles,
+  Store,
+  Wifi,
+} from "lucide-react";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/components/SiteNavigation";
+import { allAddonsList } from "@/lib/addons-data";
 import { projectsDetailList } from "@/lib/projects-data";
 import updatesData from "@/lib/updates.json";
 
@@ -12,17 +26,11 @@ function FacebookIcon({ size = 18 }: { size?: number }) {
   );
 }
 
-const icons = { Radio, Accessibility, Volume2, Wifi };
-const projectOrder = ["nvda-screen-reader", "radiotv", "google-tts-for-nvda", "nvda-network-optimizer"];
-const sectionIds: Record<string, string> = {
-  "nvda-screen-reader": "nvda-section",
-  radiotv: "radiotv-section",
-  "google-tts-for-nvda": "google-tts-section",
-  "nvda-network-optimizer": "network-optimizer-section",
-};
-
 export default function Home() {
-  const projects = projectOrder.map((slug) => projectsDetailList.find((project) => project.slug === slug)!);
+  const recentAddons = allAddonsList.slice(0, 6);
+  const myProjects = projectsDetailList.filter(
+    (p) => p.slug === "nvda-network-optimizer" || p.slug === "radiotv"
+  );
   return (
     <>
       <SiteHeader />
@@ -72,84 +80,72 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section projects-section" id="chuyen-muc" tabIndex={-1} aria-labelledby="projects-title">
-          <span id="du-an" className="anchor-alias" aria-hidden="true" />
+        {/* =================================================================
+            KHU VỰC 1: CẬP NHẬT MỚI NHẤT (Ghim ngoài trang chủ theo phong cách ddt.one)
+            ================================================================= */}
+        <section className="section" id="moi-cap-nhat" tabIndex={-1} aria-labelledby="recent-title">
+          <span id="chuyen-muc" className="anchor-alias" aria-hidden="true" />
           <div className="shell">
             <div className="section-heading">
-              <h2 id="projects-title">Bạn muốn làm gì?</h2>
-              <p>Chọn mục để xem cách cài đặt, phím tắt và nơi tải tiện ích.</p>
+              <p className="eyebrow">Nội dung gần đây</p>
+              <h2 id="recent-title">Tiện ích vừa cập nhật trên NVDA Store</h2>
+              <p>
+                Dữ liệu được đồng bộ từ máy chủ NVDA Store quốc tế và các kho mã nguồn mở. Bạn có thể tải ngay tệp cài đặt hoặc tra cứu thêm thông tin.
+              </p>
             </div>
-            <div className="project-grid">
-              {/* Thẻ nổi bật: Kho 530+ Tiện Ích NVDA Toàn Diện */}
-              <article
-                className="project-card"
-                style={{ border: "2px solid var(--green)", background: "linear-gradient(to bottom, #f0fdf4, #ffffff)" }}
-                tabIndex={-1}
-                aria-labelledby="addon-hub-spotlight-title"
-              >
-                <div className="project-card-top">
-                  <span className="project-icon" style={{ background: "var(--green)", color: "#fff" }} aria-hidden="true">
-                    <Store size={24} />
-                  </span>
-                  <p className="project-category" style={{ color: "var(--green-dark)", fontWeight: 700 }}>
-                    Kho tiện ích tổng hợp
-                  </p>
-                </div>
-                <h3 id="addon-hub-spotlight-title">
-                  <Link href="/kho-addon">Kho Add-on NVDA (Việt Nam & Quốc Tế)</Link>
-                </h3>
-                <p className="project-description">
-                  Tổng hợp hơn 530 tiện ích từ Cửa hàng chính thức và các cộng đồng Tây Ban Nha, Nga, Việt Nam. Tiện ích mới cập nhật luôn nằm ở đầu trang kèm phím tắt và hướng dẫn cài đặt.
-                </p>
-                <p className="project-status" style={{ color: "#166534", background: "#dcfce7" }}>
-                  Tự động đồng bộ hàng ngày
-                </p>
-                <div className="project-card-actions">
-                  <Link href="/kho-addon" className="button button-primary" style={{ width: "100%", justifyContent: "center" }}>
-                    Vào Kho Add-on ngay <ArrowRight size={17} aria-hidden="true" />
-                  </Link>
-                </div>
-              </article>
 
-              {projects.map((project) => {
-                const Icon = icons[project.iconName];
-                const isNVDA = project.slug === "nvda-screen-reader";
-                return (
-                  <article 
-                    className={`project-card ${isNVDA ? "nvda-featured-card" : ""}`} 
-                    id={sectionIds[project.slug]} 
-                    key={project.slug} 
-                    tabIndex={-1} 
-                    aria-labelledby={`${project.slug}-title`}
-                  >
-                    <div className="project-card-top">
-                      <span className="project-icon" style={isNVDA ? { background: "var(--green)", color: "#fff" } : undefined} aria-hidden="true">
-                        <Icon size={24} />
-                      </span>
-                      <p className="project-category" style={isNVDA ? { color: "var(--green-dark)", fontWeight: 700 } : undefined}>
-                        {isNVDA ? "Trình đọc màn hình tiêu chuẩn · 2026.2" : project.category}
-                      </p>
-                    </div>
-                    <h3 id={`${project.slug}-title`}><Link href={`/du-an/${project.slug}`}>{project.name}</Link></h3>
-                    <p className="project-description">{project.subtitle}</p>
-                    <p className="project-status">{project.status}</p>
-                    <div className="project-card-actions">
-                      {project.downloadUrl && (
-                        <a 
-                          href={project.downloadUrl} 
-                          className={isNVDA ? "button button-primary" : "download-link"}
-                          style={isNVDA ? { marginBottom: "0.5rem", width: "100%", justifyContent: "center" } : undefined}
-                        >
-                          <Download size={17} aria-hidden="true" /> {project.downloadLabel}
-                        </a>
+            <div className="recent-releases-grid">
+              {recentAddons.map((addon) => (
+                <article className="recent-addon-card" key={addon.id}>
+                  <div className="recent-addon-header">
+                    <div className="recent-addon-badges">
+                      {addon.inStore ? (
+                        <span className="badge-store">NVDA Store</span>
+                      ) : (
+                        <span className="badge-custom">Bản độc lập</span>
                       )}
-                      <Link href={`/du-an/${project.slug}`} className="text-link">
-                        Hướng dẫn & Phím tắt {project.name} <ArrowRight size={17} aria-hidden="true" />
-                      </Link>
+                      {addon.version && <span className="badge-version">v{addon.version}</span>}
                     </div>
-                  </article>
-                );
-              })}
+                    {addon.updatedAtVN && (
+                      <span className="recent-addon-date">
+                        <Calendar size={13} aria-hidden="true" /> {addon.updatedAtVN}
+                      </span>
+                    )}
+                  </div>
+
+                  <h3 className="recent-addon-title">
+                    <Link href={`/kho-addon?q=${encodeURIComponent(addon.name)}`}>
+                      {addon.name}
+                    </Link>
+                  </h3>
+
+                  <p className="recent-addon-desc">{addon.description}</p>
+                  <p className="recent-addon-author">Tác giả: <strong>{addon.author}</strong></p>
+
+                  <div className="recent-addon-actions">
+                    <a
+                      href={addon.downloadUrl}
+                      className="download-link"
+                      title={`Tải tệp cài đặt ${addon.name}`}
+                    >
+                      <Download size={16} aria-hidden="true" /> Tải tệp .nvda-addon
+                    </a>
+                    <Link
+                      href={`/kho-addon?q=${encodeURIComponent(addon.name)}`}
+                      className="text-link"
+                      style={{ fontSize: "0.875rem" }}
+                    >
+                      Chi tiết <ArrowRight size={14} aria-hidden="true" />
+                    </Link>
+                  </div>
+                </article>
+              ))}
+            </div>
+
+            <div style={{ marginTop: "1.75rem", textAlign: "center" }}>
+              <Link href="/kho-addon" className="button button-secondary">
+                <Store size={18} aria-hidden="true" /> Xem toàn bộ 530+ tiện ích tại Kho Add-on <ArrowRight size={17} aria-hidden="true" />
+              </Link>
             </div>
           </div>
         </section>
@@ -219,9 +215,63 @@ export default function Home() {
               </article>
             </div>
             <div style={{ marginTop: "1.5rem" }}>
-              <Link href="/du-an/nvda-screen-reader#faq-heading" className="text-link">
-                Xem thêm chi tiết & bảng phím tắt đầy đủ của NVDA <ArrowRight size={17} aria-hidden="true" />
+              <Link href="/du-an/nvda-screen-reader" className="text-link">
+                Xem hướng dẫn chi tiết & bảng phím tắt đầy đủ của NVDA <ArrowRight size={17} aria-hidden="true" />
               </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* =================================================================
+            KHU VỰC 4: DỰ ÁN CỦA VÕ DUY KHÁNH & GIỚI THIỆU TÁC GIẢ (Cuối trang)
+            ================================================================= */}
+        <section className="section author-section" id="tac-gia" tabIndex={-1} aria-labelledby="author-title">
+          <div className="shell">
+            <div className="section-heading">
+              <p className="eyebrow">Tác giả & Đóng góp</p>
+              <h2 id="author-title">Dự án của Võ Duy Khánh</h2>
+              <p>
+                Tiện ích và phần mềm do Khánh trực tiếp xây dựng nhằm phục vụ nhu cầu làm việc và giải trí hàng ngày của người khiếm thị.
+              </p>
+            </div>
+
+            <div className="author-profile-card">
+              <h3>Về Võ Duy Khánh</h3>
+              <p>
+                Là một người dùng khiếm thị gắn bó nhiều năm với trình đọc màn hình NVDA, tôi phát triển các tiện ích bổ trợ với tiêu chí: thao tác bằng bàn phím phải thật nhanh, âm thanh rõ ràng và không phụ thuộc vào chuột. Các dự án đều được mở mã nguồn minh bạch để cộng đồng cùng sử dụng và đóng góp.
+              </p>
+            </div>
+
+            <div className="author-projects-grid">
+              {myProjects.map((project) => {
+                const isNetwork = project.slug === "nvda-network-optimizer";
+                const Icon = isNetwork ? Wifi : Radio;
+                return (
+                  <article className="project-card" key={project.slug}>
+                    <div className="project-card-top">
+                      <span className="project-icon" aria-hidden="true">
+                        <Icon size={24} />
+                      </span>
+                      <p className="project-category">{project.category}</p>
+                    </div>
+                    <h3>
+                      <Link href={`/du-an/${project.slug}`}>{project.name}</Link>
+                    </h3>
+                    <p className="project-description">{project.subtitle}</p>
+                    <p className="project-status">{project.status}</p>
+                    <div className="project-card-actions">
+                      {project.downloadUrl && (
+                        <a href={project.downloadUrl} className="download-link">
+                          <Download size={17} aria-hidden="true" /> {project.downloadLabel}
+                        </a>
+                      )}
+                      <Link href={`/du-an/${project.slug}`} className="text-link">
+                        Hướng dẫn sử dụng & Phím tắt <ArrowRight size={17} aria-hidden="true" />
+                      </Link>
+                    </div>
+                  </article>
+                );
+              })}
             </div>
           </div>
         </section>

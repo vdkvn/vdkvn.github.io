@@ -860,6 +860,142 @@ kbd { font-family: inherit; font-size: .9375rem; white-space: normal; }
   margin: 0;
 }
 
+/* ==========================================================================
+   Homepage Recent Releases & Updates Section
+   ========================================================================== */
+.recent-releases-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.recent-addon-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.35rem 1.5rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.recent-addon-card:hover {
+  border-color: var(--green);
+}
+
+.recent-addon-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.recent-addon-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.recent-addon-date {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8125rem;
+  color: var(--muted-ink);
+  white-space: nowrap;
+}
+
+.recent-addon-title {
+  font-size: 1.1875rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.35;
+}
+
+.recent-addon-title a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.recent-addon-title a:hover {
+  color: var(--green-dark);
+  text-decoration: underline;
+}
+
+.recent-addon-desc {
+  font-size: 0.9375rem;
+  color: var(--muted-ink);
+  line-height: 1.55;
+  margin-bottom: 0.85rem;
+  flex-grow: 1;
+}
+
+.recent-addon-author {
+  font-size: 0.85rem;
+  color: var(--muted-ink);
+  margin-bottom: 1rem;
+}
+
+.recent-addon-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin-top: auto;
+  padding-top: 0.85rem;
+  border-top: 1px dashed var(--line);
+}
+
+.recent-addon-actions .download-link {
+  font-weight: 650;
+  color: var(--green-dark);
+}
+
+/* ==========================================================================
+   Homepage Author & Personal Projects Section (Bottom)
+   ========================================================================== */
+.author-section {
+  background: var(--surface);
+  border-top: 1px solid var(--line);
+}
+
+.author-profile-card {
+  padding: 1.75rem 2rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 0.85rem;
+  margin-bottom: 2rem;
+  border-left: 4px solid var(--green);
+}
+
+.author-profile-card h3 {
+  font-size: 1.35rem;
+  margin-bottom: 0.6rem;
+  color: var(--green-dark);
+}
+
+.author-profile-card p {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--ink);
+  margin: 0;
+}
+
+.author-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .author-projects-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+
 
 
 
