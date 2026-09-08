@@ -1,7 +1,19 @@
 {
-  "lastChecked": "2026-09-08T03:24:38.255Z",
+  "lastChecked": "2026-09-08T04:15:31.393Z",
   "lastCheckedVN": "08/09/2026",
   "items": [
+    {
+      "slug": "nvda-screen-reader",
+      "projectName": "NVDA Screen Reader",
+      "category": "Phần mềm tiếp cận",
+      "type": "Trình đọc màn hình",
+      "timestamp": "2026-09-08T04:09:03Z",
+      "date": "08/09/2026",
+      "summary": "beta to master (#20813)",
+      "fullMessage": "beta to master (#20813)",
+      "sha": "4a4a636",
+      "url": "https://github.com/nvaccess/nvda/commit/4a4a63637df90a1875d9d78a8f8112adf73d1a15"
+    },
     {
       "slug": "nvda-network-optimizer",
       "projectName": "NVDA Network Optimizer",
@@ -37,18 +49,6 @@
       "fullMessage": "Harden browser runtime availability, speech loop resilience\n\n- Add module-level and classmethod `browser_runtime_available()` to `bridge.py` and `ChromeTtsBridge`.\n- Handle Chromium profile-in-use exit codes (0 and 21) in `BrowserProcessManager._read_devtools_port()` for automatic temporary profile recovery.\n- Wrap `SynthDriver._speech_loop()` worker in an outer exception handler to prevent background thread death and trigger fatal fallback.\n- Defensively guard `browser_runtime_available()` calls in speech worker and warm-up paths.\n- Add regression test coverage for runtime availability, profile exit codes, and speech loop resilience (420 tests total).",
       "sha": "1284a4e",
       "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/1284a4edcea8b6a5fbfa8609e9c0e40257d2cac5"
-    },
-    {
-      "slug": "nvda-screen-reader",
-      "projectName": "NVDA Screen Reader",
-      "category": "Phần mềm tiếp cận",
-      "type": "Trình đọc màn hình",
-      "timestamp": "2026-09-07T01:45:44Z",
-      "date": "07/09/2026",
-      "summary": "beta to master (#20799)",
-      "fullMessage": "beta to master (#20799)",
-      "sha": "f3f2c58",
-      "url": "https://github.com/nvaccess/nvda/commit/f3f2c58df6f13981d27e4ec9bcbecc58a94402b2"
     },
     {
       "slug": "nvdaes-clip-contents-designer",
