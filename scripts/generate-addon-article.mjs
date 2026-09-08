@@ -16,42 +16,42 @@ function formatDate(isoString) {
   }).format(new Date(isoString));
 }
 
-// AI Engine Template chuyên sâu phân tích tiện ích tiếp cận cho người khiếm thị
+// Trình sinh bài viết phân tích thực tế dành cho cộng đồng người khiếm thị
 export function generateAccessibleReview(addon) {
   const isVN = addon.hasVietnamese;
   const isStore = addon.inStore;
 
-  const title = `Đánh giá tiện ích NVDA: ${addon.name} (Phiên bản ${addon.version || "mới nhất"})`;
-  const summary = `Phân tích chuyên sâu về tiện ích ${addon.name} dành cho trình đọc màn hình NVDA. Cung cấp hướng dẫn phím tắt, đối tượng người dùng phù hợp và đánh giá khả năng tiếp cận thực tế.`;
+  const title = `Hướng dẫn và đánh giá tiện ích: ${addon.name} (Bản ${addon.version || "mới nhất"})`;
+  const summary = `Thông tin chi tiết về tiện ích ${addon.name} trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.`;
 
   const sections = [
     {
-      heading: "1. Giới thiệu tổng quan",
-      content: `Tiện ích **${addon.name}** được phát triển bởi tác giả/nhóm **${addon.author}** dưới giấy phép mã nguồn mở **${addon.license || "GPL"}**.\n\n${addon.description}\n\nTrạng thái phát hành: ${
+      heading: "1. Thông tin tiện ích",
+      content: `Tiện ích do tác giả **${addon.author}** phát triển theo giấy phép **${addon.license || "mã nguồn mở GPL"}**.\n\n${addon.description}\n\nCách phân phối: ${
         isStore
-          ? "✅ Đã có sẵn trên Cửa hàng Add-on Store chính thức của NVDA, người dùng có thể cài đặt trực tiếp không cần tải tệp rời."
-          : "🌟 Được phát hành độc lập từ cộng đồng, cần tải tệp .nvda-addon về máy để cài đặt."
+          ? "Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+          : "Tiện ích phát hành độc lập từ cộng đồng, cần tải tệp .nvda-addon về máy để cài đặt."
       }`,
     },
     {
-      heading: "2. Hỗ trợ tiếng Việt & Trải nghiệm thực tế",
+      heading: "2. Khả năng đọc tiếng Việt",
       content: isVN
-        ? `Tiện ích đã có sẵn giao diện tiếng Việt. Giọng đọc NVDA sẽ phát âm các nút bấm và thông báo rất rõ ràng, người dùng chỉ cần cài vào là dùng được ngay mà không cần chỉnh sửa gì thêm.`
-        : `Hiện tại tác giả chưa dịch tiếng Việt nên các menu vẫn hiển thị tiếng Anh. Tuy nhiên, cấu trúc phím bấm tuân theo chuẩn NVDA thông thường, các bộ đọc tiếng Việt vẫn đọc được các mục bình thường.`,
+        ? `Tiện ích đã có sẵn giao diện tiếng Việt. Giọng đọc NVDA sẽ đọc đúng các nút bấm và thông báo, bạn chỉ cần cài đặt là sử dụng được ngay.`
+        : `Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường.`,
     },
     {
-      heading: "3. Phím tắt và cách dùng nhanh",
+      heading: "3. Phím tắt và thao tác bàn phím",
       content: addon.shortcuts
-        ? `Tổ hợp phím thao tác:\n- **${addon.shortcuts}**\n\nNếu muốn đổi phím khác theo thói quen: Nhấn NVDA + N &rarr; Tùy chọn &rarr; Cử chỉ nhập liệu.`
-        : `Tiện ích không có phím tắt riêng mà tự động chạy nền hoặc nằm trong menu ngữ cảnh của ứng dụng liên quan. Bạn có thể kiểm tra thêm trong menu *Cử chỉ nhập liệu*.`,
+        ? `Phím tắt mặc định:\n- **${addon.shortcuts}**\n\nNếu muốn đổi phím khác: Mở menu NVDA (NVDA + N) &rarr; Tùy chọn &rarr; Cử chỉ nhập liệu.`
+        : `Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA.`,
     },
     {
-      heading: "4. Điểm cần lưu ý khi dùng",
-      content: `- Phiên bản đã kiểm tra hoạt động tốt trên: **${addon.testedVersion || "NVDA 2024.x trở lên"}**.\n- Mã nguồn mở minh bạch từ kho GitHub chính thức của tác giả.\n- Không gây xung đột âm thanh hay làm chậm tốc độ phản hồi của NVDA.`,
+      heading: "4. Tính tương thích & Ghi chú",
+      content: `- Phiên bản đã kiểm tra hoạt động tốt trên: **${addon.testedVersion || "NVDA 2024.1 trở lên"}**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA.`,
     },
     {
       heading: "5. Các bước cài đặt",
-      content: `1. Nhấn nút [Tải ${addon.name}](${addon.downloadUrl}) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, nhấn Enter vào tệp vừa tải.\n3. Khi NVDA hỏi xác nhận, nhấn phím Y (hoặc chọn Đồng ý).\n4. Bấm khởi động lại NVDA là xong.`,
+      content: `1. Nhấn [Tải ${addon.name}](${addon.downloadUrl}) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích.`,
     },
   ];
 
@@ -62,7 +62,7 @@ export function generateAccessibleReview(addon) {
     version: addon.version || "Mới nhất",
     title,
     summary,
-    author: "AI Assistant & Võ Duy Khánh",
+    author: "Võ Duy Khánh & Cộng đồng NVDA",
     publishedDate: formatDate(addon.updatedAt || new Date().toISOString()),
     timestamp: addon.updatedAt || new Date().toISOString(),
     sections,
