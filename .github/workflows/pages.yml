@@ -33,6 +33,17 @@ jobs:
         run: npm run sync:all
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push updated data back to repository
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add lib/addons-store.json lib/updates.json lib/articles.json || true
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(data): auto-sync latest NVDA addons, articles and project updates [skip ci]"
+            git push origin main
+          else
+            echo "No data changes to commit."
+          fi
       - name: Build static website
         run: |
           npm run build

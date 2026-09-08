@@ -41,22 +41,22 @@ export const addonsList: AddonItem[] = [
     testedVersion: "NVDA 2024.1+",
   },
   {
-    id: "nvda-network-optimizer",
+    id: "networkOptimizer",
     name: "NVDA Network Optimizer",
     category: "system",
     categoryLabel: "Hệ thống & Mạng",
     hasVietnamese: true,
-    inStore: false,
+    inStore: true,
     origin: "vietnam",
-    originLabel: "Việt Nam",
-    description: "Chẩn đoán mạng, đo độ trễ ping và chuyển đổi máy chủ DNS sạch, an toàn (Cloudflare, Google, Quad9) chỉ với 1 phím bấm.",
+    originLabel: "Việt Nam (NVDA Store)",
+    description: "Tiện ích NVDA bằng tiếng Việt để kiểm tra kết nối, đo phản hồi DNS, đề xuất DNS IPv4 sạch và tối ưu mạng có xác nhận an toàn.",
     author: "Võ Duy Khánh",
     authorGithub: "https://github.com/voduykhanhmata-ctrl",
-    repoUrl: "https://github.com/voduykhanhmata-ctrl/NVDA-Network-Optimizer",
-    license: "GNU GPLv2",
+    repoUrl: "https://github.com/voduykhanhmata-ctrl/nvda-network-optimizer",
+    license: "GNU GPLv2+",
     shortcuts: "Mở menu NVDA -> Network Optimizer",
-    downloadUrl: "https://github.com/voduykhanhmata-ctrl/NVDA-Network-Optimizer/releases",
-    testedVersion: "NVDA 2024.1+",
+    downloadUrl: "https://github.com/voduykhanhmata-ctrl/nvda-network-optimizer/releases/download/v1.3.2/NetworkOptimizer-1.3.2.nvda-addon",
+    testedVersion: "NVDA 2026.1+",
   },
   {
     id: "google-tts-nvda",
@@ -442,16 +442,25 @@ function detectCommunityOrigin(item: AddonItem): { origin: "vietnam" | "spain" |
 }
 
 // Hợp nhất dữ liệu tuyển chọn với toàn bộ kho Store (500+ add-on)
+function normalizeId(id: string) {
+  return id.toLowerCase().replace(/[-_]/g, "");
+}
+
 const curatedMap = new Map(addonsList.map((item) => [item.id, item]));
+const curatedNormalizedMap = new Map(addonsList.map((item) => [normalizeId(item.id), item]));
+
 const storeList: AddonItem[] = (storeAddonsJson as AddonItem[]).map((item) => {
-  const curated = curatedMap.get(item.id);
+  const curated = curatedMap.get(item.id) || curatedNormalizedMap.get(normalizeId(item.id));
   if (curated) {
     return {
       ...curated,
+      id: item.id, // Giữ ID chuẩn của Store
+      inStore: true,
       version: item.version || curated.version,
       updatedAt: item.updatedAt || curated.updatedAt,
       updatedAtVN: item.updatedAtVN || curated.updatedAtVN,
       downloadUrl: item.downloadUrl || curated.downloadUrl,
+      testedVersion: item.testedVersion || curated.testedVersion,
     };
   }
 
@@ -464,8 +473,16 @@ const storeList: AddonItem[] = (storeAddonsJson as AddonItem[]).map((item) => {
   };
 });
 
-// Các add-on tuyển chọn độc lập ngoài Store (RadioTV, Network Optimizer, v.v.)
-const externalCurated = addonsList.filter((item) => !item.inStore);
+// Các add-on tuyển chọn độc lập ngoài Store (RadioTV, v.v.)
+const matchedStoreNormalizedIds = new Set(
+  (storeAddonsJson as AddonItem[]).map((item) => normalizeId(item.id))
+);
+
+const externalCurated = addonsList.filter((item) => {
+  if (item.inStore) return false;
+  // Nếu add-on đã được Store chính thức tiếp nhận (khớp ID chuẩn hóa), không gộp trùng nữa
+  return !matchedStoreNormalizedIds.has(normalizeId(item.id));
+});
 
 // Gộp chung và SẮP XẾP MỚI CẬP NHẬT LÊN ĐẦU TIÊN (Newest update first)
 export const allAddonsList: AddonItem[] = [...externalCurated, ...storeList].sort(
