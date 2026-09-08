@@ -89,7 +89,7 @@ export default function KhoAddonPage() {
               </p>
             </div>
 
-            {/* Bảng Hướng Dẫn Phân Biệt Nhanh */}
+            {/* Bảng Hướng Dẫn Phân Biệt Nhanh & Nguồn Cộng Đồng */}
             <div className="store-notice-card" role="region" aria-label="Lưu ý về nguồn cài đặt">
               <div className="notice-item">
                 <Store size={22} aria-hidden="true" color="#165b45" />
@@ -103,6 +103,58 @@ export default function KhoAddonPage() {
                 <div>
                   <strong>Cộng đồng phát hành độc lập:</strong>
                   <p>Các tiện ích riêng của cộng đồng. Bạn nhấn nút <strong>Tải tệp .nvda-addon</strong>, sau đó mở tệp để cài vào máy.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Các cổng thông tin cộng đồng NVDA quốc tế và Việt Nam */}
+            <div style={{ marginTop: "1rem", marginBottom: "1.5rem" }} role="region" aria-label="Liên kết tới các cộng đồng NVDA">
+              <p style={{ fontSize: "0.9375rem", fontWeight: 700, color: "var(--ink)", marginBottom: "0.5rem" }}>
+                Cổng thông tin gốc của các cộng đồng:
+              </p>
+              <div className="community-sources-grid">
+                <div className="community-source-card">
+                  <span className="community-source-flag" aria-hidden="true">🌐</span>
+                  <h3 className="community-source-title">
+                    <a href="https://addons.nvaccess.org/" target="_blank" rel="noreferrer">
+                      NV Access Store <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  </h3>
+                  <p className="community-source-desc">Cửa hàng tiện ích chính thức toàn cầu do tổ chức NV Access (Úc) vận hành.</p>
+                  <p className="community-source-meta">addons.nvaccess.org</p>
+                </div>
+
+                <div className="community-source-card">
+                  <span className="community-source-flag" aria-hidden="true">🇪🇸</span>
+                  <h3 className="community-source-title">
+                    <a href="https://nvda.es/" target="_blank" rel="noreferrer">
+                      Cộng đồng Tây Ban Nha <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  </h3>
+                  <p className="community-source-desc">Kho tiện ích phong phú bậc nhất châu Âu của hiệp hội NVDA en Español (Noelia, Barbieri).</p>
+                  <p className="community-source-meta">nvda.es</p>
+                </div>
+
+                <div className="community-source-card">
+                  <span className="community-source-flag" aria-hidden="true">🇷🇺</span>
+                  <h3 className="community-source-title">
+                    <a href="https://nvda.ru/" target="_blank" rel="noreferrer">
+                      Cộng đồng Nga (NVDA.ru) <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  </h3>
+                  <p className="community-source-desc">Cộng đồng Đông Âu với các tiện ích chuyên sâu về mạng xã hội, Telegram và công cụ hệ thống.</p>
+                  <p className="community-source-meta">nvda.ru</p>
+                </div>
+
+                <div className="community-source-card">
+                  <span className="community-source-flag" aria-hidden="true">🇻🇳</span>
+                  <h3 className="community-source-title">
+                    <a href="https://saomaicenter.org/vi/phan-mem/nvda" target="_blank" rel="noreferrer">
+                      Cộng đồng Sao Mai (VN) <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  </h3>
+                  <p className="community-source-desc">Đơn vị tiên phong phổ biến NVDA và cung cấp bộ đọc tiếng Việt tại Việt Nam.</p>
+                  <p className="community-source-meta">saomaicenter.org</p>
                 </div>
               </div>
             </div>

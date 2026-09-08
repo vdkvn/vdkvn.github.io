@@ -273,6 +273,61 @@ export default function Home() {
                 );
               })}
             </div>
+
+            {/* Mạng lưới cộng đồng NVDA quốc tế & Việt Nam */}
+            <div style={{ marginTop: "2.5rem" }} role="region" aria-label="Mạng lưới cộng đồng NVDA">
+              <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
+                Cổng thông tin các cộng đồng NVDA
+              </h3>
+              <p style={{ color: "var(--muted-ink)", fontSize: "0.9375rem", marginBottom: "1rem" }}>
+                Các trang web chính thức của cộng đồng quốc tế và Việt Nam. Bạn có thể truy cập trực tiếp để tra cứu thêm tài liệu gốc hoặc thảo luận cùng bạn bè khiếm thị khắp thế giới.
+              </p>
+              <div className="community-sources-grid">
+                <div className="community-source-card">
+                  <span className="community-source-flag" aria-hidden="true">🌐</span>
+                  <h4 className="community-source-title">
+                    <a href="https://addons.nvaccess.org/" target="_blank" rel="noreferrer">
+                      NV Access Store <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  </h4>
+                  <p className="community-source-desc">Cửa hàng Add-on Store chính thức toàn cầu do NV Access (Úc) vận hành.</p>
+                  <p className="community-source-meta">addons.nvaccess.org</p>
+                </div>
+
+                <div className="community-source-card">
+                  <span className="community-source-flag" aria-hidden="true">🇪🇸</span>
+                  <h4 className="community-source-title">
+                    <a href="https://nvda.es/" target="_blank" rel="noreferrer">
+                      Cộng đồng Tây Ban Nha <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  </h4>
+                  <p className="community-source-desc">Hiệp hội NVDA tiếng Tây Ban Nha với nhiều tiện ích đọc báo, thời tiết và phím tắt.</p>
+                  <p className="community-source-meta">nvda.es</p>
+                </div>
+
+                <div className="community-source-card">
+                  <span className="community-source-flag" aria-hidden="true">🇷🇺</span>
+                  <h4 className="community-source-title">
+                    <a href="https://nvda.ru/" target="_blank" rel="noreferrer">
+                      Cộng đồng Nga (NVDA.ru) <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  </h4>
+                  <p className="community-source-desc">Cộng đồng NVDA tiếng Nga chuyên phát triển các tiện ích Telegram, WhatsApp và hệ thống.</p>
+                  <p className="community-source-meta">nvda.ru</p>
+                </div>
+
+                <div className="community-source-card">
+                  <span className="community-source-flag" aria-hidden="true">🇻🇳</span>
+                  <h4 className="community-source-title">
+                    <a href="https://saomaicenter.org/vi/phan-mem/nvda" target="_blank" rel="noreferrer">
+                      Cộng đồng Sao Mai (VN) <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  </h4>
+                  <p className="community-source-desc">Trung tâm Vì người mù Sao Mai – đơn vị dịch thuật và phổ biến NVDA tại Việt Nam.</p>
+                  <p className="community-source-meta">saomaicenter.org</p>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
