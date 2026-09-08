@@ -125,6 +125,17 @@ export default function KhoAddonPage() {
                 </div>
 
                 <div className="community-source-card">
+                  <span className="community-source-flag" aria-hidden="true">💬</span>
+                  <h3 className="community-source-title">
+                    <a href="https://nvda.groups.io/g/nvda" target="_blank" rel="noreferrer">
+                      Diễn đàn Toàn cầu <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  </h3>
+                  <p className="community-source-desc">Mạng lưới thảo luận, trợ giúp kỹ thuật và giải đáp thắc mắc người dùng NVDA lớn nhất trên Groups.io.</p>
+                  <p className="community-source-meta">nvda.groups.io</p>
+                </div>
+
+                <div className="community-source-card">
                   <span className="community-source-flag" aria-hidden="true">🇪🇸</span>
                   <h3 className="community-source-title">
                     <a href="https://nvda.es/" target="_blank" rel="noreferrer">
@@ -136,6 +147,17 @@ export default function KhoAddonPage() {
                 </div>
 
                 <div className="community-source-card">
+                  <span className="community-source-flag" aria-hidden="true">🇫🇷</span>
+                  <h3 className="community-source-title">
+                    <a href="https://www.nvda.fr/" target="_blank" rel="noreferrer">
+                      Cộng đồng Pháp (NVDA-FR) <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  </h3>
+                  <p className="community-source-desc">Hiệp hội người khiếm thị Pháp ngữ phát triển nhiều tài liệu chuyên sâu và tiện ích bổ trợ thiết thực.</p>
+                  <p className="community-source-meta">nvda.fr</p>
+                </div>
+
+                <div className="community-source-card">
                   <span className="community-source-flag" aria-hidden="true">🇷🇺</span>
                   <h3 className="community-source-title">
                     <a href="https://nvda.ru/" target="_blank" rel="noreferrer">
@@ -144,6 +166,28 @@ export default function KhoAddonPage() {
                   </h3>
                   <p className="community-source-desc">Cộng đồng Đông Âu với các tiện ích chuyên sâu về mạng xã hội, Telegram và công cụ hệ thống.</p>
                   <p className="community-source-meta">nvda.ru</p>
+                </div>
+
+                <div className="community-source-card">
+                  <span className="community-source-flag" aria-hidden="true">🇯🇵</span>
+                  <h3 className="community-source-title">
+                    <a href="https://nvda.jp/" target="_blank" rel="noreferrer">
+                      Cộng đồng Nhật Bản <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  </h3>
+                  <p className="community-source-desc">Nhóm NVDA Japanese Team tối ưu xử lý Hán tự Kanji, phím bấm bàn phím và bộ đọc châu Á.</p>
+                  <p className="community-source-meta">nvda.jp</p>
+                </div>
+
+                <div className="community-source-card">
+                  <span className="community-source-flag" aria-hidden="true">📦</span>
+                  <h3 className="community-source-title">
+                    <a href="https://nvdaaddons.github.io/" target="_blank" rel="noreferrer">
+                      NVDA Addons GitHub <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  </h3>
+                  <p className="community-source-desc">Cổng mã nguồn mở quốc tế lưu giữ các tiện ích độc lập và hướng dẫn phát triển add-on chuẩn mực.</p>
+                  <p className="community-source-meta">nvdaaddons.github.io</p>
                 </div>
 
                 <div className="community-source-card">

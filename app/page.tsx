@@ -290,8 +290,19 @@ export default function Home() {
                       NV Access Store <ExternalLink size={14} aria-hidden="true" />
                     </a>
                   </h4>
-                  <p className="community-source-desc">Cửa hàng Add-on Store chính thức toàn cầu do NV Access (Úc) vận hành.</p>
+                  <p className="community-source-desc">Cửa hàng Add-on chính thức toàn cầu do tổ chức NV Access (Úc) vận hành.</p>
                   <p className="community-source-meta">addons.nvaccess.org</p>
+                </div>
+
+                <div className="community-source-card">
+                  <span className="community-source-flag" aria-hidden="true">💬</span>
+                  <h4 className="community-source-title">
+                    <a href="https://nvda.groups.io/g/nvda" target="_blank" rel="noreferrer">
+                      Diễn đàn NVDA Toàn cầu <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  </h4>
+                  <p className="community-source-desc">Cộng đồng thảo luận, giải đáp thắc mắc và hỗ trợ kỹ thuật NVDA lớn nhất thế giới trên Groups.io.</p>
+                  <p className="community-source-meta">nvda.groups.io</p>
                 </div>
 
                 <div className="community-source-card">
@@ -301,8 +312,19 @@ export default function Home() {
                       Cộng đồng Tây Ban Nha <ExternalLink size={14} aria-hidden="true" />
                     </a>
                   </h4>
-                  <p className="community-source-desc">Hiệp hội NVDA tiếng Tây Ban Nha với nhiều tiện ích đọc báo, thời tiết và phím tắt.</p>
+                  <p className="community-source-desc">Hiệp hội NVDA en Español – nơi khởi xướng và phát triển hàng chục tiện ích nổi tiếng toàn cầu.</p>
                   <p className="community-source-meta">nvda.es</p>
+                </div>
+
+                <div className="community-source-card">
+                  <span className="community-source-flag" aria-hidden="true">🇫🇷</span>
+                  <h4 className="community-source-title">
+                    <a href="https://www.nvda.fr/" target="_blank" rel="noreferrer">
+                      Cộng đồng Pháp (NVDA-FR) <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  </h4>
+                  <p className="community-source-desc">Hiệp hội người dùng khiếm thị Pháp ngữ với kho tài liệu hướng dẫn chuyên sâu và add-on trợ năng.</p>
+                  <p className="community-source-meta">nvda.fr</p>
                 </div>
 
                 <div className="community-source-card">
@@ -312,8 +334,30 @@ export default function Home() {
                       Cộng đồng Nga (NVDA.ru) <ExternalLink size={14} aria-hidden="true" />
                     </a>
                   </h4>
-                  <p className="community-source-desc">Cộng đồng NVDA tiếng Nga chuyên phát triển các tiện ích Telegram, WhatsApp và hệ thống.</p>
+                  <p className="community-source-desc">Cộng đồng Đông Âu chuyên sâu về các add-on tin nhắn (Telegram, WhatsApp) và công cụ can thiệp hệ thống.</p>
                   <p className="community-source-meta">nvda.ru</p>
+                </div>
+
+                <div className="community-source-card">
+                  <span className="community-source-flag" aria-hidden="true">🇯🇵</span>
+                  <h4 className="community-source-title">
+                    <a href="https://nvda.jp/" target="_blank" rel="noreferrer">
+                      Cộng đồng Nhật Bản <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  </h4>
+                  <p className="community-source-desc">Nhóm phát triển NVDA Japanese Team chuyên tối ưu bộ gõ ký tự Hán tự, phím tắt và giọng đọc khu vực châu Á.</p>
+                  <p className="community-source-meta">nvda.jp</p>
+                </div>
+
+                <div className="community-source-card">
+                  <span className="community-source-flag" aria-hidden="true">📦</span>
+                  <h4 className="community-source-title">
+                    <a href="https://nvdaaddons.github.io/" target="_blank" rel="noreferrer">
+                      NVDA Addons GitHub <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  </h4>
+                  <p className="community-source-desc">Kho mã nguồn mở kế thừa của cộng đồng quốc tế, lưu trữ tài liệu chuẩn hóa và hướng dẫn lập trình tiện ích.</p>
+                  <p className="community-source-meta">nvdaaddons.github.io</p>
                 </div>
 
                 <div className="community-source-card">
@@ -323,7 +367,7 @@ export default function Home() {
                       Cộng đồng Sao Mai (VN) <ExternalLink size={14} aria-hidden="true" />
                     </a>
                   </h4>
-                  <p className="community-source-desc">Trung tâm Vì người mù Sao Mai – đơn vị dịch thuật và phổ biến NVDA tại Việt Nam.</p>
+                  <p className="community-source-desc">Trung tâm Vì người mù Sao Mai – đơn vị tiên phong dịch thuật, phổ biến và phát triển giọng đọc Việt cho NVDA.</p>
                   <p className="community-source-meta">saomaicenter.org</p>
                 </div>
               </div>
