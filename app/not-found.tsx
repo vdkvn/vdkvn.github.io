@@ -27,8 +27,8 @@ export default function NotFound() {
               <Link href="/" className="button button-primary">
                 <Home size={18} aria-hidden="true" /> Về Trang chủ của Khánh
               </Link>
-              <Link href="/#chuyen-muc" className="button button-secondary">
-                <Compass size={18} aria-hidden="true" /> Khám phá các dự án
+              <Link href="/#tac-gia" className="button button-secondary">
+                <Compass size={18} aria-hidden="true" /> Khám phá các dự án của Khánh
               </Link>
               <a
                 href="mailto:voduykhanh.mata@gmail.com?subject=[VDK-Website]%20Báo%20lỗi%20đường%20dẫn%20404"
