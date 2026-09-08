@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { QuickFeedbackModal } from "@/components/QuickFeedbackModal";
 import "./globals.css";
 
 const siteUrl = "https://vdk.is-a.dev";
@@ -229,8 +230,17 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
         />
+        {/* Cloudflare Web Analytics: Nhẹ ~5KB, không lưu cookie cá nhân, bảo vệ quyền riêng tư tuyệt đối */}
+        <script
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "a0c2295fa9664f92a81cde1a055d8916"}'
+        />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <QuickFeedbackModal />
+      </body>
     </html>
   );
 }
