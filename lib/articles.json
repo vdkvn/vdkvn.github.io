@@ -1,5 +1,257 @@
 [
   {
+    "id": "review-siamSquare",
+    "addonId": "siamSquare",
+    "addonName": "siamSquare พจนานุกรมไทย คลังคำ",
+    "version": "2026.9.9",
+    "title": "Hướng dẫn và đánh giá tiện ích: siamSquare พจนานุกรมไทย คลังคำ (Bản 2026.9.9)",
+    "summary": "Thông tin chi tiết về tiện ích siamSquare พจนานุกรมไทย คลังคำ trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "11/09/2026",
+    "timestamp": "2026-09-11T02:56:27Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Chai Chaimee** phát triển theo giấy phép **GPL v2**.\n\nsiamSquare enhances Thai writing and study in NVDA with built-in dictionary tools for instant definitions, smart spelling corrections, and detailed letter spelling. It includes a full dictionary editor, a Thai alphabet order lookup, and an interactive quiz game to boost learning efficiency.\n\nHot Keys:\nCTRL+F1 : Open Layer Keys\nF1 : word meaning\nF2 : Misspelled words and similar words\nF3 : Spell words\nF4 : Open Siam Center Dictionary\nF5 : a character-order quiz\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải siamSquare พจนานุกรมไทย คลังคำ](https://github.com/chaichaimee/siamSquare/releases/download/2026.9.9/siamSquare-v2026.9.9.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/chaichaimee/siamSquare",
+    "downloadUrl": "https://github.com/chaichaimee/siamSquare/releases/download/2026.9.9/siamSquare-v2026.9.9.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-PPAWakeUp",
+    "addonId": "PPAWakeUp",
+    "addonName": "PPA Tatip WakeUp ตาทิพย์จงตื่น!",
+    "version": "2026.9.9",
+    "title": "Hướng dẫn và đánh giá tiện ích: PPA Tatip WakeUp ตาทิพย์จงตื่น! (Bản 2026.9.9)",
+    "summary": "Thông tin chi tiết về tiện ích PPA Tatip WakeUp ตาทิพย์จงตื่น! trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "11/09/2026",
+    "timestamp": "2026-09-11T02:43:49Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Chai Chaimee** phát triển theo giấy phép **GPL v2**.\n\nPPAWakeUp ensures PPA Tatip runs smoothly with NVDA by automatically recovering from crashes and offering quick engine management. It features auto-reboot upon failure, CJK character speech filtering to prevent freezes, dialog button crash protection, and built-in dictionary backup.\n\nHot Keys:\nWindows+P\nSingle Tap wake up  PPA Tatip\nDouble Tap Open PPA Tatip options\nTripple Tap Open Tatip Menu\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải PPA Tatip WakeUp ตาทิพย์จงตื่น!](https://github.com/chaichaimee/PPAWakeUp/releases/download/2026.9.9/PPAWakeUp-v2026.9.9.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/chaichaimee/PPAWakeUp",
+    "downloadUrl": "https://github.com/chaichaimee/PPAWakeUp/releases/download/2026.9.9/PPAWakeUp-v2026.9.9.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-autosleepMode",
+    "addonId": "autosleepMode",
+    "addonName": "Autosleep Mode",
+    "version": "1.0.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: Autosleep Mode (Bản 1.0.0)",
+    "summary": "Thông tin chi tiết về tiện ích Autosleep Mode trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "11/09/2026",
+    "timestamp": "2026-09-10T23:14:00Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Lukáš Hosnedl** phát triển theo giấy phép **GPL v2**.\n\nTurns NVDA's sleep mode on automatically whenever an application you have listed comes to the foreground.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Autosleep Mode](https://github.com/4sensegaming/autosleep-mode/releases/download/v1.0.0/autosleepMode-1.0.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/4sensegaming/autosleep-mode",
+    "downloadUrl": "https://github.com/4sensegaming/autosleep-mode/releases/download/v1.0.0/autosleepMode-1.0.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-YoutubeAccessPro",
+    "addonId": "YoutubeAccessPro",
+    "addonName": "YouTube Access Pro",
+    "version": "2026.09.11",
+    "title": "Hướng dẫn và đánh giá tiện ích: YouTube Access Pro (Bản 2026.09.11)",
+    "summary": "Thông tin chi tiết về tiện ích YouTube Access Pro trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "11/09/2026",
+    "timestamp": "2026-09-10T23:07:02Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Peem Narkkhwan** phát triển theo giấy phép **GPL v2**.\n\n\nYouTube Access Pro คือโปรแกรมเสริมสำหรับ NVDA ที่ให้เข้าถึง YouTube ได้อย่างเต็มรูปแบบด้วยแป้นพิมพ์เพียงอย่างเดียว ค้นหาหรือวางลิงก์เพื่อเล่นและดาวน์โหลดวิดีโอ เพลย์ลิสต์ หรือช่องได้โดยตรง พร้อมคีย์ลัดควบคุมการเล่นครบครัน (เล่น/หยุด กรอ ปรับเสียง ปรับความเร็ว เล่นต่อเนื่องอัตโนมัติ) และตัวจับเวลาปิดในตัว\n\nจัดการเพลย์ลิสต์ส่วนตัวได้อิสระ และติดตามช่องที่ชื่นชอบผ่านแท็บ Subscriptions ซึ่งไล่ดูเนื้อหาได้เหมือน YouTube เอง แบ่งเป็นหมวด Videos, Shorts, Live และ Playlists ดาวน์โหลดเป็นไฟล์ MP3 หรือ MP4 ได้ทันทีพร้อมเลือกคุณภาพ และจัดเก็บเป็นหมวดหมู่ตามเพลย์ลิสต์หรือช่องให้อัตโนมัติ\n\nใช้งานได้ทั้งภาษาไทยและอังกฤษ สลับได้ทันทีด้วย Ctrl+T เรียกหน้าต่างขึ้นมาจากทุกที่ด้วย NVDA+Y และฟังสรุปคีย์ลัดของแต่ละหน้าได้ทันทีด้วย Ctrl+F1 คู่มือฉบับเต็มพร้อมรายละเอียดคีย์ลัดทั้งหมดแนบมากับโปรแกรมเสริมนี้\n\nYouTube Access Pro is an NVDA add-on that provides full keyboard-only access to YouTube. Search or paste a link to play and download videos, playlists, or channels directly, with complete playback shortcuts (play/pause, seek, volume, speed, automatic continuous playback) and a built-in sleep timer.\n\nManage personal playlists freely, and follow favorite channels through the Subscriptions tab, browsing content the way YouTube itself organizes it - Videos, Shorts, Live, and Playlists. Download instantly as MP3 or MP4 with selectable quality, automatically sorted into folders by playlist or channel.\n\nAvailable in both Thai and English, switch instantly with Ctrl+T. Open the window from anywhere with NVDA+Y, and hear a shortcut summary for the current tab anytime with Ctrl+F1. A full user guide with complete shortcut details is included with this add-on.\n\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải YouTube Access Pro](https://github.com/sharetoyouaccess/YoutubeAccessPro/releases/download/v2026.09.11/YoutubeAccessPro-2026.09.11.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/sharetoyouaccess/YoutubeAccessPro",
+    "downloadUrl": "https://github.com/sharetoyouaccess/YoutubeAccessPro/releases/download/v2026.09.11/YoutubeAccessPro-2026.09.11.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-stationPlaylist",
+    "addonId": "stationPlaylist",
+    "addonName": "StationPlaylist",
+    "version": "26.09.1",
+    "title": "Hướng dẫn và đánh giá tiện ích: StationPlaylist (Bản 26.09.1)",
+    "summary": "Thông tin chi tiết về tiện ích StationPlaylist trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "11/09/2026",
+    "timestamp": "2026-09-10T18:49:27Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **josephsl** phát triển theo giấy phép **GPL v2**.\n\nEnhances support for StationPlaylist apps. In addition, adds global commands for the Studio application from everywhere.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải StationPlaylist](https://github.com/ChrisDuffley/stationPlaylist/releases/download/26.09/stationPlaylist-26.09.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/ChrisDuffley/stationPlaylist",
+    "downloadUrl": "https://github.com/ChrisDuffley/stationPlaylist/releases/download/26.09/stationPlaylist-26.09.1.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-soundDictionaries",
+    "addonId": "soundDictionaries",
+    "addonName": "Sound Dictionaries",
+    "version": "1.0.1",
+    "title": "Hướng dẫn và đánh giá tiện ích: Sound Dictionaries (Bản 1.0.1)",
+    "summary": "Thông tin chi tiết về tiện ích Sound Dictionaries trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "10/09/2026",
+    "timestamp": "2026-09-10T14:42:56Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **mehdi malakane** phát triển theo giấy phép **GPL v2**.\n\nAssigns custom WAV or MP3 audio playback to specific phrases across all NVDA speech dictionaries (Default, Voice, and Temporary). Similar to JAWS dictionary sound assignments, phrases can trigger sound playback with or without replacement text.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Sound Dictionaries](https://github.com/mehdimalakane/soundDictionaries/releases/download/v1.0.1/soundDictionaries-1.0.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/mehdimalakane/soundDictionaries",
+    "downloadUrl": "https://github.com/mehdimalakane/soundDictionaries/releases/download/v1.0.1/soundDictionaries-1.0.1.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-outlookFirstLineSilence",
+    "addonId": "outlookFirstLineSilence",
+    "addonName": "Outlook First Line Silence",
+    "version": "1.0.18",
+    "title": "Hướng dẫn và đánh giá tiện ích: Outlook First Line Silence (Bản 1.0.18)",
+    "summary": "Thông tin chi tiết về tiện ích Outlook First Line Silence trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "10/09/2026",
+    "timestamp": "2026-09-10T04:27:07Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Dennis Long** phát triển theo giấy phép **GPL v2**.\n\nSuppresses NVDA's automatic Outlook message-entry speech, including the inspector title, dialog/document container speech, and first line. Announces when focus reaches an editable message body. Recognizes classic Outlook, new Outlook, and older Windows Mail/Calendar variants. Derived specifically from verified Mute Browse Mode 3.6.57 behavior.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Outlook First Line Silence](https://github.com/Dennisl123/outlookFirstLineSilence/releases/download/v1.0.18/outlookFirstLineSilence-1.0.18.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/Dennisl123/outlookFirstLineSilence/tree/v1.0.18",
+    "downloadUrl": "https://github.com/Dennisl123/outlookFirstLineSilence/releases/download/v1.0.18/outlookFirstLineSilence-1.0.18.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
     "id": "review-lastItemAnnouncer",
     "addonId": "lastItemAnnouncer",
     "addonName": "Last Item Announcer",
@@ -609,42 +861,6 @@
     ],
     "repoUrl": "https://github.com/komilblindev/yamusic-nvda",
     "downloadUrl": "https://github.com/komilblindev/yamusic-nvda/releases/download/v2.0/yaMusicHelper_v2.0.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-YoutubeAccessPro",
-    "addonId": "YoutubeAccessPro",
-    "addonName": "YouTube Access Pro",
-    "version": "2026.09.02",
-    "title": "Hướng dẫn và đánh giá tiện ích: YouTube Access Pro (Bản 2026.09.02)",
-    "summary": "Thông tin chi tiết về tiện ích YouTube Access Pro trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "08/09/2026",
-    "timestamp": "2026-09-08T04:11:22Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Peem Narkkhwan** phát triển theo giấy phép **GPL v2**.\n\n\nYouTube Access Pro คือโปรแกรมเสริมสำหรับ NVDA ที่ให้เข้าถึง YouTube ได้อย่างเต็มรูปแบบด้วยแป้นพิมพ์เพียงอย่างเดียว ค้นหาหรือวางลิงก์เพื่อเล่นและดาวน์โหลดวิดีโอ เพลย์ลิสต์ หรือช่องได้โดยตรง พร้อมคีย์ลัดควบคุมการเล่นครบครัน (เล่น/หยุด กรอ ปรับเสียง ปรับความเร็ว เล่นต่อเนื่องอัตโนมัติ) และตัวจับเวลาปิดในตัว\n\nจัดการเพลย์ลิสต์ส่วนตัวได้อิสระ และติดตามช่องที่ชื่นชอบผ่านแท็บ Subscriptions ซึ่งไล่ดูเนื้อหาได้เหมือน YouTube เอง แบ่งเป็นหมวด Videos, Shorts, Live และ Playlists ดาวน์โหลดเป็นไฟล์ MP3 หรือ MP4 ได้ทันทีพร้อมเลือกคุณภาพ และจัดเก็บเป็นหมวดหมู่ตามเพลย์ลิสต์หรือช่องให้อัตโนมัติ\n\nใช้งานได้ทั้งภาษาไทยและอังกฤษ สลับได้ทันทีด้วย Ctrl+T เรียกหน้าต่างขึ้นมาจากทุกที่ด้วย NVDA+Y และฟังสรุปคีย์ลัดของแต่ละหน้าได้ทันทีด้วย Ctrl+F1 คู่มือฉบับเต็มพร้อมรายละเอียดคีย์ลัดทั้งหมดแนบมากับโปรแกรมเสริมนี้\n\nYouTube Access Pro is an NVDA add-on that provides full keyboard-only access to YouTube. Search or paste a link to play and download videos, playlists, or channels directly, with complete playback shortcuts (play/pause, seek, volume, speed, automatic continuous playback) and a built-in sleep timer.\n\nManage personal playlists freely, and follow favorite channels through the Subscriptions tab, browsing content the way YouTube itself organizes it - Videos, Shorts, Live, and Playlists. Download instantly as MP3 or MP4 with selectable quality, automatically sorted into folders by playlist or channel.\n\nAvailable in both Thai and English, switch instantly with Ctrl+T. Open the window from anywhere with NVDA+Y, and hear a shortcut summary for the current tab anytime with Ctrl+F1. A full user guide with complete shortcut details is included with this add-on.\n\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải YouTube Access Pro](https://github.com/sharetoyouaccess/YoutubeAccessPro/releases/download/v2026.09.02/YoutubeAccessPro-2026.09.02.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/sharetoyouaccess/YoutubeAccessPro",
-    "downloadUrl": "https://github.com/sharetoyouaccess/YoutubeAccessPro/releases/download/v2026.09.02/YoutubeAccessPro-2026.09.02.nvda-addon",
     "license": "GPL v2"
   },
   {
