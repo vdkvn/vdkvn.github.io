@@ -1,5 +1,185 @@
 [
   {
+    "id": "review-TextMarksTheSpot",
+    "addonId": "TextMarksTheSpot",
+    "addonName": "Text Marks the Spot",
+    "version": "1.0.16",
+    "title": "Hướng dẫn và đánh giá tiện ích: Text Marks the Spot (Bản 1.0.16)",
+    "summary": "Thông tin chi tiết về tiện ích Text Marks the Spot trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "11/09/2026",
+    "timestamp": "2026-09-11T14:35:41Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Casey Mathews** phát triển theo giấy phép **GPL v2**.\n\nGet to the actual content on a web page without working so hard to find it. Hands off. Let the page load, listen for the short beeps, and you're at the start of the article. NVDA reads the first paragraph. Press Z to skim forward, Shift+Z to jump back to the start, NVDA+Z to turn the add-on off on a specific site. Runs locally, no network calls.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Text Marks the Spot](https://github.com/WebFriendlyHelp/TextMarksTheSpot/releases/download/v1.0.16/TextMarksTheSpot-1.0.16.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/WebFriendlyHelp/TextMarksTheSpot",
+    "downloadUrl": "https://github.com/WebFriendlyHelp/TextMarksTheSpot/releases/download/v1.0.16/TextMarksTheSpot-1.0.16.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-greekMathReader",
+    "addonId": "greekMathReader",
+    "addonName": "Greek Math Reader",
+    "version": "2.5.6",
+    "title": "Hướng dẫn và đánh giá tiện ích: Greek Math Reader (Bản 2.5.6)",
+    "summary": "Thông tin chi tiết về tiện ích Greek Math Reader trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "11/09/2026",
+    "timestamp": "2026-09-11T10:20:57Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Bouronikos Christos** phát triển theo giấy phép **GPL-3.0-or-later**.\n\nReads MathML, LaTeX, and UnicodeMath aloud in natural Greek, following the dictation\nconventions used in Greek schools and universities.\nUses conservative semantic interpretation, terminology profiles, statistics, vector calculus,\nquantum notation, SI units, fractions, powers, integrals, derivatives, and matrices.\nIncludes interactive navigation to explore complex expressions part by part,\nthree verbosity levels, configurable pronunciations and matrix reading, unsaved speech previews,\nand voice download options for OneCore and Vocalizer Expressive.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Greek Math Reader](https://github.com/ChristosBouronikos/NVDA-Greek-Math/releases/download/v2.5.6/greekMathReader-2.5.6.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/ChristosBouronikos/NVDA-Greek-Math",
+    "downloadUrl": "https://github.com/ChristosBouronikos/NVDA-Greek-Math/releases/download/v2.5.6/greekMathReader-2.5.6.nvda-addon",
+    "license": "GPL-3.0-or-later"
+  },
+  {
+    "id": "review-sonataSherpaVoices",
+    "addonId": "sonataSherpaVoices",
+    "addonName": "Sonata Sherpa Voices",
+    "version": "2026.2",
+    "title": "Hướng dẫn và đánh giá tiện ích: Sonata Sherpa Voices (Bản 2026.2)",
+    "summary": "Thông tin chi tiết về tiện ích Sonata Sherpa Voices trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "11/09/2026",
+    "timestamp": "2026-09-11T09:41:26Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Jim Grimsby Jr.** phát triển theo giấy phép **GPL v3 or later**.\n\nBộ tổng hợp NVDA dựa trên Sonata sử dụng các mẫu sherpa-onnx có trình quản lý giọng nói có thể truy cập.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tiện ích đã có sẵn giao diện tiếng Việt. Giọng đọc NVDA sẽ đọc đúng các nút bấm và thông báo, bạn chỉ cần cài đặt là sử dụng được ngay."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Sonata Sherpa Voices](https://github.com/jbgrimsby/sonata-sherpa-voices/releases/download/v2026.2/sonata_sherpa_voices-2026.2.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/jbgrimsby/sonata-sherpa-voices/tree/v2026.2",
+    "downloadUrl": "https://github.com/jbgrimsby/sonata-sherpa-voices/releases/download/v2026.2/sonata_sherpa_voices-2026.2.nvda-addon",
+    "license": "GPL v3 or later"
+  },
+  {
+    "id": "review-emoticons",
+    "addonId": "emoticons",
+    "addonName": "Các biểu tượng cảm xúc",
+    "version": "38.1.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: Các biểu tượng cảm xúc (Bản 38.1.0)",
+    "summary": "Thông tin chi tiết về tiện ích Các biểu tượng cảm xúc trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "11/09/2026",
+    "timestamp": "2026-09-11T08:58:45Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **nvdaes** phát triển theo giấy phép **GPL v2**.\n\nBật chế độ đọc tên biểu tượng cảm xúc thay cho kí tự của nó.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tiện ích đã có sẵn giao diện tiếng Việt. Giọng đọc NVDA sẽ đọc đúng các nút bấm và thông báo, bạn chỉ cần cài đặt là sử dụng được ngay."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Các biểu tượng cảm xúc](https://github.com/nvdaes/emoticons/releases/download/38.1.0/emoticons-38.1.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/nvdaes/emoticons/releases/tag/38.1.0",
+    "downloadUrl": "https://github.com/nvdaes/emoticons/releases/download/38.1.0/emoticons-38.1.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-SiteMarker",
+    "addonId": "SiteMarker",
+    "addonName": "SiteMarker",
+    "version": "2026.9.9",
+    "title": "Hướng dẫn và đánh giá tiện ích: SiteMarker (Bản 2026.9.9)",
+    "summary": "Thông tin chi tiết về tiện ích SiteMarker trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "11/09/2026",
+    "timestamp": "2026-09-11T06:13:32Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Chai Chaimee** phát triển theo giấy phép **GPL v2**.\n\nSiteMarker streamlines web navigation for NVDA users by bookmarking specific webpage elements for instant access. Key features include site and marker managers, customizable search scopes, and automatic element clicking for hard to reach buttons, saving time on complex pages.\n\nHot Keys:\nWindows+F12\nSingle Tap : Add or Edit Marker\nDouble Tap : open Site Manager\nTriple Tap : open Marker Manager\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải SiteMarker](https://github.com/chaichaimee/SiteMarker/releases/download/2026.9.9/SiteMarker-v2026.9.9.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/chaichaimee/SiteMarker",
+    "downloadUrl": "https://github.com/chaichaimee/SiteMarker/releases/download/2026.9.9/SiteMarker-v2026.9.9.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
     "id": "review-siamSquare",
     "addonId": "siamSquare",
     "addonName": "siamSquare พจนานุกรมไทย คลังคำ",

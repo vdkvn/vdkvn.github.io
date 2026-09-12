@@ -1,30 +1,42 @@
 {
-  "lastChecked": "2026-09-11T04:18:08.878Z",
-  "lastCheckedVN": "11/09/2026",
+  "lastChecked": "2026-09-12T04:16:52.563Z",
+  "lastCheckedVN": "12/09/2026",
   "items": [
-    {
-      "slug": "nvda-screen-reader",
-      "projectName": "NVDA Screen Reader",
-      "category": "Phần mềm tiếp cận",
-      "type": "Trình đọc màn hình",
-      "timestamp": "2026-09-10T03:13:45Z",
-      "date": "10/09/2026",
-      "summary": "Move DUPLICATE_SAME_ACCESS, GENERIC_READ and GENERIC_WRITE from winKernel to winBindings.kernel32 (#20784)",
-      "fullMessage": "Move DUPLICATE_SAME_ACCESS, GENERIC_READ and GENERIC_WRITE from winKernel to winBindings.kernel32 (#20784)\n\n### Summary of the issue:\n\nThe ART project uses some symbols that are currently defined in\n`winKernel`. To avoid dragging NVDA code into host processes, these\nsymbols, which are Windows API definitions, should be moved to\n`winBindings`, which is more acceptable to include in host processes.\n\n### Description of user facing changes:\n\nNone.\n\n### Description of developer facing changes:\n\n`winKernel.DUPLICATE_SAME_ACCESS` ->\n`winBindings.kernel32.DUPLICATE.SAME_ACCESS`; `winKernel.GENERIC_*` ->\n`winBindings.kernel32.GENERIC.*`.\n\n### Description of development approach:\n\nDefined `DUPLICATE` and `GENERIC` enumerations in\n`winBindings.kernel32`. Removed their definitions from `winKernel`, and\nadded `MovedSymbol` declarations to that module's deprecations list.\n\nGrepped `source/` for uses of the moved symbols and replaced them with\nthe new locations.\n\n### Testing strategy:\n\nSystem and unit tests.\n\nRan from source, and used the Python Console to verify that importing\n`DUPLICATE_SAME_ACCESS`, `GENERIC_READ` and `GENERIC_WRITE` from\n`winKernel` logged the appropriate warnings, but returned the correct\nvalues.\n\n### Known issues with pull request:\n\nI added `winBindings.kernel32.GENERIC.CLOSE_SOURCE`, which is used by\nART, but nothing else as far as I can see. I can remove it and move the\ndefinition to `try-art-staging`, if preferred.",
-      "sha": "dd2bccb",
-      "url": "https://github.com/nvaccess/nvda/commit/dd2bccb30e4faad4bbdbfcb811a6c3a4acb2bc83"
-    },
     {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
       "category": "Bản địa hóa & Giọng đọc",
       "type": "NVDA Nhật Bản",
-      "timestamp": "2026-09-09T11:42:06Z",
-      "date": "09/09/2026",
-      "summary": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
-      "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
-      "sha": "7357288",
-      "url": "https://github.com/nvdajp/nvdajp/commit/735728855bcdd3c240a920b22f6592a54880aa74"
+      "timestamp": "2026-09-12T03:20:33Z",
+      "date": "12/09/2026",
+      "summary": "Merge pull request #740 from nvdajp/fix/restore-bep-eng-dic",
+      "fullMessage": "Merge pull request #740 from nvdajp/fix/restore-bep-eng-dic\n\njtalk: default jtalkDicSource to local to restore bep-eng.dic English readings",
+      "sha": "59ac4b8",
+      "url": "https://github.com/nvdajp/nvdajp/commit/59ac4b8f89573fcedb62a2be4f1e93f1dc98a614"
+    },
+    {
+      "slug": "nvdaes-clip-contents-designer",
+      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
+      "category": "Công cụ tiếp cận",
+      "type": "Addon Tây Ban Nha",
+      "timestamp": "2026-09-12T00:41:19Z",
+      "date": "12/09/2026",
+      "summary": "Update translations",
+      "fullMessage": "Update translations",
+      "sha": "a046bd6",
+      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/a046bd6c81f2b1e68bf61b381ac260627e9136da"
+    },
+    {
+      "slug": "nvda-screen-reader",
+      "projectName": "NVDA Screen Reader",
+      "category": "Phần mềm tiếp cận",
+      "type": "Trình đọc màn hình",
+      "timestamp": "2026-09-11T08:15:49Z",
+      "date": "11/09/2026",
+      "summary": "Beta to master (#20837)",
+      "fullMessage": "Beta to master (#20837)\n\nCo-authored-by: GitHub Actions <actions@github.com>\nCo-authored-by: wencong <manchen_0528@outlook.com>\nCo-authored-by: Bram Duvigneau <bram@bramd.nl>",
+      "sha": "c43cf6c",
+      "url": "https://github.com/nvaccess/nvda/commit/c43cf6c1b0518326bd9ff0ed4712474feeb6131c"
     },
     {
       "slug": "nvda-network-optimizer",
@@ -49,18 +61,6 @@
       "fullMessage": "Harden browser runtime availability, speech loop resilience\n\n- Add module-level and classmethod `browser_runtime_available()` to `bridge.py` and `ChromeTtsBridge`.\n- Handle Chromium profile-in-use exit codes (0 and 21) in `BrowserProcessManager._read_devtools_port()` for automatic temporary profile recovery.\n- Wrap `SynthDriver._speech_loop()` worker in an outer exception handler to prevent background thread death and trigger fatal fallback.\n- Defensively guard `browser_runtime_available()` calls in speech worker and warm-up paths.\n- Add regression test coverage for runtime availability, profile exit codes, and speech loop resilience (420 tests total).",
       "sha": "1284a4e",
       "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/1284a4edcea8b6a5fbfa8609e9c0e40257d2cac5"
-    },
-    {
-      "slug": "nvdaes-clip-contents-designer",
-      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
-      "category": "Công cụ tiếp cận",
-      "type": "Addon Tây Ban Nha",
-      "timestamp": "2026-09-07T00:30:25Z",
-      "date": "07/09/2026",
-      "summary": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
-      "fullMessage": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
-      "sha": "765dea8",
-      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/765dea8c032733a2906caca863974ede487eed00"
     },
     {
       "slug": "radiotv",
