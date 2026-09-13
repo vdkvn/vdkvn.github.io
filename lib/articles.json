@@ -1,5 +1,221 @@
 [
   {
+    "id": "review-dotPad",
+    "addonId": "dotPad",
+    "addonName": "Dot Pad",
+    "version": "0.9.93",
+    "title": "Hướng dẫn và đánh giá tiện ích: Dot Pad (Bản 0.9.93)",
+    "summary": "Thông tin chi tiết về tiện ích Dot Pad trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "13/09/2026",
+    "timestamp": "2026-09-12T20:03:32Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Dot Incorporated** phát triển theo giấy phép **GPL v2**.\n\nOutput braille text and graphics to Dot Pad braille displays.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Dot Pad](https://github.com/dotincorp/nvda-addon-store/releases/download/0.9.93/dotPad-0.9.93.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/dotincorp/nvda-addon-store/",
+    "downloadUrl": "https://github.com/dotincorp/nvda-addon-store/releases/download/0.9.93/dotPad-0.9.93.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-visAware",
+    "addonId": "visAware",
+    "addonName": "Vis Aware",
+    "version": "0.9.6",
+    "title": "Hướng dẫn và đánh giá tiện ích: Vis Aware (Bản 0.9.6)",
+    "summary": "Thông tin chi tiết về tiện ích Vis Aware trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "13/09/2026",
+    "timestamp": "2026-09-12T19:18:05Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **cary-rowen <cary-rowen@outlook.com>** phát triển theo giấy phép **GPL v2**.\n\nNVDA add-on for OCR, AI-powered image description, automatic recognition, and AI-assisted computer control.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Vis Aware](https://github.com/cary-rowen/visAware/releases/download/v0.9.6/visAware-0.9.6.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/cary-rowen/visAware",
+    "downloadUrl": "https://github.com/cary-rowen/visAware/releases/download/v0.9.6/visAware-0.9.6.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-NVDAKittenTTS",
+    "addonId": "NVDAKittenTTS",
+    "addonName": "NVDAKitten TTS neural speech synthesizer",
+    "version": "2027.1.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: NVDAKitten TTS neural speech synthesizer (Bản 2027.1.0)",
+    "summary": "Thông tin chi tiết về tiện ích NVDAKitten TTS neural speech synthesizer trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "13/09/2026",
+    "timestamp": "2026-09-12T17:30:47Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Anuj sharma** phát triển theo giấy phép **GPL v2**.\n\nOffline neural speech synthesis for NVDA using Kitten TTS.\nUltra-lightweight ONNX model (about 25 MB) bundled with the add-on, all\ndependencies included (onnxruntime-directml for CPU and GPU). 8 built-in\nvoices (4 female, 4 male). Additional higher-quality models can be\ndownloaded from the Kitten TTS settings panel, which also lets you choose\nthe compute device (CPU or GPU) used for speech.\nAI Agent use in developmet of this addon\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2027.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải NVDAKitten TTS neural speech synthesizer](https://github.com/anujj87/NVDAKittenTTS/releases/download/v2027-1-0/NVDAKittenTTS-2027.1.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/anujj87/NVDAKittenTTS",
+    "downloadUrl": "https://github.com/anujj87/NVDAKittenTTS/releases/download/v2027-1-0/NVDAKittenTTS-2027.1.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-NVDAInflectMicroTTS",
+    "addonId": "NVDAInflectMicroTTS",
+    "addonName": "NVDAInflect Micro TTS",
+    "version": "20260821.0.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: NVDAInflect Micro TTS (Bản 20260821.0.0)",
+    "summary": "Thông tin chi tiết về tiện ích NVDAInflect Micro TTS trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "12/09/2026",
+    "timestamp": "2026-09-12T16:02:14Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Anuj Sharma** phát triển theo giấy phép **GPL v2**.\n\nA high-quality local neural text-to-speech voice for NVDA based on the Inflect Micro v2 model created by Owen Song.\nThe model, the ONNX Runtime and all other dependencies are bundled with the add-on,\nso the voice works fully offline.\nSpeaks English with a fixed male voice at 24 kHz and offers rate, rate\nboost, volume, variation and seed settings, plus optional GPU\nacceleration via DirectML (Auto/CPU/GPU compute device choice).\ni use ai agent in this addon development\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải NVDAInflect Micro TTS](https://github.com/anujj87/NVDAInflectMicroTTS/releases/download/dev/NVDAInflectMicroTTS-20260821.0.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/anujj87/NVDAInflectMicroTTS",
+    "downloadUrl": "https://github.com/anujj87/NVDAInflectMicroTTS/releases/download/dev/NVDAInflectMicroTTS-20260821.0.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-evtTracker",
+    "addonId": "evtTracker",
+    "addonName": "Event Tracker",
+    "version": "26.4",
+    "title": "Hướng dẫn và đánh giá tiện ích: Event Tracker (Bản 26.4)",
+    "summary": "Thông tin chi tiết về tiện ích Event Tracker trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "12/09/2026",
+    "timestamp": "2026-09-12T09:23:01Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **josephsl** phát triển theo giấy phép **GPL v2**.\n\nTracks events and displays information about them\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Event Tracker](https://github.com/opensourcesys/evtTracker/releases/download/26.4/evtTracker-26.4.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/opensourcesys/evtTracker",
+    "downloadUrl": "https://github.com/opensourcesys/evtTracker/releases/download/26.4/evtTracker-26.4.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-emoticons",
+    "addonId": "emoticons",
+    "addonName": "Các biểu tượng cảm xúc",
+    "version": "38.2.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: Các biểu tượng cảm xúc (Bản 38.2.0)",
+    "summary": "Thông tin chi tiết về tiện ích Các biểu tượng cảm xúc trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "12/09/2026",
+    "timestamp": "2026-09-12T05:29:29Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **nvdaes** phát triển theo giấy phép **GPL v2**.\n\nBật chế độ đọc tên biểu tượng cảm xúc thay cho kí tự của nó.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tiện ích đã có sẵn giao diện tiếng Việt. Giọng đọc NVDA sẽ đọc đúng các nút bấm và thông báo, bạn chỉ cần cài đặt là sử dụng được ngay."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Các biểu tượng cảm xúc](https://github.com/nvdaes/emoticons/releases/download/38.2.0/emoticons-38.2.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/nvdaes/emoticons/releases/tag/38.2.0",
+    "downloadUrl": "https://github.com/nvdaes/emoticons/releases/download/38.2.0/emoticons-38.2.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
     "id": "review-TextMarksTheSpot",
     "addonId": "TextMarksTheSpot",
     "addonName": "Text Marks the Spot",
@@ -106,42 +322,6 @@
     "repoUrl": "https://github.com/jbgrimsby/sonata-sherpa-voices/tree/v2026.2",
     "downloadUrl": "https://github.com/jbgrimsby/sonata-sherpa-voices/releases/download/v2026.2/sonata_sherpa_voices-2026.2.nvda-addon",
     "license": "GPL v3 or later"
-  },
-  {
-    "id": "review-emoticons",
-    "addonId": "emoticons",
-    "addonName": "Các biểu tượng cảm xúc",
-    "version": "38.1.0",
-    "title": "Hướng dẫn và đánh giá tiện ích: Các biểu tượng cảm xúc (Bản 38.1.0)",
-    "summary": "Thông tin chi tiết về tiện ích Các biểu tượng cảm xúc trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "11/09/2026",
-    "timestamp": "2026-09-11T08:58:45Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **nvdaes** phát triển theo giấy phép **GPL v2**.\n\nBật chế độ đọc tên biểu tượng cảm xúc thay cho kí tự của nó.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tiện ích đã có sẵn giao diện tiếng Việt. Giọng đọc NVDA sẽ đọc đúng các nút bấm và thông báo, bạn chỉ cần cài đặt là sử dụng được ngay."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Các biểu tượng cảm xúc](https://github.com/nvdaes/emoticons/releases/download/38.1.0/emoticons-38.1.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/nvdaes/emoticons/releases/tag/38.1.0",
-    "downloadUrl": "https://github.com/nvdaes/emoticons/releases/download/38.1.0/emoticons-38.1.0.nvda-addon",
-    "license": "GPL v2"
   },
   {
     "id": "review-SiteMarker",
@@ -789,42 +969,6 @@
     ],
     "repoUrl": "https://github.com/kefaslungu/resourceMonitor",
     "downloadUrl": "https://github.com/kefaslungu/resourceMonitor/releases/download/26.09.2/resourceMonitor-26.09.2611.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-dotPad",
-    "addonId": "dotPad",
-    "addonName": "Dot Pad",
-    "version": "0.9.92",
-    "title": "Hướng dẫn và đánh giá tiện ích: Dot Pad (Bản 0.9.92)",
-    "summary": "Thông tin chi tiết về tiện ích Dot Pad trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "09/09/2026",
-    "timestamp": "2026-09-08T22:49:49Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Dot Incorporated** phát triển theo giấy phép **GPL v2**.\n\nOutput braille text and graphics to Dot Pad braille displays.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Dot Pad](https://github.com/dotincorp/nvda-addon-store/releases/download/0.9.92/dotPad-0.9.92.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/dotincorp/nvda-addon-store/",
-    "downloadUrl": "https://github.com/dotincorp/nvda-addon-store/releases/download/0.9.92/dotPad-0.9.92.nvda-addon",
     "license": "GPL v2"
   },
   {

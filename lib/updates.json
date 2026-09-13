@@ -1,18 +1,30 @@
 {
-  "lastChecked": "2026-09-12T04:16:52.563Z",
-  "lastCheckedVN": "12/09/2026",
+  "lastChecked": "2026-09-13T04:29:54.201Z",
+  "lastCheckedVN": "13/09/2026",
   "items": [
     {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
       "category": "Bản địa hóa & Giọng đọc",
       "type": "NVDA Nhật Bản",
-      "timestamp": "2026-09-12T03:20:33Z",
+      "timestamp": "2026-09-13T03:08:54Z",
+      "date": "13/09/2026",
+      "summary": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
+      "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
+      "sha": "fde6ea2",
+      "url": "https://github.com/nvdajp/nvdajp/commit/fde6ea2c4509c834b2c17f22f98eb8700e72d6dd"
+    },
+    {
+      "slug": "google-tts-for-nvda",
+      "projectName": "Google TTS for NVDA",
+      "category": "Bộ đọc tiếng nói",
+      "type": "Addon NVDA",
+      "timestamp": "2026-09-12T13:42:12Z",
       "date": "12/09/2026",
-      "summary": "Merge pull request #740 from nvdajp/fix/restore-bep-eng-dic",
-      "fullMessage": "Merge pull request #740 from nvdajp/fix/restore-bep-eng-dic\n\njtalk: default jtalkDicSource to local to restore bep-eng.dic English readings",
-      "sha": "59ac4b8",
-      "url": "https://github.com/nvdajp/nvdajp/commit/59ac4b8f89573fcedb62a2be4f1e93f1dc98a614"
+      "summary": "Preserve voice setting support in SynthDriver under automatic profiles",
+      "fullMessage": "Preserve voice setting support in SynthDriver under automatic profiles\n\n- Override SynthDriver.isSupported() to always report True for the \"voice\" setting even when Automatic Language Profiles hides voice controls from supportedSettings.\n- Ensure NVDA's SynthDriver.loadSettings() initializes the active configured voice via changeVoice(self, voice) instead of passing None.",
+      "sha": "99505b4",
+      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/99505b4b4fbaf0e43c0cf049a0b57bfcf4c59209"
     },
     {
       "slug": "nvdaes-clip-contents-designer",
@@ -49,18 +61,6 @@
       "fullMessage": "Prepare Network Optimizer 1.3.3 release with NVDA camelCase naming",
       "sha": "28094f2",
       "url": "https://github.com/voduykhanhmata-ctrl/nvda-network-optimizer/commit/28094f265288dbc1da1f2075bfcaa56f0bd24cf9"
-    },
-    {
-      "slug": "google-tts-for-nvda",
-      "projectName": "Google TTS for NVDA",
-      "category": "Bộ đọc tiếng nói",
-      "type": "Addon NVDA",
-      "timestamp": "2026-09-07T03:13:14Z",
-      "date": "07/09/2026",
-      "summary": "Harden browser runtime availability, speech loop resilience",
-      "fullMessage": "Harden browser runtime availability, speech loop resilience\n\n- Add module-level and classmethod `browser_runtime_available()` to `bridge.py` and `ChromeTtsBridge`.\n- Handle Chromium profile-in-use exit codes (0 and 21) in `BrowserProcessManager._read_devtools_port()` for automatic temporary profile recovery.\n- Wrap `SynthDriver._speech_loop()` worker in an outer exception handler to prevent background thread death and trigger fatal fallback.\n- Defensively guard `browser_runtime_available()` calls in speech worker and warm-up paths.\n- Add regression test coverage for runtime availability, profile exit codes, and speech loop resilience (420 tests total).",
-      "sha": "1284a4e",
-      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/1284a4edcea8b6a5fbfa8609e9c0e40257d2cac5"
     },
     {
       "slug": "radiotv",
