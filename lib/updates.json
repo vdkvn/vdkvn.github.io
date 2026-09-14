@@ -1,18 +1,30 @@
 {
-  "lastChecked": "2026-09-13T04:29:54.201Z",
-  "lastCheckedVN": "13/09/2026",
+  "lastChecked": "2026-09-14T04:36:21.847Z",
+  "lastCheckedVN": "14/09/2026",
   "items": [
+    {
+      "slug": "nvdaes-clip-contents-designer",
+      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
+      "category": "Công cụ tiếp cận",
+      "type": "Addon Tây Ban Nha",
+      "timestamp": "2026-09-14T00:28:06Z",
+      "date": "14/09/2026",
+      "summary": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
+      "fullMessage": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
+      "sha": "1e2d33b",
+      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/1e2d33b8c81efb6d52a2259057c27c305723e253"
+    },
     {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
       "category": "Bản địa hóa & Giọng đọc",
       "type": "NVDA Nhật Bản",
-      "timestamp": "2026-09-13T03:08:54Z",
+      "timestamp": "2026-09-13T12:48:46Z",
       "date": "13/09/2026",
-      "summary": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
-      "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
-      "sha": "fde6ea2",
-      "url": "https://github.com/nvdajp/nvdajp/commit/fde6ea2c4509c834b2c17f22f98eb8700e72d6dd"
+      "summary": "Merge pull request #742 from nvdajp/fix/caret-character-description-usedetails",
+      "fullMessage": "Merge pull request #742 from nvdajp/fix/caret-character-description-usedetails\n\nfix(speech): omit useDetails in caret character description to prevent redundant type announcements",
+      "sha": "2db926b",
+      "url": "https://github.com/nvdajp/nvdajp/commit/2db926b800cddb7b6dbf943775d405a7ddfbccf0"
     },
     {
       "slug": "google-tts-for-nvda",
@@ -25,18 +37,6 @@
       "fullMessage": "Preserve voice setting support in SynthDriver under automatic profiles\n\n- Override SynthDriver.isSupported() to always report True for the \"voice\" setting even when Automatic Language Profiles hides voice controls from supportedSettings.\n- Ensure NVDA's SynthDriver.loadSettings() initializes the active configured voice via changeVoice(self, voice) instead of passing None.",
       "sha": "99505b4",
       "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/99505b4b4fbaf0e43c0cf049a0b57bfcf4c59209"
-    },
-    {
-      "slug": "nvdaes-clip-contents-designer",
-      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
-      "category": "Công cụ tiếp cận",
-      "type": "Addon Tây Ban Nha",
-      "timestamp": "2026-09-12T00:41:19Z",
-      "date": "12/09/2026",
-      "summary": "Update translations",
-      "fullMessage": "Update translations",
-      "sha": "a046bd6",
-      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/a046bd6c81f2b1e68bf61b381ac260627e9136da"
     },
     {
       "slug": "nvda-screen-reader",
