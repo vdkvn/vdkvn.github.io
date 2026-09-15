@@ -1,7 +1,31 @@
 {
-  "lastChecked": "2026-09-14T04:36:21.847Z",
-  "lastCheckedVN": "14/09/2026",
+  "lastChecked": "2026-09-15T04:36:30.580Z",
+  "lastCheckedVN": "15/09/2026",
   "items": [
+    {
+      "slug": "nvdajp-community",
+      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
+      "category": "Bản địa hóa & Giọng đọc",
+      "type": "NVDA Nhật Bản",
+      "timestamp": "2026-09-15T00:38:27Z",
+      "date": "15/09/2026",
+      "summary": "Merge pull request #743 from nvdajp/fix/sign-pyd-azure-kv-737",
+      "fullMessage": "Merge pull request #743 from nvdajp/fix/sign-pyd-azure-kv-737\n\nAzure Key Vault 署名時に .pyd 拡張モジュールにも署名を行う (#737)",
+      "sha": "793c108",
+      "url": "https://github.com/nvdajp/nvdajp/commit/793c1084b9b27922cbc757484df9b7ac61b3074a"
+    },
+    {
+      "slug": "nvda-screen-reader",
+      "projectName": "NVDA Screen Reader",
+      "category": "Phần mềm tiếp cận",
+      "type": "Trình đọc màn hình",
+      "timestamp": "2026-09-14T06:21:44Z",
+      "date": "14/09/2026",
+      "summary": "Drop virtual buffer attributes with invalid XML names (#20629)",
+      "fullMessage": "Drop virtual buffer attributes with invalid XML names (#20629)\n\nFixes #7173\n\n### Summary of the issue:\n\nMalformed markup can make a browser expose accessibility attribute names\nthat are not valid XML names. For example, `<section\naria-label\"almenük\">` (note the missing `=`) yields an IA2 attribute\nname containing quote characters. NVDA stores virtual buffer fields as\nXML markup, so emitting such a name makes expat reject the buffer\ncontent: NVDA plays an error sound and cannot read the affected range in\nbrowse mode.\n\nMinimal test case (from @jcsteh), pasted into the Firefox address bar:\n\n```\ndata:text/html,<section aria-label\"almen%C3%BCk\" role=\"region\">test\n```\n\n### Description of user facing changes:\n\nBrowse mode now reads pages containing this kind of malformed markup\nnormally; the broken attribute is ignored.\n\n### Description of developer facing changes:\n\n`VBufStorage_fieldNode_t::addAttribute` now rejects attributes whose\nnames are not valid XML names, returning `false`. This applies to all\nvirtual buffer backends.\n\n### Description of development approach:\n\nValidation happens once, in `addAttribute`, the attribute map's single\ninsertion point, so the buffer only ever holds names that are valid in\nthe XML it serializes to. `isValidXMLAttribName` in\n`nvdaHelper/common/xml.h` accepts a conservative ASCII subset of XML\nnames: the expat build Python ships enforces the stricter XML 1.0 fourth\nedition name rules, and every attribute name NVDA's Python code consumes\nis ASCII, so anything outside that subset can only be junk from broken\nmarkup. Because only valid names can reach the map,\n`generateAttributesForMarkupOpeningTag` now writes stored names directly\nand `sanitizeXMLAttribName` is deleted.\n\nDropping the attribute extends the tradeoff made in #6249, which rewrote\nspaces in names to underscores: a readable buffer is worth more than\npreserving an attribute nobody can parse. The practical difference is\nthat a name with invalid characters, such as a localised action name\ncontaining spaces, is now absent from the buffer instead of exposed\nunder a mangled name. The well-known ASCII names NVDA itself consumes\nare unaffected.\n\nAn existing XML library was considered and rejected; see the review\ndiscussion below for the survey.\n\n### Testing strategy:\n\n- GitHub Actions for the head commit: build, lint, type checks, unit\ntests, and all but two system test jobs pass.\n- The two red jobs (`chrome_misc_aria` on windows-2025-vs2026, `l10n` on\nwindows-2022) each pass on the other OS in the same run, and master is\ncurrently red on two different system test suites, so both look like\nknown runner flakiness rather than this change.\n- Manual: loaded the Firefox test case above; browse mode reads \"test\"\nwith no error sound.\n\n### Known issues with pull request:\n\nNone in the changed code. Two required system test jobs are red; see\ntesting strategy.",
+      "sha": "7419906",
+      "url": "https://github.com/nvaccess/nvda/commit/7419906db87c4dd505ab314f7581f9aea8595c06"
+    },
     {
       "slug": "nvdaes-clip-contents-designer",
       "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
@@ -15,18 +39,6 @@
       "url": "https://github.com/nvdaes/clipContentsDesigner/commit/1e2d33b8c81efb6d52a2259057c27c305723e253"
     },
     {
-      "slug": "nvdajp-community",
-      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
-      "category": "Bản địa hóa & Giọng đọc",
-      "type": "NVDA Nhật Bản",
-      "timestamp": "2026-09-13T12:48:46Z",
-      "date": "13/09/2026",
-      "summary": "Merge pull request #742 from nvdajp/fix/caret-character-description-usedetails",
-      "fullMessage": "Merge pull request #742 from nvdajp/fix/caret-character-description-usedetails\n\nfix(speech): omit useDetails in caret character description to prevent redundant type announcements",
-      "sha": "2db926b",
-      "url": "https://github.com/nvdajp/nvdajp/commit/2db926b800cddb7b6dbf943775d405a7ddfbccf0"
-    },
-    {
       "slug": "google-tts-for-nvda",
       "projectName": "Google TTS for NVDA",
       "category": "Bộ đọc tiếng nói",
@@ -37,18 +49,6 @@
       "fullMessage": "Preserve voice setting support in SynthDriver under automatic profiles\n\n- Override SynthDriver.isSupported() to always report True for the \"voice\" setting even when Automatic Language Profiles hides voice controls from supportedSettings.\n- Ensure NVDA's SynthDriver.loadSettings() initializes the active configured voice via changeVoice(self, voice) instead of passing None.",
       "sha": "99505b4",
       "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/99505b4b4fbaf0e43c0cf049a0b57bfcf4c59209"
-    },
-    {
-      "slug": "nvda-screen-reader",
-      "projectName": "NVDA Screen Reader",
-      "category": "Phần mềm tiếp cận",
-      "type": "Trình đọc màn hình",
-      "timestamp": "2026-09-11T08:15:49Z",
-      "date": "11/09/2026",
-      "summary": "Beta to master (#20837)",
-      "fullMessage": "Beta to master (#20837)\n\nCo-authored-by: GitHub Actions <actions@github.com>\nCo-authored-by: wencong <manchen_0528@outlook.com>\nCo-authored-by: Bram Duvigneau <bram@bramd.nl>",
-      "sha": "c43cf6c",
-      "url": "https://github.com/nvaccess/nvda/commit/c43cf6c1b0518326bd9ff0ed4712474feeb6131c"
     },
     {
       "slug": "nvda-network-optimizer",
