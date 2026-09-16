@@ -1,18 +1,18 @@
 {
-  "lastChecked": "2026-09-15T04:36:30.580Z",
-  "lastCheckedVN": "15/09/2026",
+  "lastChecked": "2026-09-16T04:32:02.152Z",
+  "lastCheckedVN": "16/09/2026",
   "items": [
     {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
       "category": "Bản địa hóa & Giọng đọc",
       "type": "NVDA Nhật Bản",
-      "timestamp": "2026-09-15T00:38:27Z",
+      "timestamp": "2026-09-15T07:56:56Z",
       "date": "15/09/2026",
-      "summary": "Merge pull request #743 from nvdajp/fix/sign-pyd-azure-kv-737",
-      "fullMessage": "Merge pull request #743 from nvdajp/fix/sign-pyd-azure-kv-737\n\nAzure Key Vault 署名時に .pyd 拡張モジュールにも署名を行う (#737)",
-      "sha": "793c108",
-      "url": "https://github.com/nvdajp/nvdajp/commit/793c1084b9b27922cbc757484df9b7ac61b3074a"
+      "summary": "Merge pull request #744 from nvdajp/fix/bullet-braille-pattern-723",
+      "fullMessage": "Merge pull request #744 from nvdajp/fix/bullet-braille-pattern-723\n\n日本語点字でリストの bullet (•) に 5の点 (⠐) を割り当てる (#723)",
+      "sha": "29fd4d8",
+      "url": "https://github.com/nvdajp/nvdajp/commit/29fd4d8736a18e37bd46134ecbb878c73e3d16ab"
     },
     {
       "slug": "nvda-screen-reader",
