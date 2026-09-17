@@ -1,5 +1,293 @@
 [
   {
+    "id": "review-simpleCopy",
+    "addonId": "simpleCopy",
+    "addonName": "simpleCopy",
+    "version": "2026.9.9",
+    "title": "Hướng dẫn và đánh giá tiện ích: simpleCopy (Bản 2026.9.9)",
+    "summary": "Thông tin chi tiết về tiện ích simpleCopy trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "17/09/2026",
+    "timestamp": "2026-09-17T02:02:18Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Chai Chaimee** phát triển theo giấy phép **GPL v2**.\n\nSimpleCopy enhances workflows with smart clipboard text appending, review cursor text extraction, window text copying, browser URL and hyperlink capturing, URL history management, and speech history logging.\nHot Keys:\nCTRL+Shift+A\nSingle Tap : Copy URL\n Double Tap : Copy Hyper Link\nTriple Tapp : URL History\nCTRL+Shift+V\nSingle Tap : Copy and Append text\n Double Tap : Copy from Review Cursur\nTripple Tap : Clear clipboard\nF9\nSingle Tap : Copy Last Speech\nDouble Tap : Append Last Speech\nTriple Tap : Copy Until Last Speech\nShift+F9\nSingle Tap : navigate to previous speech history item\nDouble Tap : navigate to next speech history item\nTripple Tap : Open Record Speech History File\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải simpleCopy](https://github.com/chaichaimee/simpleCopy/releases/download/2026.9.9/simpleCopy-v2026.9.9.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/chaichaimee/simpleCopy",
+    "downloadUrl": "https://github.com/chaichaimee/simpleCopy/releases/download/2026.9.9/simpleCopy-v2026.9.9.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-dotPad",
+    "addonId": "dotPad",
+    "addonName": "Dot Pad",
+    "version": "0.9.96",
+    "title": "Hướng dẫn và đánh giá tiện ích: Dot Pad (Bản 0.9.96)",
+    "summary": "Thông tin chi tiết về tiện ích Dot Pad trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "17/09/2026",
+    "timestamp": "2026-09-16T23:20:01Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Dot Incorporated** phát triển theo giấy phép **GPL v2**.\n\nOutput braille text and graphics to Dot Pad braille displays.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Dot Pad](https://github.com/dotincorp/nvda-addon-store/releases/download/0.9.96/dotPad-0.9.96.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/dotincorp/nvda-addon-store/",
+    "downloadUrl": "https://github.com/dotincorp/nvda-addon-store/releases/download/0.9.96/dotPad-0.9.96.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-nvdaMacroManager",
+    "addonId": "nvdaMacroManager",
+    "addonName": "NVDA Macro Manager",
+    "version": "1.2.4",
+    "title": "Hướng dẫn và đánh giá tiện ích: NVDA Macro Manager (Bản 1.2.4)",
+    "summary": "Thông tin chi tiết về tiện ích NVDA Macro Manager trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "17/09/2026",
+    "timestamp": "2026-09-16T22:31:10Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Muhammet Enes Şenovalı** phát triển theo giấy phép **GPL v2**.\n\nAn accessible keyboard macro recorder, editor, and playback engine for NVDA.\nFeatures include safe recording, a multi-event editor, custom shortcuts, application locks, and speed controls.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải NVDA Macro Manager](https://github.com/m-enes-senovali/nvdaMacroManager/releases/download/v1.2.4/nvdaMacroManager-1.2.4.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/m-enes-senovali/nvdaMacroManager",
+    "downloadUrl": "https://github.com/m-enes-senovali/nvdaMacroManager/releases/download/v1.2.4/nvdaMacroManager-1.2.4.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-atl_productivity_suite",
+    "addonId": "atl_productivity_suite",
+    "addonName": "ATL Productivity Suite",
+    "version": "2.1.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: ATL Productivity Suite (Bản 2.1.0)",
+    "summary": "Thông tin chi tiết về tiện ích ATL Productivity Suite trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "17/09/2026",
+    "timestamp": "2026-09-16T17:50:51Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Accessible tech labs India** phát triển theo giấy phép **GPL v2**.\n\nAn enterprise-grade, accessibility-first global plugin engineered by Accessible Tech Labs India. Designed for visually impaired professionals, this Version 2.1 release transforms NVDA into the ultimate high-performance workstation assistant. Featuring 8 highly optimized utilities including a Pomodoro Focus Stopwatch, Advanced Sentinel Security Scanner, Voice-Assisted Alarms, Smart Workspace Launcher, and seamless Google Quick Search. You can press NVDA+Shift+M to instantly access the centralized ATL Master Menu. The ATL Suite delivers unparalleled speed, 100% privacy, security, and digital inclusion directly through your screen reader environment.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải ATL Productivity Suite](https://github.com/accessibletechlabsindia/atl-productivity-suite/releases/download/v2.1.0/atl_productivity_suite.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/accessibletechlabsindia/atl-productivity-suite",
+    "downloadUrl": "https://github.com/accessibletechlabsindia/atl-productivity-suite/releases/download/v2.1.0/atl_productivity_suite.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-wikiFusion",
+    "addonId": "wikiFusion",
+    "addonName": "Wiki Fusion",
+    "version": "1.6.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: Wiki Fusion (Bản 1.6.0)",
+    "summary": "Thông tin chi tiết về tiện ích Wiki Fusion trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "16/09/2026",
+    "timestamp": "2026-09-16T16:49:33Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Andre Louis** phát triển theo giấy phép **GPL v2**.\n\nCombined Wikipedia, Wiktionary, and optional man-page lookup in one dialog, with smart routing and a treeview results list. Open with NVDA+Alt+I.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Wiki Fusion](https://github.com/OnjLouis/wikiFusion/releases/download/v1.6.0/wikiFusion-1.6.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/OnjLouis/wikiFusion",
+    "downloadUrl": "https://github.com/OnjLouis/wikiFusion/releases/download/v1.6.0/wikiFusion-1.6.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-diario",
+    "addonId": "diario",
+    "addonName": "Diary for NVDA",
+    "version": "1.4.1",
+    "title": "Hướng dẫn và đánh giá tiện ích: Diary for NVDA (Bản 1.4.1)",
+    "summary": "Thông tin chi tiết về tiện ích Diary for NVDA trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "16/09/2026",
+    "timestamp": "2026-09-16T13:21:38Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Fernando de Paula Zamboni** phát triển theo giấy phép **GPL v2**.\n\nAn accessible and encrypted personal diary integrated with NVDA. It combines dated entries, password protection and optional recovery, real-time spell checking, and encrypted ZIP backup export and merge import.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Diary for NVDA](https://github.com/zambonif/NVDA-Addons/releases/download/diario-v1.4.1/diario-1.4.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/zambonif/NVDA-Addons/tree/main/Diario/diario-source",
+    "downloadUrl": "https://github.com/zambonif/NVDA-Addons/releases/download/diario-v1.4.1/diario-1.4.1.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-freeradio",
+    "addonId": "freeradio",
+    "addonName": "freeRadio: Radio and more",
+    "version": "2026.24.1",
+    "title": "Hướng dẫn và đánh giá tiện ích: freeRadio: Radio and more (Bản 2026.24.1)",
+    "summary": "Thông tin chi tiết về tiện ích freeRadio: Radio and more trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "16/09/2026",
+    "timestamp": "2026-09-16T13:19:25Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Çağrı Doğan <cagrid@hotmail.com>** phát triển theo giấy phép **GPL v2**.\n\nFreeRadio is an internet radio, podcast, audio-book, and local music add-on for NVDA that provides seamless access to thousands of internet radio stations via the Radio Browser open directory, RSS/Atom podcast feeds, the libriVox + GETEM digital library for the visually impaired, and your own local audio files and folders through its built-in jukebox. It features a fully accessible station browser with search, country filter, favourites management, and per-station, per-podcast, per-audio-book, and per-jukebox-track audio profiles. Podcast episodes, audio book chapters, and jukebox tracks resume automatically from where you left off - jukebox folders even pick up on the last track you were playing - with adjustable pitch-preserving playback speed and independent pitch-shift (semitone transpose). Playback is handled by BASS, with support for volume control, audio effects, output device selection, and simultaneous audio mirroring to a second device. Additional features include instant and scheduled recording, time-shift rewind of live radio, sleep and alarm timers, automatic ICY metadata announcements, Shazam-based music recognition, and a liked-songs log with lyrics lookup. All controls and shortcuts are designed for NVDA accessibility.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải freeRadio: Radio and more](https://github.com/Surveyor123/freeradio/releases/download/v2026.24.1/freeradio-2026.24.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/Surveyor123",
+    "downloadUrl": "https://github.com/Surveyor123/freeradio/releases/download/v2026.24.1/freeradio-2026.24.1.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-soundWave",
+    "addonId": "soundWave",
+    "addonName": "soundWave: Faster-than-realtime text-to-audio renderer",
+    "version": "1.2.10",
+    "title": "Hướng dẫn và đánh giá tiện ích: soundWave: Faster-than-realtime text-to-audio renderer (Bản 1.2.10)",
+    "summary": "Thông tin chi tiết về tiện ích soundWave: Faster-than-realtime text-to-audio renderer trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "16/09/2026",
+    "timestamp": "2026-09-16T08:28:34Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Andre Louis** phát triển theo giấy phép **GPL v2**.\n\nRender text to an audio file using supported NVDA synthesizers.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải soundWave: Faster-than-realtime text-to-audio renderer](https://github.com/OnjLouis/soundWave/releases/download/v1.2.10/soundWave-1.2.10.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/OnjLouis/soundWave",
+    "downloadUrl": "https://github.com/OnjLouis/soundWave/releases/download/v1.2.10/soundWave-1.2.10.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
     "id": "review-WordBridge",
     "addonId": "WordBridge",
     "addonName": "WordBridge",
@@ -105,78 +393,6 @@
     ],
     "repoUrl": "https://github.com/kefaslungu/CustomLabels/",
     "downloadUrl": "https://github.com/kefaslungu/CustomLabels/releases/download/2026.3.1/CustomLabels-2026.3.1.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-dotPad",
-    "addonId": "dotPad",
-    "addonName": "Dot Pad",
-    "version": "0.9.95",
-    "title": "Hướng dẫn và đánh giá tiện ích: Dot Pad (Bản 0.9.95)",
-    "summary": "Thông tin chi tiết về tiện ích Dot Pad trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "15/09/2026",
-    "timestamp": "2026-09-15T14:21:36Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Dot Incorporated** phát triển theo giấy phép **GPL v2**.\n\nOutput braille text and graphics to Dot Pad braille displays.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Dot Pad](https://github.com/dotincorp/nvda-addon-store/releases/download/0.9.95/dotPad-0.9.95.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/dotincorp/nvda-addon-store/",
-    "downloadUrl": "https://github.com/dotincorp/nvda-addon-store/releases/download/0.9.95/dotPad-0.9.95.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-diario",
-    "addonId": "diario",
-    "addonName": "Diary for NVDA",
-    "version": "1.4.0",
-    "title": "Hướng dẫn và đánh giá tiện ích: Diary for NVDA (Bản 1.4.0)",
-    "summary": "Thông tin chi tiết về tiện ích Diary for NVDA trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "15/09/2026",
-    "timestamp": "2026-09-15T13:12:24Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Fernando de Paula Zamboni** phát triển theo giấy phép **GPL v2**.\n\nAn accessible and encrypted personal diary integrated with NVDA. It combines dated entries, password protection and optional recovery, real-time spell checking, and encrypted ZIP backup export and merge import.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Diary for NVDA](https://github.com/zambonif/NVDA-Addons/releases/download/diario-v1.4.0/diario-1.4.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/zambonif/NVDA-Addons/tree/main/Diario/diario-source",
-    "downloadUrl": "https://github.com/zambonif/NVDA-Addons/releases/download/diario-v1.4.0/diario-1.4.0.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -321,42 +537,6 @@
     ],
     "repoUrl": "https://github.com/javidominguez/commandHelper/",
     "downloadUrl": "https://github.com/javidominguez/commandHelper/releases/download/2026.2.1/commandHelper-2026.2.1.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-freeradio",
-    "addonId": "freeradio",
-    "addonName": "freeRadio",
-    "version": "2026.24.0",
-    "title": "Hướng dẫn và đánh giá tiện ích: freeRadio (Bản 2026.24.0)",
-    "summary": "Thông tin chi tiết về tiện ích freeRadio trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "14/09/2026",
-    "timestamp": "2026-09-14T16:20:00Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Çağrı Doğan <cagrid@hotmail.com>** phát triển theo giấy phép **GPL v2**.\n\nFreeRadio is an internet radio, podcast, and audio-book add-on for NVDA that provides seamless access to thousands of internet radio stations via the Radio Browser open directory, RSS/Atom podcast feeds, and the libriVox + GETEM digital library for the visually impaired. It features a fully accessible station browser with search, country filter, favourites management, and per-station, per-podcast, and per-audio-book audio profiles. Podcast episodes and audio book chapters resume automatically from where you left off, with adjustable pitch-preserving playback speed. Playback is handled by BASS, with support for volume control, audio effects, output device selection, and simultaneous audio mirroring to a second device. Additional features include instant and scheduled recording, time-shift rewind of live radio, sleep and alarm timers, automatic ICY metadata announcements, Shazam-based music recognition, and a liked-songs log with lyrics lookup. All controls and shortcuts are designed for NVDA accessibility.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải freeRadio](https://github.com/Surveyor123/freeradio/releases/download/v2026.24.0/freeradio-2026.24.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/Surveyor123/freeradio",
-    "downloadUrl": "https://github.com/Surveyor123/freeradio/releases/download/v2026.24.0/freeradio-2026.24.0.nvda-addon",
     "license": "GPL v2"
   },
   {
