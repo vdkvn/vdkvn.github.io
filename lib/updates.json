@@ -1,30 +1,42 @@
 {
-  "lastChecked": "2026-09-17T04:37:21.819Z",
-  "lastCheckedVN": "17/09/2026",
+  "lastChecked": "2026-09-18T04:22:53.633Z",
+  "lastCheckedVN": "18/09/2026",
   "items": [
-    {
-      "slug": "nvdajp-community",
-      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
-      "category": "Bản địa hóa & Giọng đọc",
-      "type": "NVDA Nhật Bản",
-      "timestamp": "2026-09-15T07:56:56Z",
-      "date": "15/09/2026",
-      "summary": "Merge pull request #744 from nvdajp/fix/bullet-braille-pattern-723",
-      "fullMessage": "Merge pull request #744 from nvdajp/fix/bullet-braille-pattern-723\n\n日本語点字でリストの bullet (•) に 5の点 (⠐) を割り当てる (#723)",
-      "sha": "29fd4d8",
-      "url": "https://github.com/nvdajp/nvdajp/commit/29fd4d8736a18e37bd46134ecbb878c73e3d16ab"
-    },
     {
       "slug": "nvda-screen-reader",
       "projectName": "NVDA Screen Reader",
       "category": "Phần mềm tiếp cận",
       "type": "Trình đọc màn hình",
-      "timestamp": "2026-09-14T06:21:44Z",
-      "date": "14/09/2026",
-      "summary": "Drop virtual buffer attributes with invalid XML names (#20629)",
-      "fullMessage": "Drop virtual buffer attributes with invalid XML names (#20629)\n\nFixes #7173\n\n### Summary of the issue:\n\nMalformed markup can make a browser expose accessibility attribute names\nthat are not valid XML names. For example, `<section\naria-label\"almenük\">` (note the missing `=`) yields an IA2 attribute\nname containing quote characters. NVDA stores virtual buffer fields as\nXML markup, so emitting such a name makes expat reject the buffer\ncontent: NVDA plays an error sound and cannot read the affected range in\nbrowse mode.\n\nMinimal test case (from @jcsteh), pasted into the Firefox address bar:\n\n```\ndata:text/html,<section aria-label\"almen%C3%BCk\" role=\"region\">test\n```\n\n### Description of user facing changes:\n\nBrowse mode now reads pages containing this kind of malformed markup\nnormally; the broken attribute is ignored.\n\n### Description of developer facing changes:\n\n`VBufStorage_fieldNode_t::addAttribute` now rejects attributes whose\nnames are not valid XML names, returning `false`. This applies to all\nvirtual buffer backends.\n\n### Description of development approach:\n\nValidation happens once, in `addAttribute`, the attribute map's single\ninsertion point, so the buffer only ever holds names that are valid in\nthe XML it serializes to. `isValidXMLAttribName` in\n`nvdaHelper/common/xml.h` accepts a conservative ASCII subset of XML\nnames: the expat build Python ships enforces the stricter XML 1.0 fourth\nedition name rules, and every attribute name NVDA's Python code consumes\nis ASCII, so anything outside that subset can only be junk from broken\nmarkup. Because only valid names can reach the map,\n`generateAttributesForMarkupOpeningTag` now writes stored names directly\nand `sanitizeXMLAttribName` is deleted.\n\nDropping the attribute extends the tradeoff made in #6249, which rewrote\nspaces in names to underscores: a readable buffer is worth more than\npreserving an attribute nobody can parse. The practical difference is\nthat a name with invalid characters, such as a localised action name\ncontaining spaces, is now absent from the buffer instead of exposed\nunder a mangled name. The well-known ASCII names NVDA itself consumes\nare unaffected.\n\nAn existing XML library was considered and rejected; see the review\ndiscussion below for the survey.\n\n### Testing strategy:\n\n- GitHub Actions for the head commit: build, lint, type checks, unit\ntests, and all but two system test jobs pass.\n- The two red jobs (`chrome_misc_aria` on windows-2025-vs2026, `l10n` on\nwindows-2022) each pass on the other OS in the same run, and master is\ncurrently red on two different system test suites, so both look like\nknown runner flakiness rather than this change.\n- Manual: loaded the Firefox test case above; browse mode reads \"test\"\nwith no error sound.\n\n### Known issues with pull request:\n\nNone in the changed code. Two required system test jobs are red; see\ntesting strategy.",
-      "sha": "7419906",
-      "url": "https://github.com/nvaccess/nvda/commit/7419906db87c4dd505ab314f7581f9aea8595c06"
+      "timestamp": "2026-09-18T02:25:56Z",
+      "date": "18/09/2026",
+      "summary": "add bug bounty note (#20866)",
+      "fullMessage": "add bug bounty note (#20866)",
+      "sha": "f56b2e0",
+      "url": "https://github.com/nvaccess/nvda/commit/f56b2e0d7522da86765e6db64876ecde83c4a9d0"
+    },
+    {
+      "slug": "google-tts-for-nvda",
+      "projectName": "Google TTS for NVDA",
+      "category": "Bộ đọc tiếng nói",
+      "type": "Addon NVDA",
+      "timestamp": "2026-09-17T13:27:41Z",
+      "date": "17/09/2026",
+      "summary": "Optimize browser process performance and simplify sentence segmentation",
+      "fullMessage": "Optimize browser process performance and simplify sentence segmentation\n\n- Disable Windows Power Throttling (EcoQoS) and elevate priority to ABOVE_NORMAL across the browser process tree.\n- Add msEdgeEfficiencyMode to disabled features and re-elevate child renderer processes after DevTools port discovery.\n- Remove abbreviation-based sentence splitting heuristics in favor of native voice package handling.",
+      "sha": "ebeafed",
+      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/ebeafed6b9acad92d1f08c2d417ac7490978fe1e"
+    },
+    {
+      "slug": "nvdajp-community",
+      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
+      "category": "Bản địa hóa & Giọng đọc",
+      "type": "NVDA Nhật Bản",
+      "timestamp": "2026-09-17T12:52:21Z",
+      "date": "17/09/2026",
+      "summary": "Merge pull request #745 from nvdajp/fix/kgs-beep-volume-follow-sound-volume",
+      "fullMessage": "Merge pull request #745 from nvdajp/fix/kgs-beep-volume-follow-sound-volume\n\nMake KGS braille connection tones follow NVDA sound volume settings",
+      "sha": "3a17558",
+      "url": "https://github.com/nvdajp/nvdajp/commit/3a17558b38e6dc43bdffd38086d0d1ddc67c2872"
     },
     {
       "slug": "nvdaes-clip-contents-designer",
@@ -37,18 +49,6 @@
       "fullMessage": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
       "sha": "1e2d33b",
       "url": "https://github.com/nvdaes/clipContentsDesigner/commit/1e2d33b8c81efb6d52a2259057c27c305723e253"
-    },
-    {
-      "slug": "google-tts-for-nvda",
-      "projectName": "Google TTS for NVDA",
-      "category": "Bộ đọc tiếng nói",
-      "type": "Addon NVDA",
-      "timestamp": "2026-09-12T13:42:12Z",
-      "date": "12/09/2026",
-      "summary": "Preserve voice setting support in SynthDriver under automatic profiles",
-      "fullMessage": "Preserve voice setting support in SynthDriver under automatic profiles\n\n- Override SynthDriver.isSupported() to always report True for the \"voice\" setting even when Automatic Language Profiles hides voice controls from supportedSettings.\n- Ensure NVDA's SynthDriver.loadSettings() initializes the active configured voice via changeVoice(self, voice) instead of passing None.",
-      "sha": "99505b4",
-      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/99505b4b4fbaf0e43c0cf049a0b57bfcf4c59209"
     },
     {
       "slug": "nvda-network-optimizer",

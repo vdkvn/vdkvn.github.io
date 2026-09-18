@@ -1,5 +1,149 @@
 [
   {
+    "id": "review-LIMA",
+    "addonId": "LIMA",
+    "addonName": "LIMA AI",
+    "version": "0.3.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: LIMA AI (Bản 0.3.0)",
+    "summary": "Thông tin chi tiết về tiện ích LIMA AI trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "18/09/2026",
+    "timestamp": "2026-09-18T03:49:45Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Roscommon Systems** phát triển theo giấy phép **GPL v2**.\n\nLIMA AI is the NVDA add-on companion to the LIMA (Low-Vision Intelligent Machine Assistant) desktop app. It describes what is on screen on demand: press a shortcut and NVDA speaks a brief AI description of the active monitor.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải LIMA AI](https://github.com/roscommonsystems/lima-ai-nvda-addon/releases/download/v0.3.0/LIMA-0.3.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/roscommonsystems/lima-ai-nvda-addon",
+    "downloadUrl": "https://github.com/roscommonsystems/lima-ai-nvda-addon/releases/download/v0.3.0/LIMA-0.3.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-evtTracker",
+    "addonId": "evtTracker",
+    "addonName": "Event Tracker",
+    "version": "26.4.1",
+    "title": "Hướng dẫn và đánh giá tiện ích: Event Tracker (Bản 26.4.1)",
+    "summary": "Thông tin chi tiết về tiện ích Event Tracker trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "18/09/2026",
+    "timestamp": "2026-09-17T20:43:53Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **josephsl** phát triển theo giấy phép **GPL v2**.\n\nTracks events and displays information about them (for developers and power users)\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Event Tracker](https://github.com/opensourcesys/evtTracker/releases/download/26.4/evtTracker-26.4.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/opensourcesys/evtTracker",
+    "downloadUrl": "https://github.com/opensourcesys/evtTracker/releases/download/26.4/evtTracker-26.4.1.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-powerbox",
+    "addonId": "powerbox",
+    "addonName": "PowerBox: Essential Windows Productivity Tools",
+    "version": "1.3.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: PowerBox: Essential Windows Productivity Tools (Bản 1.3.0)",
+    "summary": "Thông tin chi tiết về tiện ích PowerBox: Essential Windows Productivity Tools trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "17/09/2026",
+    "timestamp": "2026-09-17T09:40:16Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Thomas A. Fayez** phát triển theo giấy phép **GPL v2**.\n\nA powerful multi-tool add-on featuring gesture layers for quick access to media controls, smart mouse routing clicks, terminal launches in the current directory, quick applications, accessible LAN network scanner, and network information.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải PowerBox: Essential Windows Productivity Tools](https://github.com/thomas-a-fayez/nvda-powerbox/releases/download/v1.3.0/powerbox-1.3.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/thomas-a-fayez/nvda-powerbox",
+    "downloadUrl": "https://github.com/thomas-a-fayez/nvda-powerbox/releases/download/v1.3.0/powerbox-1.3.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-nvdaMacroManager",
+    "addonId": "nvdaMacroManager",
+    "addonName": "NVDA Macro Manager",
+    "version": "1.2.6",
+    "title": "Hướng dẫn và đánh giá tiện ích: NVDA Macro Manager (Bản 1.2.6)",
+    "summary": "Thông tin chi tiết về tiện ích NVDA Macro Manager trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "17/09/2026",
+    "timestamp": "2026-09-17T07:44:12Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Muhammet Enes Şenovalı** phát triển theo giấy phép **GPL v2**.\n\nAn accessible keyboard macro recorder, editor, and playback engine for NVDA.\nFeatures include safe recording, a multi-event editor, custom shortcuts, application locks, and speed controls.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải NVDA Macro Manager](https://github.com/m-enes-senovali/nvdaMacroManager/releases/download/v1.2.6/nvdaMacroManager-1.2.6.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/m-enes-senovali/nvdaMacroManager",
+    "downloadUrl": "https://github.com/m-enes-senovali/nvdaMacroManager/releases/download/v1.2.6/nvdaMacroManager-1.2.6.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
     "id": "review-simpleCopy",
     "addonId": "simpleCopy",
     "addonName": "simpleCopy",
@@ -69,42 +213,6 @@
     ],
     "repoUrl": "https://github.com/dotincorp/nvda-addon-store/",
     "downloadUrl": "https://github.com/dotincorp/nvda-addon-store/releases/download/0.9.96/dotPad-0.9.96.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-nvdaMacroManager",
-    "addonId": "nvdaMacroManager",
-    "addonName": "NVDA Macro Manager",
-    "version": "1.2.4",
-    "title": "Hướng dẫn và đánh giá tiện ích: NVDA Macro Manager (Bản 1.2.4)",
-    "summary": "Thông tin chi tiết về tiện ích NVDA Macro Manager trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "17/09/2026",
-    "timestamp": "2026-09-16T22:31:10Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Muhammet Enes Şenovalı** phát triển theo giấy phép **GPL v2**.\n\nAn accessible keyboard macro recorder, editor, and playback engine for NVDA.\nFeatures include safe recording, a multi-event editor, custom shortcuts, application locks, and speed controls.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải NVDA Macro Manager](https://github.com/m-enes-senovali/nvdaMacroManager/releases/download/v1.2.4/nvdaMacroManager-1.2.4.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/m-enes-senovali/nvdaMacroManager",
-    "downloadUrl": "https://github.com/m-enes-senovali/nvdaMacroManager/releases/download/v1.2.4/nvdaMacroManager-1.2.4.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -828,42 +936,6 @@
     "license": "GPL v2"
   },
   {
-    "id": "review-evtTracker",
-    "addonId": "evtTracker",
-    "addonName": "Event Tracker",
-    "version": "26.4",
-    "title": "Hướng dẫn và đánh giá tiện ích: Event Tracker (Bản 26.4)",
-    "summary": "Thông tin chi tiết về tiện ích Event Tracker trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "12/09/2026",
-    "timestamp": "2026-09-12T09:23:01Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **josephsl** phát triển theo giấy phép **GPL v2**.\n\nTracks events and displays information about them\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Event Tracker](https://github.com/opensourcesys/evtTracker/releases/download/26.4/evtTracker-26.4.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/opensourcesys/evtTracker",
-    "downloadUrl": "https://github.com/opensourcesys/evtTracker/releases/download/26.4/evtTracker-26.4.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
     "id": "review-emoticons",
     "addonId": "emoticons",
     "addonName": "Các biểu tượng cảm xúc",
@@ -1438,42 +1510,6 @@
     "repoUrl": "https://github.com/uzunfikret71-stack/nvda-ytdlp-downloader",
     "downloadUrl": "https://github.com/uzunfikret71-stack/nvda-ytdlp-downloader/releases/download/v1.2.3/Video-ve-Ses-Indirici-1.2.3.nvda-addon",
     "license": "GPL v2 or later"
-  },
-  {
-    "id": "review-powerbox",
-    "addonId": "powerbox",
-    "addonName": "PowerBox: Essential Windows Productivity Tools",
-    "version": "1.2.0",
-    "title": "Hướng dẫn và đánh giá tiện ích: PowerBox: Essential Windows Productivity Tools (Bản 1.2.0)",
-    "summary": "Thông tin chi tiết về tiện ích PowerBox: Essential Windows Productivity Tools trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "09/09/2026",
-    "timestamp": "2026-09-09T07:08:31Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Thomas A. Fayez** phát triển theo giấy phép **GPL v2**.\n\nA powerful multi-tool add-on featuring gesture layers for quick access to media controls, smart mouse routing clicks, terminal launches in the current directory, quick applications, and network information.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải PowerBox: Essential Windows Productivity Tools](https://github.com/thomas-a-fayez/nvda-powerbox/releases/download/v1.2.0/powerbox-1.2.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/thomas-a-fayez/nvda-powerbox",
-    "downloadUrl": "https://github.com/thomas-a-fayez/nvda-powerbox/releases/download/v1.2.0/powerbox-1.2.0.nvda-addon",
-    "license": "GPL v2"
   },
   {
     "id": "review-aivoicedictation",
