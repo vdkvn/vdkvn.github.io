@@ -1,5 +1,77 @@
 [
   {
+    "id": "review-nvdaMacroManager",
+    "addonId": "nvdaMacroManager",
+    "addonName": "NVDA Macro Manager",
+    "version": "1.2.8",
+    "title": "Hướng dẫn và đánh giá tiện ích: NVDA Macro Manager (Bản 1.2.8)",
+    "summary": "Thông tin chi tiết về tiện ích NVDA Macro Manager trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "18/09/2026",
+    "timestamp": "2026-09-18T06:23:46Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Muhammet Enes Şenovalı** phát triển theo giấy phép **GPL v2**.\n\nAn accessible keyboard macro recorder, editor, and playback engine for NVDA.\nFeatures include safe recording, a multi-event editor, custom shortcuts, application locks, and speed controls.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải NVDA Macro Manager](https://github.com/m-enes-senovali/nvdaMacroManager/releases/download/v1.2.8/nvdaMacroManager-1.2.8.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/m-enes-senovali/nvdaMacroManager",
+    "downloadUrl": "https://github.com/m-enes-senovali/nvdaMacroManager/releases/download/v1.2.8/nvdaMacroManager-1.2.8.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-YoutubeAccessPro",
+    "addonId": "YoutubeAccessPro",
+    "addonName": "YouTube Access Pro",
+    "version": "2026.09.18",
+    "title": "Hướng dẫn và đánh giá tiện ích: YouTube Access Pro (Bản 2026.09.18)",
+    "summary": "Thông tin chi tiết về tiện ích YouTube Access Pro trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "18/09/2026",
+    "timestamp": "2026-09-18T04:46:46Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Peem Narkkhwan** phát triển theo giấy phép **GPL v2**.\n\n\nYouTube Access Pro คือโปรแกรมเสริมสำหรับ NVDA ที่ให้เข้าถึง YouTube ได้อย่างเต็มรูปแบบด้วยแป้นพิมพ์เพียงอย่างเดียว ค้นหาหรือวางลิงก์เพื่อเล่นและดาวน์โหลดวิดีโอ เพลย์ลิสต์ หรือช่องได้โดยตรง พร้อมคีย์ลัดควบคุมการเล่นครบครัน (เล่น/หยุด กรอ ปรับเสียง ปรับความเร็ว เล่นต่อเนื่องอัตโนมัติ) และตัวจับเวลาปิดในตัว\n\nใหม่! โหมดคาราโอเกะ: ตัดเสียงร้องขณะเล่น (Shift+F8) หรือดาวน์โหลดเป็น MP3 คาราโอเกะ (Shift+F1)\n\nจัดการเพลย์ลิสต์ส่วนตัวได้อิสระ และติดตามช่องที่ชื่นชอบผ่านแท็บ Subscriptions ซึ่งไล่ดูเนื้อหาได้เหมือน YouTube เอง แบ่งเป็นหมวด Videos, Shorts, Live และ Playlists ดาวน์โหลดเป็นไฟล์ MP3, MP4 หรือ คาราโอเกะ MP3 ได้ทันทีพร้อมเลือกคุณภาพ และจัดเก็บเป็นหมวดหมู่ตามเพลย์ลิสต์หรือช่องให้อัตโนมัติ\n\nใช้งานได้ทั้งภาษาไทยและอังกฤษ สลับได้ทันทีด้วย Ctrl+T เรียกหน้าต่างขึ้นมาจากทุกที่ด้วย NVDA+Y และฟังสรุปคีย์ลัดของแต่ละหน้าได้ทันทีด้วย Ctrl+F1 คู่มือฉบับเต็มพร้อมรายละเอียดคีย์ลัดทั้งหมดแนบมากับโปรแกรมเสริมนี้\n\nYouTube Access Pro is an NVDA add-on that provides full keyboard-only access to YouTube. Search or paste a link to play and download videos, playlists, or channels directly, with complete playback shortcuts (play/pause, seek, volume, speed, automatic continuous playback) and a built-in sleep timer.\n\nNEW! Karaoke Mode: vocal-cut playback (Shift+F8) or karaoke MP3 download (Shift+F1)\n\nManage personal playlists freely, and follow favorite channels through the Subscriptions tab, browsing content the way YouTube itself organizes it - Videos, Shorts, Live, and Playlists. Download instantly as standard MP3, MP4, or Karaoke MP3 with selectable quality, automatically sorted into folders by playlist or channel.\n\nAvailable in both Thai and English, switch instantly with Ctrl+T. Open the window from anywhere with NVDA+Y, and hear a shortcut summary for the current tab anytime with Ctrl+F1. A full user guide with complete shortcut details is included with this add-on.\n\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải YouTube Access Pro](https://github.com/sharetoyouaccess/YoutubeAccessPro/releases/download/v2026.09.18/YoutubeAccessPro-2026.09.18.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/sharetoyouaccess/YoutubeAccessPro",
+    "downloadUrl": "https://github.com/sharetoyouaccess/YoutubeAccessPro/releases/download/v2026.09.18/YoutubeAccessPro-2026.09.18.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
     "id": "review-LIMA",
     "addonId": "LIMA",
     "addonName": "LIMA AI",
@@ -105,42 +177,6 @@
     ],
     "repoUrl": "https://github.com/thomas-a-fayez/nvda-powerbox",
     "downloadUrl": "https://github.com/thomas-a-fayez/nvda-powerbox/releases/download/v1.3.0/powerbox-1.3.0.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-nvdaMacroManager",
-    "addonId": "nvdaMacroManager",
-    "addonName": "NVDA Macro Manager",
-    "version": "1.2.6",
-    "title": "Hướng dẫn và đánh giá tiện ích: NVDA Macro Manager (Bản 1.2.6)",
-    "summary": "Thông tin chi tiết về tiện ích NVDA Macro Manager trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "17/09/2026",
-    "timestamp": "2026-09-17T07:44:12Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Muhammet Enes Şenovalı** phát triển theo giấy phép **GPL v2**.\n\nAn accessible keyboard macro recorder, editor, and playback engine for NVDA.\nFeatures include safe recording, a multi-event editor, custom shortcuts, application locks, and speed controls.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải NVDA Macro Manager](https://github.com/m-enes-senovali/nvdaMacroManager/releases/download/v1.2.6/nvdaMacroManager-1.2.6.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/m-enes-senovali/nvdaMacroManager",
-    "downloadUrl": "https://github.com/m-enes-senovali/nvdaMacroManager/releases/download/v1.2.6/nvdaMacroManager-1.2.6.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -1185,42 +1221,6 @@
     ],
     "repoUrl": "https://github.com/4sensegaming/autosleep-mode",
     "downloadUrl": "https://github.com/4sensegaming/autosleep-mode/releases/download/v1.0.0/autosleepMode-1.0.0.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-YoutubeAccessPro",
-    "addonId": "YoutubeAccessPro",
-    "addonName": "YouTube Access Pro",
-    "version": "2026.09.11",
-    "title": "Hướng dẫn và đánh giá tiện ích: YouTube Access Pro (Bản 2026.09.11)",
-    "summary": "Thông tin chi tiết về tiện ích YouTube Access Pro trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "11/09/2026",
-    "timestamp": "2026-09-10T23:07:02Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Peem Narkkhwan** phát triển theo giấy phép **GPL v2**.\n\n\nYouTube Access Pro คือโปรแกรมเสริมสำหรับ NVDA ที่ให้เข้าถึง YouTube ได้อย่างเต็มรูปแบบด้วยแป้นพิมพ์เพียงอย่างเดียว ค้นหาหรือวางลิงก์เพื่อเล่นและดาวน์โหลดวิดีโอ เพลย์ลิสต์ หรือช่องได้โดยตรง พร้อมคีย์ลัดควบคุมการเล่นครบครัน (เล่น/หยุด กรอ ปรับเสียง ปรับความเร็ว เล่นต่อเนื่องอัตโนมัติ) และตัวจับเวลาปิดในตัว\n\nจัดการเพลย์ลิสต์ส่วนตัวได้อิสระ และติดตามช่องที่ชื่นชอบผ่านแท็บ Subscriptions ซึ่งไล่ดูเนื้อหาได้เหมือน YouTube เอง แบ่งเป็นหมวด Videos, Shorts, Live และ Playlists ดาวน์โหลดเป็นไฟล์ MP3 หรือ MP4 ได้ทันทีพร้อมเลือกคุณภาพ และจัดเก็บเป็นหมวดหมู่ตามเพลย์ลิสต์หรือช่องให้อัตโนมัติ\n\nใช้งานได้ทั้งภาษาไทยและอังกฤษ สลับได้ทันทีด้วย Ctrl+T เรียกหน้าต่างขึ้นมาจากทุกที่ด้วย NVDA+Y และฟังสรุปคีย์ลัดของแต่ละหน้าได้ทันทีด้วย Ctrl+F1 คู่มือฉบับเต็มพร้อมรายละเอียดคีย์ลัดทั้งหมดแนบมากับโปรแกรมเสริมนี้\n\nYouTube Access Pro is an NVDA add-on that provides full keyboard-only access to YouTube. Search or paste a link to play and download videos, playlists, or channels directly, with complete playback shortcuts (play/pause, seek, volume, speed, automatic continuous playback) and a built-in sleep timer.\n\nManage personal playlists freely, and follow favorite channels through the Subscriptions tab, browsing content the way YouTube itself organizes it - Videos, Shorts, Live, and Playlists. Download instantly as MP3 or MP4 with selectable quality, automatically sorted into folders by playlist or channel.\n\nAvailable in both Thai and English, switch instantly with Ctrl+T. Open the window from anywhere with NVDA+Y, and hear a shortcut summary for the current tab anytime with Ctrl+F1. A full user guide with complete shortcut details is included with this add-on.\n\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải YouTube Access Pro](https://github.com/sharetoyouaccess/YoutubeAccessPro/releases/download/v2026.09.11/YoutubeAccessPro-2026.09.11.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/sharetoyouaccess/YoutubeAccessPro",
-    "downloadUrl": "https://github.com/sharetoyouaccess/YoutubeAccessPro/releases/download/v2026.09.11/YoutubeAccessPro-2026.09.11.nvda-addon",
     "license": "GPL v2"
   },
   {

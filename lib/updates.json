@@ -1,7 +1,31 @@
 {
-  "lastChecked": "2026-09-18T04:22:53.633Z",
-  "lastCheckedVN": "18/09/2026",
+  "lastChecked": "2026-09-19T04:19:39.896Z",
+  "lastCheckedVN": "19/09/2026",
   "items": [
+    {
+      "slug": "nvdaes-clip-contents-designer",
+      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
+      "category": "Công cụ tiếp cận",
+      "type": "Addon Tây Ban Nha",
+      "timestamp": "2026-09-19T00:42:14Z",
+      "date": "19/09/2026",
+      "summary": "Update translations",
+      "fullMessage": "Update translations",
+      "sha": "fba069f",
+      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/fba069f7afc061f266291e3e3fbfbec738736cfe"
+    },
+    {
+      "slug": "google-tts-for-nvda",
+      "projectName": "Google TTS for NVDA",
+      "category": "Bộ đọc tiếng nói",
+      "type": "Addon NVDA",
+      "timestamp": "2026-09-18T05:20:17Z",
+      "date": "18/09/2026",
+      "summary": "Improve sentence segmentation and optimize text sanitization",
+      "fullMessage": "Improve sentence segmentation and optimize text sanitization\n\n- Enhance sentence segmentation and URL/domain boundary handling:\n  + Fix sentence terminator suppression after trailing URLs and domain names in TextSegmenter._period_stays_with_previous_token(), distinguishing domain tokens with segment lengths > 2 from dotted acronyms (e.g. U.S.A., B.Sc.).\n  + Expand TextSegmenter.looks_like_url_token() to recognize email addresses and common scheme-less URL prefixes (www., http., https., mailto:, ftp.).\n  + Tune segmentation thresholds: set fast-first trigger threshold to 120 characters, regular segment maximum length to 200 characters, and punctuation-free intact ceilings to 135 characters (110 for no-space scripts).\n  + Accelerate speech text sanitization in sanitize_speech_text() using a precomputed translation table (_SPEECH_SANITIZE_TABLE) with fast-path str.translate() for 1:1 Unicode whitespace and BMP PUA normalization.",
+      "sha": "9eff61b",
+      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/9eff61b0f7126706c6bd04fc164484dcfafaed44"
+    },
     {
       "slug": "nvda-screen-reader",
       "projectName": "NVDA Screen Reader",
@@ -15,18 +39,6 @@
       "url": "https://github.com/nvaccess/nvda/commit/f56b2e0d7522da86765e6db64876ecde83c4a9d0"
     },
     {
-      "slug": "google-tts-for-nvda",
-      "projectName": "Google TTS for NVDA",
-      "category": "Bộ đọc tiếng nói",
-      "type": "Addon NVDA",
-      "timestamp": "2026-09-17T13:27:41Z",
-      "date": "17/09/2026",
-      "summary": "Optimize browser process performance and simplify sentence segmentation",
-      "fullMessage": "Optimize browser process performance and simplify sentence segmentation\n\n- Disable Windows Power Throttling (EcoQoS) and elevate priority to ABOVE_NORMAL across the browser process tree.\n- Add msEdgeEfficiencyMode to disabled features and re-elevate child renderer processes after DevTools port discovery.\n- Remove abbreviation-based sentence splitting heuristics in favor of native voice package handling.",
-      "sha": "ebeafed",
-      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/ebeafed6b9acad92d1f08c2d417ac7490978fe1e"
-    },
-    {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
       "category": "Bản địa hóa & Giọng đọc",
@@ -37,18 +49,6 @@
       "fullMessage": "Merge pull request #745 from nvdajp/fix/kgs-beep-volume-follow-sound-volume\n\nMake KGS braille connection tones follow NVDA sound volume settings",
       "sha": "3a17558",
       "url": "https://github.com/nvdajp/nvdajp/commit/3a17558b38e6dc43bdffd38086d0d1ddc67c2872"
-    },
-    {
-      "slug": "nvdaes-clip-contents-designer",
-      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
-      "category": "Công cụ tiếp cận",
-      "type": "Addon Tây Ban Nha",
-      "timestamp": "2026-09-14T00:28:06Z",
-      "date": "14/09/2026",
-      "summary": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
-      "fullMessage": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
-      "sha": "1e2d33b",
-      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/1e2d33b8c81efb6d52a2259057c27c305723e253"
     },
     {
       "slug": "nvda-network-optimizer",
