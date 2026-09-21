@@ -1,18 +1,30 @@
 {
-  "lastChecked": "2026-09-20T04:37:58.950Z",
-  "lastCheckedVN": "20/09/2026",
+  "lastChecked": "2026-09-21T04:36:31.484Z",
+  "lastCheckedVN": "21/09/2026",
   "items": [
     {
       "slug": "nvdaes-clip-contents-designer",
       "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
       "category": "Công cụ tiếp cận",
       "type": "Addon Tây Ban Nha",
-      "timestamp": "2026-09-19T11:51:12Z",
-      "date": "19/09/2026",
-      "summary": "Update translations",
-      "fullMessage": "Update translations",
-      "sha": "81bd2b2",
-      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/81bd2b2657e0e897be779eba9a48784664de63f1"
+      "timestamp": "2026-09-21T03:22:05Z",
+      "date": "21/09/2026",
+      "summary": "Update buildVars",
+      "fullMessage": "Update buildVars",
+      "sha": "3f890f1",
+      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/3f890f1588aaf34324ab343c5e40167d2435751f"
+    },
+    {
+      "slug": "nvdajp-community",
+      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
+      "category": "Bản địa hóa & Giọng đọc",
+      "type": "NVDA Nhật Bản",
+      "timestamp": "2026-09-20T14:24:34Z",
+      "date": "20/09/2026",
+      "summary": "Fix CodeQL code scanning alerts (py/redos, workflow permissions)",
+      "fullMessage": "Fix CodeQL code scanning alerts (py/redos, workflow permissions)\n\n- source/NVDAObjects/window/excel.py: replace nested quantifier (\\..*)* with\n  (?:\\..*)? in re_definedName to prevent catastrophic backtracking (CodeQL\n  py/redos, error). Verified equivalent on 32 cases plus 20000 fuzzed inputs,\n  and the failing input that took 31s now completes in microseconds.\n- .github/workflows/testAndPublish.yml: add explicit permissions block to the\n  JP-specific jpSmokeTests job (CodeQL actions/missing-workflow-permissions).\n  contents: read and actions: write; the latter is required by\n  actions/cache/restore and actions/upload-artifact.",
+      "sha": "021ab08",
+      "url": "https://github.com/nvdajp/nvdajp/commit/021ab08c086e1d27b178b6bac2dd2e3d8d4c61f3"
     },
     {
       "slug": "google-tts-for-nvda",
@@ -37,18 +49,6 @@
       "fullMessage": "add bug bounty note (#20866)",
       "sha": "f56b2e0",
       "url": "https://github.com/nvaccess/nvda/commit/f56b2e0d7522da86765e6db64876ecde83c4a9d0"
-    },
-    {
-      "slug": "nvdajp-community",
-      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
-      "category": "Bản địa hóa & Giọng đọc",
-      "type": "NVDA Nhật Bản",
-      "timestamp": "2026-09-17T12:52:21Z",
-      "date": "17/09/2026",
-      "summary": "Merge pull request #745 from nvdajp/fix/kgs-beep-volume-follow-sound-volume",
-      "fullMessage": "Merge pull request #745 from nvdajp/fix/kgs-beep-volume-follow-sound-volume\n\nMake KGS braille connection tones follow NVDA sound volume settings",
-      "sha": "3a17558",
-      "url": "https://github.com/nvdajp/nvdajp/commit/3a17558b38e6dc43bdffd38086d0d1ddc67c2872"
     },
     {
       "slug": "nvda-network-optimizer",

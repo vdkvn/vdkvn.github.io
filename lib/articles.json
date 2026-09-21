@@ -1,5 +1,257 @@
 [
   {
+    "id": "review-nvdaCoach",
+    "addonId": "nvdaCoach",
+    "addonName": "NVDA Coach - Interactive Screen Reader Training",
+    "version": "1.6.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: NVDA Coach - Interactive Screen Reader Training (Bản 1.6.0)",
+    "summary": "Thông tin chi tiết về tiện ích NVDA Coach - Interactive Screen Reader Training trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "21/09/2026",
+    "timestamp": "2026-09-21T04:35:46Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Tony Gebhard** phát triển theo giấy phép **GPL v2**.\n\nAn interactive, in-NVDA training system that teaches screen reader commands through guided, hands-on drills with real-time feedback. Built by an assistive technology instructor for absolute beginners.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải NVDA Coach - Interactive Screen Reader Training](https://github.com/tonygeb23/nvdaCoach-/releases/download/v1.6.0/nvdaCoach-1.6.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/tonygeb23/nvdaCoach-",
+    "downloadUrl": "https://github.com/tonygeb23/nvdaCoach-/releases/download/v1.6.0/nvdaCoach-1.6.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-batteryChime",
+    "addonId": "batteryChime",
+    "addonName": "BatteryChime",
+    "version": "1.1.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: BatteryChime (Bản 1.1.0)",
+    "summary": "Thông tin chi tiết về tiện ích BatteryChime trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "21/09/2026",
+    "timestamp": "2026-09-21T04:25:16Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **leo** phát triển theo giấy phép **GPL v2**.\n\nGet audio warnings when your battery is running low, plugged in, unplugged, or fully charged. Choose from 13 built-in sounds or your own WAV file for each event, and set your own warning percentages for low, critical, and emergency battery levels.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải BatteryChime](https://github.com/belgarath534/BatteryChime/releases/download/v1.1.0/BatteryChime.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/belgarath534/BatteryChime",
+    "downloadUrl": "https://github.com/belgarath534/BatteryChime/releases/download/v1.1.0/BatteryChime.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-clipContentsDesigner",
+    "addonId": "clipContentsDesigner",
+    "addonName": "Quản lý nội dung tạm",
+    "version": "52.2.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: Quản lý nội dung tạm (Bản 52.2.0)",
+    "summary": "Thông tin chi tiết về tiện ích Quản lý nội dung tạm trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "21/09/2026",
+    "timestamp": "2026-09-21T03:30:58Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **nvdaes** phát triển theo giấy phép **GPL v2**.\n\nAllows the joining of separate fragments of text on the clipboard and clearing of clipboard content. Current text on the clipboard can be presented in browse mode. Option to request confirmation before performing actions such as copy, cut, add text, or clearing the clipboard to avoid accidental changes.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tiện ích đã có sẵn giao diện tiếng Việt. Giọng đọc NVDA sẽ đọc đúng các nút bấm và thông báo, bạn chỉ cần cài đặt là sử dụng được ngay."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Quản lý nội dung tạm](https://github.com/nvdaes/clipContentsDesigner/releases/download/52.2.0/clipContentsDesigner-52.2.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/nvdaes/clipContentsDesigner/releases/tag/52.2.0",
+    "downloadUrl": "https://github.com/nvdaes/clipContentsDesigner/releases/download/52.2.0/clipContentsDesigner-52.2.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-soundtub",
+    "addonId": "soundtub",
+    "addonName": "SoundTub - download acessível de áudio e vídeo",
+    "version": "4.1.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: SoundTub - download acessível de áudio e vídeo (Bản 4.1.0)",
+    "summary": "Thông tin chi tiết về tiện ích SoundTub - download acessível de áudio e vídeo trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "21/09/2026",
+    "timestamp": "2026-09-20T23:24:54Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Luziano Silva** phát triển theo giấy phép **GNU General Public License v3.0 or later (GPL-3.0-or-later)**.\n\nBaixe áudio MP3 e vídeo MP4 com uma interface acessível pelo NVDA.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải SoundTub - download acessível de áudio e vídeo](https://github.com/LuzianoSilva/soundtub/releases/download/v4.1.0/SoundTub-4.1.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/LuzianoSilva/soundtub/tree/v4.1.0",
+    "downloadUrl": "https://github.com/LuzianoSilva/soundtub/releases/download/v4.1.0/SoundTub-4.1.0.nvda-addon",
+    "license": "GNU General Public License v3.0 or later (GPL-3.0-or-later)"
+  },
+  {
+    "id": "review-audioScreen",
+    "addonId": "audioScreen",
+    "addonName": "AudioScreen",
+    "version": "2026.3.2",
+    "title": "Hướng dẫn và đánh giá tiện ích: AudioScreen (Bản 2026.3.2)",
+    "summary": "Thông tin chi tiết về tiện ích AudioScreen trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "21/09/2026",
+    "timestamp": "2026-09-20T20:12:47Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **josephsl** phát triển theo giấy phép **GPL v2**.\n\nAllows you to \"feel\" images with your ears, while moving your finger around a touch screen on Windows 10 and above.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải AudioScreen](https://github.com/josephsl/audioScreen/releases/download/release-2026.3.2/audioScreen-2026.3.2.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/josephsl/audioScreen",
+    "downloadUrl": "https://github.com/josephsl/audioScreen/releases/download/release-2026.3.2/audioScreen-2026.3.2.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-dateParser",
+    "addonId": "dateParser",
+    "addonName": "Parses and speaks date and time expressions",
+    "version": "1.1.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: Parses and speaks date and time expressions (Bản 1.1.0)",
+    "summary": "Thông tin chi tiết về tiện ích Parses and speaks date and time expressions trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "20/09/2026",
+    "timestamp": "2026-09-20T14:08:53Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Andre Louis** phát triển theo giấy phép **GPL v2**.\n\nAdds a global NVDA script (NVDA+Alt+E) to parse natural date and duration expressions and speak the result.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Parses and speaks date and time expressions](https://github.com/OnjLouis/dateParser/releases/download/v1.1.0/dateParser-1.1.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/OnjLouis/dateParser",
+    "downloadUrl": "https://github.com/OnjLouis/dateParser/releases/download/v1.1.0/dateParser-1.1.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-SmartHomeControl",
+    "addonId": "SmartHomeControl",
+    "addonName": "Smart Home Control",
+    "version": "26.9.2",
+    "title": "Hướng dẫn và đánh giá tiện ích: Smart Home Control (Bản 26.9.2)",
+    "summary": "Thông tin chi tiết về tiện ích Smart Home Control trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "20/09/2026",
+    "timestamp": "2026-09-20T11:28:25Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Philipp Hasel** phát triển theo giấy phép **GPL v2**.\n\nControl smart home devices (Meross, Netatmo, VeSync, Cozytouch/Atlantic - Cozytouch experimental) directly from NVDA\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Smart Home Control](https://github.com/BlindByte06/SmartHomeControl/releases/download/v26.9.2/SmartHomeControl-26.9.2.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/BlindByte06/SmartHomeControl",
+    "downloadUrl": "https://github.com/BlindByte06/SmartHomeControl/releases/download/v26.9.2/SmartHomeControl-26.9.2.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
     "id": "review-codexStatusAnnouncer",
     "addonId": "codexStatusAnnouncer",
     "addonName": "ChatGPT Desktop Access for NVDA",
@@ -1042,42 +1294,6 @@
     "repoUrl": "https://github.com/addonFactory/volumeManager",
     "downloadUrl": "https://github.com/addonFactory/volumeManager/releases/download/v0.7.1-dev/volumeManager-0.7.1.nvda-addon",
     "license": "GPL v2"
-  },
-  {
-    "id": "review-soundtub",
-    "addonId": "soundtub",
-    "addonName": "SoundTub - download acessível de áudio e vídeo",
-    "version": "4.0.0",
-    "title": "Hướng dẫn và đánh giá tiện ích: SoundTub - download acessível de áudio e vídeo (Bản 4.0.0)",
-    "summary": "Thông tin chi tiết về tiện ích SoundTub - download acessível de áudio e vídeo trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "14/09/2026",
-    "timestamp": "2026-09-14T03:39:34Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Luziano Silva** phát triển theo giấy phép **GNU General Public License v3.0 or later (GPL-3.0-or-later)**.\n\nBaixe áudio MP3 e vídeo MP4 com uma interface acessível pelo NVDA.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải SoundTub - download acessível de áudio e vídeo](https://github.com/LuzianoSilva/soundtub/releases/download/v4.0.0/SoundTub-4.0.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/LuzianoSilva/soundtub/tree/v4.0.0",
-    "downloadUrl": "https://github.com/LuzianoSilva/soundtub/releases/download/v4.0.0/SoundTub-4.0.0.nvda-addon",
-    "license": "GNU General Public License v3.0 or later (GPL-3.0-or-later)"
   },
   {
     "id": "review-AbsoluteYoutube",
