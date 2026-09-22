@@ -1,7 +1,19 @@
 {
-  "lastChecked": "2026-09-21T04:36:31.484Z",
-  "lastCheckedVN": "21/09/2026",
+  "lastChecked": "2026-09-22T04:32:29.644Z",
+  "lastCheckedVN": "22/09/2026",
   "items": [
+    {
+      "slug": "google-tts-for-nvda",
+      "projectName": "Google TTS for NVDA",
+      "category": "Bộ đọc tiếng nói",
+      "type": "Addon NVDA",
+      "timestamp": "2026-09-21T13:33:59Z",
+      "date": "21/09/2026",
+      "summary": "Merge pull request #67 from ninhhoang205/main",
+      "fullMessage": "Merge pull request #67 from ninhhoang205/main\n\nadd alphabet to the Russian language.",
+      "sha": "768ede4",
+      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/768ede4c8e2ada82788471520ddb7fa52e810f4d"
+    },
     {
       "slug": "nvdaes-clip-contents-designer",
       "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
@@ -25,18 +37,6 @@
       "fullMessage": "Fix CodeQL code scanning alerts (py/redos, workflow permissions)\n\n- source/NVDAObjects/window/excel.py: replace nested quantifier (\\..*)* with\n  (?:\\..*)? in re_definedName to prevent catastrophic backtracking (CodeQL\n  py/redos, error). Verified equivalent on 32 cases plus 20000 fuzzed inputs,\n  and the failing input that took 31s now completes in microseconds.\n- .github/workflows/testAndPublish.yml: add explicit permissions block to the\n  JP-specific jpSmokeTests job (CodeQL actions/missing-workflow-permissions).\n  contents: read and actions: write; the latter is required by\n  actions/cache/restore and actions/upload-artifact.",
       "sha": "021ab08",
       "url": "https://github.com/nvdajp/nvdajp/commit/021ab08c086e1d27b178b6bac2dd2e3d8d4c61f3"
-    },
-    {
-      "slug": "google-tts-for-nvda",
-      "projectName": "Google TTS for NVDA",
-      "category": "Bộ đọc tiếng nói",
-      "type": "Addon NVDA",
-      "timestamp": "2026-09-19T05:10:17Z",
-      "date": "19/09/2026",
-      "summary": "Isolate browser process standard handles",
-      "fullMessage": "Isolate browser process standard handles\n\n- Pass stdin=subprocess.DEVNULL in BrowserProcessManager._start_browser_choice to prevent WinError 50 and WinError 6 when parent console handles are invalid.",
-      "sha": "303be80",
-      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/303be80082744a1a8bf38e6123f4a12d2d0e2c03"
     },
     {
       "slug": "nvda-screen-reader",
