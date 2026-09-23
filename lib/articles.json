@@ -3,16 +3,16 @@
     "id": "review-ricerca_testuale_accesso_digitale",
     "addonId": "ricerca_testuale_accesso_digitale",
     "addonName": "Text Search Accesso Digitale",
-    "version": "1.4.6",
-    "title": "Hướng dẫn và đánh giá tiện ích: Text Search Accesso Digitale (Bản 1.4.6)",
+    "version": "1.5.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: Text Search Accesso Digitale (Bản 1.5.0)",
     "summary": "Thông tin chi tiết về tiện ích Text Search Accesso Digitale trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
     "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "21/09/2026",
-    "timestamp": "2026-09-21T15:07:24Z",
+    "publishedDate": "23/09/2026",
+    "timestamp": "2026-09-23T02:11:06Z",
     "sections": [
       {
         "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Maurizio Barra** phát triển theo giấy phép **GPL v2**.\n\nFast and accessible text and document search across files, folders and entire storage drives for NVDA, with direct jump to line, precise Word paragraph navigation, native EML reading, audio preview, earcons feedback, bookmarks, multi-format export and direct printing.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+        "content": "Tiện ích do tác giả **Maurizio Barra** phát triển theo giấy phép **GPL v2**.\n\nFast and accessible text and document search across files, folders and entire storage drives for NVDA, with RSS/Atom and Thunderbird Feeds support, direct jump to line, precise Word paragraph navigation, native EML reading, audio preview, earcons feedback, bookmarks, multi-format export and direct printing.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
       },
       {
         "heading": "2. Khả năng đọc tiếng Việt",
@@ -28,11 +28,191 @@
       },
       {
         "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Text Search Accesso Digitale](https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.4.6/ricerca_testuale_accesso_digitale-1.4.6.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+        "content": "1. Nhấn [Tải Text Search Accesso Digitale](https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.5.0/ricerca_testuale_accesso_digitale-1.5.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
       }
     ],
     "repoUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale",
-    "downloadUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.4.6/ricerca_testuale_accesso_digitale-1.4.6.nvda-addon",
+    "downloadUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.5.0/ricerca_testuale_accesso_digitale-1.5.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-BrowsersDictionary",
+    "addonId": "BrowsersDictionary",
+    "addonName": "BrowserDictionary",
+    "version": "2026.10.1",
+    "title": "Hướng dẫn và đánh giá tiện ích: BrowserDictionary (Bản 2026.10.1)",
+    "summary": "Thông tin chi tiết về tiện ích BrowserDictionary trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "23/09/2026",
+    "timestamp": "2026-09-23T02:01:01Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Chai Chaimee** phát triển theo giấy phép **GPL v2**.\n\nCustomize NVDA speech per website with Browsers Dictionary. Features live URL tracking, text and regex replacements by page or domain, JSON file import, and regex safety protections. Automatically substitutes spoken text in real time to deliver accurate, seamless web reading.\n\nHot Key:\nALT+Windows+B\nSingle Tap : Open Browsers Dictionary settings\nDouble Tap : Add new site\nTriple Tab : edit Site\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải BrowserDictionary](https://github.com/chaichaimee/BrowsersDictionary/releases/download/2026.10.1/BrowsersDictionary-v2026.10.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/chaichaimee/BrowsersDictionary",
+    "downloadUrl": "https://github.com/chaichaimee/BrowsersDictionary/releases/download/2026.10.1/BrowsersDictionary-v2026.10.1.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-ClipMaster",
+    "addonId": "ClipMaster",
+    "addonName": "ClipMaster - Enhanced Clipboard Management for NVDA",
+    "version": "1.0.1",
+    "title": "Hướng dẫn và đánh giá tiện ích: ClipMaster - Enhanced Clipboard Management for NVDA (Bản 1.0.1)",
+    "summary": "Thông tin chi tiết về tiện ích ClipMaster - Enhanced Clipboard Management for NVDA trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "23/09/2026",
+    "timestamp": "2026-09-23T01:57:27Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Selvakumar G** phát triển theo giấy phép **GNU General Public License v2.0 or later**.\n\nAn advanced clipboard manager for NVDA featuring file category identification, deep metadata inspection, and date/category-based history logging.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải ClipMaster - Enhanced Clipboard Management for NVDA](https://github.com/SelvakumarG-nvda/ClipMaster/releases/download/v1.0.1/ClipMaster.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/SelvakumarG-nvda/ClipMaster",
+    "downloadUrl": "https://github.com/SelvakumarG-nvda/ClipMaster/releases/download/v1.0.1/ClipMaster.nvda-addon",
+    "license": "GNU General Public License v2.0 or later"
+  },
+  {
+    "id": "review-speechStyles",
+    "addonId": "speechStyles",
+    "addonName": "Speech Styles",
+    "version": "0.1.1",
+    "title": "Hướng dẫn và đánh giá tiện ích: Speech Styles (Bản 0.1.1)",
+    "summary": "Thông tin chi tiết về tiện ích Speech Styles trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "23/09/2026",
+    "timestamp": "2026-09-23T01:54:21Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **addonFactory** phát triển theo giấy phép **GPL v2**.\n\nCustomizes how NVDA speaks control types and states, text enclosed in quotes and brackets, and source code comments: hide them, change volume, pitch, rate, inflection and voice, or play sounds.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Speech Styles](https://github.com/addonFactory/speechStyles/releases/download/v0.1.1-stable/speechStyles-0.1.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/addonFactory/speechStyles",
+    "downloadUrl": "https://github.com/addonFactory/speechStyles/releases/download/v0.1.1-stable/speechStyles-0.1.1.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-videoMaker",
+    "addonId": "videoMaker",
+    "addonName": "Video Maker",
+    "version": "2.2",
+    "title": "Hướng dẫn và đánh giá tiện ích: Video Maker (Bản 2.2)",
+    "summary": "Thông tin chi tiết về tiện ích Video Maker trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "22/09/2026",
+    "timestamp": "2026-09-22T13:39:07Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Kasturi Bhosale** phát triển theo giấy phép **GPL v2**.\n\nCreate professional videos with ease! This add-on allows you to:\n- Create slideshow videos from photos and videos with audio\n- Add captions to individual photos and videos\n- Create running text/ticker videos from text and audio\n- Apply transitions between photos/videos\n- Remove green/blue backgrounds from photos\n- Use custom backgrounds (black, white, or custom image)\n- Ken Burns zoom effect\n- Watermark your videos\n- Save and load projects\n\nKeyboard Shortcuts:\n- NVDA+Shift+3: Create video from photos/videos and audio\n- NVDA+Shift+4: Create running text video\n\nNote: Requires ffmpeg to be installed in the add-on directory.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Video Maker](https://github.com/kasturibhosale2207-svg/videoMaker-/releases/download/v2.2/videoMaker-2.2.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/kasturibhosale2207-svg/videoMaker-",
+    "downloadUrl": "https://github.com/kasturibhosale2207-svg/videoMaker-/releases/download/v2.2/videoMaker-2.2.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-ClipHistory",
+    "addonId": "ClipHistory",
+    "addonName": "ClipboardHistory",
+    "version": "2026.10.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: ClipboardHistory (Bản 2026.10.0)",
+    "summary": "Thông tin chi tiết về tiện ích ClipboardHistory trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "22/09/2026",
+    "timestamp": "2026-09-22T10:02:58Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Chai Chaimee** phát triển theo giấy phép **GPL v2**.\n\nClipHistory tracks clipboard activity, automatically saving text and HTML entries to persistent storage. Features include an accessible history dialog, pinning, custom item names, editing, reordering, item deletion, and pasting support for NVDA.\n\nHot Keys:\nWindows+V\nSingle : open ClipHistory Dialog\nDouble : Clear All ClipBoardHistory\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải ClipboardHistory](https://github.com/chaichaimee/ClipHistory/releases/download/2026.10.0/ClipHistory-v2026.10.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/chaichaimee/ClipHistory",
+    "downloadUrl": "https://github.com/chaichaimee/ClipHistory/releases/download/2026.10.0/ClipHistory-v2026.10.0.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -1185,42 +1365,6 @@
     ],
     "repoUrl": "https://github.com/coseeing/WordBridge",
     "downloadUrl": "https://github.com/coseeing/WordBridge/releases/download/2026.9.2/WordBridge-2026.9.2.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-videoMaker",
-    "addonId": "videoMaker",
-    "addonName": "Video Maker",
-    "version": "2.1",
-    "title": "Hướng dẫn và đánh giá tiện ích: Video Maker (Bản 2.1)",
-    "summary": "Thông tin chi tiết về tiện ích Video Maker trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "15/09/2026",
-    "timestamp": "2026-09-15T16:41:16Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **kasturi bhosale** phát triển theo giấy phép **GPL v2**.\n\nCreate professional videos with ease! This add-on allows you to:\n- Create slideshow videos from photos and videos with audio\n- Add captions to individual photos and videos\n- Create running text/ticker videos from text and audio\n- Apply transitions between photos/videos\n- Remove green/blue backgrounds from photos\n- Use custom backgrounds (black, white, or custom image)\n- Ken Burns zoom effect\n- Watermark your videos\n- Save and load projects\n\nKeyboard Shortcuts:\n- NVDA+Shift+3: Create video from photos/videos and audio\n- NVDA+Shift+4: Create running text video\n\nNote: Requires ffmpeg to be installed in the add-on directory.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Video Maker](https://github.com/kasturibhosale2207-svg/videoMaker-/releases/download/v2.1/videoMaker-2.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/kasturibhosale2207-svg/videoMaker-/archive/refs/tags/v2.1.zip",
-    "downloadUrl": "https://github.com/kasturibhosale2207-svg/videoMaker-/releases/download/v2.1/videoMaker-2.1.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -2589,42 +2733,6 @@
     ],
     "repoUrl": "https://github.com/chaichaimee/specialCharacter",
     "downloadUrl": "https://github.com/chaichaimee/specialCharacter/releases/download/2026.9.9/specialCharacter-v2026.9.9.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-ClipHistory",
-    "addonId": "ClipHistory",
-    "addonName": "ClipboardHistory",
-    "version": "2026.9.9",
-    "title": "Hướng dẫn và đánh giá tiện ích: ClipboardHistory (Bản 2026.9.9)",
-    "summary": "Thông tin chi tiết về tiện ích ClipboardHistory trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "07/09/2026",
-    "timestamp": "2026-09-07T04:21:38Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Chai Chaimee** phát triển theo giấy phép **GPL v2**.\n\nClipHistory tracks clipboard activity, automatically saving text and HTML entries to persistent storage. Features include an accessible history dialog, pinning, custom item names, editing, reordering, item deletion, and pasting support for NVDA.\nHot Keys:\nWindows+V\nSingle : open ClipHistory Dialog\nDouble : Clear All ClipBoardHistory\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải ClipboardHistory](https://github.com/chaichaimee/ClipHistory/releases/download/2026.9.9/ClipHistory-v2026.9.9.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/chaichaimee/ClipHistory",
-    "downloadUrl": "https://github.com/chaichaimee/ClipHistory/releases/download/2026.9.9/ClipHistory-v2026.9.9.nvda-addon",
     "license": "GPL v2"
   },
   {

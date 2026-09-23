@@ -1,18 +1,30 @@
 {
-  "lastChecked": "2026-09-22T04:32:29.644Z",
-  "lastCheckedVN": "22/09/2026",
+  "lastChecked": "2026-09-23T04:28:55.195Z",
+  "lastCheckedVN": "23/09/2026",
   "items": [
+    {
+      "slug": "nvdajp-community",
+      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
+      "category": "Bản địa hóa & Giọng đọc",
+      "type": "NVDA Nhật Bản",
+      "timestamp": "2026-09-22T09:02:41Z",
+      "date": "22/09/2026",
+      "summary": "Merge pull request #747 from nvdajp/docs/synthdriverhost32-32bit-python-setup",
+      "fullMessage": "Merge pull request #747 from nvdajp/docs/synthdriverhost32-32bit-python-setup\n\ndocs: synthDriverHost32Runtime の 32bit Python 準備手順を追記",
+      "sha": "b137ab8",
+      "url": "https://github.com/nvdajp/nvdajp/commit/b137ab8afdfcf76672c503253ec22ab25844e724"
+    },
     {
       "slug": "google-tts-for-nvda",
       "projectName": "Google TTS for NVDA",
       "category": "Bộ đọc tiếng nói",
       "type": "Addon NVDA",
-      "timestamp": "2026-09-21T13:33:59Z",
-      "date": "21/09/2026",
-      "summary": "Merge pull request #67 from ninhhoang205/main",
-      "fullMessage": "Merge pull request #67 from ninhhoang205/main\n\nadd alphabet to the Russian language.",
-      "sha": "768ede4",
-      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/768ede4c8e2ada82788471520ddb7fa52e810f4d"
+      "timestamp": "2026-09-22T08:45:42Z",
+      "date": "22/09/2026",
+      "summary": "Fix encoding and combining marks in Russian language sorting rules",
+      "fullMessage": "Fix encoding and combining marks in Russian language sorting rules\n\n- Remove UTF-8 BOM from googleTtsForNvda/locale/ru/languageSort.json to prevent JSONDecodeError in voiceManager.py and pass build_i18n.py translation checks.\n- Remove diaeresis from ignoreCombiningMarks so that ё is not decomposed into е during Unicode NFD normalization, preserving its distinct 7th position in letterOrder.\n- Keep acute in ignoreCombiningMarks to ignore Russian stress marks (знак ударения) during alphabetical sorting.\n- Add a trailing newline at end of file to match repository formatting standards.",
+      "sha": "ade924f",
+      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/ade924f802173832f1f0dd4987d51109053d783c"
     },
     {
       "slug": "nvdaes-clip-contents-designer",
@@ -25,18 +37,6 @@
       "fullMessage": "Update buildVars",
       "sha": "3f890f1",
       "url": "https://github.com/nvdaes/clipContentsDesigner/commit/3f890f1588aaf34324ab343c5e40167d2435751f"
-    },
-    {
-      "slug": "nvdajp-community",
-      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
-      "category": "Bản địa hóa & Giọng đọc",
-      "type": "NVDA Nhật Bản",
-      "timestamp": "2026-09-20T14:24:34Z",
-      "date": "20/09/2026",
-      "summary": "Fix CodeQL code scanning alerts (py/redos, workflow permissions)",
-      "fullMessage": "Fix CodeQL code scanning alerts (py/redos, workflow permissions)\n\n- source/NVDAObjects/window/excel.py: replace nested quantifier (\\..*)* with\n  (?:\\..*)? in re_definedName to prevent catastrophic backtracking (CodeQL\n  py/redos, error). Verified equivalent on 32 cases plus 20000 fuzzed inputs,\n  and the failing input that took 31s now completes in microseconds.\n- .github/workflows/testAndPublish.yml: add explicit permissions block to the\n  JP-specific jpSmokeTests job (CodeQL actions/missing-workflow-permissions).\n  contents: read and actions: write; the latter is required by\n  actions/cache/restore and actions/upload-artifact.",
-      "sha": "021ab08",
-      "url": "https://github.com/nvdajp/nvdajp/commit/021ab08c086e1d27b178b6bac2dd2e3d8d4c61f3"
     },
     {
       "slug": "nvda-screen-reader",
