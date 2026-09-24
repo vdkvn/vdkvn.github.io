@@ -1,7 +1,19 @@
 {
-  "lastChecked": "2026-09-23T04:28:55.195Z",
-  "lastCheckedVN": "23/09/2026",
+  "lastChecked": "2026-09-24T04:26:07.233Z",
+  "lastCheckedVN": "24/09/2026",
   "items": [
+    {
+      "slug": "google-tts-for-nvda",
+      "projectName": "Google TTS for NVDA",
+      "category": "Bộ đọc tiếng nói",
+      "type": "Addon NVDA",
+      "timestamp": "2026-09-24T01:20:56Z",
+      "date": "24/09/2026",
+      "summary": "Require real-world NVDA verification in contributing guidelines",
+      "fullMessage": "Require real-world NVDA verification in contributing guidelines\n\n- Add a hands-on testing requirement to Testing in the Workflow to reject unverified AI-generated contributions.\n- Add a live NVDA session verification step to the Pull Request Checklist.",
+      "sha": "5a7e66a",
+      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/5a7e66a7445f3bbcf8bb6c3de0a4737eafdff4e7"
+    },
     {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
@@ -13,18 +25,6 @@
       "fullMessage": "Merge pull request #747 from nvdajp/docs/synthdriverhost32-32bit-python-setup\n\ndocs: synthDriverHost32Runtime の 32bit Python 準備手順を追記",
       "sha": "b137ab8",
       "url": "https://github.com/nvdajp/nvdajp/commit/b137ab8afdfcf76672c503253ec22ab25844e724"
-    },
-    {
-      "slug": "google-tts-for-nvda",
-      "projectName": "Google TTS for NVDA",
-      "category": "Bộ đọc tiếng nói",
-      "type": "Addon NVDA",
-      "timestamp": "2026-09-22T08:45:42Z",
-      "date": "22/09/2026",
-      "summary": "Fix encoding and combining marks in Russian language sorting rules",
-      "fullMessage": "Fix encoding and combining marks in Russian language sorting rules\n\n- Remove UTF-8 BOM from googleTtsForNvda/locale/ru/languageSort.json to prevent JSONDecodeError in voiceManager.py and pass build_i18n.py translation checks.\n- Remove diaeresis from ignoreCombiningMarks so that ё is not decomposed into е during Unicode NFD normalization, preserving its distinct 7th position in letterOrder.\n- Keep acute in ignoreCombiningMarks to ignore Russian stress marks (знак ударения) during alphabetical sorting.\n- Add a trailing newline at end of file to match repository formatting standards.",
-      "sha": "ade924f",
-      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/ade924f802173832f1f0dd4987d51109053d783c"
     },
     {
       "slug": "nvdaes-clip-contents-designer",
