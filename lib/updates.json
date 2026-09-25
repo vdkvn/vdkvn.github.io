@@ -1,7 +1,19 @@
 {
-  "lastChecked": "2026-09-24T04:26:07.233Z",
-  "lastCheckedVN": "24/09/2026",
+  "lastChecked": "2026-09-25T04:37:11.602Z",
+  "lastCheckedVN": "25/09/2026",
   "items": [
+    {
+      "slug": "nvdajp-community",
+      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
+      "category": "Bản địa hóa & Giọng đọc",
+      "type": "NVDA Nhật Bản",
+      "timestamp": "2026-09-24T21:57:33Z",
+      "date": "25/09/2026",
+      "summary": "synthDriverHost32Runtime ビルド時の speech/__init__.py 差分に関する注意を追記",
+      "fullMessage": "docs(jp): synthDriverHost32Runtime ビルド時の speech/__init__.py 差分に関する注意を追記",
+      "sha": "59f8647",
+      "url": "https://github.com/nvdajp/nvdajp/commit/59f8647450a5dc0c7c966063d30ecd83705b0e85"
+    },
     {
       "slug": "google-tts-for-nvda",
       "projectName": "Google TTS for NVDA",
@@ -13,18 +25,6 @@
       "fullMessage": "Require real-world NVDA verification in contributing guidelines\n\n- Add a hands-on testing requirement to Testing in the Workflow to reject unverified AI-generated contributions.\n- Add a live NVDA session verification step to the Pull Request Checklist.",
       "sha": "5a7e66a",
       "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/5a7e66a7445f3bbcf8bb6c3de0a4737eafdff4e7"
-    },
-    {
-      "slug": "nvdajp-community",
-      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
-      "category": "Bản địa hóa & Giọng đọc",
-      "type": "NVDA Nhật Bản",
-      "timestamp": "2026-09-22T09:02:41Z",
-      "date": "22/09/2026",
-      "summary": "Merge pull request #747 from nvdajp/docs/synthdriverhost32-32bit-python-setup",
-      "fullMessage": "Merge pull request #747 from nvdajp/docs/synthdriverhost32-32bit-python-setup\n\ndocs: synthDriverHost32Runtime の 32bit Python 準備手順を追記",
-      "sha": "b137ab8",
-      "url": "https://github.com/nvdajp/nvdajp/commit/b137ab8afdfcf76672c503253ec22ab25844e724"
     },
     {
       "slug": "nvdaes-clip-contents-designer",
