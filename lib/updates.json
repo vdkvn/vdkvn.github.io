@@ -1,7 +1,19 @@
 {
-  "lastChecked": "2026-09-27T05:01:14.881Z",
-  "lastCheckedVN": "27/09/2026",
+  "lastChecked": "2026-09-28T05:03:07.492Z",
+  "lastCheckedVN": "28/09/2026",
   "items": [
+    {
+      "slug": "nvdaes-clip-contents-designer",
+      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
+      "category": "Công cụ tiếp cận",
+      "type": "Addon Tây Ban Nha",
+      "timestamp": "2026-09-28T00:25:15Z",
+      "date": "28/09/2026",
+      "summary": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
+      "fullMessage": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
+      "sha": "366d984",
+      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/366d9841ffafa5278813a1cd87a40438cfcffd74"
+    },
     {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
@@ -25,18 +37,6 @@
       "fullMessage": "Require real-world NVDA verification in contributing guidelines\n\n- Add a hands-on testing requirement to Testing in the Workflow to reject unverified AI-generated contributions.\n- Add a live NVDA session verification step to the Pull Request Checklist.",
       "sha": "5a7e66a",
       "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/5a7e66a7445f3bbcf8bb6c3de0a4737eafdff4e7"
-    },
-    {
-      "slug": "nvdaes-clip-contents-designer",
-      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
-      "category": "Công cụ tiếp cận",
-      "type": "Addon Tây Ban Nha",
-      "timestamp": "2026-09-21T03:22:05Z",
-      "date": "21/09/2026",
-      "summary": "Update buildVars",
-      "fullMessage": "Update buildVars",
-      "sha": "3f890f1",
-      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/3f890f1588aaf34324ab343c5e40167d2435751f"
     },
     {
       "slug": "nvda-screen-reader",
