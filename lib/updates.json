@@ -1,18 +1,42 @@
 {
-  "lastChecked": "2026-09-29T05:27:39.647Z",
-  "lastCheckedVN": "29/09/2026",
+  "lastChecked": "2026-09-30T05:15:22.995Z",
+  "lastCheckedVN": "30/09/2026",
   "items": [
+    {
+      "slug": "google-tts-for-nvda",
+      "projectName": "Google TTS for NVDA",
+      "category": "Bộ đọc tiếng nói",
+      "type": "Addon NVDA",
+      "timestamp": "2026-09-30T01:58:44Z",
+      "date": "30/09/2026",
+      "summary": "Update workflow",
+      "fullMessage": "Update workflow\n\nInstall additional dependencies: markdown, nh3, and lxml so that the workflow can run successfully.",
+      "sha": "33fb7a0",
+      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/33fb7a0ceb68e9af65726db323b4037c4b352137"
+    },
     {
       "slug": "nvda-screen-reader",
       "projectName": "NVDA Screen Reader",
       "category": "Phần mềm tiếp cận",
       "type": "Trình đọc màn hình",
-      "timestamp": "2026-09-29T05:20:28Z",
+      "timestamp": "2026-09-29T07:33:03Z",
       "date": "29/09/2026",
-      "summary": "Remove AppX packaging and runtime dead code (#20681)",
-      "fullMessage": "Remove AppX packaging and runtime dead code (#20681)\n\nCloses #18799\nSee also #16498\nSummary of the issue:\n\nNVDA is no longer built or distributed as an AppX package for the Windows Store. Any future distribution to the Microsoft Store will use MSIX rather than AppX (see Microsoft MSIX packaging documentation). As a result, build targets, runtime package detection, and conditional code paths specific to AppX are dead code that add unnecessary complexity and maintenance overhead.\nDescription of user facing changes:\n\nNone.\nDescription of developer facing changes:\n\n    Removed config.isAppX variable.\n    Removed gui.blockAction.Context.WINDOWS_STORE_VERSION enum member.\n    Removed the appx SCons build alias and targets (appx_storeSubmission, appx_sideLoadable).\n\nDescription of development approach:\n\n    Build System:\n        Deleted the appx/ directory containing manifest.xml.subst, sconscript, and appx_images/.\n        Removed appx_storeSubmission, appx_sideLoadable, and the appx alias from sconstruct.\n        Cleaned up the SHA256 code signing comment in sconstruct.\n    Process Startup & Lifecycle:\n        Removed runtime Windows Store package detection (GetCurrentPackageFullName) from source/nvda.pyw.\n        Simplified Ease of Access notification calls in source/nvda.pyw during startup and exit.\n        Removed onQueryEndSession restart registration and wx.EVT_QUERY_END_SESSION event binding from source/core.py.\n    Configuration & Subsystems:\n        Removed isAppX = False from source/config/__init__.py.\n        Removed _appx directory suffix logic from config.getUserDefaultConfigPath() and made \"addons\" subdirectory creation unconditional in config.initConfigPath().\n        Excised config.isAppX conditional checks from source/NVDAHelper/__init__.py (remote injection and IA2 termination), source/addonHandler/__init__.py, source/addonHandler/packaging.py, source/addonStore/dataManager.py, source/brailleTables/__init__.py, source/touchHandler.py, and source/updateCheck.py.\n        Cleaned up unused imports across affected modules.\n    GUI & Action Blocking:\n        Removed WINDOWS_STORE_VERSION from gui.blockAction.Context enum and updated when() docstring.\n        Removed Context.WINDOWS_STORE_VERSION decorator arguments from globalCommands.py (script_activatePythonConsole) and gui/__init__.py (onAddonStoreCommand, onAddonStoreUpdatableCommand).\n        Removed config.isAppX conditionals from Tools menu items creation in gui/__init__.py.\n        Removed AppX checks from source/gui/addonGui.py (handleRemoteAddonInstall), source/gui/exit.py (ExitDialog), source/gui/settingsDialogs.py (developer scratchpad controls), and source/gui/startupDialogs.py (start after logon checkbox).\n        Cleaned up docstrings in source/NVDAObjects/IAccessible/sysListView32.py.",
-      "sha": "bdc9388",
-      "url": "https://github.com/nvaccess/nvda/commit/bdc938888c1ec92232c44fa135fbdf6309e6f72c"
+      "summary": "Beta to master (#20901)",
+      "fullMessage": "Beta to master (#20901)",
+      "sha": "72601bf",
+      "url": "https://github.com/nvaccess/nvda/commit/72601bf3297af63e596942d12b34b5ed8ec203ae"
+    },
+    {
+      "slug": "nvdajp-community",
+      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
+      "category": "Bản địa hóa & Giọng đọc",
+      "type": "NVDA Nhật Bản",
+      "timestamp": "2026-09-29T06:37:01Z",
+      "date": "29/09/2026",
+      "summary": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
+      "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
+      "sha": "13a29de",
+      "url": "https://github.com/nvdajp/nvdajp/commit/13a29deaf85e62aa9b416c153865fa57d3e82b92"
     },
     {
       "slug": "nvdaes-clip-contents-designer",
@@ -25,30 +49,6 @@
       "fullMessage": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
       "sha": "366d984",
       "url": "https://github.com/nvdaes/clipContentsDesigner/commit/366d9841ffafa5278813a1cd87a40438cfcffd74"
-    },
-    {
-      "slug": "nvdajp-community",
-      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
-      "category": "Bản địa hóa & Giọng đọc",
-      "type": "NVDA Nhật Bản",
-      "timestamp": "2026-09-24T21:57:33Z",
-      "date": "25/09/2026",
-      "summary": "synthDriverHost32Runtime ビルド時の speech/__init__.py 差分に関する注意を追記",
-      "fullMessage": "docs(jp): synthDriverHost32Runtime ビルド時の speech/__init__.py 差分に関する注意を追記",
-      "sha": "59f8647",
-      "url": "https://github.com/nvdajp/nvdajp/commit/59f8647450a5dc0c7c966063d30ecd83705b0e85"
-    },
-    {
-      "slug": "google-tts-for-nvda",
-      "projectName": "Google TTS for NVDA",
-      "category": "Bộ đọc tiếng nói",
-      "type": "Addon NVDA",
-      "timestamp": "2026-09-24T01:20:56Z",
-      "date": "24/09/2026",
-      "summary": "Require real-world NVDA verification in contributing guidelines",
-      "fullMessage": "Require real-world NVDA verification in contributing guidelines\n\n- Add a hands-on testing requirement to Testing in the Workflow to reject unverified AI-generated contributions.\n- Add a live NVDA session verification step to the Pull Request Checklist.",
-      "sha": "5a7e66a",
-      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/5a7e66a7445f3bbcf8bb6c3de0a4737eafdff4e7"
     },
     {
       "slug": "nvda-network-optimizer",
