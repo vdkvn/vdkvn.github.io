@@ -1,5 +1,293 @@
 [
   {
+    "id": "review-soundWave",
+    "addonId": "soundWave",
+    "addonName": "soundWave: Faster-than-realtime text-to-audio renderer",
+    "version": "1.2.12",
+    "title": "Hướng dẫn và đánh giá tiện ích: soundWave: Faster-than-realtime text-to-audio renderer (Bản 1.2.12)",
+    "summary": "Thông tin chi tiết về tiện ích soundWave: Faster-than-realtime text-to-audio renderer trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "01/10/2026",
+    "timestamp": "2026-10-01T05:14:24Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Andre Louis** phát triển theo giấy phép **GPL v2**.\n\nRender text to an audio file using supported NVDA synthesizers.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải soundWave: Faster-than-realtime text-to-audio renderer](https://github.com/OnjLouis/soundWave/releases/download/v1.2.12/soundWave-1.2.12.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/OnjLouis/soundWave",
+    "downloadUrl": "https://github.com/OnjLouis/soundWave/releases/download/v1.2.12/soundWave-1.2.12.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-freeAudio",
+    "addonId": "freeAudio",
+    "addonName": "freeAudio: Radio and more",
+    "version": "2026.25.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: freeAudio: Radio and more (Bản 2026.25.0)",
+    "summary": "Thông tin chi tiết về tiện ích freeAudio: Radio and more trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "01/10/2026",
+    "timestamp": "2026-10-01T02:32:07Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Çağrı Doğan <cagrid@hotmail.com>** phát triển theo giấy phép **GPL v2**.\n\nfreeAudio is an internet radio, podcast, audio-book, and local music add-on for NVDA that provides seamless access to thousands of internet radio stations via the Radio Browser open directory, RSS/Atom podcast feeds, the libriVox + GETEM digital library for the visually impaired, and your own local audio files and folders through its built-in jukebox. It features a fully accessible station browser with search, country filter, favourites management, and per-station, per-podcast, per-audio-book, and per-jukebox-track audio profiles. Podcast episodes, audio book chapters, and jukebox tracks resume automatically from where you left off - jukebox folders even pick up on the last track you were playing - with adjustable pitch-preserving playback speed and independent pitch-shift (semitone transpose). Playback is handled by BASS, with support for volume control, audio effects, output device selection, and simultaneous audio mirroring to a second device. Additional features include instant and scheduled recording, time-shift rewind of live radio, sleep and alarm timers, automatic ICY metadata announcements, Shazam-based music recognition, and a liked-songs log with lyrics lookup. All controls and shortcuts are designed for NVDA accessibility.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải freeAudio: Radio and more](https://github.com/Surveyor123/freeAudio/releases/download/v2026.25.0/freeAudio-2026.25.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/Surveyor123/freeAudio",
+    "downloadUrl": "https://github.com/Surveyor123/freeAudio/releases/download/v2026.25.0/freeAudio-2026.25.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-ricerca_testuale_accesso_digitale",
+    "addonId": "ricerca_testuale_accesso_digitale",
+    "addonName": "Text Search Accesso Digitale",
+    "version": "1.5.8",
+    "title": "Hướng dẫn và đánh giá tiện ích: Text Search Accesso Digitale (Bản 1.5.8)",
+    "summary": "Thông tin chi tiết về tiện ích Text Search Accesso Digitale trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "01/10/2026",
+    "timestamp": "2026-10-01T00:57:09Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Maurizio Barra** phát triển theo giấy phép **GPL v2**.\n\nFast and accessible text and document search across files, folders and entire storage drives for NVDA, with RSS/Atom and Thunderbird Feeds support, local search history, direct jump to line, precise Word paragraph navigation, native EML reading, audio preview, earcons feedback, bookmarks, multi-format export and direct printing.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Text Search Accesso Digitale](https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.5.8/ricerca_testuale_accesso_digitale-1.5.8.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale",
+    "downloadUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.5.8/ricerca_testuale_accesso_digitale-1.5.8.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-contrast-checker-nvda",
+    "addonId": "contrast-checker-nvda",
+    "addonName": "Color Contrast Checker for NVDA",
+    "version": "2026.09.30",
+    "title": "Hướng dẫn và đánh giá tiện ích: Color Contrast Checker for NVDA (Bản 2026.09.30)",
+    "summary": "Thông tin chi tiết về tiện ích Color Contrast Checker for NVDA trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "01/10/2026",
+    "timestamp": "2026-09-30T21:39:01Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Carter Temm <cartertemm@gmail.com>** phát triển theo giấy phép **GPL v2**.\n\nAdd-on that presents the color contrast of the system caret, navigator object, and all elements on the page.\nPrimarily useful for helping blind digital accessibility testers determine whether visible text and controls meet thresholds set out by the Web Content Accessibility Guidelines (WCAG).\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Color Contrast Checker for NVDA](https://github.com/cartertemm/contrast-checker-nvda/releases/download/v2026.09.30/contrast-checker-nvda-2026.09.30.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/cartertemm/contrast-checker-nvda/",
+    "downloadUrl": "https://github.com/cartertemm/contrast-checker-nvda/releases/download/v2026.09.30/contrast-checker-nvda-2026.09.30.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-audioSwitcher",
+    "addonId": "audioSwitcher",
+    "addonName": "Audio Switcher",
+    "version": "2026.4",
+    "title": "Hướng dẫn và đánh giá tiện ích: Audio Switcher (Bản 2026.4)",
+    "summary": "Thông tin chi tiết về tiện ích Audio Switcher trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "30/09/2026",
+    "timestamp": "2026-09-30T16:08:00Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **kamal yaser** phát triển theo giấy phép **GPL v2**.\n\nSets configured or directly selected speakers and microphones as default and announces current defaults.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Audio Switcher](https://github.com/kamalyaser31/nvda-audio-switcher/releases/download/v2026.4/audioSwitcher-2026.4.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/kamalyaser31/nvda-audio-switcher",
+    "downloadUrl": "https://github.com/kamalyaser31/nvda-audio-switcher/releases/download/v2026.4/audioSwitcher-2026.4.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-instantAccess",
+    "addonId": "instantAccess",
+    "addonName": "instant Access",
+    "version": "2026.6",
+    "title": "Hướng dẫn và đánh giá tiện ích: instant Access (Bản 2026.6)",
+    "summary": "Thông tin chi tiết về tiện ích instant Access trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "30/09/2026",
+    "timestamp": "2026-09-30T16:02:08Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **kamal yaser** phát triển theo giấy phép **GPL v2**.\n\nA powerful productivity tool to launch websites, files, folders, and programs quickly using a dedicated layer.\n\tFeatures include background execution, verbosity levels, command line arguments, and settings import/export.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải instant Access](https://github.com/kamalyaser31/instantAccess/releases/download/v2026.6/instantAccess-2026.6.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/kamalyaser31/instantAccess",
+    "downloadUrl": "https://github.com/kamalyaser31/instantAccess/releases/download/v2026.6/instantAccess-2026.6.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-instantTimer",
+    "addonId": "instantTimer",
+    "addonName": "Instant Timer",
+    "version": "2026.2",
+    "title": "Hướng dẫn và đánh giá tiện ích: Instant Timer (Bản 2026.2)",
+    "summary": "Thông tin chi tiết về tiện ích Instant Timer trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "30/09/2026",
+    "timestamp": "2026-09-30T15:53:02Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **kamal yaser** phát triển theo giấy phép **GPL v2**.\n\nCountdown timers and stopwatch for NVDA with 5 preset timers, an ad-hoc quick timer, a modal command layer, and audio and speech alerts.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Instant Timer](https://github.com/kamalyaser31/instantTimer/releases/download/v2026.2/instantTimer-2026.2.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/kamalyaser31/instantTimer",
+    "downloadUrl": "https://github.com/kamalyaser31/instantTimer/releases/download/v2026.2/instantTimer-2026.2.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-ethiopianBahreHasab",
+    "addonId": "ethiopianBahreHasab",
+    "addonName": "Ethiopian Calendar, Bahre Hasab & More",
+    "version": "3.0.2",
+    "title": "Hướng dẫn và đánh giá tiện ích: Ethiopian Calendar, Bahre Hasab & More (Bản 3.0.2)",
+    "summary": "Thông tin chi tiết về tiện ích Ethiopian Calendar, Bahre Hasab & More trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "30/09/2026",
+    "timestamp": "2026-09-30T07:26:48Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Meseret Worku Alemu** phát triển theo giấy phép **GPL v2**.\n\nA rich Ethiopian calendar and Bahre Hasab add-on for NVDA. It reports the current Ethiopian date, the full Bahre Hasab (Amete Alem, Wengelawi, Metqe, Abekte, Mebaja Hamer, Tewsak and more), movable feasts and fasts, fasting and liturgical seasons, Great Lent weekly names, lunar age, moon phase, and zodiac. It also offers the daily Gitsawe — the three church services (Morning, Eucharist, Evening) — with the full Bible passage inlined for every citation, plus the Synaxarium of saints for any Ethiopian date, national FDRE holidays, an Islamic (Hijri) calendar, and a Hebrew calendar. Additional tools include an exact Ethiopian age calculator, a planning workspace with agenda and export to CSV, JSON, Markdown, HTML and iCal, a menstrual cycle tracker with ovulation and fertile window prediction, a pregnancy due date calculator, and Ethiopian local and Bahre Hasab 'kekros' times. Every result is rendered as a fully navigable HTML page with headings, lists and tables, so NVDA users can jump around quickly with H, T and L. Amharic and English supported.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Ethiopian Calendar, Bahre Hasab & More](https://github.com/mesiworkisha-glitch/ethiopian-bahre-hasab/releases/download/v3.0.2/Ethiopian_BahreHasab_and_calendar_v3.0.2.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/mesiworkisha-glitch/ethiopian-bahre-hasab",
+    "downloadUrl": "https://github.com/mesiworkisha-glitch/ethiopian-bahre-hasab/releases/download/v3.0.2/Ethiopian_BahreHasab_and_calendar_v3.0.2.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
     "id": "review-codexStatusAnnouncer",
     "addonId": "codexStatusAnnouncer",
     "addonName": "ChatGPT Desktop Access for NVDA",
@@ -108,42 +396,6 @@
     "license": "GPL v2"
   },
   {
-    "id": "review-ricerca_testuale_accesso_digitale",
-    "addonId": "ricerca_testuale_accesso_digitale",
-    "addonName": "Text Search Accesso Digitale",
-    "version": "1.5.7",
-    "title": "Hướng dẫn và đánh giá tiện ích: Text Search Accesso Digitale (Bản 1.5.7)",
-    "summary": "Thông tin chi tiết về tiện ích Text Search Accesso Digitale trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "29/09/2026",
-    "timestamp": "2026-09-29T16:42:39Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Maurizio Barra** phát triển theo giấy phép **GPL v2**.\n\nFast and accessible text and document search across files, folders and entire storage drives for NVDA, with RSS/Atom and Thunderbird Feeds support, local search history, direct jump to line, precise Word paragraph navigation, native EML reading, audio preview, earcons feedback, bookmarks, multi-format export and direct printing.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Text Search Accesso Digitale](https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.5.7/ricerca_testuale_accesso_digitale-1.5.7.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale",
-    "downloadUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.5.7/ricerca_testuale_accesso_digitale-1.5.7.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
     "id": "review-stationPlaylist",
     "addonId": "stationPlaylist",
     "addonName": "StationPlaylist",
@@ -213,42 +465,6 @@
     ],
     "repoUrl": "https://github.com/thomas-a-fayez/nvda-powerbox/",
     "downloadUrl": "https://github.com/thomas-a-fayez/nvda-powerbox/releases/download/v2.1.4/powerbox-2.1.4.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-ethiopianBahreHasab",
-    "addonId": "ethiopianBahreHasab",
-    "addonName": "Ethiopian Calendar, Bahre Hasab & More",
-    "version": "3.0.1",
-    "title": "Hướng dẫn và đánh giá tiện ích: Ethiopian Calendar, Bahre Hasab & More (Bản 3.0.1)",
-    "summary": "Thông tin chi tiết về tiện ích Ethiopian Calendar, Bahre Hasab & More trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "29/09/2026",
-    "timestamp": "2026-09-29T09:36:24Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **mesiworkisha-glitch** phát triển theo giấy phép **GPL v2**.\n\nA rich Ethiopian calendar and Bahre Hasab add-on for NVDA. It reports the current Ethiopian date, the full Bahre Hasab (Amete Alem, Wengelawi, Metqe, Abekte, Mebaja Hamer, Tewsak and more), movable feasts and fasts, fasting and liturgical seasons, Great Lent weekly names, lunar age, moon phase, and zodiac. It also offers the daily Gitsawe — the three church services (Morning, Eucharist, Evening) — with the full Bible passage inlined for every citation, plus the Synaxarium of saints for any Ethiopian date, national FDRE holidays, an Islamic (Hijri) calendar, and a Hebrew calendar. Additional tools include an exact Ethiopian age calculator, a planning workspace with agenda and export to CSV, JSON, Markdown, HTML and iCal, a menstrual cycle tracker with ovulation and fertile window prediction, a pregnancy due date calculator, and Ethiopian local and Bahre Hasab 'kekros' times. Every result is rendered as a fully navigable HTML page with headings, lists and tables, so NVDA users can jump around quickly with H, T and L. Amharic and English supported.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Ethiopian Calendar, Bahre Hasab & More](https://github.com/mesiworkisha-glitch/ethiopian-bahre-hasab/releases/download/v3.0.1/Ethiopian_BahreHasab_and_calendar_v3.0.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/mesiworkisha-glitch/ethiopian-bahre-hasab",
-    "downloadUrl": "https://github.com/mesiworkisha-glitch/ethiopian-bahre-hasab/releases/download/v3.0.1/Ethiopian_BahreHasab_and_calendar_v3.0.1.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -900,42 +1116,6 @@
     "license": "GPL v2"
   },
   {
-    "id": "review-audioSwitcher",
-    "addonId": "audioSwitcher",
-    "addonName": "Audio Switcher",
-    "version": "2026.3",
-    "title": "Hướng dẫn và đánh giá tiện ích: Audio Switcher (Bản 2026.3)",
-    "summary": "Thông tin chi tiết về tiện ích Audio Switcher trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "25/09/2026",
-    "timestamp": "2026-09-24T18:40:58Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **kamal yaser** phát triển theo giấy phép **GPL v2**.\n\nSets configured or directly selected speakers and microphones as default and announces current defaults.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Audio Switcher](https://github.com/kamalyaser31/nvda-audio-switcher/releases/download/v2026.3/audioSwitcher-2026.3.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/kamalyaser31/nvda-audio-switcher",
-    "downloadUrl": "https://github.com/kamalyaser31/nvda-audio-switcher/releases/download/v2026.3/audioSwitcher-2026.3.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
     "id": "review-freeradio",
     "addonId": "freeradio",
     "addonName": "freeRadio: Radio and more",
@@ -1221,42 +1401,6 @@
     ],
     "repoUrl": "https://github.com/belgarath534/NVchime",
     "downloadUrl": "https://github.com/belgarath534/NVchime/releases/download/v2.1.0/NVChime.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-instantAccess",
-    "addonId": "instantAccess",
-    "addonName": "instant Access",
-    "version": "2026.5",
-    "title": "Hướng dẫn và đánh giá tiện ích: instant Access (Bản 2026.5)",
-    "summary": "Thông tin chi tiết về tiện ích instant Access trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "21/09/2026",
-    "timestamp": "2026-09-21T05:39:55Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **kamal yaser** phát triển theo giấy phép **GPL v2**.\n\nA powerful productivity tool to launch websites, files, folders, and programs quickly using a dedicated layer.\n\tFeatures include background execution, verbosity levels, command line arguments, and settings import/export.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải instant Access](https://github.com/kamalyaser31/instantAccess/releases/download/v2026.5/instantAccess-2026.5.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/kamalyaser31/instantAccess",
-    "downloadUrl": "https://github.com/kamalyaser31/instantAccess/releases/download/v2026.5/instantAccess-2026.5.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -2049,42 +2193,6 @@
     ],
     "repoUrl": "https://github.com/zambonif/NVDA-Addons/tree/main/Diario/diario-source",
     "downloadUrl": "https://github.com/zambonif/NVDA-Addons/releases/download/diario-v1.4.1/diario-1.4.1.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-soundWave",
-    "addonId": "soundWave",
-    "addonName": "soundWave: Faster-than-realtime text-to-audio renderer",
-    "version": "1.2.10",
-    "title": "Hướng dẫn và đánh giá tiện ích: soundWave: Faster-than-realtime text-to-audio renderer (Bản 1.2.10)",
-    "summary": "Thông tin chi tiết về tiện ích soundWave: Faster-than-realtime text-to-audio renderer trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "16/09/2026",
-    "timestamp": "2026-09-16T08:28:34Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Andre Louis** phát triển theo giấy phép **GPL v2**.\n\nRender text to an audio file using supported NVDA synthesizers.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải soundWave: Faster-than-realtime text-to-audio renderer](https://github.com/OnjLouis/soundWave/releases/download/v1.2.10/soundWave-1.2.10.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/OnjLouis/soundWave",
-    "downloadUrl": "https://github.com/OnjLouis/soundWave/releases/download/v1.2.10/soundWave-1.2.10.nvda-addon",
     "license": "GPL v2"
   },
   {

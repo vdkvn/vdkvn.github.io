@@ -1,42 +1,42 @@
 {
-  "lastChecked": "2026-09-30T05:15:22.995Z",
-  "lastCheckedVN": "30/09/2026",
+  "lastChecked": "2026-10-01T05:30:28.461Z",
+  "lastCheckedVN": "01/10/2026",
   "items": [
     {
       "slug": "google-tts-for-nvda",
       "projectName": "Google TTS for NVDA",
       "category": "Bộ đọc tiếng nói",
       "type": "Addon NVDA",
-      "timestamp": "2026-09-30T01:58:44Z",
+      "timestamp": "2026-09-30T08:26:49Z",
       "date": "30/09/2026",
-      "summary": "Update workflow",
-      "fullMessage": "Update workflow\n\nInstall additional dependencies: markdown, nh3, and lxml so that the workflow can run successfully.",
-      "sha": "33fb7a0",
-      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/33fb7a0ceb68e9af65726db323b4037c4b352137"
-    },
-    {
-      "slug": "nvda-screen-reader",
-      "projectName": "NVDA Screen Reader",
-      "category": "Phần mềm tiếp cận",
-      "type": "Trình đọc màn hình",
-      "timestamp": "2026-09-29T07:33:03Z",
-      "date": "29/09/2026",
-      "summary": "Beta to master (#20901)",
-      "fullMessage": "Beta to master (#20901)",
-      "sha": "72601bf",
-      "url": "https://github.com/nvaccess/nvda/commit/72601bf3297af63e596942d12b34b5ed8ec203ae"
+      "summary": "Update documentation on the translation process",
+      "fullMessage": "Update documentation on the translation process\n\nRestructure the documentation and locale directory layout as a multilevel list to improve accessibility for screen reader users.",
+      "sha": "5241c59",
+      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/5241c59d8c8665977b622581dd89e80c0647fa10"
     },
     {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
       "category": "Bản địa hóa & Giọng đọc",
       "type": "NVDA Nhật Bản",
-      "timestamp": "2026-09-29T06:37:01Z",
-      "date": "29/09/2026",
+      "timestamp": "2026-09-30T07:35:39Z",
+      "date": "30/09/2026",
       "summary": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
       "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
-      "sha": "13a29de",
-      "url": "https://github.com/nvdajp/nvdajp/commit/13a29deaf85e62aa9b416c153865fa57d3e82b92"
+      "sha": "96ea1f6",
+      "url": "https://github.com/nvdajp/nvdajp/commit/96ea1f67348a911921b574f63e7b5207eb8402b1"
+    },
+    {
+      "slug": "nvda-screen-reader",
+      "projectName": "NVDA Screen Reader",
+      "category": "Phần mềm tiếp cận",
+      "type": "Trình đọc màn hình",
+      "timestamp": "2026-09-30T05:39:11Z",
+      "date": "30/09/2026",
+      "summary": "winVersion: recognize build 26300 as Windows 11 Version 26H2 (2026 update) (#20648)",
+      "fullMessage": "winVersion: recognize build 26300 as Windows 11 Version 26H2 (2026 update) (#20648)\n\nCloses #20559\nSummary of the issue:\n\nOn June 19, 2026, Microsoft announced Windows 11 Version 26H2 with the build number of 26300.\nDescription of user facing changes:\n\nNone\nDescription of developer facing changes:\n\nsource/winVersion.py:\n\n    Updated copyright header\n    Added constants for Windows 11 26H2 including build to release names mapping\n\nDescription of development approach:\n\nAdded winVersion.WIN11_26H2 as the constant representing Windows 11 Version 26H2. Testing (see below) requires computers running builds below, on, and above 26300. The computer used to develop this PR runs build 26300 (Insider Preview).",
+      "sha": "1406f9f",
+      "url": "https://github.com/nvaccess/nvda/commit/1406f9f8a04eb50f7317af87aba3a9d439c2a772"
     },
     {
       "slug": "nvdaes-clip-contents-designer",
