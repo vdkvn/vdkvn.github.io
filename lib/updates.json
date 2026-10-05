@@ -1,30 +1,42 @@
 {
-  "lastChecked": "2026-10-04T05:33:02.896Z",
-  "lastCheckedVN": "04/10/2026",
+  "lastChecked": "2026-10-05T05:16:55.584Z",
+  "lastCheckedVN": "05/10/2026",
   "items": [
+    {
+      "slug": "nvda-screen-reader",
+      "projectName": "NVDA Screen Reader",
+      "category": "Phần mềm tiếp cận",
+      "type": "Trình đọc màn hình",
+      "timestamp": "2026-10-05T04:37:59Z",
+      "date": "05/10/2026",
+      "summary": "Bump urllib3 from 2.7.0 to 2.8.0 in the uv group across 1 directory (#20948)",
+      "fullMessage": "Bump urllib3 from 2.7.0 to 2.8.0 in the uv group across 1 directory (#20948)",
+      "sha": "663e4b6",
+      "url": "https://github.com/nvaccess/nvda/commit/663e4b6798ad759321d749ad039271446ba29a72"
+    },
     {
       "slug": "nvdaes-clip-contents-designer",
       "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
       "category": "Công cụ tiếp cận",
       "type": "Addon Tây Ban Nha",
-      "timestamp": "2026-10-03T00:43:41Z",
-      "date": "03/10/2026",
-      "summary": "Update translations",
-      "fullMessage": "Update translations",
-      "sha": "3be6285",
-      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/3be6285681a9411c055e581d7670160d55b97327"
+      "timestamp": "2026-10-05T00:27:34Z",
+      "date": "05/10/2026",
+      "summary": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
+      "fullMessage": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
+      "sha": "c2b2cb0",
+      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/c2b2cb000f9464d4ed518ce1adb859c694b823af"
     },
     {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
       "category": "Bản địa hóa & Giọng đọc",
       "type": "NVDA Nhật Bản",
-      "timestamp": "2026-10-02T06:23:37Z",
-      "date": "02/10/2026",
-      "summary": "Merge pull request #748 from nvdajp/fix/libkuraji-underscore-support",
-      "fullMessage": "Merge pull request #748 from nvdajp/fix/libkuraji-underscore-support\n\nSync vendored libkuraji: support underscore in kana symbol table",
-      "sha": "e41803f",
-      "url": "https://github.com/nvdajp/nvdajp/commit/e41803f37bbaedbf69547f09f7ee10660c4da4ab"
+      "timestamp": "2026-10-04T05:52:37Z",
+      "date": "04/10/2026",
+      "summary": "Merge pull request #749 from nvdajp/fix/libkuraji-readmejp-symbols",
+      "fullMessage": "Merge pull request #749 from nvdajp/fix/libkuraji-readmejp-symbols\n\nSync vendored libkuraji: support $, |, ;, and \\ in kana symbol table (readmejp)",
+      "sha": "92d3df7",
+      "url": "https://github.com/nvdajp/nvdajp/commit/92d3df71a0efbed7ea3a42631c34fb90bd94d3d1"
     },
     {
       "slug": "google-tts-for-nvda",
@@ -37,18 +49,6 @@
       "fullMessage": "docs: refresh architecture map, neutralize release guide, and add license notices\n\n- Add Third-Party Software and Component Notices appendix to root and packaged LICENSE files covering Chromium WASM TTS, Eigen, CLD2, websocket-client, and voice catalog metadata.\n- Audit and align runtime paths and architectural references in AGENTS.md with actual codebase and NVDA runtime behavior; correct websocket-client license identifier to Apache-2.0.\n- Neutralize hard-coded release and hotfix version numbers across UPDATER_RELEASE_GUIDE.md using generic version placeholders.",
       "sha": "74cfbc0",
       "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/74cfbc035981fb622848d59d2102782c45797511"
-    },
-    {
-      "slug": "nvda-screen-reader",
-      "projectName": "NVDA Screen Reader",
-      "category": "Phần mềm tiếp cận",
-      "type": "Trình đọc màn hình",
-      "timestamp": "2026-10-02T00:30:25Z",
-      "date": "02/10/2026",
-      "summary": "Fix Modern Word comment reporting with NVDA+alt+c and Elements List (#20894)",
-      "fullMessage": "Fix Modern Word comment reporting with NVDA+alt+c and Elements List (#20894)\n\nFixes #14985\nFixes #9685\nRelated to #4336\nSummary of the issue:\n\nWith UI Automation, Word exposes each comment as a comment thread. NVDA reads the name of the thread, which is Word's localized \"Comment thread started by \". The comment text and the replies are never reported, neither by NVDA+alt+c nor in the Elements List. Resolved threads are missing from the Elements List.\nWith classic comments (Enable modern comments disabled in Word's General settings), NVDA+alt+c only reads the first comment, and its replies are listed as separate comments.\nDescription of user facing changes:\n\nIn Microsoft Word accessed via UI Automation, NVDA+alt+c reports the text of the comment, followed by each reply with its author and date. Each of them is spoken as a separate utterance. Pressing the command twice shows the comment and its replies in a browsable message.\nIn the Elements List, annotations show the text of the comment. Replies are listed under the comment they reply to. Resolved comments in the modern experience are listed and reported as resolved. A comment whose text has several formatting runs is listed once.\nDescription of developer facing changes:\n\ngetCommentInfoFromPosition and getPresentableCommentInfoFromPosition in NVDAObjects.UIA.wordDocument are deprecated. They still return the dictionary and the text they returned before.\nDescription of development approach:\n\nModern Word exposes a comment thread as a tree item with the annotation pattern. Its full description is the text of the first comment. Its annotation author and date belong to that comment. Each reply is a child tree item with its own annotation pattern, full description, author and date. The annotation object on the commented text is the thread, or one of its replies when comments are shown in the margin.\n\nClassic comments have the same structure with other elements. Each comment is a group with the annotation pattern, and its replies are nested groups. The annotation object on the commented text is the edit field in the group of a comment. The full description of a group is empty, so the text of the comment comes from that edit field.\n\nA private _getCommentInfoFromPosition finds the thread from the annotation object. When the annotation object is the edit field of a classic comment, the comment is its parent. When the comment is a reply, the thread is its parent. One cache request then fetches the thread and all its replies. The result is a private dataclass, _CommentInfo, which also defines how to present the comment to the user. This replaces the fallback that read the author and date of a classic comment from the names of neighbouring elements.\n\nThe thread element does not tell whether it is resolved. Only the annotation types of the commented text do, through Word's custom ResolvedComment annotation type. The Elements List item already has these annotation types, so it passes them on. NVDA+alt+c reads them from the caret.\n\nIn the Elements List, comment items also match Word's ResolvedComment annotation type. That type only gets its ID at runtime, so the comment item mixes in AutoPropertyObject to make wantedAttribValues a class property. After comments and revisions are merged, a reply item follows each comment. A reply only nests under its own comment, and other annotations never nest under a reply. Replies are only fetched when the list moves past a comment, so replies never become quick navigation stops.\n\nThe annotation iterator yields one comment item for each formatting run of the commented text. When the thread is fetched, _CommentInfo also keeps the runtime ID of the thread element. A comment item is skipped, together with its replies, when its thread has the same runtime ID as that of the previous comment item. The comparison starts at the second comment item. Quick navigation only takes the first item, so it fetches nothing extra.",
-      "sha": "c22a509",
-      "url": "https://github.com/nvaccess/nvda/commit/c22a509337c0b94ac5459ab2a749eeeb9cb06116"
     },
     {
       "slug": "nvda-network-optimizer",
