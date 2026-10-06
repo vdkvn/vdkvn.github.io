@@ -1,54 +1,54 @@
 {
-  "lastChecked": "2026-10-05T05:16:55.584Z",
-  "lastCheckedVN": "05/10/2026",
+  "lastChecked": "2026-10-06T06:01:15.316Z",
+  "lastCheckedVN": "06/10/2026",
   "items": [
     {
       "slug": "nvda-screen-reader",
       "projectName": "NVDA Screen Reader",
       "category": "Phần mềm tiếp cận",
       "type": "Trình đọc màn hình",
-      "timestamp": "2026-10-05T04:37:59Z",
-      "date": "05/10/2026",
-      "summary": "Bump urllib3 from 2.7.0 to 2.8.0 in the uv group across 1 directory (#20948)",
-      "fullMessage": "Bump urllib3 from 2.7.0 to 2.8.0 in the uv group across 1 directory (#20948)",
-      "sha": "663e4b6",
-      "url": "https://github.com/nvaccess/nvda/commit/663e4b6798ad759321d749ad039271446ba29a72"
-    },
-    {
-      "slug": "nvdaes-clip-contents-designer",
-      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
-      "category": "Công cụ tiếp cận",
-      "type": "Addon Tây Ban Nha",
-      "timestamp": "2026-10-05T00:27:34Z",
-      "date": "05/10/2026",
-      "summary": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
-      "fullMessage": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
-      "sha": "c2b2cb0",
-      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/c2b2cb000f9464d4ed518ce1adb859c694b823af"
+      "timestamp": "2026-10-06T05:19:55Z",
+      "date": "06/10/2026",
+      "summary": "Load add-on store cache files in bg thread (#20834)",
+      "fullMessage": "Load add-on store cache files in bg thread (#20834)\n\nSummary of the issue:\n\nThe add-on store cache files are large and are read during NVDA start.\nDescription of user facing changes:\n\nFaster NVDA start\nDescription of developer facing changes:\n\nNone\nDescription of development approach:\n\nload the add-on store cache files in a bg thread.\nThe dataManager already has none handling, so this can be done safely",
+      "sha": "a4a8972",
+      "url": "https://github.com/nvaccess/nvda/commit/a4a89720ccbf3973a0e1e50a76dd8bff38db3d15"
     },
     {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
       "category": "Bản địa hóa & Giọng đọc",
       "type": "NVDA Nhật Bản",
-      "timestamp": "2026-10-04T05:52:37Z",
-      "date": "04/10/2026",
-      "summary": "Merge pull request #749 from nvdajp/fix/libkuraji-readmejp-symbols",
-      "fullMessage": "Merge pull request #749 from nvdajp/fix/libkuraji-readmejp-symbols\n\nSync vendored libkuraji: support $, |, ;, and \\ in kana symbol table (readmejp)",
-      "sha": "92d3df7",
-      "url": "https://github.com/nvdajp/nvdajp/commit/92d3df71a0efbed7ea3a42631c34fb90bd94d3d1"
+      "timestamp": "2026-10-06T04:36:42Z",
+      "date": "06/10/2026",
+      "summary": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
+      "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
+      "sha": "aaf241c",
+      "url": "https://github.com/nvdajp/nvdajp/commit/aaf241c8d2eb85d9919a4cf524a42fb1f221fb59"
+    },
+    {
+      "slug": "nvdaes-clip-contents-designer",
+      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
+      "category": "Công cụ tiếp cận",
+      "type": "Addon Tây Ban Nha",
+      "timestamp": "2026-10-05T17:22:41Z",
+      "date": "06/10/2026",
+      "summary": "Merge pull request #98 from nvdaes/dependabot/uv/uv-2a4a739b48",
+      "fullMessage": "Merge pull request #98 from nvdaes/dependabot/uv/uv-2a4a739b48\n\nBump urllib3 from 2.7.0 to 2.8.0 in the uv group across 1 directory",
+      "sha": "45896c1",
+      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/45896c1f272f95d565d0a84f3cae9518459be184"
     },
     {
       "slug": "google-tts-for-nvda",
       "projectName": "Google TTS for NVDA",
       "category": "Bộ đọc tiếng nói",
       "type": "Addon NVDA",
-      "timestamp": "2026-10-02T03:12:50Z",
-      "date": "02/10/2026",
-      "summary": "refresh architecture map, neutralize release guide, and add license notices",
-      "fullMessage": "docs: refresh architecture map, neutralize release guide, and add license notices\n\n- Add Third-Party Software and Component Notices appendix to root and packaged LICENSE files covering Chromium WASM TTS, Eigen, CLD2, websocket-client, and voice catalog metadata.\n- Audit and align runtime paths and architectural references in AGENTS.md with actual codebase and NVDA runtime behavior; correct websocket-client license identifier to Apache-2.0.\n- Neutralize hard-coded release and hotfix version numbers across UPDATER_RELEASE_GUIDE.md using generic version placeholders.",
-      "sha": "74cfbc0",
-      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/74cfbc035981fb622848d59d2102782c45797511"
+      "timestamp": "2026-10-05T11:42:25Z",
+      "date": "05/10/2026",
+      "summary": "Align Unicode data and refine language processing",
+      "fullMessage": "Align Unicode data and refine language processing\n\n- Updates Unicode script ranges and character classifications to Unicode 17.0 and CLDR 48.2.\n- Normalizes mathematical alphanumeric symbols across all styles (bold, italic, script, fraktur, double-struck, sans-serif, monospace) into plain text for speech and voice dictionary lookup.\n- Clusters adjacent numbers with currency symbols, measurement units, and time indicators to prevent awkward mid-expression pauses.\n- Preserves UTS #51 emoji sequences and modifiers intact across multilingual boundaries.\n- Allows NVDA language reporting and symbol dictionaries when automatic language profiles are off, while keeping voice switching strictly prevented at the driver level.",
+      "sha": "cd9a555",
+      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/cd9a55575de5847057b53a2ae4a46b391b505825"
     },
     {
       "slug": "nvda-network-optimizer",
