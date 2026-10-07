@@ -1,7 +1,19 @@
 {
-  "lastChecked": "2026-10-06T06:01:15.316Z",
-  "lastCheckedVN": "06/10/2026",
+  "lastChecked": "2026-10-07T05:36:10.907Z",
+  "lastCheckedVN": "07/10/2026",
   "items": [
+    {
+      "slug": "nvdajp-community",
+      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
+      "category": "Bản địa hóa & Giọng đọc",
+      "type": "NVDA Nhật Bản",
+      "timestamp": "2026-10-06T13:24:14Z",
+      "date": "06/10/2026",
+      "summary": "Merge pull request #751 from nvdajp/fix/sign-directbm-dll",
+      "fullMessage": "Merge pull request #751 from nvdajp/fix/sign-directbm-dll\n\nfix(braille): update signature on DirectBM.dll to SHA-256 Authenticode",
+      "sha": "c9e2838",
+      "url": "https://github.com/nvdajp/nvdajp/commit/c9e28385a0579b496fdbcfdf77ca6be18e2979b5"
+    },
     {
       "slug": "nvda-screen-reader",
       "projectName": "NVDA Screen Reader",
@@ -13,18 +25,6 @@
       "fullMessage": "Load add-on store cache files in bg thread (#20834)\n\nSummary of the issue:\n\nThe add-on store cache files are large and are read during NVDA start.\nDescription of user facing changes:\n\nFaster NVDA start\nDescription of developer facing changes:\n\nNone\nDescription of development approach:\n\nload the add-on store cache files in a bg thread.\nThe dataManager already has none handling, so this can be done safely",
       "sha": "a4a8972",
       "url": "https://github.com/nvaccess/nvda/commit/a4a89720ccbf3973a0e1e50a76dd8bff38db3d15"
-    },
-    {
-      "slug": "nvdajp-community",
-      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
-      "category": "Bản địa hóa & Giọng đọc",
-      "type": "NVDA Nhật Bản",
-      "timestamp": "2026-10-06T04:36:42Z",
-      "date": "06/10/2026",
-      "summary": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
-      "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
-      "sha": "aaf241c",
-      "url": "https://github.com/nvdajp/nvdajp/commit/aaf241c8d2eb85d9919a4cf524a42fb1f221fb59"
     },
     {
       "slug": "nvdaes-clip-contents-designer",
