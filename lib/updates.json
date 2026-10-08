@@ -1,7 +1,19 @@
 {
-  "lastChecked": "2026-10-07T05:36:10.907Z",
-  "lastCheckedVN": "07/10/2026",
+  "lastChecked": "2026-10-08T05:44:21.301Z",
+  "lastCheckedVN": "08/10/2026",
   "items": [
+    {
+      "slug": "nvda-screen-reader",
+      "projectName": "NVDA Screen Reader",
+      "category": "Phần mềm tiếp cận",
+      "type": "Trình đọc màn hình",
+      "timestamp": "2026-10-08T04:16:18Z",
+      "date": "08/10/2026",
+      "summary": "Don't send CharacterModeCommand when unsupported by the synthesizer (#20831)",
+      "fullMessage": "Don't send CharacterModeCommand when unsupported by the synthesizer (#20831)\n\nFixes #20828\nFixes #16811\n\n### Summary of the issue:\n\nWhen using Windows OneCore voices, a keyboard shortcut ending in a digit\nis run together with the number spoken after it. In the example from the\nissue, a check menu item with `aria-keyshortcuts=\"control+1\"` is\nannounced as \"Action two not checked control plus twelve of four\",\nrather than \"Action two not checked control plus one two of four\".\n\n`OneCoreSynthDriver` declares `CharacterModeCommand` in its\n`supportedCommands`, but `_OcSsmlConverter.convertCharacterModeCommand`\ndeliberately returns `None`, because \"OneCore's character speech sounds\nweird and doesn't support pitch alteration\". The command was therefore\ndiscarded, and since `XmlBalancer` concatenates adjacent text items, the\nshortcut's trailing digit ran directly into the position information\nthat followed it.\n\nThis false declaration was already noted elsewhere in core, with MathCAT\nspecial-casing the synthesizer by name when deciding whether to emit\ncharacter mode commands, noting \"as of 7/23, oneCore voices do not\nimplement the CharacterModeCommand despite it being in\nsupportedCommands\".\n\n### Description of user facing changes:\n\nNVDA no longer uses spelling functionality with synthesizers which do\nnot support it, such as Windows OneCore voices.\nWhen using OneCore voices, single character keys in keyboard shortcuts\nare now spoken as ordinary text, so a digit in a shortcut is no longer\nrun together with a number spoken after it.\n\n### Description of developer facing changes:\n\n* `CharacterModeCommand` has been removed from\n`OneCoreSynthDriver.supportedCommands`, as the driver does not implement\nit.\n* `speech.speech.getSpellingSpeech` and\n`speech.shortcutKeys.shouldUseSpellingFunctionality` now only use\nspelling functionality if the active synthesizer declares support for\n`CharacterModeCommand` in its `supportedCommands`.\n* Code which special cased the OneCore synthesizer when deciding whether\nto send a `CharacterModeCommand` can now rely on `supportedCommands`\ninstead; the special case in MathCAT's SSML conversion has been removed\naccordingly.\n\n### Description of development approach:\n\nRemoved `CharacterModeCommand` from\n`OneCoreSynthDriver.supportedCommands`, rather than removing the\noverride which stops `_OcSsmlConverter` from supporting the command.\n\nUpdated `speech.speech.getSpellingSpeech` and\n`shortcutKeys.shouldUseSpellingFunctionality` to check whether the\ncurrent synth supports the `CharacterModeCommand`, as well as the state\nof the `useSpellingFunctionality` configuration option. This means that\nthe config option acts as a user preference on top of synthesizer\ncapability, matching the \"if supported\" wording of its label in the\nSpeech settings panel.\n\nWith the driver's declaration now accurate, MathCAT's `synth.name !=\n\"oneCore\"` check is redundant and has been removed, so add-ons and math\npresentation providers no longer need to special case individual\ndrivers.\n\n### Testing strategy:\n\n* Manual testing with Windows OneCore voices, using the CodePen from the\nissue: navigated the \"Actions\" menu button and confirmed each item's\nshortcut and position are now announced separately, e.g. \"control+1 2 of\n4\".\n* Manual testing with eSpeak NG (which does support\n`CharacterModeCommand`) to confirm spelling functionality is unchanged:\nreviewed characters with `numpad2` / `leftArrow` / `rightArrow`, spelled\nthe current line with `NVDA+upArrow` twice, and checked that \"a\" and\nother single character keys are still spoken in character mode.\n* Manual testing with \"Use spelling functionality if supported\" both\nenabled and disabled, to confirm the option still takes effect for\nsynthesizers which support character mode.\n* Manual testing of math content with MathCAT under both OneCore and\neSpeak NG, to confirm the removed special case has not changed OneCore\nmath speech.\n\n### Known issues with pull request:\n\n* The \"Use spelling functionality if supported\" checkbox in the Speech\nsettings panel is still shown and settable for synthesizers which do not\nsupport `CharacterModeCommand`, where it now has no effect.\n* Add-on synthesizer drivers which declare `CharacterModeCommand`\nwithout implementing it will continue to behave as before; the\ncapability check can only be as accurate as each driver's declaration.\n* OneCore does actually support the SSML `<speak-as>` tag with the\n`interpret-as` attribute set to `characters`, so declaring that it\ndoesn't support spelling functionality is technically incorrect. #20959\nadds character mode support to our OneCore synth driver.",
+      "sha": "7da11e8",
+      "url": "https://github.com/nvaccess/nvda/commit/7da11e834986581798692ebc91baec58d3a59817"
+    },
     {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
@@ -13,18 +25,6 @@
       "fullMessage": "Merge pull request #751 from nvdajp/fix/sign-directbm-dll\n\nfix(braille): update signature on DirectBM.dll to SHA-256 Authenticode",
       "sha": "c9e2838",
       "url": "https://github.com/nvdajp/nvdajp/commit/c9e28385a0579b496fdbcfdf77ca6be18e2979b5"
-    },
-    {
-      "slug": "nvda-screen-reader",
-      "projectName": "NVDA Screen Reader",
-      "category": "Phần mềm tiếp cận",
-      "type": "Trình đọc màn hình",
-      "timestamp": "2026-10-06T05:19:55Z",
-      "date": "06/10/2026",
-      "summary": "Load add-on store cache files in bg thread (#20834)",
-      "fullMessage": "Load add-on store cache files in bg thread (#20834)\n\nSummary of the issue:\n\nThe add-on store cache files are large and are read during NVDA start.\nDescription of user facing changes:\n\nFaster NVDA start\nDescription of developer facing changes:\n\nNone\nDescription of development approach:\n\nload the add-on store cache files in a bg thread.\nThe dataManager already has none handling, so this can be done safely",
-      "sha": "a4a8972",
-      "url": "https://github.com/nvaccess/nvda/commit/a4a89720ccbf3973a0e1e50a76dd8bff38db3d15"
     },
     {
       "slug": "nvdaes-clip-contents-designer",

@@ -1,5 +1,185 @@
 [
   {
+    "id": "review-cloudUploader",
+    "addonId": "cloudUploader",
+    "addonName": "Cloud Uploader",
+    "version": "4.26.1",
+    "title": "Hướng dẫn và đánh giá tiện ích: Cloud Uploader (Bản 4.26.1)",
+    "summary": "Thông tin chi tiết về tiện ích Cloud Uploader trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "08/10/2026",
+    "timestamp": "2026-10-08T02:57:17Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Naday** phát triển theo giấy phép **GPL v2**.\n\nUpload a file, or record and upload microphone/computer audio, anonymously to a host of your choice. NVDA+alt+o opens a menu: U to upload a file, R to record and upload, B to start background recording, H for upload history. Once background recording is running, press NVDA+alt+o again to stop it.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Cloud Uploader](https://github.com/Nadayy/CloudUploader/releases/download/v4.26.1/CloudUploader.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/Nadayy/CloudUploader",
+    "downloadUrl": "https://github.com/Nadayy/CloudUploader/releases/download/v4.26.1/CloudUploader.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-QQEnhancement",
+    "addonId": "QQEnhancement",
+    "addonName": "PC QQ Enhancement",
+    "version": "1.3.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: PC QQ Enhancement (Bản 1.3.0)",
+    "summary": "Thông tin chi tiết về tiện ích PC QQ Enhancement trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "08/10/2026",
+    "timestamp": "2026-10-07T20:57:28Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Cary-rowen, NVDA Chinese Community and other contributors, Original work by SmileSky<mzdk100@foxmail.com>** phát triển theo giấy phép **GPL 2**.\n\nEnhance the experience of using PC QQ for NVDA users.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải PC QQ Enhancement](https://github.com/nvdacn/QQEnhancement/releases/download/v1.3.0/QQEnhancement-1.3.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/nvdacn/QQEnhancement",
+    "downloadUrl": "https://github.com/nvdacn/QQEnhancement/releases/download/v1.3.0/QQEnhancement-1.3.0.nvda-addon",
+    "license": "GPL 2"
+  },
+  {
+    "id": "review-freeAudio",
+    "addonId": "freeAudio",
+    "addonName": "freeAudio: Radio and more",
+    "version": "2026.25.1",
+    "title": "Hướng dẫn và đánh giá tiện ích: freeAudio: Radio and more (Bản 2026.25.1)",
+    "summary": "Thông tin chi tiết về tiện ích freeAudio: Radio and more trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "08/10/2026",
+    "timestamp": "2026-10-07T18:25:03Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Çağrı Doğan <cagrid@hotmail.com>** phát triển theo giấy phép **GPL v2**.\n\nfreeAudio is an internet radio, podcast, audio-book, and local music add-on for NVDA that provides seamless access to thousands of internet radio stations via the Radio Browser open directory, RSS/Atom podcast feeds, the libriVox + GETEM digital library for the visually impaired, and your own local audio files and folders through its built-in jukebox. It features a fully accessible station browser with search, country filter, favourites management, and per-station, per-podcast, per-audio-book, and per-jukebox-track audio profiles. Podcast episodes, audio book chapters, and jukebox tracks resume automatically from where you left off - jukebox folders even pick up on the last track you were playing - with adjustable pitch-preserving playback speed and independent pitch-shift (semitone transpose). Playback is handled by BASS, with support for volume control, audio effects, output device selection, and simultaneous audio mirroring to a second device. Additional features include instant and scheduled recording, time-shift rewind of live radio, sleep and alarm timers, automatic ICY metadata announcements, Shazam-based music recognition, and a liked-songs log with lyrics lookup. All controls and shortcuts are designed for NVDA accessibility.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải freeAudio: Radio and more](https://github.com/Surveyor123/freeAudio/releases/download/v2026.25.1/freeAudio-2026.25.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/Surveyor123/freeAudio",
+    "downloadUrl": "https://github.com/Surveyor123/freeAudio/releases/download/v2026.25.1/freeAudio-2026.25.1.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-ricerca_testuale_accesso_digitale",
+    "addonId": "ricerca_testuale_accesso_digitale",
+    "addonName": "Text Search Accesso Digitale",
+    "version": "1.6.5",
+    "title": "Hướng dẫn và đánh giá tiện ích: Text Search Accesso Digitale (Bản 1.6.5)",
+    "summary": "Thông tin chi tiết về tiện ích Text Search Accesso Digitale trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "07/10/2026",
+    "timestamp": "2026-10-07T13:30:25Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Maurizio Barra** phát triển theo giấy phép **GPL v2**.\n\nFast and accessible text and document search across files, folders and entire storage drives for NVDA, with RSS/Atom and Thunderbird Feeds support, local search history, direct jump to line, precise Word paragraph navigation, native EML reading, audio preview, earcons feedback, bookmarks, multi-format export and direct printing.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Text Search Accesso Digitale](https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.6.5/ricerca_testuale_accesso_digitale-1.6.5.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale",
+    "downloadUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.6.5/ricerca_testuale_accesso_digitale-1.6.5.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-vozNativaDoDosvox",
+    "addonId": "vozNativaDoDosvox",
+    "addonName": "Voz nativa do DOSVOX",
+    "version": "2.2.1",
+    "title": "Hướng dẫn và đánh giá tiện ích: Voz nativa do DOSVOX (Bản 2.2.1)",
+    "summary": "Thông tin chi tiết về tiện ích Voz nativa do DOSVOX trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "07/10/2026",
+    "timestamp": "2026-10-07T12:26:05Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Edson Miranda** phát triển theo giấy phép **GPL v2**.\n\nSintetizador em português para o NVDA baseado na voz nativa originária do sistema DOSVOX, desenvolvido na UFRJ a partir de 1993.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Voz nativa do DOSVOX](https://github.com/Edson-Miranda/voz-nativa-dosvox-nvda/releases/download/v2.2.1/voz_nativa_do_dosvox-2.2.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/Edson-Miranda/voz-nativa-dosvox-nvda",
+    "downloadUrl": "https://github.com/Edson-Miranda/voz-nativa-dosvox-nvda/releases/download/v2.2.1/voz_nativa_do_dosvox-2.2.1.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
     "id": "review-telephoneOperator",
     "addonId": "telephoneOperator",
     "addonName": "Telephone Operator",
@@ -105,42 +285,6 @@
     ],
     "repoUrl": "https://github.com/AbolfazlAbaspoor/nvda-supertools",
     "downloadUrl": "https://github.com/AbolfazlAbaspoor/nvda-supertools/releases/download/v1.0.0/SuperTools-1.0.0.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-ricerca_testuale_accesso_digitale",
-    "addonId": "ricerca_testuale_accesso_digitale",
-    "addonName": "Text Search Accesso Digitale",
-    "version": "1.6.4",
-    "title": "Hướng dẫn và đánh giá tiện ích: Text Search Accesso Digitale (Bản 1.6.4)",
-    "summary": "Thông tin chi tiết về tiện ích Text Search Accesso Digitale trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "07/10/2026",
-    "timestamp": "2026-10-06T18:38:48Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Maurizio Barra** phát triển theo giấy phép **GPL v2**.\n\nFast and accessible text and document search across files, folders and entire storage drives for NVDA, with RSS/Atom and Thunderbird Feeds support, local search history, direct jump to line, precise Word paragraph navigation, native EML reading, audio preview, earcons feedback, bookmarks, multi-format export and direct printing.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Text Search Accesso Digitale](https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.6.4/ricerca_testuale_accesso_digitale-1.6.4.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale",
-    "downloadUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.6.4/ricerca_testuale_accesso_digitale-1.6.4.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -394,42 +538,6 @@
     "repoUrl": "https://github.com/voduykhanhmata-ctrl/nvda-network-optimizer",
     "downloadUrl": "https://github.com/voduykhanhmata-ctrl/nvda-network-optimizer/releases/download/v1.3.3/NetworkOptimizer-1.3.3.nvda-addon",
     "license": "GNU General Public License v2.0 or later"
-  },
-  {
-    "id": "review-cloudUploader",
-    "addonId": "cloudUploader",
-    "addonName": "Cloud Uploader",
-    "version": "4.26.0",
-    "title": "Hướng dẫn và đánh giá tiện ích: Cloud Uploader (Bản 4.26.0)",
-    "summary": "Thông tin chi tiết về tiện ích Cloud Uploader trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "05/10/2026",
-    "timestamp": "2026-10-05T02:04:18Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Naday** phát triển theo giấy phép **GPL v2**.\n\nUpload a file, or record and upload microphone/computer audio, anonymously to a host of your choice. NVDA+alt+o opens a menu: U to upload a file, R to record and upload, B to start background recording, H for upload history. Once background recording is running, press NVDA+alt+o again to stop it.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Cloud Uploader](https://github.com/Nadayy/CloudUploader/releases/download/v4.26.0/CloudUploader.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/nadayy/cloudUploader",
-    "downloadUrl": "https://github.com/Nadayy/CloudUploader/releases/download/v4.26.0/CloudUploader.nvda-addon",
-    "license": "GPL v2"
   },
   {
     "id": "review-sunoAccessibility",
@@ -1005,42 +1113,6 @@
     ],
     "repoUrl": "https://github.com/chaichaimee/BrowsersDictionary",
     "downloadUrl": "https://github.com/chaichaimee/BrowsersDictionary/releases/download/2026.10.2/BrowsersDictionary-v2026.10.2.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-freeAudio",
-    "addonId": "freeAudio",
-    "addonName": "freeAudio: Radio and more",
-    "version": "2026.25.0",
-    "title": "Hướng dẫn và đánh giá tiện ích: freeAudio: Radio and more (Bản 2026.25.0)",
-    "summary": "Thông tin chi tiết về tiện ích freeAudio: Radio and more trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "01/10/2026",
-    "timestamp": "2026-10-01T02:32:07Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Çağrı Doğan <cagrid@hotmail.com>** phát triển theo giấy phép **GPL v2**.\n\nfreeAudio is an internet radio, podcast, audio-book, and local music add-on for NVDA that provides seamless access to thousands of internet radio stations via the Radio Browser open directory, RSS/Atom podcast feeds, the libriVox + GETEM digital library for the visually impaired, and your own local audio files and folders through its built-in jukebox. It features a fully accessible station browser with search, country filter, favourites management, and per-station, per-podcast, per-audio-book, and per-jukebox-track audio profiles. Podcast episodes, audio book chapters, and jukebox tracks resume automatically from where you left off - jukebox folders even pick up on the last track you were playing - with adjustable pitch-preserving playback speed and independent pitch-shift (semitone transpose). Playback is handled by BASS, with support for volume control, audio effects, output device selection, and simultaneous audio mirroring to a second device. Additional features include instant and scheduled recording, time-shift rewind of live radio, sleep and alarm timers, automatic ICY metadata announcements, Shazam-based music recognition, and a liked-songs log with lyrics lookup. All controls and shortcuts are designed for NVDA accessibility.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải freeAudio: Radio and more](https://github.com/Surveyor123/freeAudio/releases/download/v2026.25.0/freeAudio-2026.25.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/Surveyor123/freeAudio",
-    "downloadUrl": "https://github.com/Surveyor123/freeAudio/releases/download/v2026.25.0/freeAudio-2026.25.0.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -1977,42 +2049,6 @@
     ],
     "repoUrl": "https://github.com/chaichaimee/ClipHistory",
     "downloadUrl": "https://github.com/chaichaimee/ClipHistory/releases/download/2026.10.0/ClipHistory-v2026.10.0.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-vozNativaDoDosvox",
-    "addonId": "vozNativaDoDosvox",
-    "addonName": "Voz nativa do DOSVOX",
-    "version": "2.2.0",
-    "title": "Hướng dẫn và đánh giá tiện ích: Voz nativa do DOSVOX (Bản 2.2.0)",
-    "summary": "Thông tin chi tiết về tiện ích Voz nativa do DOSVOX trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "21/09/2026",
-    "timestamp": "2026-09-21T09:06:14Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Edson Miranda** phát triển theo giấy phép **GPL v2**.\n\nSintetizador em português para o NVDA baseado na voz nativa originária do sistema DOSVOX, desenvolvido na UFRJ a partir de 1993.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Voz nativa do DOSVOX](https://github.com/Edson-Miranda/voz-nativa-dosvox-nvda/releases/download/v2.2.0/voz_nativa_do_dosvox-2.2.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/Edson-Miranda/voz-nativa-dosvox-nvda",
-    "downloadUrl": "https://github.com/Edson-Miranda/voz-nativa-dosvox-nvda/releases/download/v2.2.0/voz_nativa_do_dosvox-2.2.0.nvda-addon",
     "license": "GPL v2"
   },
   {
