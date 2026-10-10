@@ -1,5 +1,149 @@
 [
   {
+    "id": "review-appleMusicSuggestLess",
+    "addonId": "appleMusicSuggestLess",
+    "addonName": "Apple Music",
+    "version": "0.4.12",
+    "title": "Hướng dẫn và đánh giá tiện ích: Apple Music (Bản 0.4.12)",
+    "summary": "Thông tin chi tiết về tiện ích Apple Music trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "10/10/2026",
+    "timestamp": "2026-10-09T22:11:20Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **serrebidev** phát triển theo giấy phép **GPL v2**.\n\nNavigate sections with F6 and Shift+F6, open sidebar pages and Settings with Control+1 through Control+6, search with Control+S, use Home and End in track lists, and play the focused track with Enter. Control+Alt+Down suggests less and Control+Alt+Up favorites and Control+Alt+Shift+Up removes favorites.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2027.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Apple Music](https://github.com/serrebidev/AppleMusicNVDA/releases/download/v0.4.12/AppleMusic-0.4.12.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/serrebidev/AppleMusicNVDA/",
+    "downloadUrl": "https://github.com/serrebidev/AppleMusicNVDA/releases/download/v0.4.12/AppleMusic-0.4.12.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-linkLibrary",
+    "addonId": "linkLibrary",
+    "addonName": "Link Library",
+    "version": "2.3.4",
+    "title": "Hướng dẫn và đánh giá tiện ích: Link Library (Bản 2.3.4)",
+    "summary": "Thông tin chi tiết về tiện ích Link Library trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "10/10/2026",
+    "timestamp": "2026-10-09T19:41:33Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Ibrahim Hamadeh** phát triển theo giấy phép **GPL v2**.\n\nThis addon helps the user to arrange his links or bookmarks in library like way.\nFrom the main dialog of libraries, you can choose the library or category you like and press enter on it.\nOn the opened dialog, you will have all links in that category in a list and have access to source url an the about info of each llink if present.\nThis addon does not come with a default or assigned gesture or shortcut to it\nYou can as always add a gesture or change the existed one going to :\nNVDA menu>preferences>inputGestures>Link Library.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Link Library](https://github.com/ibrahim-s/linkLibrary/releases/download/2.3.4/linkLibrary-2.3.4.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/ibrahim-s/linkLibrary",
+    "downloadUrl": "https://github.com/ibrahim-s/linkLibrary/releases/download/2.3.4/linkLibrary-2.3.4.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-LinguaPal",
+    "addonId": "LinguaPal",
+    "addonName": "LinguaPal",
+    "version": "1.5.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: LinguaPal (Bản 1.5.0)",
+    "summary": "Thông tin chi tiết về tiện ích LinguaPal trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "09/10/2026",
+    "timestamp": "2026-10-09T16:54:14Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Ali** phát triển theo giấy phép **GPL v2**.\n\nThis add-on allows you to translate text and chat with AI. It supports selected text and clipboard translation with language swapping, Image description and context-aware conversations.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải LinguaPal](https://github.com/chocolatecake14/LinguaPal/releases/download/1.5.0/LinguaPal-1.5.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/chocolatecake14/LinguaPal",
+    "downloadUrl": "https://github.com/chocolatecake14/LinguaPal/releases/download/1.5.0/LinguaPal-1.5.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-brailleEssentials",
+    "addonId": "brailleEssentials",
+    "addonName": "Braille Essentials",
+    "version": "26.10",
+    "title": "Hướng dẫn và đánh giá tiện ích: Braille Essentials (Bản 26.10)",
+    "summary": "Thông tin chi tiết về tiện ích Braille Essentials trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "09/10/2026",
+    "timestamp": "2026-10-09T14:11:41Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **josephsl** phát triển theo giấy phép **GPL v2**.\n\nThis add-on provides essential features for NVDA users relying on braille support. The following features, deriving from Braille Extender, are available:\n\n* Reload two favorite braille display with shortcuts.\n* Automatic review cursor tethering in terminal role like in PuTTY, Powershell, bash, cmd.\n* Auto scroll.\n* Switch between several input/output braille tables.\n* Mark the text with special attributes through dot 7, dot 8 or both.\n* Use two output braille tables simultaneously.\n* Display tab signs as spaces.\n* Reverse forward scroll and back scroll buttons.\n* Say the current line during text scrolling either in review mode, or in focus mode or both.\n* Translate text easily in Unicode braille and vice versa. E.g.: z <--> ⠵.\n* Convert cell description to Unicode braille and vice versa. E.g.: 123 <--> ⠇.\n* Lock braille keyboard.\n* Launch an application/URL with gesture.\n* Braille dictionaries.\n* Type with one-hand from braille keyboard.\n* Display undefined characters from braille tables (including emojis) using altenative representations.\n* Enter any character from braille keyboard (including emojis).\n* Skip blank lines during text scrolling.\n* Speech History Mode.\n\nAnd much more.\n\nFor some braille displays, it extends the braille display commands to provide:\n\n* Offer complete gesture maps including function keys, multimedia keys, quick navigation, etc.\n* Emulate modifier keys, and thus any keyboard shortcut\n* Offer several keyboard configurations concerning the possibility to input dots 7 and 8, enter and backspace\n* Add actions and quick navigation through a rotor\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Braille Essentials](https://github.com/josephsl/brailleEssentials/releases/download/26.10/brailleEssentials-26.10.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/josephsl/brailleEssentials",
+    "downloadUrl": "https://github.com/josephsl/brailleEssentials/releases/download/26.10/brailleEssentials-26.10.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
     "id": "review-codexStatusAnnouncer",
     "addonId": "codexStatusAnnouncer",
     "addonName": "ChatGPT Desktop Access for NVDA",
@@ -1401,42 +1545,6 @@
     ],
     "repoUrl": "https://github.com/raza-al-pakistani/suno-AI",
     "downloadUrl": "https://github.com/raza-al-pakistani/suno-AI/releases/download/v2.2.1/suno_ai_version_2_2_1.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-appleMusicSuggestLess",
-    "addonId": "appleMusicSuggestLess",
-    "addonName": "Apple Music",
-    "version": "0.4.10",
-    "title": "Hướng dẫn và đánh giá tiện ích: Apple Music (Bản 0.4.10)",
-    "summary": "Thông tin chi tiết về tiện ích Apple Music trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "28/09/2026",
-    "timestamp": "2026-09-28T13:50:05Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **serrebidev** phát triển theo giấy phép **GPL v2**.\n\nNavigate sections with F6 and Shift+F6, open sidebar pages and Settings with Control+1 through Control+6, search with Control+S, use Home and End in track lists, and play the focused track with Enter. Control+Alt+Down suggests less and Control+Alt+Up favorites and Control+Alt+Shift+Up removes favorites.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2027.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Apple Music](https://github.com/serrebidev/AppleMusicNVDA/releases/download/v0.4.10/AppleMusic-0.4.10.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/serrebidev/AppleMusicNVDA/",
-    "downloadUrl": "https://github.com/serrebidev/AppleMusicNVDA/releases/download/v0.4.10/AppleMusic-0.4.10.nvda-addon",
     "license": "GPL v2"
   },
   {
