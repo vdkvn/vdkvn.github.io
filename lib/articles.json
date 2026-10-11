@@ -1,5 +1,149 @@
 [
   {
+    "id": "review-SmartHomeControl",
+    "addonId": "SmartHomeControl",
+    "addonName": "Smart Home Control",
+    "version": "26.10.1",
+    "title": "Hướng dẫn và đánh giá tiện ích: Smart Home Control (Bản 26.10.1)",
+    "summary": "Thông tin chi tiết về tiện ích Smart Home Control trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "11/10/2026",
+    "timestamp": "2026-10-10T22:35:44Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Philipp Hasel** phát triển theo giấy phép **GPL v2**.\n\nControl smart home devices (Meross, Netatmo, VeSync, Cozytouch/Atlantic, Petlibro - Cozytouch and Petlibro experimental) directly from NVDA\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Smart Home Control](https://github.com/BlindByte06/SmartHomeControl/releases/download/v26.10.1/SmartHomeControl-26.10.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/BlindByte06/SmartHomeControl",
+    "downloadUrl": "https://github.com/BlindByte06/SmartHomeControl/releases/download/v26.10.1/SmartHomeControl-26.10.1.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-wordHeaderFooterReader",
+    "addonId": "wordHeaderFooterReader",
+    "addonName": "Word Header & Footer Accessibility Assistant",
+    "version": "0.2.1",
+    "title": "Hướng dẫn và đánh giá tiện ích: Word Header & Footer Accessibility Assistant (Bản 0.2.1)",
+    "summary": "Thông tin chi tiết về tiện ích Word Header & Footer Accessibility Assistant trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "11/10/2026",
+    "timestamp": "2026-10-10T20:29:35Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Nandan Kumar Singh** phát triển theo giấy phép **GPL v2**.\n\nWord Header & Footer Accessibility Assistant is an NVDA add-on that improves access to Microsoft Word headers and footers for blind and visually impaired users. It provides commands to read and edit the current section's header and footer, including support for first-page and odd/even page variants where available.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Word Header & Footer Accessibility Assistant](https://github.com/nandan-accessibility/word-header-footer-accessibility-assistant/releases/download/v0.2.1/WordHeaderFooterReader.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/nandan-accessibility/word-header-footer-accessibility-assistant",
+    "downloadUrl": "https://github.com/nandan-accessibility/word-header-footer-accessibility-assistant/releases/download/v0.2.1/WordHeaderFooterReader.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-ricerca_testuale_accesso_digitale",
+    "addonId": "ricerca_testuale_accesso_digitale",
+    "addonName": "Text Search Accesso Digitale",
+    "version": "1.6.7",
+    "title": "Hướng dẫn và đánh giá tiện ích: Text Search Accesso Digitale (Bản 1.6.7)",
+    "summary": "Thông tin chi tiết về tiện ích Text Search Accesso Digitale trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "10/10/2026",
+    "timestamp": "2026-10-10T09:26:54Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Maurizio Barra** phát triển theo giấy phép **GPL v2**.\n\nFast and accessible text and document search across files, folders and entire storage drives for NVDA, with RSS/Atom and Thunderbird Feeds support, local search history, direct jump to line, precise Word paragraph navigation, native EML reading, audio preview, earcons feedback, bookmarks, multi-format export and direct printing.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Text Search Accesso Digitale](https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.6.7/ricerca_testuale_accesso_digitale-1.6.7.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale",
+    "downloadUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.6.7/ricerca_testuale_accesso_digitale-1.6.7.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-objLocTones",
+    "addonId": "objLocTones",
+    "addonName": "Object Location Tones",
+    "version": "26.2.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: Object Location Tones (Bản 26.2.0)",
+    "summary": "Thông tin chi tiết về tiện ích Object Location Tones trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "10/10/2026",
+    "timestamp": "2026-10-10T07:06:34Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Dalen** phát triển theo giấy phép **GPL v2**.\n\nAnnounce location of objects via tones.\nThis add-on brings positional audio capabilities to NVDA screen reader.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Object Location Tones](https://github.com/dbernaca/objLocationTones/releases/download/26.2.0/objLocTones-26.2.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/dbernaca/objLocationTones/",
+    "downloadUrl": "https://github.com/dbernaca/objLocationTones/releases/download/26.2.0/objLocTones-26.2.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
     "id": "review-appleMusicSuggestLess",
     "addonId": "appleMusicSuggestLess",
     "addonName": "Apple Music",
@@ -177,42 +321,6 @@
     ],
     "repoUrl": "https://github.com/jcoffin1/chatgpt-desktop-access",
     "downloadUrl": "https://github.com/jcoffin1/chatgpt-desktop-access/releases/download/v2026.2.12/chatGPTDesktopAccess-2026.2.12.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-ricerca_testuale_accesso_digitale",
-    "addonId": "ricerca_testuale_accesso_digitale",
-    "addonName": "Text Search Accesso Digitale",
-    "version": "1.6.6",
-    "title": "Hướng dẫn và đánh giá tiện ích: Text Search Accesso Digitale (Bản 1.6.6)",
-    "summary": "Thông tin chi tiết về tiện ích Text Search Accesso Digitale trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "08/10/2026",
-    "timestamp": "2026-10-08T12:05:06Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Maurizio Barra** phát triển theo giấy phép **GPL v2**.\n\nFast and accessible text and document search across files, folders and entire storage drives for NVDA, with RSS/Atom and Thunderbird Feeds support, local search history, direct jump to line, precise Word paragraph navigation, native EML reading, audio preview, earcons feedback, bookmarks, multi-format export and direct printing.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Text Search Accesso Digitale](https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.6.6/ricerca_testuale_accesso_digitale-1.6.6.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale",
-    "downloadUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.6.6/ricerca_testuale_accesso_digitale-1.6.6.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -2409,42 +2517,6 @@
     ],
     "repoUrl": "https://github.com/OnjLouis/dateParser",
     "downloadUrl": "https://github.com/OnjLouis/dateParser/releases/download/v1.1.0/dateParser-1.1.0.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-SmartHomeControl",
-    "addonId": "SmartHomeControl",
-    "addonName": "Smart Home Control",
-    "version": "26.9.2",
-    "title": "Hướng dẫn và đánh giá tiện ích: Smart Home Control (Bản 26.9.2)",
-    "summary": "Thông tin chi tiết về tiện ích Smart Home Control trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "20/09/2026",
-    "timestamp": "2026-09-20T11:28:25Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Philipp Hasel** phát triển theo giấy phép **GPL v2**.\n\nControl smart home devices (Meross, Netatmo, VeSync, Cozytouch/Atlantic - Cozytouch experimental) directly from NVDA\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Smart Home Control](https://github.com/BlindByte06/SmartHomeControl/releases/download/v26.9.2/SmartHomeControl-26.9.2.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/BlindByte06/SmartHomeControl",
-    "downloadUrl": "https://github.com/BlindByte06/SmartHomeControl/releases/download/v26.9.2/SmartHomeControl-26.9.2.nvda-addon",
     "license": "GPL v2"
   },
   {
