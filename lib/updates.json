@@ -1,30 +1,30 @@
 {
-  "lastChecked": "2026-10-12T05:38:04.288Z",
-  "lastCheckedVN": "12/10/2026",
+  "lastChecked": "2026-10-13T06:34:07.870Z",
+  "lastCheckedVN": "13/10/2026",
   "items": [
     {
       "slug": "google-tts-for-nvda",
       "projectName": "Google TTS for NVDA",
       "category": "Bộ đọc tiếng nói",
       "type": "Addon NVDA",
-      "timestamp": "2026-10-12T04:25:45Z",
+      "timestamp": "2026-10-12T12:25:12Z",
       "date": "12/10/2026",
-      "summary": "Merge pull request #68 from vrivrixd/add-pt-br-translation",
-      "fullMessage": "Merge pull request #68 from vrivrixd/add-pt-br-translation\n\nAdd Brazilian Portuguese (pt_BR) translation",
-      "sha": "238998e",
-      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/238998e6374f4b70154e0529493de6abad95d62a"
+      "summary": "Announced the official release of version 1.0",
+      "fullMessage": "Announced the official release of version 1.0\n\nUpdated readme.md to clearly display the 1.0 version number, release date, changelog, and latest add-on download link to improve search engine optimization performance.",
+      "sha": "943890c",
+      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/943890cc7a3669ba74b87295b0997420d981a16b"
     },
     {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
       "category": "Bản địa hóa & Giọng đọc",
       "type": "NVDA Nhật Bản",
-      "timestamp": "2026-10-12T01:59:42Z",
+      "timestamp": "2026-10-12T10:44:18Z",
       "date": "12/10/2026",
-      "summary": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
-      "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
-      "sha": "7fde86d",
-      "url": "https://github.com/nvdajp/nvdajp/commit/7fde86d027d6438d39d9547ed85756ae540095b1"
+      "summary": "Merge pull request #759 from nvdajp/docs/no-machine-specific-paths",
+      "fullMessage": "Merge pull request #759 from nvdajp/docs/no-machine-specific-paths\n\ndocs: drop machine-specific paths and duplicate JP summary",
+      "sha": "8c63316",
+      "url": "https://github.com/nvdajp/nvdajp/commit/8c6331611d0c4e37f54c2e83df99db4cb10d40d5"
     },
     {
       "slug": "nvdaes-clip-contents-designer",
