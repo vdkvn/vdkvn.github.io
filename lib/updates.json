@@ -1,7 +1,19 @@
 {
-  "lastChecked": "2026-10-13T06:34:07.870Z",
-  "lastCheckedVN": "13/10/2026",
+  "lastChecked": "2026-10-14T04:35:09.772Z",
+  "lastCheckedVN": "14/10/2026",
   "items": [
+    {
+      "slug": "nvda-screen-reader",
+      "projectName": "NVDA Screen Reader",
+      "category": "Phần mềm tiếp cận",
+      "type": "Trình đọc màn hình",
+      "timestamp": "2026-10-14T02:34:36Z",
+      "date": "14/10/2026",
+      "summary": "Beta to master (#20984)",
+      "fullMessage": "Beta to master (#20984)\n\nCo-authored-by: GitHub Actions <actions@github.com>\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\nCo-authored-by: GitHub Actions <github-actions@github.com>\nCo-authored-by: Peng-An Chen <andy72039@gmail.com>\nCo-authored-by: Leonard de Ruijter <3049216+LeonarddeR@users.noreply.github.com>",
+      "sha": "da04060",
+      "url": "https://github.com/nvaccess/nvda/commit/da04060f698f2a39cf1e21ee75282a4a481ee38a"
+    },
     {
       "slug": "google-tts-for-nvda",
       "projectName": "Google TTS for NVDA",
@@ -37,18 +49,6 @@
       "fullMessage": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
       "sha": "4345a02",
       "url": "https://github.com/nvdaes/clipContentsDesigner/commit/4345a0213485acdc4bd63fca7722d66f5dc9c126"
-    },
-    {
-      "slug": "nvda-screen-reader",
-      "projectName": "NVDA Screen Reader",
-      "category": "Phần mềm tiếp cận",
-      "type": "Trình đọc màn hình",
-      "timestamp": "2026-10-09T05:59:52Z",
-      "date": "09/10/2026",
-      "summary": "Fix --loglevel typo in CLI help and user guide (#20967)",
-      "fullMessage": "Fix --loglevel typo in CLI help and user guide (#20967)\n\nSummary of the issue:\n\nThe --debug-logging and --no-logging help text in source/argsParsing.py and the corresponding user guide rows refer to --loglevel (missing hyphen). The actual option is --log-level, so users copying the documented name get an unrecognized-argument error.\nDescription of user facing changes:\n\nFour one-word corrections, no behavior change:\n\n    source/argsParsing.py: --debug-logging and --no-logging help strings now say --log-level.\n    user_docs/en/userGuide.md: the --debug-logging and --no-logging rows now say --log-level.\n\nDescription of developer facing changes:\n\nNone.\nDescription of development approach:\n\nMechanical string replacement, verified zero remaining --loglevel occurrences in both files.\nTesting strategy:\n\n    ruff check source/argsParsing.py: clean.\n    markdownlint-cli2 user_docs/en/userGuide.md: no findings.\n    Full unit suite on Windows (rununittests.bat): 1468 tests, 0 failures (3 pre-existing environmental magnification errors, unchanged from baseline).",
-      "sha": "732d1ce",
-      "url": "https://github.com/nvaccess/nvda/commit/732d1ce2f0f051da3ef1e6a6247c64cf04596337"
     },
     {
       "slug": "nvda-network-optimizer",
