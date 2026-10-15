@@ -1,18 +1,30 @@
 {
-  "lastChecked": "2026-10-14T04:35:09.772Z",
-  "lastCheckedVN": "14/10/2026",
+  "lastChecked": "2026-10-15T04:17:40.893Z",
+  "lastCheckedVN": "15/10/2026",
   "items": [
     {
       "slug": "nvda-screen-reader",
       "projectName": "NVDA Screen Reader",
       "category": "Phần mềm tiếp cận",
       "type": "Trình đọc màn hình",
-      "timestamp": "2026-10-14T02:34:36Z",
+      "timestamp": "2026-10-15T03:11:03Z",
+      "date": "15/10/2026",
+      "summary": "User Guide and GUI rewording (#20962)",
+      "fullMessage": "User Guide and GUI rewording (#20962)\n\nLink to issue number:\n\nNone\nSummary of the issue:\n\nSome wording in the GUI and in the User Guide could lead to confusion and / or be improved:\n\n    It is not clear in GUI that \"Native selection mode\" setting only applies to when page is loaded; e.g. if you change it through NVDA+shift+f10, this won't change the value found when opening the settings dialog.\n    The User Guide provide too many technical details regarding the allowed 15mm margin to detect an edge gesture.\n\nDescription of user facing changes:\n\nUser Guide reworded and GUI label updated.\nDescription of developer facing changes:\n\nN/A\nDescription of development approach:\n\n    In browse mode settings, \"Native selection mode\" has been reworded to \"Native selection mode on page load\" to indicate that this only controls the selection mode when page are initially loaded, not later. The User Guide has been updated consistently too.\n\n    Removed any explicit mention of the 15mm edge margin definition in the User Guide; replaced with a more user friendly wording (e.g. gestures starting from edge) as we can find in other screen reader documentations (e.g. Android)",
+      "sha": "7e3f795",
+      "url": "https://github.com/nvaccess/nvda/commit/7e3f7955b76f4af0dbb912347ac45eb748d2dea3"
+    },
+    {
+      "slug": "nvdajp-community",
+      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
+      "category": "Bản địa hóa & Giọng đọc",
+      "type": "NVDA Nhật Bản",
+      "timestamp": "2026-10-14T13:11:50Z",
       "date": "14/10/2026",
-      "summary": "Beta to master (#20984)",
-      "fullMessage": "Beta to master (#20984)\n\nCo-authored-by: GitHub Actions <actions@github.com>\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\nCo-authored-by: GitHub Actions <github-actions@github.com>\nCo-authored-by: Peng-An Chen <andy72039@gmail.com>\nCo-authored-by: Leonard de Ruijter <3049216+LeonarddeR@users.noreply.github.com>",
-      "sha": "da04060",
-      "url": "https://github.com/nvaccess/nvda/commit/da04060f698f2a39cf1e21ee75282a4a481ee38a"
+      "summary": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
+      "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
+      "sha": "16ea5fa",
+      "url": "https://github.com/nvdajp/nvdajp/commit/16ea5fa8a38e61a811a5114a37268513cd9046a7"
     },
     {
       "slug": "google-tts-for-nvda",
@@ -25,18 +37,6 @@
       "fullMessage": "Announced the official release of version 1.0\n\nUpdated readme.md to clearly display the 1.0 version number, release date, changelog, and latest add-on download link to improve search engine optimization performance.",
       "sha": "943890c",
       "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/943890cc7a3669ba74b87295b0997420d981a16b"
-    },
-    {
-      "slug": "nvdajp-community",
-      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
-      "category": "Bản địa hóa & Giọng đọc",
-      "type": "NVDA Nhật Bản",
-      "timestamp": "2026-10-12T10:44:18Z",
-      "date": "12/10/2026",
-      "summary": "Merge pull request #759 from nvdajp/docs/no-machine-specific-paths",
-      "fullMessage": "Merge pull request #759 from nvdajp/docs/no-machine-specific-paths\n\ndocs: drop machine-specific paths and duplicate JP summary",
-      "sha": "8c63316",
-      "url": "https://github.com/nvdajp/nvdajp/commit/8c6331611d0c4e37f54c2e83df99db4cb10d40d5"
     },
     {
       "slug": "nvdaes-clip-contents-designer",

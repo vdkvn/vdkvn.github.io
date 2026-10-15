@@ -1,14 +1,158 @@
 [
   {
+    "id": "review-LangDetectSpeech",
+    "addonId": "LangDetectSpeech",
+    "addonName": "LangDetectSpeech",
+    "version": "1.0.3",
+    "title": "Hướng dẫn và đánh giá tiện ích: LangDetectSpeech (Bản 1.0.3)",
+    "summary": "Thông tin chi tiết về tiện ích LangDetectSpeech trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "15/10/2026",
+    "timestamp": "2026-10-15T03:00:20Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Stefan Lohmaier** phát triển theo giấy phép **GPL v2**.\n\nA lightweight NVDA addon that automatically detects the language of spoken text and switches to the appropriate synthesizer voice. Uses fast-langdetect (FastText-based) for efficient offline language detection across 176 languages.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải LangDetectSpeech](https://github.com/slohmaier/LangDetectSpeech/releases/download/v1.0.3/LangDetectSpeech-1.0.3.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/slohmaier/LangDetectSpeech",
+    "downloadUrl": "https://github.com/slohmaier/LangDetectSpeech/releases/download/v1.0.3/LangDetectSpeech-1.0.3.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-codexStatusAnnouncer",
+    "addonId": "codexStatusAnnouncer",
+    "addonName": "ChatGPT Desktop Access for NVDA",
+    "version": "2026.2.14",
+    "title": "Hướng dẫn và đánh giá tiện ích: ChatGPT Desktop Access for NVDA (Bản 2026.2.14)",
+    "summary": "Thông tin chi tiết về tiện ích ChatGPT Desktop Access for NVDA trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "15/10/2026",
+    "timestamp": "2026-10-15T00:54:07Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Justin Coffin** phát triển theo giấy phép **GPL v2**.\n\nMakes the ChatGPT Windows app easier to use with NVDA. It announces activity, supports speech, Braille, and sounds, and adds chat navigation, voice controls, and better focus handling in both ChatGPT and Codex.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải ChatGPT Desktop Access for NVDA](https://github.com/jcoffin1/chatgpt-desktop-access/releases/download/v2026.2.14/chatGPTDesktopAccess-2026.2.14.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/jcoffin1/chatgpt-desktop-access",
+    "downloadUrl": "https://github.com/jcoffin1/chatgpt-desktop-access/releases/download/v2026.2.14/chatGPTDesktopAccess-2026.2.14.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-VisionAssistant",
+    "addonId": "VisionAssistant",
+    "addonName": "Vision Assistant Pro",
+    "version": "2026.10.16",
+    "title": "Hướng dẫn và đánh giá tiện ích: Vision Assistant Pro (Bản 2026.10.16)",
+    "summary": "Thông tin chi tiết về tiện ích Vision Assistant Pro trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "15/10/2026",
+    "timestamp": "2026-10-14T20:02:05Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Mahmood Hozhabri** phát triển theo giấy phép **GPL v2**.\n\nTrợ lý AI nâng cao cho NVDA sử dụng các mô hình Gemini, tích hợp các khả năng hỗ trợ nhìn, OCR, đọc tài liệu, âm thanh, trò chuyện trực tiếp và hội thoại bằng giọng nói.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tiện ích đã có sẵn giao diện tiếng Việt. Giọng đọc NVDA sẽ đọc đúng các nút bấm và thông báo, bạn chỉ cần cài đặt là sử dụng được ngay."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Vision Assistant Pro](https://github.com/mahmoodhozhabri/VisionAssistantPro/releases/download/v2026.10.16/VisionAssistant-2026.10.16.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/mahmoodhozhabri/VisionAssistantPro",
+    "downloadUrl": "https://github.com/mahmoodhozhabri/VisionAssistantPro/releases/download/v2026.10.16/VisionAssistant-2026.10.16.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-advanced_audio_themes",
+    "addonId": "advanced_audio_themes",
+    "addonName": "Advanced Audio Themes",
+    "version": "9.44",
+    "title": "Hướng dẫn và đánh giá tiện ích: Advanced Audio Themes (Bản 9.44)",
+    "summary": "Thông tin chi tiết về tiện ích Advanced Audio Themes trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "15/10/2026",
+    "timestamp": "2026-10-14T17:37:55Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Hassan AlBarshoumy** phát triển theo giấy phép **GPL v2**.\n\nRevolutionize your screen reading experience with Advanced Audio Themes, the ultimate auditory powerhouse for NVDA.\n\nImmerse yourself in a dynamic 3D soundscape where every UI event—from navigating menus to tracking progress bars and typing—is brought to life with rich, customizable spatial audio. With the built-in Audio Themes Studio, you can effortlessly craft, edit, and explore a cloud-based library of community-driven themes.\n\nEmpower your workflow with groundbreaking features:\n- Studio-Grade Audio DSP: Elevate your audio with real-time Bass Boost, Noise Gate, and intelligent Audio Ducking.\n- System Status Sounds: Stay seamlessly connected to your PC with instant, native audio alerts for battery, USB, power, and network events.\n- Smart App Profiles: Enjoy a tailored experience as themes and typing soundscapes adapt automatically to your active application.\n- 3D Sonar & Beacons: Visualize your screen spatially by dropping audio beacons and sweeping windows with radar-like precision.\n- Lightning-Fast Navigation: Break free from complex keystrokes using the modifier-free Navigation Layer, alongside deeply integrated BrowserNav and SentenceNav engines.\n- Phonetic Punctuation: Take total control over speech feedback with pinpoint rules for words, states, and roles.\n\nStep beyond traditional screen reading and unleash a breathtaking auditory dimension to your daily tasks!\n\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Advanced Audio Themes](https://github.com/HassanAlBarshoumy/advanced_audio_themes/releases/download/v9.44/advanced_audio_themes-9.44.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/HassanAlBarshoumy/advanced_audio_themes",
+    "downloadUrl": "https://github.com/HassanAlBarshoumy/advanced_audio_themes/releases/download/v9.44/advanced_audio_themes-9.44.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
     "id": "review-ricerca_testuale_accesso_digitale",
     "addonId": "ricerca_testuale_accesso_digitale",
     "addonName": "Text Search Accesso Digitale",
-    "version": "1.7.0",
-    "title": "Hướng dẫn và đánh giá tiện ích: Text Search Accesso Digitale (Bản 1.7.0)",
+    "version": "1.7.1",
+    "title": "Hướng dẫn và đánh giá tiện ích: Text Search Accesso Digitale (Bản 1.7.1)",
     "summary": "Thông tin chi tiết về tiện ích Text Search Accesso Digitale trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
     "author": "Võ Duy Khánh & Cộng đồng NVDA",
     "publishedDate": "14/10/2026",
-    "timestamp": "2026-10-13T17:12:27Z",
+    "timestamp": "2026-10-14T14:12:11Z",
     "sections": [
       {
         "heading": "1. Thông tin tiện ích",
@@ -28,11 +172,11 @@
       },
       {
         "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Text Search Accesso Digitale](https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.7.0/ricerca_testuale_accesso_digitale-1.7.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+        "content": "1. Nhấn [Tải Text Search Accesso Digitale](https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.7.1/ricerca_testuale_accesso_digitale-1.7.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
       }
     ],
     "repoUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale",
-    "downloadUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.7.0/ricerca_testuale_accesso_digitale-1.7.0.nvda-addon",
+    "downloadUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.7.1/ricerca_testuale_accesso_digitale-1.7.1.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -69,42 +213,6 @@
     ],
     "repoUrl": "https://github.com/rashadnaqeeb/nvda-dialingo",
     "downloadUrl": "https://github.com/rashadnaqeeb/nvda-dialingo/releases/download/v1.0.4/dialingo-1.0.4.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-codexStatusAnnouncer",
-    "addonId": "codexStatusAnnouncer",
-    "addonName": "ChatGPT Desktop Access for NVDA",
-    "version": "2026.2.13",
-    "title": "Hướng dẫn và đánh giá tiện ích: ChatGPT Desktop Access for NVDA (Bản 2026.2.13)",
-    "summary": "Thông tin chi tiết về tiện ích ChatGPT Desktop Access for NVDA trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "13/10/2026",
-    "timestamp": "2026-10-13T15:45:23Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Justin Coffin** phát triển theo giấy phép **GPL v2**.\n\nMakes the ChatGPT Windows app easier to use with NVDA. It announces activity, supports speech, Braille, and sounds, and adds chat navigation, voice controls, and better focus handling in both ChatGPT and Codex.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải ChatGPT Desktop Access for NVDA](https://github.com/jcoffin1/chatgpt-desktop-access/releases/download/v2026.2.13/chatGPTDesktopAccess-2026.2.13.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/jcoffin1/chatgpt-desktop-access",
-    "downloadUrl": "https://github.com/jcoffin1/chatgpt-desktop-access/releases/download/v2026.2.13/chatGPTDesktopAccess-2026.2.13.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -1077,42 +1185,6 @@
     ],
     "repoUrl": "https://github.com/AbolfazlAbaspoor/nvda-supertools",
     "downloadUrl": "https://github.com/AbolfazlAbaspoor/nvda-supertools/releases/download/v1.0.0/SuperTools-1.0.0.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-VisionAssistant",
-    "addonId": "VisionAssistant",
-    "addonName": "Vision Assistant Pro",
-    "version": "2026.10.15",
-    "title": "Hướng dẫn và đánh giá tiện ích: Vision Assistant Pro (Bản 2026.10.15)",
-    "summary": "Thông tin chi tiết về tiện ích Vision Assistant Pro trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "06/10/2026",
-    "timestamp": "2026-10-06T14:08:35Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Mahmood Hozhabri** phát triển theo giấy phép **GPL v2**.\n\nTrợ lý AI nâng cao cho NVDA sử dụng các mô hình Gemini, tích hợp các khả năng hỗ trợ nhìn, OCR, đọc tài liệu, âm thanh, trò chuyện trực tiếp và hội thoại bằng giọng nói.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tiện ích đã có sẵn giao diện tiếng Việt. Giọng đọc NVDA sẽ đọc đúng các nút bấm và thông báo, bạn chỉ cần cài đặt là sử dụng được ngay."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Vision Assistant Pro](https://github.com/mahmoodhozhabri/VisionAssistantPro/releases/download/v2026.10.15-beta1/VisionAssistant-2026.10.15.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/mahmoodhozhabri/VisionAssistantPro",
-    "downloadUrl": "https://github.com/mahmoodhozhabri/VisionAssistantPro/releases/download/v2026.10.15-beta1/VisionAssistant-2026.10.15.nvda-addon",
     "license": "GPL v2"
   },
   {
