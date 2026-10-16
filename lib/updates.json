@@ -1,18 +1,18 @@
 {
-  "lastChecked": "2026-10-15T04:17:40.893Z",
-  "lastCheckedVN": "15/10/2026",
+  "lastChecked": "2026-10-16T04:13:28.115Z",
+  "lastCheckedVN": "16/10/2026",
   "items": [
     {
       "slug": "nvda-screen-reader",
       "projectName": "NVDA Screen Reader",
       "category": "Phần mềm tiếp cận",
       "type": "Trình đọc màn hình",
-      "timestamp": "2026-10-15T03:11:03Z",
-      "date": "15/10/2026",
-      "summary": "User Guide and GUI rewording (#20962)",
-      "fullMessage": "User Guide and GUI rewording (#20962)\n\nLink to issue number:\n\nNone\nSummary of the issue:\n\nSome wording in the GUI and in the User Guide could lead to confusion and / or be improved:\n\n    It is not clear in GUI that \"Native selection mode\" setting only applies to when page is loaded; e.g. if you change it through NVDA+shift+f10, this won't change the value found when opening the settings dialog.\n    The User Guide provide too many technical details regarding the allowed 15mm margin to detect an edge gesture.\n\nDescription of user facing changes:\n\nUser Guide reworded and GUI label updated.\nDescription of developer facing changes:\n\nN/A\nDescription of development approach:\n\n    In browse mode settings, \"Native selection mode\" has been reworded to \"Native selection mode on page load\" to indicate that this only controls the selection mode when page are initially loaded, not later. The User Guide has been updated consistently too.\n\n    Removed any explicit mention of the 15mm edge margin definition in the User Guide; replaced with a more user friendly wording (e.g. gestures starting from edge) as we can find in other screen reader documentations (e.g. Android)",
-      "sha": "7e3f795",
-      "url": "https://github.com/nvaccess/nvda/commit/7e3f7955b76f4af0dbb912347ac45eb748d2dea3"
+      "timestamp": "2026-10-16T02:12:00Z",
+      "date": "16/10/2026",
+      "summary": "Update wxPython to 4.3.2 (#20983)",
+      "fullMessage": "Update wxPython to 4.3.2 (#20983)\n\nFollow up #20882\nSummary of the issue:\n\nNVDA currently uses wxPython 4.3.1, based on wxWidgets 3.3.3.\nwxPython 4.3.2 is the latest stable release and is based on wxWidgets 3.3.4.\nDescription of user facing changes:\n\n    On Windows, wxMSW now handles Esc after IME and native controls, fixing affected IME and native-control interactions. See wxWidgets PR #27148.\n\nDescription of developer facing changes:\n\n    Updated wxPython from 4.3.1 to 4.3.2.\n    wxPython 4.3.2 is based on wxWidgets 3.3.4.\n    Major upstream updates include:\n        improved generated .pyi type stubs;\n        a fix for wx.html2.WebView.New returning a Python-owned window with newer SIP versions;\n        official Python 3.15 wheel support;\n        removal of Windows 32-bit wxPython wheels.\n    The Windows 32-bit synthDriverHost environment does not depend on wxPython.\n    See the official wxPython 4.3.2 changelog for the complete list of changes.\n\nDescription of development approach:\n\n    Updated the wxPython pin in pyproject.toml.\n    Regenerated uv.lock from the wxPython 4.3.2 package metadata.\n    Updated the current developer change log entry.\n    No NVDA source changes were required; the wxPython 4.3.1 accessibility adjustments from PR Update wxPython to 4.3.1 #20882 are already present in the base branch.",
+      "sha": "4393786",
+      "url": "https://github.com/nvaccess/nvda/commit/439378622db21343dc38d719e3e7e1f54c41b158"
     },
     {
       "slug": "nvdajp-community",
