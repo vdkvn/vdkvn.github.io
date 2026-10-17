@@ -1,30 +1,42 @@
 {
-  "lastChecked": "2026-10-16T04:13:28.115Z",
-  "lastCheckedVN": "16/10/2026",
+  "lastChecked": "2026-10-17T04:03:41.216Z",
+  "lastCheckedVN": "17/10/2026",
   "items": [
-    {
-      "slug": "nvda-screen-reader",
-      "projectName": "NVDA Screen Reader",
-      "category": "Phần mềm tiếp cận",
-      "type": "Trình đọc màn hình",
-      "timestamp": "2026-10-16T02:12:00Z",
-      "date": "16/10/2026",
-      "summary": "Update wxPython to 4.3.2 (#20983)",
-      "fullMessage": "Update wxPython to 4.3.2 (#20983)\n\nFollow up #20882\nSummary of the issue:\n\nNVDA currently uses wxPython 4.3.1, based on wxWidgets 3.3.3.\nwxPython 4.3.2 is the latest stable release and is based on wxWidgets 3.3.4.\nDescription of user facing changes:\n\n    On Windows, wxMSW now handles Esc after IME and native controls, fixing affected IME and native-control interactions. See wxWidgets PR #27148.\n\nDescription of developer facing changes:\n\n    Updated wxPython from 4.3.1 to 4.3.2.\n    wxPython 4.3.2 is based on wxWidgets 3.3.4.\n    Major upstream updates include:\n        improved generated .pyi type stubs;\n        a fix for wx.html2.WebView.New returning a Python-owned window with newer SIP versions;\n        official Python 3.15 wheel support;\n        removal of Windows 32-bit wxPython wheels.\n    The Windows 32-bit synthDriverHost environment does not depend on wxPython.\n    See the official wxPython 4.3.2 changelog for the complete list of changes.\n\nDescription of development approach:\n\n    Updated the wxPython pin in pyproject.toml.\n    Regenerated uv.lock from the wxPython 4.3.2 package metadata.\n    Updated the current developer change log entry.\n    No NVDA source changes were required; the wxPython 4.3.1 accessibility adjustments from PR Update wxPython to 4.3.1 #20882 are already present in the base branch.",
-      "sha": "4393786",
-      "url": "https://github.com/nvaccess/nvda/commit/439378622db21343dc38d719e3e7e1f54c41b158"
-    },
     {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
       "category": "Bản địa hóa & Giọng đọc",
       "type": "NVDA Nhật Bản",
-      "timestamp": "2026-10-14T13:11:50Z",
-      "date": "14/10/2026",
+      "timestamp": "2026-10-17T02:10:50Z",
+      "date": "17/10/2026",
       "summary": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
-      "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
-      "sha": "16ea5fa",
-      "url": "https://github.com/nvdajp/nvdajp/commit/16ea5fa8a38e61a811a5114a37268513cd9046a7"
+      "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp\n\n# Conflicts:\n#\ttests/unit/test_braille/test_brailleDisplayDrivers.py",
+      "sha": "a6ea1f8",
+      "url": "https://github.com/nvdajp/nvdajp/commit/a6ea1f82030d50a005118fe7662d90fa794233c0"
+    },
+    {
+      "slug": "nvdaes-clip-contents-designer",
+      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
+      "category": "Công cụ tiếp cận",
+      "type": "Addon Tây Ban Nha",
+      "timestamp": "2026-10-17T00:40:04Z",
+      "date": "17/10/2026",
+      "summary": "Update translations",
+      "fullMessage": "Update translations",
+      "sha": "d0ecd99",
+      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/d0ecd998dbc0aa12618815e3c5cc50bc324ed805"
+    },
+    {
+      "slug": "nvda-screen-reader",
+      "projectName": "NVDA Screen Reader",
+      "category": "Phần mềm tiếp cận",
+      "type": "Trình đọc màn hình",
+      "timestamp": "2026-10-16T06:18:50Z",
+      "date": "16/10/2026",
+      "summary": "Include Text Object Model 2 in comInterfaces.tom (#20987)",
+      "fullMessage": "Include Text Object Model 2 in comInterfaces.tom (#20987)\n\nDiscovered while working on #20982.\nPart of #20788.\nSummary of the issue:\n\nNVDA generates comInterfaces.tom from the Text Object Model type library that is registered in Windows. That registration points at riched20.dll, whose copy only has the original Text Object Model. The Text Object Model 2 interfaces and constants are missing.\nDescription of user facing changes:\n\nNone.\nDescription of developer facing changes:\n\n    comInterfaces.tom now includes the Text Object Model 2 interfaces and constants.\n    Some symbols in comInterfaces.tom change:\n        ITextDocument2 is now the Text Object Model 2 interface. The older interface of that name is gone.\n        ITextMsgFilter, tomAlignGlyphs, tomAlignSnapGrid and tomMatchFontCharset are gone.\n    Developers with an existing build need to run git clean -fdX source/comInterfaces. comtypes reuses a generated module that already exists, so the old module stays otherwise.\n\nDescription of development approach:\n\nmsftedit.dll embeds its own copy of the Text Object Model type library. It has the same GUID and version as the copy in riched20.dll, and it adds the Text Object Model 2 interfaces and constants. The build now passes the path of msftedit.dll to comtypes instead of the GUID. The generated module names stay the same, so comInterfaces.tom keeps working for existing code.\nWindows has shipped Text Object Model 2 in msftedit.dll since Windows 8, so every supported Windows version and build machine has it.\nThe list of breaking changes comes from comparing every symbol in both type libraries. NVDA itself uses none of the removed or changed symbols.",
+      "sha": "2843e70",
+      "url": "https://github.com/nvaccess/nvda/commit/2843e703ce19757711e976ebb6e9c5b689fc2017"
     },
     {
       "slug": "google-tts-for-nvda",
@@ -37,18 +49,6 @@
       "fullMessage": "Announced the official release of version 1.0\n\nUpdated readme.md to clearly display the 1.0 version number, release date, changelog, and latest add-on download link to improve search engine optimization performance.",
       "sha": "943890c",
       "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/943890cc7a3669ba74b87295b0997420d981a16b"
-    },
-    {
-      "slug": "nvdaes-clip-contents-designer",
-      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
-      "category": "Công cụ tiếp cận",
-      "type": "Addon Tây Ban Nha",
-      "timestamp": "2026-10-12T00:30:10Z",
-      "date": "12/10/2026",
-      "summary": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
-      "fullMessage": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
-      "sha": "4345a02",
-      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/4345a0213485acdc4bd63fca7722d66f5dc9c126"
     },
     {
       "slug": "nvda-network-optimizer",
