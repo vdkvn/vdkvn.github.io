@@ -1,18 +1,30 @@
 {
-  "lastChecked": "2026-10-18T04:11:24.305Z",
-  "lastCheckedVN": "18/10/2026",
+  "lastChecked": "2026-10-19T04:20:16.105Z",
+  "lastCheckedVN": "19/10/2026",
   "items": [
     {
       "slug": "nvda-screen-reader",
       "projectName": "NVDA Screen Reader",
       "category": "Phần mềm tiếp cận",
       "type": "Trình đọc màn hình",
-      "timestamp": "2026-10-18T00:00:13Z",
-      "date": "18/10/2026",
-      "summary": "Fix MathCAT pauses at rate 0 and with eSpeak rate boost on (#21019)",
-      "fullMessage": "Fix MathCAT pauses at rate 0 and with eSpeak rate boost on (#21019)\n\nFixes #19894\nSummary of the issue:\n\nMathCAT scales the duration of its pauses by the synthesizer rate, but ignored rate boost, so pauses were as long with rate boost on as off.\n\nWith the speech rate at 0%, this also raised a division by zero error.\nDescription of user facing changes:\n\nMathCAT no longer fails at a 0% speech rate, and its pauses are shorter when eSpeak rate boost is enabled.\nDescription of developer facing changes:\n\nNone.\nDescription of development approach:\n\nThe wpm value in convertSSMLTextForNVDA is multiplied by the synth's RATE_BOOST_MULTIPLIER when rate boost is on, and clamped to at least 2 so rate 0 behaves like rate 1.\n\nOnly eSpeak defines this multiplier, so other synths are unchanged.",
-      "sha": "6c981c6",
-      "url": "https://github.com/nvaccess/nvda/commit/6c981c640e9b586da3d6aae32422d3ff83e1d904"
+      "timestamp": "2026-10-19T02:14:07Z",
+      "date": "19/10/2026",
+      "summary": "beta to master (#21025)",
+      "fullMessage": "beta to master (#21025)\n\nCo-authored-by: wencong <manchen_0528@outlook.com>\nCo-authored-by: Jani Kinnunen <janikinnunen340@gmail.com>\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\nCo-authored-by: GitHub Actions <github-actions@github.com>",
+      "sha": "ca31138",
+      "url": "https://github.com/nvaccess/nvda/commit/ca31138af3a588f09255d33d71bdbed131b1c1bf"
+    },
+    {
+      "slug": "nvdaes-clip-contents-designer",
+      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
+      "category": "Công cụ tiếp cận",
+      "type": "Addon Tây Ban Nha",
+      "timestamp": "2026-10-19T00:25:46Z",
+      "date": "19/10/2026",
+      "summary": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
+      "fullMessage": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
+      "sha": "c5a0aa4",
+      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/c5a0aa4ab3310ab5f8d5941278c483b127a73958"
     },
     {
       "slug": "nvdajp-community",
@@ -25,18 +37,6 @@
       "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp\n\n# Conflicts:\n#\ttests/unit/test_braille/test_brailleDisplayDrivers.py",
       "sha": "a6ea1f8",
       "url": "https://github.com/nvdajp/nvdajp/commit/a6ea1f82030d50a005118fe7662d90fa794233c0"
-    },
-    {
-      "slug": "nvdaes-clip-contents-designer",
-      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
-      "category": "Công cụ tiếp cận",
-      "type": "Addon Tây Ban Nha",
-      "timestamp": "2026-10-17T00:40:04Z",
-      "date": "17/10/2026",
-      "summary": "Update translations",
-      "fullMessage": "Update translations",
-      "sha": "d0ecd99",
-      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/d0ecd998dbc0aa12618815e3c5cc50bc324ed805"
     },
     {
       "slug": "google-tts-for-nvda",
