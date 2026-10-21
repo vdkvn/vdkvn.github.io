@@ -1,7 +1,31 @@
 {
-  "lastChecked": "2026-10-20T04:31:05.350Z",
-  "lastCheckedVN": "20/10/2026",
+  "lastChecked": "2026-10-21T04:23:02.460Z",
+  "lastCheckedVN": "21/10/2026",
   "items": [
+    {
+      "slug": "nvdaes-clip-contents-designer",
+      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
+      "category": "Công cụ tiếp cận",
+      "type": "Addon Tây Ban Nha",
+      "timestamp": "2026-10-21T00:57:59Z",
+      "date": "21/10/2026",
+      "summary": "Merge pull request #99 from nvdaes/dependabot/uv/uv-1e36a47a48",
+      "fullMessage": "Merge pull request #99 from nvdaes/dependabot/uv/uv-1e36a47a48\n\nBump uv from 0.11.15 to 0.13.4 in the uv group across 1 directory",
+      "sha": "17561af",
+      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/17561af79db6a175a4c21895e58fd449bd53b3fd"
+    },
+    {
+      "slug": "nvdajp-community",
+      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
+      "category": "Bản địa hóa & Giọng đọc",
+      "type": "NVDA Nhật Bản",
+      "timestamp": "2026-10-20T20:50:30Z",
+      "date": "21/10/2026",
+      "summary": "Merge pull request #761 from nvdajp/fix/release-tag-target",
+      "fullMessage": "Merge pull request #761 from nvdajp/fix/release-tag-target",
+      "sha": "eea7513",
+      "url": "https://github.com/nvdajp/nvdajp/commit/eea7513d0badb15fc3af8bb531b09901f200e8a7"
+    },
     {
       "slug": "nvda-screen-reader",
       "projectName": "NVDA Screen Reader",
@@ -13,30 +37,6 @@
       "fullMessage": "Tell MSVC to compile NVDAHelper sources as UTF-8 (#21032)\n\nFixes #20584.\nSummary of the issue:\n\nMSVC can read UTF-8 source files without a byte-order mark using the current Windows code page. On systems that use a different code page, it can misread characters in cppjieba headers and report C++ syntax errors.\nDescription of user facing changes:\n\nNo intended changes to NVDA’s interface or commands.\nDescription of developer facing changes:\n\nThe NVDAHelper build explicitly uses UTF-8 instead of relying on the Windows code page. This makes the compiler read UTF-8 source files consistently across build machines.\nDescription of development approach:\n\nAdded /utf-8 to the common CCFLAGS in nvdaHelper/archBuild_sconscript. The third-party build environment inherits these flags, so the option also applies to cppjieba.\n\nMSVC’s /utf-8 option sets both the source and execution character sets. It therefore also determines the encoding of ordinary string literals in compiled code.",
       "sha": "7d25bc7",
       "url": "https://github.com/nvaccess/nvda/commit/7d25bc76e6950a6c5b68bc563bf48b82ef320bba"
-    },
-    {
-      "slug": "nvdajp-community",
-      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
-      "category": "Bản địa hóa & Giọng đọc",
-      "type": "NVDA Nhật Bản",
-      "timestamp": "2026-10-19T05:27:13Z",
-      "date": "19/10/2026",
-      "summary": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
-      "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
-      "sha": "71fb7ee",
-      "url": "https://github.com/nvdajp/nvdajp/commit/71fb7ee90b79159e6a48363003ee262331ec982f"
-    },
-    {
-      "slug": "nvdaes-clip-contents-designer",
-      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
-      "category": "Công cụ tiếp cận",
-      "type": "Addon Tây Ban Nha",
-      "timestamp": "2026-10-19T00:25:46Z",
-      "date": "19/10/2026",
-      "summary": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
-      "fullMessage": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
-      "sha": "c5a0aa4",
-      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/c5a0aa4ab3310ab5f8d5941278c483b127a73958"
     },
     {
       "slug": "google-tts-for-nvda",
