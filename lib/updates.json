@@ -1,7 +1,19 @@
 {
-  "lastChecked": "2026-10-21T04:23:02.460Z",
-  "lastCheckedVN": "21/10/2026",
+  "lastChecked": "2026-10-22T04:22:18.085Z",
+  "lastCheckedVN": "22/10/2026",
   "items": [
+    {
+      "slug": "nvda-screen-reader",
+      "projectName": "NVDA Screen Reader",
+      "category": "Phần mềm tiếp cận",
+      "type": "Trình đọc màn hình",
+      "timestamp": "2026-10-21T04:33:57Z",
+      "date": "21/10/2026",
+      "summary": "Only ask about copies of NVDA that keep running (#21033)",
+      "fullMessage": "Only ask about copies of NVDA that keep running (#21033)\n\nFixup of #20998\nSummary of the issue:\n\nSince #20998, updating NVDA with --install asks to end other running copies of NVDA, even when none keep running.\nWhenever NVDA starts, Windows Ease of Access briefly starts the installed copy, which quits again within about two seconds.\nThe launcher's check catches that copy before it quits, and warns that a copy of NVDA is running.\nDescription of user facing changes:\n\n    The question only appears when other copies of NVDA keep running after a timeout.\n    The progress dialog appears before NVDA checks for running copies.\n    Choosing not to end the running copies on the Install NVDA screen now fails the installation.\n    In Ask to end running copies of NVDA before installing #20998, this returned to the Install NVDA screen instead.\n    Now the installation failed error appears and the Install NVDA screen closes, as it already did when updating with --install.\n\nDescription of developer facing changes:\n\nNone.\nDescription of development approach:\n\n    installer._waitForRunningNVDAProcesses polls up to three seconds for the copies found to exit, and returns the ones still running.\n    gui.installerGui.doInstall shows the progress dialog and runs this wait in a background thread. It now asks whether to end the running copies, instead of its callers.\n    Choosing not to end those copies fails the installation, and doInstall shows the installation failed error.\n    installer.install uses the same wait for up to one second, instead of always sleeping one second.\n    It ends only the copies still running.",
+      "sha": "40e2df6",
+      "url": "https://github.com/nvaccess/nvda/commit/40e2df64cd2fdecdefa0b98f1056991b622c3d6e"
+    },
     {
       "slug": "nvdaes-clip-contents-designer",
       "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
@@ -25,18 +37,6 @@
       "fullMessage": "Merge pull request #761 from nvdajp/fix/release-tag-target",
       "sha": "eea7513",
       "url": "https://github.com/nvdajp/nvdajp/commit/eea7513d0badb15fc3af8bb531b09901f200e8a7"
-    },
-    {
-      "slug": "nvda-screen-reader",
-      "projectName": "NVDA Screen Reader",
-      "category": "Phần mềm tiếp cận",
-      "type": "Trình đọc màn hình",
-      "timestamp": "2026-10-19T23:52:21Z",
-      "date": "20/10/2026",
-      "summary": "Tell MSVC to compile NVDAHelper sources as UTF-8 (#21032)",
-      "fullMessage": "Tell MSVC to compile NVDAHelper sources as UTF-8 (#21032)\n\nFixes #20584.\nSummary of the issue:\n\nMSVC can read UTF-8 source files without a byte-order mark using the current Windows code page. On systems that use a different code page, it can misread characters in cppjieba headers and report C++ syntax errors.\nDescription of user facing changes:\n\nNo intended changes to NVDA’s interface or commands.\nDescription of developer facing changes:\n\nThe NVDAHelper build explicitly uses UTF-8 instead of relying on the Windows code page. This makes the compiler read UTF-8 source files consistently across build machines.\nDescription of development approach:\n\nAdded /utf-8 to the common CCFLAGS in nvdaHelper/archBuild_sconscript. The third-party build environment inherits these flags, so the option also applies to cppjieba.\n\nMSVC’s /utf-8 option sets both the source and execution character sets. It therefore also determines the encoding of ordinary string literals in compiled code.",
-      "sha": "7d25bc7",
-      "url": "https://github.com/nvaccess/nvda/commit/7d25bc76e6950a6c5b68bc563bf48b82ef320bba"
     },
     {
       "slug": "google-tts-for-nvda",
