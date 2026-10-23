@@ -1,7 +1,19 @@
 {
-  "lastChecked": "2026-10-22T04:22:18.085Z",
-  "lastCheckedVN": "22/10/2026",
+  "lastChecked": "2026-10-23T04:26:57.957Z",
+  "lastCheckedVN": "23/10/2026",
   "items": [
+    {
+      "slug": "nvdajp-community",
+      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
+      "category": "Bản địa hóa & Giọng đọc",
+      "type": "NVDA Nhật Bản",
+      "timestamp": "2026-10-22T07:22:58Z",
+      "date": "22/10/2026",
+      "summary": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
+      "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
+      "sha": "3495b75",
+      "url": "https://github.com/nvdajp/nvdajp/commit/3495b7598f6365515745d59762e88ecfb1a738a7"
+    },
     {
       "slug": "nvda-screen-reader",
       "projectName": "NVDA Screen Reader",
@@ -25,18 +37,6 @@
       "fullMessage": "Merge pull request #99 from nvdaes/dependabot/uv/uv-1e36a47a48\n\nBump uv from 0.11.15 to 0.13.4 in the uv group across 1 directory",
       "sha": "17561af",
       "url": "https://github.com/nvdaes/clipContentsDesigner/commit/17561af79db6a175a4c21895e58fd449bd53b3fd"
-    },
-    {
-      "slug": "nvdajp-community",
-      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
-      "category": "Bản địa hóa & Giọng đọc",
-      "type": "NVDA Nhật Bản",
-      "timestamp": "2026-10-20T20:50:30Z",
-      "date": "21/10/2026",
-      "summary": "Merge pull request #761 from nvdajp/fix/release-tag-target",
-      "fullMessage": "Merge pull request #761 from nvdajp/fix/release-tag-target",
-      "sha": "eea7513",
-      "url": "https://github.com/nvdajp/nvdajp/commit/eea7513d0badb15fc3af8bb531b09901f200e8a7"
     },
     {
       "slug": "google-tts-for-nvda",
