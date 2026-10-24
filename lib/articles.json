@@ -1,5 +1,257 @@
 [
   {
+    "id": "review-checkGestures",
+    "addonId": "checkGestures",
+    "addonName": "Check Input Gestures",
+    "version": "1.2.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: Check Input Gestures (Bản 1.2.0)",
+    "summary": "Thông tin chi tiết về tiện ích Check Input Gestures trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "24/10/2026",
+    "timestamp": "2026-10-23T23:59:24Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Oleksandr Gryshchenko** phát triển theo giấy phép **GPL v2**.\n\nFind and fix input gestures conflicts in NVDA and add-ons.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Check Input Gestures](https://github.com/grisov/checkGestures/releases/download/v1.2.0/checkGestures-1.2.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/grisov/checkGestures",
+    "downloadUrl": "https://github.com/grisov/checkGestures/releases/download/v1.2.0/checkGestures-1.2.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-unmute",
+    "addonId": "unmute",
+    "addonName": "Bật âm thanh của Windows",
+    "version": "1.8.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: Bật âm thanh của Windows (Bản 1.8.0)",
+    "summary": "Thông tin chi tiết về tiện ích Bật âm thanh của Windows trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "23/10/2026",
+    "timestamp": "2026-10-23T16:13:17Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Oleksandr Gryshchenko** phát triển theo giấy phép **GPL v2**.\n\nMake sure you can hear NVDA: when NVDA starts or with a command, the add-on turns on the muted or too quiet sound of Windows and NVDA and starts the speech synthesizer if it has not started.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tiện ích đã có sẵn giao diện tiếng Việt. Giọng đọc NVDA sẽ đọc đúng các nút bấm và thông báo, bạn chỉ cần cài đặt là sử dụng được ngay."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Bật âm thanh của Windows](https://github.com/grisov/Unmute/releases/download/v1.8.0/unmute-1.8.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/grisov/Unmute",
+    "downloadUrl": "https://github.com/grisov/Unmute/releases/download/v1.8.0/unmute-1.8.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-ricerca_testuale_accesso_digitale",
+    "addonId": "ricerca_testuale_accesso_digitale",
+    "addonName": "Text Search Accesso Digitale",
+    "version": "1.8.3",
+    "title": "Hướng dẫn và đánh giá tiện ích: Text Search Accesso Digitale (Bản 1.8.3)",
+    "summary": "Thông tin chi tiết về tiện ích Text Search Accesso Digitale trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "23/10/2026",
+    "timestamp": "2026-10-23T15:41:14Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Maurizio Barra** phát triển theo giấy phép **GPL v2**.\n\nFast and accessible text and document search across files, folders and entire storage drives for NVDA, with RSS/Atom and Thunderbird Feeds support, local search history, direct jump to line, precise Word paragraph navigation, native EML reading, audio preview, earcons feedback, bookmarks, multi-format export and direct printing.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Text Search Accesso Digitale](https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.8.3/ricerca_testuale_accesso_digitale-1.8.3.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale",
+    "downloadUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.8.3/ricerca_testuale_accesso_digitale-1.8.3.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-miAjedrezAccesible",
+    "addonId": "miAjedrezAccesible",
+    "addonName": "MiAjedrezAccesible",
+    "version": "1.1.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: MiAjedrezAccesible (Bản 1.1.0)",
+    "summary": "Thông tin chi tiết về tiện ích MiAjedrezAccesible trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "23/10/2026",
+    "timestamp": "2026-10-23T15:34:31Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Wilmer Rodríguez Vega** phát triển theo giấy phép **GPL v2 or later**.\n\nAccessible chess for NVDA, for all ages.\nPlay against the computer (10 levels, powered by the Stockfish engine) or against another person on the same computer, with the whole board readable by speech and braille. Includes Learn to play, a guided 23-lesson course also designed for children; 5,000 real puzzles from Lichess that adapt to your level; an optional clock; games saved in PGN format; and your statistics.\nThe Learn to play course is available in English and Spanish.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải MiAjedrezAccesible](https://github.com/WilmerRv1989/MiAjedrezAccesible/releases/download/v1.1.0/miAjedrezAccesible-1.1.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/WilmerRv1989/MiAjedrezAccesible",
+    "downloadUrl": "https://github.com/WilmerRv1989/MiAjedrezAccesible/releases/download/v1.1.0/miAjedrezAccesible-1.1.0.nvda-addon",
+    "license": "GPL v2 or later"
+  },
+  {
+    "id": "review-chessStudy",
+    "addonId": "chessStudy",
+    "addonName": "Chess Study",
+    "version": "2.1.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: Chess Study (Bản 2.1.0)",
+    "summary": "Thông tin chi tiết về tiện ích Chess Study trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "23/10/2026",
+    "timestamp": "2026-10-23T11:53:44Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **João Victor Mendes** phát triển theo giấy phép **GPL v2**.\n\nComplete chess in NVDA. Train tactics with Lichess puzzles: the level follows you, and the puzzles you missed come back for review. Learn endgames with mate drills and lessons. Record and analyse your games, import games from Lichess, and Stockfish shows where you went wrong and what the best move was. Set up any position and play against the computer from it.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Chess Study](https://github.com/joaovictorf01/chessStudy/releases/download/v2.1.0/chessStudy-2.1.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/joaovictorf01/chessStudy",
+    "downloadUrl": "https://github.com/joaovictorf01/chessStudy/releases/download/v2.1.0/chessStudy-2.1.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-textDrop",
+    "addonId": "textDrop",
+    "addonName": "TextDrop",
+    "version": "1.1.1",
+    "title": "Hướng dẫn và đánh giá tiện ích: TextDrop (Bản 1.1.1)",
+    "summary": "Thông tin chi tiết về tiện ích TextDrop trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "23/10/2026",
+    "timestamp": "2026-10-23T05:49:14Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Mauricio Pedroza Garza** phát triển theo giấy phép **GPL v2**.\n\nTextDrop is a quick notepad for NVDA. Press a keyboard shortcut to open a simple text box for jotting down or pasting notes on the fly. It shows a live character count and lets you save your text to a file using the standard Windows save dialog.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải TextDrop](https://github.com/MauricioCelesta/text_drop/releases/download/v1.1.1/textDrop1.1.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/MauricioCelesta/text_drop",
+    "downloadUrl": "https://github.com/MauricioCelesta/text_drop/releases/download/v1.1.1/textDrop1.1.1.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-accessWeather",
+    "addonId": "accessWeather",
+    "addonName": "AccessWeather - Previsão do Tempo",
+    "version": "0.1.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: AccessWeather - Previsão do Tempo (Bản 0.1.0)",
+    "summary": "Thông tin chi tiết về tiện ích AccessWeather - Previsão do Tempo trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "23/10/2026",
+    "timestamp": "2026-10-23T05:13:06Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Tadeu Júnior** phát triển theo giấy phép **GPL v2**.\n\nAnuncia o clima atual e a previsão usando a API Open-Meteo. Pressione NVDA+Shift+W para ouvir o clima.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải AccessWeather - Previsão do Tempo](https://github.com/tadeujrtec/AccessWeather/releases/download/v0.1.0/accessWeather-0.1.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/tadeujrtec/AccessWeather",
+    "downloadUrl": "https://github.com/tadeujrtec/AccessWeather/releases/download/v0.1.0/accessWeather-0.1.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
     "id": "review-appleMusicSuggestLess",
     "addonId": "appleMusicSuggestLess",
     "addonName": "Apple Music",
@@ -105,42 +357,6 @@
     ],
     "repoUrl": "https://github.com/mahmoodhozhabri/VisionAssistantPro",
     "downloadUrl": "https://github.com/mahmoodhozhabri/VisionAssistantPro/releases/download/v2026.10.22/VisionAssistant-2026.10.22.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-ricerca_testuale_accesso_digitale",
-    "addonId": "ricerca_testuale_accesso_digitale",
-    "addonName": "Text Search Accesso Digitale",
-    "version": "1.8.2",
-    "title": "Hướng dẫn và đánh giá tiện ích: Text Search Accesso Digitale (Bản 1.8.2)",
-    "summary": "Thông tin chi tiết về tiện ích Text Search Accesso Digitale trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "22/10/2026",
-    "timestamp": "2026-10-22T12:54:22Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Maurizio Barra** phát triển theo giấy phép **GPL v2**.\n\nFast and accessible text and document search across files, folders and entire storage drives for NVDA, with RSS/Atom and Thunderbird Feeds support, local search history, direct jump to line, precise Word paragraph navigation, native EML reading, audio preview, earcons feedback, bookmarks, multi-format export and direct printing.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Text Search Accesso Digitale](https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.8.2/ricerca_testuale_accesso_digitale-1.8.2.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale",
-    "downloadUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.8.2/ricerca_testuale_accesso_digitale-1.8.2.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -1836,42 +2052,6 @@
     "license": "GPL v2"
   },
   {
-    "id": "review-miAjedrezAccesible",
-    "addonId": "miAjedrezAccesible",
-    "addonName": "MiAjedrezAccesible",
-    "version": "1.0.1",
-    "title": "Hướng dẫn và đánh giá tiện ích: MiAjedrezAccesible (Bản 1.0.1)",
-    "summary": "Thông tin chi tiết về tiện ích MiAjedrezAccesible trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "15/10/2026",
-    "timestamp": "2026-10-15T04:51:16Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Wilmer Rodríguez Vega** phát triển theo giấy phép **GPL v2 or later**.\n\nAccessible chess for NVDA, for all ages.\nPlay against the computer (10 levels, powered by the Stockfish engine) or against another person on the same computer, with the whole board readable by speech and braille. Includes Learn to play, a guided 23-lesson course also designed for children; 5,000 real puzzles from Lichess that adapt to your level; an optional clock; games saved in PGN format; and your statistics.\nThe Learn to play course is currently available in Spanish only.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải MiAjedrezAccesible](https://github.com/WilmerRv1989/MiAjedrezAccesible/releases/download/v1.0.1/miAjedrezAccesible-1.0.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/WilmerRv1989/MiAjedrezAccesible",
-    "downloadUrl": "https://github.com/WilmerRv1989/MiAjedrezAccesible/releases/download/v1.0.1/miAjedrezAccesible-1.0.1.nvda-addon",
-    "license": "GPL v2 or later"
-  },
-  {
     "id": "review-personalGestureManager",
     "addonId": "personalGestureManager",
     "addonName": "Personal Gesture Manager",
@@ -2625,42 +2805,6 @@
     ],
     "repoUrl": "https://github.com/rameshpatil7721/Telephone-Operator",
     "downloadUrl": "https://github.com/rameshpatil7721/Telephone-Operator/releases/download/v1.0.0/telephoneOperator-1.0.0.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-chessStudy",
-    "addonId": "chessStudy",
-    "addonName": "Chess Study",
-    "version": "2.0.0",
-    "title": "Hướng dẫn và đánh giá tiện ích: Chess Study (Bản 2.0.0)",
-    "summary": "Thông tin chi tiết về tiện ích Chess Study trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "07/10/2026",
-    "timestamp": "2026-10-06T21:59:33Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **João Victor  Mendes** phát triển theo giấy phép **GPL v2**.\n\nAn accessible chess environment for NVDA. Train tactics from the Lichess puzzle database with a rating that follows you and missed puzzles that come back for review; learn endgames with mate drills and lessons judged by the Syzygy tablebases; record and analyse your games with Stockfish 16, a full game review and Lichess import; and play against the engine or a friend.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Chess Study](https://github.com/joaovictorf01/chessStudy/releases/download/v2.0.0/chessStudy-2.0.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/joaovictorf01/chessStudy",
-    "downloadUrl": "https://github.com/joaovictorf01/chessStudy/releases/download/v2.0.0/chessStudy-2.0.0.nvda-addon",
     "license": "GPL v2"
   },
   {

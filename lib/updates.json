@@ -1,7 +1,19 @@
 {
-  "lastChecked": "2026-10-23T04:26:57.957Z",
-  "lastCheckedVN": "23/10/2026",
+  "lastChecked": "2026-10-24T04:17:07.185Z",
+  "lastCheckedVN": "24/10/2026",
   "items": [
+    {
+      "slug": "nvdaes-clip-contents-designer",
+      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
+      "category": "Công cụ tiếp cận",
+      "type": "Addon Tây Ban Nha",
+      "timestamp": "2026-10-24T03:57:43Z",
+      "date": "24/10/2026",
+      "summary": "Update buildVars",
+      "fullMessage": "Update buildVars",
+      "sha": "414407f",
+      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/414407ff4c0019c32ba3cda97ad521377aebf17f"
+    },
     {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
@@ -25,18 +37,6 @@
       "fullMessage": "Only ask about copies of NVDA that keep running (#21033)\n\nFixup of #20998\nSummary of the issue:\n\nSince #20998, updating NVDA with --install asks to end other running copies of NVDA, even when none keep running.\nWhenever NVDA starts, Windows Ease of Access briefly starts the installed copy, which quits again within about two seconds.\nThe launcher's check catches that copy before it quits, and warns that a copy of NVDA is running.\nDescription of user facing changes:\n\n    The question only appears when other copies of NVDA keep running after a timeout.\n    The progress dialog appears before NVDA checks for running copies.\n    Choosing not to end the running copies on the Install NVDA screen now fails the installation.\n    In Ask to end running copies of NVDA before installing #20998, this returned to the Install NVDA screen instead.\n    Now the installation failed error appears and the Install NVDA screen closes, as it already did when updating with --install.\n\nDescription of developer facing changes:\n\nNone.\nDescription of development approach:\n\n    installer._waitForRunningNVDAProcesses polls up to three seconds for the copies found to exit, and returns the ones still running.\n    gui.installerGui.doInstall shows the progress dialog and runs this wait in a background thread. It now asks whether to end the running copies, instead of its callers.\n    Choosing not to end those copies fails the installation, and doInstall shows the installation failed error.\n    installer.install uses the same wait for up to one second, instead of always sleeping one second.\n    It ends only the copies still running.",
       "sha": "40e2df6",
       "url": "https://github.com/nvaccess/nvda/commit/40e2df64cd2fdecdefa0b98f1056991b622c3d6e"
-    },
-    {
-      "slug": "nvdaes-clip-contents-designer",
-      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
-      "category": "Công cụ tiếp cận",
-      "type": "Addon Tây Ban Nha",
-      "timestamp": "2026-10-21T00:57:59Z",
-      "date": "21/10/2026",
-      "summary": "Merge pull request #99 from nvdaes/dependabot/uv/uv-1e36a47a48",
-      "fullMessage": "Merge pull request #99 from nvdaes/dependabot/uv/uv-1e36a47a48\n\nBump uv from 0.11.15 to 0.13.4 in the uv group across 1 directory",
-      "sha": "17561af",
-      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/17561af79db6a175a4c21895e58fd449bd53b3fd"
     },
     {
       "slug": "google-tts-for-nvda",
