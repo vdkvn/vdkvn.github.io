@@ -1,18 +1,30 @@
 {
-  "lastChecked": "2026-10-25T04:20:41.784Z",
-  "lastCheckedVN": "25/10/2026",
+  "lastChecked": "2026-10-26T04:24:25.339Z",
+  "lastCheckedVN": "26/10/2026",
   "items": [
     {
       "slug": "nvdaes-clip-contents-designer",
       "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
       "category": "Công cụ tiếp cận",
       "type": "Addon Tây Ban Nha",
-      "timestamp": "2026-10-24T03:57:43Z",
-      "date": "24/10/2026",
-      "summary": "Update buildVars",
-      "fullMessage": "Update buildVars",
-      "sha": "414407f",
-      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/414407ff4c0019c32ba3cda97ad521377aebf17f"
+      "timestamp": "2026-10-26T00:26:29Z",
+      "date": "26/10/2026",
+      "summary": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
+      "fullMessage": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
+      "sha": "ef7b3f4",
+      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/ef7b3f4c0c03d6ebdece3a43a9a5e7a89364cafc"
+    },
+    {
+      "slug": "nvda-screen-reader",
+      "projectName": "NVDA Screen Reader",
+      "category": "Phần mềm tiếp cận",
+      "type": "Trình đọc màn hình",
+      "timestamp": "2026-10-25T22:52:09Z",
+      "date": "26/10/2026",
+      "summary": "PowerPoint: label slide titles and stop reading them twice (#20990)",
+      "fullMessage": "PowerPoint: label slide titles and stop reading them twice (#20990)\n\nFixes #9379\nSummary of the issue:\n\nIn Microsoft PowerPoint, NVDA reads the slide title twice. In a slide show, and when a slide is reported after a slide change, the slide name is built as Slide N (title). The slide text that follows is built from every shape on the slide, including the title shape, so the title is spoken again as the first line of the content. In editing views, the document window's name also includes the full slide name with its title, so the title is repeated when focus moves to the slide, and again when the title shape itself is focused.\n\nThere is also no clear boundary between the title and the rest of the slide, so it is hard to tell which text is the title and where the body starts.\nDescription of user facing changes:\n\nIn Microsoft PowerPoint:\n\n    The slide title is announced with a label, for example Slide 3 - Slide title: Quarterly results, instead of Slide 3 (Quarterly results).\n    In a slide show, the text of a slide starts with Slide title: <title>, then Slide contents, then the body text. The title is no longer read a second time as content. It is still in the reviewable text, so it can be reached with line navigation and say all.\n    Text in another shape that happens to match the title is still read. Only the designated title shape is skipped.\n    In editing (normal) view, the document pane reports only the slide number (for example Slide 3 - Slide), because the selected slide or title shape already reports the title.\n    A title shape with no alternative-text title is now named Slide title instead of Title placeholder. This also covers a text box set as the slide title with Check Accessibility > Set as Slide Title.\n    Slide contents is announced once when focus moves from the title into a non-title shape or its text, or when entering a new slide. It is not repeated for each body shape.\n    Speaker notes are unchanged and get no section labels.\n    Title-only, untitled, empty and blank-title slides work as before: no empty Slide contents label, and the existing empty-slide message is kept.\n\nNew translatable strings:\n\n    Slide title: {title}\n    Slide title\n    Slide contents\n\nDescription of developer facing changes:\n\nNew properties in appModules/powerpnt.py:\n\n    Slide.titleShape: the PowerPoint title shape, or None.\n    Slide.titleText: the title text with vertical tab and carriage return line breaks normalized and surrounding whitespace removed.\n    Slide.slideNumberLabel: the translated Slide {slideNumber} label.\n    Shape.isSlideTitle: whether the shape is the current slide's title shape. This is always False in the notes page view.",
+      "sha": "6e38e89",
+      "url": "https://github.com/nvaccess/nvda/commit/6e38e89ec7c04fcd0d5a57381a07da7992324797"
     },
     {
       "slug": "nvdajp-community",
@@ -25,18 +37,6 @@
       "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
       "sha": "3495b75",
       "url": "https://github.com/nvdajp/nvdajp/commit/3495b7598f6365515745d59762e88ecfb1a738a7"
-    },
-    {
-      "slug": "nvda-screen-reader",
-      "projectName": "NVDA Screen Reader",
-      "category": "Phần mềm tiếp cận",
-      "type": "Trình đọc màn hình",
-      "timestamp": "2026-10-21T04:33:57Z",
-      "date": "21/10/2026",
-      "summary": "Only ask about copies of NVDA that keep running (#21033)",
-      "fullMessage": "Only ask about copies of NVDA that keep running (#21033)\n\nFixup of #20998\nSummary of the issue:\n\nSince #20998, updating NVDA with --install asks to end other running copies of NVDA, even when none keep running.\nWhenever NVDA starts, Windows Ease of Access briefly starts the installed copy, which quits again within about two seconds.\nThe launcher's check catches that copy before it quits, and warns that a copy of NVDA is running.\nDescription of user facing changes:\n\n    The question only appears when other copies of NVDA keep running after a timeout.\n    The progress dialog appears before NVDA checks for running copies.\n    Choosing not to end the running copies on the Install NVDA screen now fails the installation.\n    In Ask to end running copies of NVDA before installing #20998, this returned to the Install NVDA screen instead.\n    Now the installation failed error appears and the Install NVDA screen closes, as it already did when updating with --install.\n\nDescription of developer facing changes:\n\nNone.\nDescription of development approach:\n\n    installer._waitForRunningNVDAProcesses polls up to three seconds for the copies found to exit, and returns the ones still running.\n    gui.installerGui.doInstall shows the progress dialog and runs this wait in a background thread. It now asks whether to end the running copies, instead of its callers.\n    Choosing not to end those copies fails the installation, and doInstall shows the installation failed error.\n    installer.install uses the same wait for up to one second, instead of always sleeping one second.\n    It ends only the copies still running.",
-      "sha": "40e2df6",
-      "url": "https://github.com/nvaccess/nvda/commit/40e2df64cd2fdecdefa0b98f1056991b622c3d6e"
     },
     {
       "slug": "google-tts-for-nvda",
