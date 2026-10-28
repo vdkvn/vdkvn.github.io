@@ -1,18 +1,30 @@
 {
-  "lastChecked": "2026-10-27T04:43:36.401Z",
-  "lastCheckedVN": "27/10/2026",
+  "lastChecked": "2026-10-28T05:17:14.597Z",
+  "lastCheckedVN": "28/10/2026",
   "items": [
+    {
+      "slug": "nvda-screen-reader",
+      "projectName": "NVDA Screen Reader",
+      "category": "Phần mềm tiếp cận",
+      "type": "Trình đọc màn hình",
+      "timestamp": "2026-10-28T01:39:12Z",
+      "date": "28/10/2026",
+      "summary": "Ensure InputGesture dialog is accessible even if new gesture was not added (#21058)",
+      "fullMessage": "Ensure InputGesture dialog is accessible even if new gesture was not added (#21058)\n\nFixes #20980\nSummary of the issue:\n\nIf the InputGesturesDialog is entered and Add is clicked but no new input gesture added, this leaves the InputGesturesDialog inaccessible.\nDescription of user facing changes:\n\nUser can now see the InputGesturesDialog, even if the previous invocation of the dialog didn't add a new gesture properly\nDescription of developer facing changes:\n\nCheck for whether the InputGesturesDialog still has a CaptureFunc installed during teardown, and clear if so.\n\n    A new variable is created to store the last installed CaptureFunc in InputGesturesDialog, in order to compare against inputCore.manager._captureFunc when the dialog is destroyed\n    A new function _setCaptureFunc is created to encapsulate storing a new capture func both in InputGesturesDialog and also in inputCore.manager\n\nDescription of development approach:\n\nAlternatives were considered to the approach in the PR\n\n    Don't store the last captureFunc within InputGesturesDialog. Instead try to determine if inputCore.manager._captureFunc matches a lambda generated from a function within InputGesturesDialog. Rejected because the logic to do this check is very heuristic and hard to follow\n    Replace lambda functions with wrapper functions, for use a captureFunc. This means the check on the function is easier. Rejected because because it is a larger change\n    Avoid the check altogether - The dialog isn't modal, and it looks like other dialogs e.g. the help dialog can be invoked while the InputGesturesDialog is active. Rejected because it could potentially introduce subtle bugs.",
+      "sha": "ea1f2e3",
+      "url": "https://github.com/nvaccess/nvda/commit/ea1f2e38a587ce8645800a609dfb489b7c8b3678"
+    },
     {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
       "category": "Bản địa hóa & Giọng đọc",
       "type": "NVDA Nhật Bản",
-      "timestamp": "2026-10-27T01:49:02Z",
+      "timestamp": "2026-10-27T06:40:20Z",
       "date": "27/10/2026",
-      "summary": "Revert \"Merge pull request #764 from nvdajp/fix/ja-symbols-period-pause-758\"",
-      "fullMessage": "Revert \"Merge pull request #764 from nvdajp/fix/ja-symbols-period-pause-758\"\n\nThis reverts commit 1d3de8119fdc73127bf3fc62ae250ab36a88e9c5, reversing\nchanges made to 3495b7598f6365515745d59762e88ecfb1a738a7.",
-      "sha": "cb68c78",
-      "url": "https://github.com/nvdajp/nvdajp/commit/cb68c7871aa95a9b2ce44c374ca5d7b38adb7880"
+      "summary": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
+      "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
+      "sha": "bfc5c4a",
+      "url": "https://github.com/nvdajp/nvdajp/commit/bfc5c4a04d368fab59757003d10b7d37ba2787d0"
     },
     {
       "slug": "nvdaes-clip-contents-designer",
@@ -25,18 +37,6 @@
       "fullMessage": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
       "sha": "ef7b3f4",
       "url": "https://github.com/nvdaes/clipContentsDesigner/commit/ef7b3f4c0c03d6ebdece3a43a9a5e7a89364cafc"
-    },
-    {
-      "slug": "nvda-screen-reader",
-      "projectName": "NVDA Screen Reader",
-      "category": "Phần mềm tiếp cận",
-      "type": "Trình đọc màn hình",
-      "timestamp": "2026-10-25T22:52:09Z",
-      "date": "26/10/2026",
-      "summary": "PowerPoint: label slide titles and stop reading them twice (#20990)",
-      "fullMessage": "PowerPoint: label slide titles and stop reading them twice (#20990)\n\nFixes #9379\nSummary of the issue:\n\nIn Microsoft PowerPoint, NVDA reads the slide title twice. In a slide show, and when a slide is reported after a slide change, the slide name is built as Slide N (title). The slide text that follows is built from every shape on the slide, including the title shape, so the title is spoken again as the first line of the content. In editing views, the document window's name also includes the full slide name with its title, so the title is repeated when focus moves to the slide, and again when the title shape itself is focused.\n\nThere is also no clear boundary between the title and the rest of the slide, so it is hard to tell which text is the title and where the body starts.\nDescription of user facing changes:\n\nIn Microsoft PowerPoint:\n\n    The slide title is announced with a label, for example Slide 3 - Slide title: Quarterly results, instead of Slide 3 (Quarterly results).\n    In a slide show, the text of a slide starts with Slide title: <title>, then Slide contents, then the body text. The title is no longer read a second time as content. It is still in the reviewable text, so it can be reached with line navigation and say all.\n    Text in another shape that happens to match the title is still read. Only the designated title shape is skipped.\n    In editing (normal) view, the document pane reports only the slide number (for example Slide 3 - Slide), because the selected slide or title shape already reports the title.\n    A title shape with no alternative-text title is now named Slide title instead of Title placeholder. This also covers a text box set as the slide title with Check Accessibility > Set as Slide Title.\n    Slide contents is announced once when focus moves from the title into a non-title shape or its text, or when entering a new slide. It is not repeated for each body shape.\n    Speaker notes are unchanged and get no section labels.\n    Title-only, untitled, empty and blank-title slides work as before: no empty Slide contents label, and the existing empty-slide message is kept.\n\nNew translatable strings:\n\n    Slide title: {title}\n    Slide title\n    Slide contents\n\nDescription of developer facing changes:\n\nNew properties in appModules/powerpnt.py:\n\n    Slide.titleShape: the PowerPoint title shape, or None.\n    Slide.titleText: the title text with vertical tab and carriage return line breaks normalized and surrounding whitespace removed.\n    Slide.slideNumberLabel: the translated Slide {slideNumber} label.\n    Shape.isSlideTitle: whether the shape is the current slide's title shape. This is always False in the notes page view.",
-      "sha": "6e38e89",
-      "url": "https://github.com/nvaccess/nvda/commit/6e38e89ec7c04fcd0d5a57381a07da7992324797"
     },
     {
       "slug": "google-tts-for-nvda",
