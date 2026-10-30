@@ -1,18 +1,18 @@
 {
-  "lastChecked": "2026-10-29T05:28:09.399Z",
-  "lastCheckedVN": "29/10/2026",
+  "lastChecked": "2026-10-30T05:28:02.253Z",
+  "lastCheckedVN": "30/10/2026",
   "items": [
     {
       "slug": "nvda-screen-reader",
       "projectName": "NVDA Screen Reader",
       "category": "Phần mềm tiếp cận",
       "type": "Trình đọc màn hình",
-      "timestamp": "2026-10-28T01:39:12Z",
-      "date": "28/10/2026",
-      "summary": "Ensure InputGesture dialog is accessible even if new gesture was not added (#21058)",
-      "fullMessage": "Ensure InputGesture dialog is accessible even if new gesture was not added (#21058)\n\nFixes #20980\nSummary of the issue:\n\nIf the InputGesturesDialog is entered and Add is clicked but no new input gesture added, this leaves the InputGesturesDialog inaccessible.\nDescription of user facing changes:\n\nUser can now see the InputGesturesDialog, even if the previous invocation of the dialog didn't add a new gesture properly\nDescription of developer facing changes:\n\nCheck for whether the InputGesturesDialog still has a CaptureFunc installed during teardown, and clear if so.\n\n    A new variable is created to store the last installed CaptureFunc in InputGesturesDialog, in order to compare against inputCore.manager._captureFunc when the dialog is destroyed\n    A new function _setCaptureFunc is created to encapsulate storing a new capture func both in InputGesturesDialog and also in inputCore.manager\n\nDescription of development approach:\n\nAlternatives were considered to the approach in the PR\n\n    Don't store the last captureFunc within InputGesturesDialog. Instead try to determine if inputCore.manager._captureFunc matches a lambda generated from a function within InputGesturesDialog. Rejected because the logic to do this check is very heuristic and hard to follow\n    Replace lambda functions with wrapper functions, for use a captureFunc. This means the check on the function is easier. Rejected because because it is a larger change\n    Avoid the check altogether - The dialog isn't modal, and it looks like other dialogs e.g. the help dialog can be invoked while the InputGesturesDialog is active. Rejected because it could potentially introduce subtle bugs.",
-      "sha": "ea1f2e3",
-      "url": "https://github.com/nvaccess/nvda/commit/ea1f2e38a587ce8645800a609dfb489b7c8b3678"
+      "timestamp": "2026-10-30T04:39:44Z",
+      "date": "30/10/2026",
+      "summary": "Make the length limit for speaking selected text configurable (#21066)",
+      "fullMessage": "Make the length limit for speaking selected text configurable (#21066)\n\nCloses #20954\nSummary of the issue:\n\nNVDA speaks selected text only if it has fewer than 512 characters. Longer selections are reported as a character count. The limit is hard-coded and not able to be changed by the end user.\nDescription of user facing changes:\n\nThere is a new spin control setting in Voice settings, \"Speak selected text if it has fewer characters than\", that adjusts the limit. The default is 512. The range is 1 to 10000.\n\nThis same limit applies when the read selection command (NVDA+shift+upArrow) is pressed twice or three times to spell the selection.\nDescription of developer facing changes:\n\nThis change deprecates the speech.speech.MAX_LENGTH_FOR_SELECTION_REPORTING constant. Until it is removed (possibly in NVDA 2028.1), it returns the value of config.conf[\"speech\"][\"maxSelectionReportingLength\"]. Add-ons that read this constant keep working, but a deprecation warning is logged.\nDescription of development approach:\n\n    Added maxSelectionReportingLength to the [speech] section of the config spec.\n    Added speech.speech._isSelectionShortEnoughToSpeak, which both callers now use.\n    Added a spin control with context sensitive help to the Voice settings panel.\n    Replaced the constant with a RemovedSymbol deprecation through utils._deprecate.handleDeprecations.\n    Documented the setting in the User Guide.\n\nNo changelog entry has been added due to the feature freeze.\nI expect this PR to stay open until planning begins for the next release, or until the feature is ready.",
+      "sha": "783e427",
+      "url": "https://github.com/nvaccess/nvda/commit/783e427922caf7fbdb8a7be99af57aed16062253"
     },
     {
       "slug": "nvdajp-community",
