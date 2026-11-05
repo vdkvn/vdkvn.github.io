@@ -1,5 +1,149 @@
 [
   {
+    "id": "review-ytdlpDownloader",
+    "addonId": "ytdlpDownloader",
+    "addonName": "Video ve Ses İndirici",
+    "version": "1.2.4",
+    "title": "Hướng dẫn và đánh giá tiện ích: Video ve Ses İndirici (Bản 1.2.4)",
+    "summary": "Thông tin chi tiết về tiện ích Video ve Ses İndirici trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "04/11/2026",
+    "timestamp": "2026-11-04T16:42:28Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Fikret Uzun** phát triển theo giấy phép **GPL v2**.\n\nNVDA içinden tek videoları ve oynatma listelerini video veya ses olarak indirmeyi sağlar. Ses indirmelerinde medya bilgisi ve desteklenen biçimlerde kapak görseli ekleme seçenekleri sunar.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Video ve Ses İndirici](https://github.com/uzunfikret71-stack/nvda-ytdlp-downloader/releases/download/v1.2.4/Video-ve-Ses-Indirici-1.2.4.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/uzunfikret71-stack/nvda-ytdlp-downloader",
+    "downloadUrl": "https://github.com/uzunfikret71-stack/nvda-ytdlp-downloader/releases/download/v1.2.4/Video-ve-Ses-Indirici-1.2.4.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-ricerca_testuale_accesso_digitale",
+    "addonId": "ricerca_testuale_accesso_digitale",
+    "addonName": "Text Search Accesso Digitale",
+    "version": "1.9.5",
+    "title": "Hướng dẫn và đánh giá tiện ích: Text Search Accesso Digitale (Bản 1.9.5)",
+    "summary": "Thông tin chi tiết về tiện ích Text Search Accesso Digitale trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "04/11/2026",
+    "timestamp": "2026-11-04T14:23:54Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Maurizio Barra** phát triển theo giấy phép **GPL v2**.\n\nFast and accessible text and document search across files, folders and entire storage drives for NVDA, with RSS/Atom and Thunderbird Feeds support, local search history, direct jump to line, precise Word paragraph navigation, native EML reading, audio preview, earcons feedback, bookmarks, multi-format export and direct printing.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Text Search Accesso Digitale](https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.9.5/ricerca_testuale_accesso_digitale-1.9.5.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale",
+    "downloadUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.9.5/ricerca_testuale_accesso_digitale-1.9.5.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-audioSwitcher",
+    "addonId": "audioSwitcher",
+    "addonName": "Audio Switcher",
+    "version": "2026.5",
+    "title": "Hướng dẫn và đánh giá tiện ích: Audio Switcher (Bản 2026.5)",
+    "summary": "Thông tin chi tiết về tiện ích Audio Switcher trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "04/11/2026",
+    "timestamp": "2026-11-04T12:21:39Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **kamal yaser** phát triển theo giấy phép **GPL v2**.\n\nSets configured or directly selected speakers and microphones as default and announces current defaults.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Audio Switcher](https://github.com/kamalyaser31/nvda-audio-switcher/releases/download/v2026.5/audioSwitcher-2026.5.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/kamalyaser31/nvda-audio-switcher/",
+    "downloadUrl": "https://github.com/kamalyaser31/nvda-audio-switcher/releases/download/v2026.5/audioSwitcher-2026.5.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-brailleEssentials",
+    "addonId": "brailleEssentials",
+    "addonName": "Braille Essentials",
+    "version": "26.11.2",
+    "title": "Hướng dẫn và đánh giá tiện ích: Braille Essentials (Bản 26.11.2)",
+    "summary": "Thông tin chi tiết về tiện ích Braille Essentials trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "04/11/2026",
+    "timestamp": "2026-11-04T11:39:19Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **josephsl** phát triển theo giấy phép **GPL v2**.\n\nThis add-on provides essential features for NVDA users relying on braille support. The following features, deriving from Braille Extender, are available:\n\n* Reload two favorite braille display with shortcuts.\n* Automatic review cursor tethering in terminal role like in PuTTY, Powershell, bash, cmd.\n* Auto scroll.\n* Switch between several input/output braille tables.\n* Mark the text with special attributes through dot 7, dot 8 or both.\n* Use two output braille tables simultaneously.\n* Display tab signs as spaces.\n* Reverse forward scroll and back scroll buttons.\n* Say the current line during text scrolling either in review mode, or in focus mode or both.\n* Translate text easily in Unicode braille and vice versa. E.g.: z <--> ⠵.\n* Convert cell description to Unicode braille and vice versa. E.g.: 123 <--> ⠇.\n* Lock braille keyboard.\n* Launch an application/URL with gesture.\n* Braille dictionaries.\n* Type with one-hand from braille keyboard.\n* Display undefined characters from braille tables (including emojis) using altenative representations.\n* Enter any character from braille keyboard (including emojis).\n* Skip blank lines during text scrolling.\n* Speech History Mode.\n\nAnd much more.\n\nFor some braille displays, it extends the braille display commands to provide:\n\n* Offer complete gesture maps including function keys, multimedia keys, quick navigation, etc.\n* Emulate modifier keys, and thus any keyboard shortcut\n* Offer several keyboard configurations concerning the possibility to input dots 7 and 8, enter and backspace\n* Add actions and quick navigation through a rotor\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Braille Essentials](https://github.com/josephsl/brailleEssentials/releases/download/26.11.2/brailleEssentials-26.11.2.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/josephsl/brailleEssentials",
+    "downloadUrl": "https://github.com/josephsl/brailleEssentials/releases/download/26.11.2/brailleEssentials-26.11.2.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
     "id": "review-derDieDasPlusVerben",
     "addonId": "derDieDasPlusVerben",
     "addonName": "Der Die Das Plus Deutsche Verben",
@@ -33,42 +177,6 @@
     ],
     "repoUrl": "https://github.com/danijel-baricevic/DerDieDasPlusVerben",
     "downloadUrl": "https://github.com/danijel-baricevic/DerDieDasPlusVerben/releases/download/v1.2.1/derDieDasPlusVerben-1.2.1.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-ricerca_testuale_accesso_digitale",
-    "addonId": "ricerca_testuale_accesso_digitale",
-    "addonName": "Text Search Accesso Digitale",
-    "version": "1.9.4",
-    "title": "Hướng dẫn và đánh giá tiện ích: Text Search Accesso Digitale (Bản 1.9.4)",
-    "summary": "Thông tin chi tiết về tiện ích Text Search Accesso Digitale trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "03/11/2026",
-    "timestamp": "2026-11-03T15:25:42Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Maurizio Barra** phát triển theo giấy phép **GPL v2**.\n\nFast and accessible text and document search across files, folders and entire storage drives for NVDA, with RSS/Atom and Thunderbird Feeds support, local search history, direct jump to line, precise Word paragraph navigation, native EML reading, audio preview, earcons feedback, bookmarks, multi-format export and direct printing.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Text Search Accesso Digitale](https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.9.4/ricerca_testuale_accesso_digitale-1.9.4.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale",
-    "downloadUrl": "https://github.com/barramaurizio/ricerca_testuale_accesso_digitale/releases/download/v1.9.4/ricerca_testuale_accesso_digitale-1.9.4.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -321,42 +429,6 @@
     ],
     "repoUrl": "https://github.com/sharetoyouaccess/YoutubeAccessPro",
     "downloadUrl": "https://github.com/sharetoyouaccess/YoutubeAccessPro/releases/download/v2026.11.02/YoutubeAccessPro-2026.11.02.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-brailleEssentials",
-    "addonId": "brailleEssentials",
-    "addonName": "Braille Essentials",
-    "version": "26.11.1",
-    "title": "Hướng dẫn và đánh giá tiện ích: Braille Essentials (Bản 26.11.1)",
-    "summary": "Thông tin chi tiết về tiện ích Braille Essentials trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "02/11/2026",
-    "timestamp": "2026-11-02T05:53:42Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **josephsl** phát triển theo giấy phép **GPL v2**.\n\nThis add-on provides essential features for NVDA users relying on braille support. The following features, deriving from Braille Extender, are available:\n\n* Reload two favorite braille display with shortcuts.\n* Automatic review cursor tethering in terminal role like in PuTTY, Powershell, bash, cmd.\n* Auto scroll.\n* Switch between several input/output braille tables.\n* Mark the text with special attributes through dot 7, dot 8 or both.\n* Use two output braille tables simultaneously.\n* Display tab signs as spaces.\n* Reverse forward scroll and back scroll buttons.\n* Say the current line during text scrolling either in review mode, or in focus mode or both.\n* Translate text easily in Unicode braille and vice versa. E.g.: z <--> ⠵.\n* Convert cell description to Unicode braille and vice versa. E.g.: 123 <--> ⠇.\n* Lock braille keyboard.\n* Launch an application/URL with gesture.\n* Braille dictionaries.\n* Type with one-hand from braille keyboard.\n* Display undefined characters from braille tables (including emojis) using altenative representations.\n* Enter any character from braille keyboard (including emojis).\n* Skip blank lines during text scrolling.\n* Speech History Mode.\n\nAnd much more.\n\nFor some braille displays, it extends the braille display commands to provide:\n\n* Offer complete gesture maps including function keys, multimedia keys, quick navigation, etc.\n* Emulate modifier keys, and thus any keyboard shortcut\n* Offer several keyboard configurations concerning the possibility to input dots 7 and 8, enter and backspace\n* Add actions and quick navigation through a rotor\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Braille Essentials](https://github.com/josephsl/brailleEssentials/releases/download/26.11/brailleEssentials-26.11.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/josephsl/brailleEssentials",
-    "downloadUrl": "https://github.com/josephsl/brailleEssentials/releases/download/26.11/brailleEssentials-26.11.1.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -5724,42 +5796,6 @@
     "license": "GPL v2"
   },
   {
-    "id": "review-audioSwitcher",
-    "addonId": "audioSwitcher",
-    "addonName": "Audio Switcher",
-    "version": "2026.4",
-    "title": "Hướng dẫn và đánh giá tiện ích: Audio Switcher (Bản 2026.4)",
-    "summary": "Thông tin chi tiết về tiện ích Audio Switcher trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "30/09/2026",
-    "timestamp": "2026-09-30T16:08:00Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **kamal yaser** phát triển theo giấy phép **GPL v2**.\n\nSets configured or directly selected speakers and microphones as default and announces current defaults.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Audio Switcher](https://github.com/kamalyaser31/nvda-audio-switcher/releases/download/v2026.4/audioSwitcher-2026.4.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/kamalyaser31/nvda-audio-switcher",
-    "downloadUrl": "https://github.com/kamalyaser31/nvda-audio-switcher/releases/download/v2026.4/audioSwitcher-2026.4.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
     "id": "review-instantAccess",
     "addonId": "instantAccess",
     "addonName": "instant Access",
@@ -7414,42 +7450,6 @@
     "repoUrl": "https://github.com/chaichaimee/DictionaryDisplayLite",
     "downloadUrl": "https://github.com/chaichaimee/DictionaryDisplayLite/releases/download/2026.9.9/DictionaryDisplayLite-v2026.9.9.nvda-addon",
     "license": "GPL v2"
-  },
-  {
-    "id": "review-ytdlpDownloader",
-    "addonId": "ytdlpDownloader",
-    "addonName": "Video ve Ses İndirici",
-    "version": "1.2.3",
-    "title": "Hướng dẫn và đánh giá tiện ích: Video ve Ses İndirici (Bản 1.2.3)",
-    "summary": "Thông tin chi tiết về tiện ích Video ve Ses İndirici trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "09/09/2026",
-    "timestamp": "2026-09-09T08:53:00Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Fikret Uzun** phát triển theo giấy phép **GPL v2 or later**.\n\nNVDA içinden tek videoları ve oynatma listelerini video veya ses olarak indirmeyi sağlar. Ses indirmelerinde medya bilgisi ve desteklenen biçimlerde kapak görseli ekleme seçenekleri sunar.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Video ve Ses İndirici](https://github.com/uzunfikret71-stack/nvda-ytdlp-downloader/releases/download/v1.2.3/Video-ve-Ses-Indirici-1.2.3.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/uzunfikret71-stack/nvda-ytdlp-downloader",
-    "downloadUrl": "https://github.com/uzunfikret71-stack/nvda-ytdlp-downloader/releases/download/v1.2.3/Video-ve-Ses-Indirici-1.2.3.nvda-addon",
-    "license": "GPL v2 or later"
   },
   {
     "id": "review-aivoicedictation",
