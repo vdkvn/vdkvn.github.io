@@ -1,7 +1,19 @@
 {
-  "lastChecked": "2026-11-06T06:13:21.807Z",
-  "lastCheckedVN": "06/11/2026",
+  "lastChecked": "2026-11-07T05:40:50.102Z",
+  "lastCheckedVN": "07/11/2026",
   "items": [
+    {
+      "slug": "nvdaes-clip-contents-designer",
+      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
+      "category": "Công cụ tiếp cận",
+      "type": "Addon Tây Ban Nha",
+      "timestamp": "2026-11-07T00:24:48Z",
+      "date": "07/11/2026",
+      "summary": "Update translations",
+      "fullMessage": "Update translations",
+      "sha": "685acb2",
+      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/685acb224a7990dab6389a028529a048ee148350"
+    },
     {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
@@ -13,18 +25,6 @@
       "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
       "sha": "7ae1c41",
       "url": "https://github.com/nvdajp/nvdajp/commit/7ae1c419f1e78bbc64dcce461c13ff563d1a76a7"
-    },
-    {
-      "slug": "nvdaes-clip-contents-designer",
-      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
-      "category": "Công cụ tiếp cận",
-      "type": "Addon Tây Ban Nha",
-      "timestamp": "2026-11-03T00:18:25Z",
-      "date": "03/11/2026",
-      "summary": "Merge pull request #100 from nvdaes/dependabot/uv/uv-12db861cdd",
-      "fullMessage": "Merge pull request #100 from nvdaes/dependabot/uv/uv-12db861cdd\n\nBump certifi from 2026.5.20 to 2026.10.18 in the uv group across 1 directory",
-      "sha": "6fe557f",
-      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/6fe557ff2d0b7fd9d96b46053a1652ee940e4c8d"
     },
     {
       "slug": "nvda-screen-reader",
