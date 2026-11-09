@@ -1,7 +1,19 @@
 {
-  "lastChecked": "2026-11-08T05:43:35.470Z",
-  "lastCheckedVN": "08/11/2026",
+  "lastChecked": "2026-11-09T05:53:55.864Z",
+  "lastCheckedVN": "09/11/2026",
   "items": [
+    {
+      "slug": "nvda-screen-reader",
+      "projectName": "NVDA Screen Reader",
+      "category": "Phần mềm tiếp cận",
+      "type": "Trình đọc màn hình",
+      "timestamp": "2026-11-09T04:10:48Z",
+      "date": "09/11/2026",
+      "summary": "Fix screen curtain reporting a failure when the magnifier cannot be restarted, and reduce verbosity (#21099)",
+      "fullMessage": "Fix screen curtain reporting a failure when the magnifier cannot be restarted, and reduce verbosity (#21099)\n\nFixes #20518\nFixes #19528\nSummary of the issue:\n\nWhen the Screen Curtain is disabled, it restarts the Magnifier if it was active before. If the\nMagnifier then failed to determine what to follow — the log in #20518 shows a COMError from\nthe review position — the exception propagated out of ScreenCurtain.disable(). The Screen\nCurtain script then reported \"Could not disable screen curtain\", although the curtain had been\ndisabled. The Magnifier was left marked active without actually magnifying.\n\nSeparately, toggling the Screen Curtain with the Magnifier active announced \"Disabling magnifier\"\nand \"Re-enabling magnifier\", which #19528 found too verbose.\nDescription of user facing changes:\n\n    Disabling the Screen Curtain reports \"Screen curtain disabled\" whenever it actually is disabled.\n    The Magnifier is restarted even if it cannot immediately determine what to follow; it starts at\n    the centre of the screen.\n    If the Magnifier cannot be restarted, the reason is still reported.\n    Toggling the Screen Curtain no longer announces that the Magnifier is being disabled or\n    re-enabled.\n\nDescription of developer facing changes:\n\nNone.\nDescription of development approach:\n\nThree commits, matching the analysis in #20518, plus the changelog:\n\n    Magnifier._startMagnifier handles failures to determine the tracked position. It catches\n    the same exception types that Stop review position errors from crashing the magnifier #20992 turns into LocationUnavailableError. Stop review position errors from crashing the magnifier #20992 absorbs the\n    Error when disabling screen curtain and reenabling Magnifier #20518 review position error inside the focus manager; this guard fixes it on master today and\n    remains a safety net afterwards. Programming errors still propagate.\n    ScreenCurtain.enable() and disable() isolate their Magnifier notifications. A Magnifier\n    failure is logged and does not affect the Screen Curtain's outcome; in particular it can no\n    longer prevent the screen from being hidden.\n    The \"Disabling magnifier\" and \"Re-enabling magnifier\" announcements are removed. The existing\n    MagnifierStartError messages are kept, so a failed restart is still reported with its reason.\n    No new strings.\n\nDepends on #20992. This PR makes _startMagnifier() survive a failure to determine what to\ntrack, but the update loop that runs immediately afterwards still reads the same position. On\nmaster that loop counts a tracking failure as a magnification failure, so a persistent failure\ncan still stop the magnifier a few ticks after the restart. #20992 rewrites that loop and fixes\nexactly this, so it is not duplicated here. The failure reported in #20518 is a transient one and\nis fixed by this PR alone.\n\nCompatible with #21034: its \"Magnification API unavailable\" case raises MagnifierStartError,\nwhich this path already reports.",
+      "sha": "2482059",
+      "url": "https://github.com/nvaccess/nvda/commit/24820590bcde263162559d93aa2c191e1123308e"
+    },
     {
       "slug": "nvdaes-clip-contents-designer",
       "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
@@ -25,18 +37,6 @@
       "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
       "sha": "7ae1c41",
       "url": "https://github.com/nvdajp/nvdajp/commit/7ae1c419f1e78bbc64dcce461c13ff563d1a76a7"
-    },
-    {
-      "slug": "nvda-screen-reader",
-      "projectName": "NVDA Screen Reader",
-      "category": "Phần mềm tiếp cận",
-      "type": "Trình đọc màn hình",
-      "timestamp": "2026-11-02T05:49:29Z",
-      "date": "02/11/2026",
-      "summary": "Beta to master (#21102)",
-      "fullMessage": "Beta to master (#21102)",
-      "sha": "8475635",
-      "url": "https://github.com/nvaccess/nvda/commit/84756356cd19a57cfeb4ef265619e54850e06568"
     },
     {
       "slug": "google-tts-for-nvda",
