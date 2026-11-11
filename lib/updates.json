@@ -1,7 +1,19 @@
 {
-  "lastChecked": "2026-11-10T06:58:30.769Z",
-  "lastCheckedVN": "10/11/2026",
+  "lastChecked": "2026-11-11T05:49:52.065Z",
+  "lastCheckedVN": "11/11/2026",
   "items": [
+    {
+      "slug": "nvdajp-community",
+      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
+      "category": "Bản địa hóa & Giọng đọc",
+      "type": "NVDA Nhật Bản",
+      "timestamp": "2026-11-10T12:40:13Z",
+      "date": "10/11/2026",
+      "summary": "Merge branch 'releasejp' into betajp",
+      "fullMessage": "Merge branch 'releasejp' into betajp",
+      "sha": "f9be6d7",
+      "url": "https://github.com/nvdajp/nvdajp/commit/f9be6d7fae3d987f69204e3b952134db43371a84"
+    },
     {
       "slug": "nvda-screen-reader",
       "projectName": "NVDA Screen Reader",
@@ -25,18 +37,6 @@
       "fullMessage": "Update translations",
       "sha": "685acb2",
       "url": "https://github.com/nvdaes/clipContentsDesigner/commit/685acb224a7990dab6389a028529a048ee148350"
-    },
-    {
-      "slug": "nvdajp-community",
-      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
-      "category": "Bản địa hóa & Giọng đọc",
-      "type": "NVDA Nhật Bản",
-      "timestamp": "2026-11-04T01:34:38Z",
-      "date": "04/11/2026",
-      "summary": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
-      "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp",
-      "sha": "7ae1c41",
-      "url": "https://github.com/nvdajp/nvdajp/commit/7ae1c419f1e78bbc64dcce461c13ff563d1a76a7"
     },
     {
       "slug": "google-tts-for-nvda",
