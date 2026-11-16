@@ -1,18 +1,30 @@
 {
-  "lastChecked": "2026-11-15T06:01:40.601Z",
-  "lastCheckedVN": "15/11/2026",
+  "lastChecked": "2026-11-16T06:00:35.190Z",
+  "lastCheckedVN": "16/11/2026",
   "items": [
+    {
+      "slug": "nvdaes-clip-contents-designer",
+      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
+      "category": "Công cụ tiếp cận",
+      "type": "Addon Tây Ban Nha",
+      "timestamp": "2026-11-16T00:22:20Z",
+      "date": "16/11/2026",
+      "summary": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
+      "fullMessage": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
+      "sha": "1049d4b",
+      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/1049d4b2cbc1f2ebf4870ee810bd6ea0b8e447a1"
+    },
     {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
       "category": "Bản địa hóa & Giọng đọc",
       "type": "NVDA Nhật Bản",
-      "timestamp": "2026-11-10T12:40:13Z",
-      "date": "10/11/2026",
-      "summary": "Merge branch 'releasejp' into betajp",
-      "fullMessage": "Merge branch 'releasejp' into betajp",
-      "sha": "f9be6d7",
-      "url": "https://github.com/nvdajp/nvdajp/commit/f9be6d7fae3d987f69204e3b952134db43371a84"
+      "timestamp": "2026-11-15T07:30:46Z",
+      "date": "15/11/2026",
+      "summary": "Merge pull request #779 from nvdajp/fix/kansuji-nakaten-decimal-778",
+      "fullMessage": "Merge pull request #779 from nvdajp/fix/kansuji-nakaten-decimal-778\n\nSync vendored libkuraji: translate Kansuji middle-dot decimals as braille decimal point (fixes #778)",
+      "sha": "b3e4aa2",
+      "url": "https://github.com/nvdajp/nvdajp/commit/b3e4aa25325b2de76b00ab5f4386b36acf5dcc9c"
     },
     {
       "slug": "nvda-screen-reader",
@@ -25,18 +37,6 @@
       "fullMessage": "Merge beta to master (#21128)\n\nCo-authored-by: GitHub Actions <actions@github.com>\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\nCo-authored-by: Cyrille Bougot <cyrille.bougot2@laposte.net>\nCo-authored-by: Sascha Cowley <16543535+SaschaCowley@users.noreply.github.com>\nCo-authored-by: wencong <manchen_0528@outlook.com>\nCo-authored-by: Bram Duvigneau <bram@bramd.nl>\nCo-authored-by: Leonard de Ruijter <3049216+LeonarddeR@users.noreply.github.com>\nCo-authored-by: Andrew Johnson <andrew@johnson5.net>\nCo-authored-by: Michael Curran <mick@nvaccess.org>\nCo-authored-by: makhlwf <78276231+makhlwf@users.noreply.github.com>\nCo-authored-by: Muhammad Danish <mdanishkhdev@gmail.com>\nCo-authored-by: GitHub Actions <github-actions@github.com>\nCo-authored-by: Joseph Lee <joseph.lee22590@gmail.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Noelia Ruiz Martínez <nrm1977@gmail.com>\nCo-authored-by: Chris Nestrud <ccn@chrisnestrud.com>\nCo-authored-by: Peng-An Chen <andy72039@gmail.com>\nCo-authored-by: theshippeys <70630679+theshippeys@users.noreply.github.com>\nCo-authored-by: Tarik Hadžirović <165835190+tareh7z@users.noreply.github.com>\nCo-authored-by: Jani Kinnunen <janikinnunen340@gmail.com>\nCo-authored-by: Im Seongho <moo_beats_0e@icloud.com>\nCo-authored-by: Christos <chrisbouronikos@gmail.com>\nCo-authored-by: Carter Temm <carter@ctemm.me>\nCo-authored-by: James Teh <jamie@jantrid.net>\nCo-authored-by: Ozancan Karataş <ozancankaratas96@outlook.com>\nCo-authored-by: WangFeng Huang <1398969445@qq.com>\nCo-authored-by: WMHN <1872265132@qq.com>\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\nCo-authored-by: Quentin Christensen <quentin@nvaccess.org>\nCo-authored-by: heath-toby <46864843+heath-toby@users.noreply.github.com>\nCo-authored-by: Ethin Probst <ethindp@pm.me>\nCo-authored-by: xingkong <26911141+dpy013@users.noreply.github.com>\nCo-authored-by: mehm8128 <mehm8128@gmail.com>\nCo-authored-by: Reza Bakhshi Laktasaraei <74649066+rezabakhshilaktasaraei@users.noreply.github.com>\nCo-authored-by: Boumtchack <147637328+Boumtchack@users.noreply.github.com>\nCo-authored-by: dreinn <simone.dalmaso@gmail.com>\nCo-authored-by: José Manuel Delicado <jmdaweb@users.noreply.github.com>\nCo-authored-by: Kefas Lungu <84945041+kefaslungu@users.noreply.github.com>\nCo-authored-by: Amir <69115921+amirmahdifard@users.noreply.github.com>\nCo-authored-by: abdel792 <abdelkrim.bensaid@gmail.com>\nCo-authored-by: Keyang556 <65295310+keyang556@users.noreply.github.com>\nCo-authored-by: Ryan McCleary <remccleary@gmail.com>\nCo-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>\nCo-authored-by: Aryan Choudhary <126301257+aryanchoudharypro@users.noreply.github.com>\nCo-authored-by: Zvonimir Stanečić <zvonimirek222@yandex.com>\nCo-authored-by: nidza07 <wwenikola123@gmail.com>\nCo-authored-by: Takuya Nishimoto <nishimotz@gmail.com>\nCo-authored-by: André-Abush Clause <dev@andreabc.net>\nCo-authored-by: Bill Dengler <codeofdusk@gmail.com>\nCo-authored-by: Spacey <85053722+Mubashir78@users.noreply.github.com>\nCo-authored-by: fla-rion <mortag1123@hotmail.com>\nCo-authored-by: Karl-Otto Rosenqvist <karl-otto@towebo.se>\nCo-authored-by: Daniel <32520761+danielw97@users.noreply.github.com>\nCo-authored-by: Christopher Proß <cpross@mailbox.org>\nCo-authored-by: Niklas Wasserberg <90387710+watermountain0@users.noreply.github.com>\nCo-authored-by: FelixGruetzmacher <constantlyvariable@gmail.com>\nCo-authored-by: Arnold Loubriat <datatriny@gmail.com>\nCo-authored-by: BFW-Wuerzburg <nvda@bfw-wuerzburg.de>\nCo-authored-by: chojiro <chojiro1990@gmail.com>\nCo-authored-by: Dane Parin <emphyst80@gmail.com>\nCo-authored-by: KihunJang1981 <157877457+KihunJang1981@users.noreply.github.com>\nCo-authored-by: audioses <67341000+audioses@users.noreply.github.com>\nCo-authored-by: Shimmy0530 <174157878+Shimmy0530@users.noreply.github.com>\nCo-authored-by: Julien Cochuyt <JulienCochuyt@users.noreply.github.com>\nCo-authored-by: raebened <19628003+raebened@users.noreply.github.com>\nCo-authored-by: Tanyieleke Nkolaka <66253084+b-tanyileke@users.noreply.github.com>",
       "sha": "af55fb6",
       "url": "https://github.com/nvaccess/nvda/commit/af55fb6b6485f08757733aa7cd1d6f30e8a19563"
-    },
-    {
-      "slug": "nvdaes-clip-contents-designer",
-      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
-      "category": "Công cụ tiếp cận",
-      "type": "Addon Tây Ban Nha",
-      "timestamp": "2026-11-07T00:24:48Z",
-      "date": "07/11/2026",
-      "summary": "Update translations",
-      "fullMessage": "Update translations",
-      "sha": "685acb2",
-      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/685acb224a7990dab6389a028529a048ee148350"
     },
     {
       "slug": "google-tts-for-nvda",
