@@ -1,30 +1,30 @@
 {
-  "lastChecked": "2026-11-17T07:38:55.507Z",
-  "lastCheckedVN": "17/11/2026",
+  "lastChecked": "2026-11-18T07:00:34.699Z",
+  "lastCheckedVN": "18/11/2026",
   "items": [
-    {
-      "slug": "nvda-screen-reader",
-      "projectName": "NVDA Screen Reader",
-      "category": "Phần mềm tiếp cận",
-      "type": "Trình đọc màn hình",
-      "timestamp": "2026-11-17T02:10:36Z",
-      "date": "17/11/2026",
-      "summary": "Updating BrowseModePanel Range of Values for Maximum number of characters on one line Setting (#21105)",
-      "fullMessage": "Updating BrowseModePanel Range of Values for Maximum number of characters on one line Setting (#21105)\n\nCloses #20478\nSummary of the issue:\n\nWhen browse mode is set to use screen layout navigation, paragraphs exceeding 250 characters are frequently encountered and are often split at awkward places. Increasing the limit to 1000 and adding 0 as an option will help to improve user experience.\nDescription of user facing changes:\n\nUsers can now set the \"Maximum number of characters on one line\" anywhere from 0 to 1000 characters. Selecting 0 means lines are no longer split.\nDescription of developer facing changes:\n\nN/A. The change doesn't affect core logic; it is limited to changing a setting min and max values.\nDescription of development approach:\n\nThe setting in question is stored as config.conf[\"virtualBuffers\"][\"maxLineLength\"], it is defined in source/config/configSpec.py:217 and has no min/max as indicated in source/gui/settingsDialogs.py:2615 which is where the range for the \"Maximum number of characters on one line\" setting is defined via a SelectOnFocusSpinCtrl. I also validated that logic in nvdaHelper/vbufBase/storage.cpp:1074-1210 only takes maxLength into consideration if it is larger than 0. I leveraged AI to understand the flow of code from setting the value in the Browse Mode Panel to the line splitting portion of the code to ensure that adding the new range did not break existing code. I also used AI to create unit tests and system tests replicating the behavior I tested manually.",
-      "sha": "25e8f02",
-      "url": "https://github.com/nvaccess/nvda/commit/25e8f022113df7251a022c9714c10407cfb0a702"
-    },
     {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
       "category": "Bản địa hóa & Giọng đọc",
       "type": "NVDA Nhật Bản",
-      "timestamp": "2026-11-16T13:44:08Z",
-      "date": "16/11/2026",
-      "summary": "Merge pull request #780 from nvdajp/merge-nvaccess-beta-2027.1",
-      "fullMessage": "Merge pull request #780 from nvdajp/merge-nvaccess-beta-2027.1\n\nMerge nvaccess/beta (2027.1) into betajp",
-      "sha": "0a5b4c4",
-      "url": "https://github.com/nvdajp/nvdajp/commit/0a5b4c422d849978f738ef722ac52e993474f46e"
+      "timestamp": "2026-11-18T03:26:56Z",
+      "date": "18/11/2026",
+      "summary": "Merge pull request #782 from nvdajp/fix/unknown-word-choon-braille",
+      "fullMessage": "Merge pull request #782 from nvdajp/fix/unknown-word-choon-braille\n\nfix(jtalk): avoid corrupting preceding morpheme when unknown word precedes choon",
+      "sha": "290cc55",
+      "url": "https://github.com/nvdajp/nvdajp/commit/290cc55fd792ce262f293ada8d183dd255d6eb53"
+    },
+    {
+      "slug": "nvda-screen-reader",
+      "projectName": "NVDA Screen Reader",
+      "category": "Phần mềm tiếp cận",
+      "type": "Trình đọc màn hình",
+      "timestamp": "2026-11-18T01:49:01Z",
+      "date": "18/11/2026",
+      "summary": "Change log for #21158 (#21165)",
+      "fullMessage": "Change log for #21158 (#21165)",
+      "sha": "bfe9a2e",
+      "url": "https://github.com/nvaccess/nvda/commit/bfe9a2ee6701c2a90c006406246cf233acbd2041"
     },
     {
       "slug": "nvdaes-clip-contents-designer",
