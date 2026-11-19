@@ -1,7 +1,19 @@
 {
-  "lastChecked": "2026-11-18T07:00:34.699Z",
-  "lastCheckedVN": "18/11/2026",
+  "lastChecked": "2026-11-19T07:01:01.801Z",
+  "lastCheckedVN": "19/11/2026",
   "items": [
+    {
+      "slug": "nvda-screen-reader",
+      "projectName": "NVDA Screen Reader",
+      "category": "Phần mềm tiếp cận",
+      "type": "Trình đọc màn hình",
+      "timestamp": "2026-11-19T05:37:22Z",
+      "date": "19/11/2026",
+      "summary": "Beta to master (#21173)",
+      "fullMessage": "Beta to master (#21173)\n\nCo-authored-by: Leonard de Ruijter <3049216+LeonarddeR@users.noreply.github.com>\nCo-authored-by: GitHub Actions <actions@github.com>\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\nCo-authored-by: GitHub Actions <github-actions@github.com>\nCo-authored-by: Zvonimir Stanečić <zvonimirek222@yandex.com>",
+      "sha": "0cede96",
+      "url": "https://github.com/nvaccess/nvda/commit/0cede9681d10283d1a3482c393f8e55b0a27bd98"
+    },
     {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
@@ -13,18 +25,6 @@
       "fullMessage": "Merge pull request #782 from nvdajp/fix/unknown-word-choon-braille\n\nfix(jtalk): avoid corrupting preceding morpheme when unknown word precedes choon",
       "sha": "290cc55",
       "url": "https://github.com/nvdajp/nvdajp/commit/290cc55fd792ce262f293ada8d183dd255d6eb53"
-    },
-    {
-      "slug": "nvda-screen-reader",
-      "projectName": "NVDA Screen Reader",
-      "category": "Phần mềm tiếp cận",
-      "type": "Trình đọc màn hình",
-      "timestamp": "2026-11-18T01:49:01Z",
-      "date": "18/11/2026",
-      "summary": "Change log for #21158 (#21165)",
-      "fullMessage": "Change log for #21158 (#21165)",
-      "sha": "bfe9a2e",
-      "url": "https://github.com/nvaccess/nvda/commit/bfe9a2ee6701c2a90c006406246cf233acbd2041"
     },
     {
       "slug": "nvdaes-clip-contents-designer",
