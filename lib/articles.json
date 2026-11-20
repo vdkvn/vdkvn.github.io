@@ -1,5 +1,41 @@
 [
   {
+    "id": "review-prayerTimes",
+    "addonId": "prayerTimes",
+    "addonName": "prayer times",
+    "version": "3.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: prayer times (Bản 3.0)",
+    "summary": "Thông tin chi tiết về tiện ích prayer times trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "20/11/2026",
+    "timestamp": "2026-11-19T18:33:50Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Mister Anas** phát triển theo giấy phép **GPL v2**.\n\nAn NVDA screen reader add-on that allows you to quickly get the current prayer times for Muslims anywhere on Earth.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải prayer times](https://github.com/mesteranas/prayerTimes_nvda-addon/releases/download/v3.0/prayerTimes-3.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/mesteranas/prayerTimes_nvda-addon/",
+    "downloadUrl": "https://github.com/mesteranas/prayerTimes_nvda-addon/releases/download/v3.0/prayerTimes-3.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
     "id": "review-ClipHistory",
     "addonId": "ClipHistory",
     "addonName": "ClipboardHistory",

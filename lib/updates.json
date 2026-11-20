@@ -1,18 +1,18 @@
 {
-  "lastChecked": "2026-11-19T07:01:01.801Z",
-  "lastCheckedVN": "19/11/2026",
+  "lastChecked": "2026-11-20T06:53:57.904Z",
+  "lastCheckedVN": "20/11/2026",
   "items": [
     {
       "slug": "nvda-screen-reader",
       "projectName": "NVDA Screen Reader",
       "category": "Phần mềm tiếp cận",
       "type": "Trình đọc màn hình",
-      "timestamp": "2026-11-19T05:37:22Z",
-      "date": "19/11/2026",
-      "summary": "Beta to master (#21173)",
-      "fullMessage": "Beta to master (#21173)\n\nCo-authored-by: Leonard de Ruijter <3049216+LeonarddeR@users.noreply.github.com>\nCo-authored-by: GitHub Actions <actions@github.com>\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\nCo-authored-by: GitHub Actions <github-actions@github.com>\nCo-authored-by: Zvonimir Stanečić <zvonimirek222@yandex.com>",
-      "sha": "0cede96",
-      "url": "https://github.com/nvaccess/nvda/commit/0cede9681d10283d1a3482c393f8e55b0a27bd98"
+      "timestamp": "2026-11-20T02:32:23Z",
+      "date": "20/11/2026",
+      "summary": "Small caps reporting - Do no mention MS Word UIA (#21178)",
+      "fullMessage": "Small caps reporting - Do no mention MS Word UIA (#21178)\n\nFollow-up of #20922.\nSummary of the issue:\n\nPR #20922 only advertised that it implemented small caps reporting for Word UIA (maybe my fault), whereas that PR actually also support small caps reporting in Word when using legacy Word object model.\nDescription of user facing changes:\n\nThe GUI and the User Guide no longer mention Word UIA in the \"small caps reporting\" feature description.\nAlthough only Word is supported, the options usually do not mention restriction to indicate they only work in a specific software. I guess that line or paragraph indentation reporting is not supported on the web, although it is not mentioned in the option's names.",
+      "sha": "c295c81",
+      "url": "https://github.com/nvaccess/nvda/commit/c295c817dae5f44f9fe9f9f7e8ce1ed8cd6bb350"
     },
     {
       "slug": "nvdajp-community",
