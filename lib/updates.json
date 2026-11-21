@@ -1,7 +1,31 @@
 {
-  "lastChecked": "2026-11-20T06:53:57.904Z",
-  "lastCheckedVN": "20/11/2026",
+  "lastChecked": "2026-11-21T06:49:14.256Z",
+  "lastCheckedVN": "21/11/2026",
   "items": [
+    {
+      "slug": "nvdaes-clip-contents-designer",
+      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
+      "category": "Công cụ tiếp cận",
+      "type": "Addon Tây Ban Nha",
+      "timestamp": "2026-11-21T00:26:18Z",
+      "date": "21/11/2026",
+      "summary": "Update translations",
+      "fullMessage": "Update translations",
+      "sha": "de90dde",
+      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/de90dde59f859f47e86cdd2cf1b024c7daa9fbbc"
+    },
+    {
+      "slug": "nvdajp-community",
+      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
+      "category": "Bản địa hóa & Giọng đọc",
+      "type": "NVDA Nhật Bản",
+      "timestamp": "2026-11-21T00:13:23Z",
+      "date": "21/11/2026",
+      "summary": "Merge pull request #787 from nvdajp/fix/espeak-msvc-compile",
+      "fullMessage": "Merge pull request #787 from nvdajp/fix/espeak-msvc-compile\n\nbuild(espeak): update include/espeak for MSVC 14.52 fix (nvaccess/nvda#21179)",
+      "sha": "294d385",
+      "url": "https://github.com/nvdajp/nvdajp/commit/294d385ae75b5aa991e3ee67e0235d95bc01c1ae"
+    },
     {
       "slug": "nvda-screen-reader",
       "projectName": "NVDA Screen Reader",
@@ -15,30 +39,6 @@
       "url": "https://github.com/nvaccess/nvda/commit/c295c817dae5f44f9fe9f9f7e8ce1ed8cd6bb350"
     },
     {
-      "slug": "nvdajp-community",
-      "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
-      "category": "Bản địa hóa & Giọng đọc",
-      "type": "NVDA Nhật Bản",
-      "timestamp": "2026-11-18T03:26:56Z",
-      "date": "18/11/2026",
-      "summary": "Merge pull request #782 from nvdajp/fix/unknown-word-choon-braille",
-      "fullMessage": "Merge pull request #782 from nvdajp/fix/unknown-word-choon-braille\n\nfix(jtalk): avoid corrupting preceding morpheme when unknown word precedes choon",
-      "sha": "290cc55",
-      "url": "https://github.com/nvdajp/nvdajp/commit/290cc55fd792ce262f293ada8d183dd255d6eb53"
-    },
-    {
-      "slug": "nvdaes-clip-contents-designer",
-      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
-      "category": "Công cụ tiếp cận",
-      "type": "Addon Tây Ban Nha",
-      "timestamp": "2026-11-16T00:22:20Z",
-      "date": "16/11/2026",
-      "summary": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
-      "fullMessage": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
-      "sha": "1049d4b",
-      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/1049d4b2cbc1f2ebf4870ee810bd6ea0b8e447a1"
-    },
-    {
       "slug": "google-tts-for-nvda",
       "projectName": "Google TTS for NVDA",
       "category": "Bộ đọc tiếng nói",
@@ -48,7 +48,7 @@
       "summary": "Announced the official release of version 1.0",
       "fullMessage": "Announced the official release of version 1.0\n\nUpdated readme.md to clearly display the 1.0 version number, release date, changelog, and latest add-on download link to improve search engine optimization performance.",
       "sha": "943890c",
-      "url": "https://github.com/nguyenanhduc09/Google-TTS-For-NVDA/commit/943890cc7a3669ba74b87295b0997420d981a16b"
+      "url": "https://github.com/phamhungvuong302/Google-TTS-For-NVDA/commit/943890cc7a3669ba74b87295b0997420d981a16b"
     },
     {
       "slug": "nvda-network-optimizer",
