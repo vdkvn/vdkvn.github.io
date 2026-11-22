@@ -1,5 +1,185 @@
 [
   {
+    "id": "review-AudioToggles",
+    "addonId": "AudioToggles",
+    "addonName": "Audio Toggles",
+    "version": "4.0.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: Audio Toggles (Bản 4.0.0)",
+    "summary": "Thông tin chi tiết về tiện ích Audio Toggles trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "22/11/2026",
+    "timestamp": "2026-11-22T05:52:14Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **rajathtirumangalam** phát triển theo giấy phép **GPL v2**.\n\nKeyboard shortcuts and dialogs to toggle speaker and microphone mute, cycle or choose audio devices, control volume, save presets and adjust per-application volume.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Audio Toggles](https://github.com/rajathtirumangalam/AudioToggles/releases/download/v4.0/AudioToggles-4.0.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/rajathtirumangalam/AudioToggles",
+    "downloadUrl": "https://github.com/rajathtirumangalam/AudioToggles/releases/download/v4.0/AudioToggles-4.0.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-protonVPNAccessibility",
+    "addonId": "protonVPNAccessibility",
+    "addonName": "ProtonVPN Accessibility",
+    "version": "2.0.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: ProtonVPN Accessibility (Bản 2.0.0)",
+    "summary": "Thông tin chi tiết về tiện ích ProtonVPN Accessibility trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "22/11/2026",
+    "timestamp": "2026-11-21T23:48:51Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Mama Sene** phát triển theo giấy phép **GPL v2**.\n\nImproves accessibility of the ProtonVPN Windows application for NVDA users.\n\nMain features:\n- Proper labeling of buttons and controls\n- A searchable list of every country and city on display\n- Dynamic announcements for VPN status information\n- Announcements for IP address, country, provider and traffic\n- Keyboard shortcuts for quick actions\n- French and English documentation\n\nThis is a community add-on and is not affiliated with Proton AG.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải ProtonVPN Accessibility](https://github.com/mamasene/add-on_protonvpn-o/releases/download/v2.0.0/protonVPNAccessibility-2.0.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/mamasene/add-on_protonvpn-o",
+    "downloadUrl": "https://github.com/mamasene/add-on_protonvpn-o/releases/download/v2.0.0/protonVPNAccessibility-2.0.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-awqati",
+    "addonId": "awqati",
+    "addonName": "Awqati: prayer times, calendars, weather, astronomical information and time tools.",
+    "version": "8.2.2",
+    "title": "Hướng dẫn và đánh giá tiện ích: Awqati: prayer times, calendars, weather, astronomical information and time tools. (Bản 8.2.2)",
+    "summary": "Thông tin chi tiết về tiện ích Awqati: prayer times, calendars, weather, astronomical information and time tools. trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "22/11/2026",
+    "timestamp": "2026-11-21T20:36:55Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **ali alomari** phát triển theo giấy phép **GPL v2 or later**.\n\nAwqati is a comprehensive add-on for the NVDA screen reader, combining prayer times, calendars, astronomical information and time management tools. It also provides access to weather services and historical events through an accessible interface that supports Arabic and English.\n\nThe add-on provides the times of the five daily prayers, sunrise, midnight and the start of the last third of the night. It allows users to configure alerts for the start of prayer times and Iqama, and to set alerts before and after prayers. It also provides Zawali and Ghurubi time, as well as the Qibla direction.\n\nIt supports five calendars: Gregorian, Lunar Hijri, Saudi Solar Hijri, Persian Solar Hijri and Afghan Solar Hijri, along with tools for converting dates between the different calendars.\n\nThe add-on provides daily astronomical information, as well as information from the traditional Arabian calendar.\n\nIts features include reminders for adhkar and daily Wird, configurable quiet hours, and a range of time management tools, including personal alarms, countdown timers, a stopwatch and a world clock.\n\nIt also offers an optional weather service for checking current weather conditions and forecasts for the coming hours and days, with accessible text reports.\n\nThe add-on also includes an \"On This Day\" service that draws its information from Wikipedia and presents notable historical events, births, deaths, holidays and observances, either through direct narration or on web pages designed for browsing with a screen reader, with links to the original articles.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Awqati: prayer times, calendars, weather, astronomical information and time tools.](https://github.com/alialomari-coder/Awqati/releases/download/v8.2.2/awqati-8.2.2.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/alialomari-coder/Awqati/tree/v8.2.2",
+    "downloadUrl": "https://github.com/alialomari-coder/Awqati/releases/download/v8.2.2/awqati-8.2.2.nvda-addon",
+    "license": "GPL v2 or later"
+  },
+  {
+    "id": "review-typix",
+    "addonId": "typix",
+    "addonName": "Typix",
+    "version": "1.0.6",
+    "title": "Hướng dẫn và đánh giá tiện ích: Typix (Bản 1.0.6)",
+    "summary": "Thông tin chi tiết về tiện ích Typix trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "22/11/2026",
+    "timestamp": "2026-11-21T17:58:26Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **OlegTheSnowman** phát triển theo giấy phép **GPL v2**.\n\nTypix plays typing sounds in text fields, with separate sounds for letters, capitals, space, Enter, Tab, Backspace, Delete and punctuation. Each character can have its own stereo position and pitch. Comes with mechanical keyboard packs and an editor to make your own. It can also beep on misspelled words and suggest corrections, turn shortcuts into longer text, speak the whole word after a correction, and show typing statistics.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Typix](https://github.com/OlegTheSnowman/typix/releases/download/v1.0.6/typix-1.0.6.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/OlegTheSnowman/typix",
+    "downloadUrl": "https://github.com/OlegTheSnowman/typix/releases/download/v1.0.6/typix-1.0.6.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-wisprFlow",
+    "addonId": "wisprFlow",
+    "addonName": "Wispr Flow for NVDA",
+    "version": "1.0.4",
+    "title": "Hướng dẫn và đánh giá tiện ích: Wispr Flow for NVDA (Bản 1.0.4)",
+    "summary": "Thông tin chi tiết về tiện ích Wispr Flow for NVDA trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "21/11/2026",
+    "timestamp": "2026-11-21T12:17:45Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **ashu-choudhury** phát triển theo giấy phép **MIT**.\n\nLightweight, zero-ducking AI voice dictation client for NVDA powered by Wispr Flow AI. Replaces the resource-heavy official Electron app with native NVDA integration, full screen reader audio preservation, instant clipboard pasting, and automatic HTML list cleanup.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Wispr Flow for NVDA](https://github.com/ashu-choudhury/WisprFlow-NVDA/releases/download/v1.0.4/wisprFlow-1.0.4.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/ashu-choudhury/WisprFlow-NVDA",
+    "downloadUrl": "https://github.com/ashu-choudhury/WisprFlow-NVDA/releases/download/v1.0.4/wisprFlow-1.0.4.nvda-addon",
+    "license": "MIT"
+  },
+  {
     "id": "review-vocabularySaver",
     "addonId": "vocabularySaver",
     "addonName": "Vocabulary Saver",
@@ -70,42 +250,6 @@
     "repoUrl": "https://github.com/Glowing-Radiant/enhanced-duck",
     "downloadUrl": "https://github.com/Glowing-Radiant/enhanced-duck/releases/download/v0.3.1/enhancedDuck-0.3.1.nvda-addon",
     "license": "GPL v2"
-  },
-  {
-    "id": "review-awqati",
-    "addonId": "awqati",
-    "addonName": "Awqati",
-    "version": "8.2.1",
-    "title": "Hướng dẫn và đánh giá tiện ích: Awqati (Bản 8.2.1)",
-    "summary": "Thông tin chi tiết về tiện ích Awqati trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "21/11/2026",
-    "timestamp": "2026-11-20T20:29:28Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **ali alomari** phát triển theo giấy phép **GPL v2 or later**.\n\nAwqati provides prayer times, along with sunrise, midnight and the start of the last third of the night; a clock with Zawali and Ghurubi time; and five calendars: Gregorian, Lunar Hijri and three Solar Hijri calendars. It also provides daily astronomical information and information from the traditional Arabian calendar, including Talaa periods, seasons and the Suhail year.\n\nThe add-on offers reminders for daily Wird and adhkar, information about the Qibla direction, quiet hours, and control over prayer-time alerts and alerts before and after those times.\n\nIt includes four time management tools: alarms, a stopwatch, countdown timers and a world clock, with dedicated keyboard shortcuts for controlling them and checking their status.\n\nIt includes On This Day information from Wikipedia, in Arabic and English, with direct narration and accessible web pages. The add-on supports Arabic and English.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Awqati](https://github.com/alialomari-coder/Awqati/releases/download/v8.2.1/awqati-8.2.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/alialomari-coder/Awqati/tree/v8.2.1",
-    "downloadUrl": "https://github.com/alialomari-coder/Awqati/releases/download/v8.2.1/awqati-8.2.1.nvda-addon",
-    "license": "GPL v2 or later"
   },
   {
     "id": "review-bible",
@@ -393,42 +537,6 @@
     ],
     "repoUrl": "https://github.com/humza-rehan/accessible-phonetics",
     "downloadUrl": "https://github.com/humza-rehan/accessible-phonetics/releases/download/v3.0/ipaPhoneticSymbols-3.0.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-typix",
-    "addonId": "typix",
-    "addonName": "Typix",
-    "version": "1.0.1",
-    "title": "Hướng dẫn và đánh giá tiện ích: Typix (Bản 1.0.1)",
-    "summary": "Thông tin chi tiết về tiện ích Typix trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "19/11/2026",
-    "timestamp": "2026-11-18T18:53:08Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **OlegTheSnowman** phát triển theo giấy phép **GPL v2**.\n\nTypix plays typing sounds in text fields, with separate sounds for letters, capitals, space, Enter, Tab, Backspace, Delete and punctuation. Each character can have its own stereo position and pitch. Comes with mechanical keyboard packs and an editor to make your own, and can beep on misspelled words.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Typix](https://github.com/OlegTheSnowman/typix/releases/download/v1.0.1/typix-1.0.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/OlegTheSnowman/typix",
-    "downloadUrl": "https://github.com/OlegTheSnowman/typix/releases/download/v1.0.1/typix-1.0.1.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -4461,42 +4569,6 @@
     ],
     "repoUrl": "https://github.com/chaichaimee/soundAlign",
     "downloadUrl": "https://github.com/chaichaimee/soundAlign/releases/download/2026.11.0/soundAlign-v2026.11.0.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-AudioToggles",
-    "addonId": "AudioToggles",
-    "addonName": "Audio Toggles",
-    "version": "3.0",
-    "title": "Hướng dẫn và đánh giá tiện ích: Audio Toggles (Bản 3.0)",
-    "summary": "Thông tin chi tiết về tiện ích Audio Toggles trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "26/10/2026",
-    "timestamp": "2026-10-25T22:59:41Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **rajathtirumangalam** phát triển theo giấy phép **GPL v2**.\n\nKeyboard shortcuts to toggle speaker mute, microphone mute, and cycle the Windows default audio output device.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Audio Toggles](https://github.com/rajathtirumangalam/AudioToggles/releases/download/v3.0/audioToggles.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/rajathtirumangalam/AudioToggles",
-    "downloadUrl": "https://github.com/rajathtirumangalam/AudioToggles/releases/download/v3.0/audioToggles.nvda-addon",
     "license": "GPL v2"
   },
   {
