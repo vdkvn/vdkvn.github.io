@@ -1,18 +1,30 @@
 {
-  "lastChecked": "2026-11-22T06:20:48.920Z",
-  "lastCheckedVN": "22/11/2026",
+  "lastChecked": "2026-11-23T07:12:07.152Z",
+  "lastCheckedVN": "23/11/2026",
   "items": [
     {
       "slug": "nvdaes-clip-contents-designer",
       "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
       "category": "Công cụ tiếp cận",
       "type": "Addon Tây Ban Nha",
-      "timestamp": "2026-11-21T00:26:18Z",
-      "date": "21/11/2026",
-      "summary": "Update translations",
-      "fullMessage": "Update translations",
-      "sha": "de90dde",
-      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/de90dde59f859f47e86cdd2cf1b024c7daa9fbbc"
+      "timestamp": "2026-11-23T00:21:33Z",
+      "date": "23/11/2026",
+      "summary": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
+      "fullMessage": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
+      "sha": "7baf46d",
+      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/7baf46dba2069f2d9daedd83513cf994a8ccb23e"
+    },
+    {
+      "slug": "nvda-screen-reader",
+      "projectName": "NVDA Screen Reader",
+      "category": "Phần mềm tiếp cận",
+      "type": "Trình đọc màn hình",
+      "timestamp": "2026-11-22T23:03:46Z",
+      "date": "23/11/2026",
+      "summary": "Add ♩, ♪, ♫ and ♬ to symbols.dic (#21191)",
+      "fullMessage": "Add ♩, ♪, ♫ and ♬ to symbols.dic (#21191)\n\nFixes #9158\nSummary of the issue:\n\nMusic symbols ♩, ♪, ♫ and ♬ aren't spoken by NVDA.\nDescription of user facing changes:\n\nMusic symbols ♩, ♪, ♫ and ♬ are now spoken by NVDA.\nDescription of developer facing changes:\n\nNone.\nDescription of development approach:\n\nAdded ♩ as quarter note, ♪ as eighth note, ♫ as beamed eighth notes, and ♬ as beamed sixteenth notes to symbols.dic.",
+      "sha": "b896c9c",
+      "url": "https://github.com/nvaccess/nvda/commit/b896c9c44c86206b212a2d02bfeca0b1b2e80944"
     },
     {
       "slug": "nvdajp-community",
@@ -25,18 +37,6 @@
       "fullMessage": "Merge pull request #787 from nvdajp/fix/espeak-msvc-compile\n\nbuild(espeak): update include/espeak for MSVC 14.52 fix (nvaccess/nvda#21179)",
       "sha": "294d385",
       "url": "https://github.com/nvdajp/nvdajp/commit/294d385ae75b5aa991e3ee67e0235d95bc01c1ae"
-    },
-    {
-      "slug": "nvda-screen-reader",
-      "projectName": "NVDA Screen Reader",
-      "category": "Phần mềm tiếp cận",
-      "type": "Trình đọc màn hình",
-      "timestamp": "2026-11-20T02:32:23Z",
-      "date": "20/11/2026",
-      "summary": "Small caps reporting - Do no mention MS Word UIA (#21178)",
-      "fullMessage": "Small caps reporting - Do no mention MS Word UIA (#21178)\n\nFollow-up of #20922.\nSummary of the issue:\n\nPR #20922 only advertised that it implemented small caps reporting for Word UIA (maybe my fault), whereas that PR actually also support small caps reporting in Word when using legacy Word object model.\nDescription of user facing changes:\n\nThe GUI and the User Guide no longer mention Word UIA in the \"small caps reporting\" feature description.\nAlthough only Word is supported, the options usually do not mention restriction to indicate they only work in a specific software. I guess that line or paragraph indentation reporting is not supported on the web, although it is not mentioned in the option's names.",
-      "sha": "c295c81",
-      "url": "https://github.com/nvaccess/nvda/commit/c295c817dae5f44f9fe9f9f7e8ce1ed8cd6bb350"
     },
     {
       "slug": "google-tts-for-nvda",
