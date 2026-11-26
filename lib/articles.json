@@ -1,5 +1,545 @@
 [
   {
+    "id": "review-internetStatus",
+    "addonId": "internetStatus",
+    "addonName": "Internet Status",
+    "version": "2026.3.1",
+    "title": "Hướng dẫn và đánh giá tiện ích: Internet Status (Bản 2026.3.1)",
+    "summary": "Thông tin chi tiết về tiện ích Internet Status trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "26/11/2026",
+    "timestamp": "2026-11-26T04:14:43Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **hamidrehzaey** phát triển theo giấy phép **GPL v2**.\n\nAnnounces all connected networks and internet status, opens the Windows network menu, and speaks and copies the connected Wi-Fi password.\nPress NVDA+Alt+i once to announce the status of all connected networks.\nPress twice to open the Windows network menu.\nPress three times to speak and copy the connected Wi-Fi password.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Internet Status](https://github.com/hamidrehzaey/internetStatus/releases/download/v2026.3.1/internetStatus-2026.3.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/hamidrehzaey/internetStatus",
+    "downloadUrl": "https://github.com/hamidrehzaey/internetStatus/releases/download/v2026.3.1/internetStatus-2026.3.1.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-VolumePower",
+    "addonId": "VolumePower",
+    "addonName": "VolumePower",
+    "version": "2026.12.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: VolumePower (Bản 2026.12.0)",
+    "summary": "Thông tin chi tiết về tiện ích VolumePower trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "26/11/2026",
+    "timestamp": "2026-11-26T02:53:19Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Chai Chaimee** phát triển theo giấy phép **GPL v2**.\n\nVolumePower gives quick control over NVDA volume, left and right ear levels, and computer power. Adjust NVDA volume with NVDA+Shift+PageUp and PageDown, open the ear volume layer with NVDA+Shift+NumPad Plus, and shut down or restart with Alt+Windows+S using single or double tap. An audio guard restores muted or low sound at startup.\n\nHot Keys:\nAlt+Windows+S\nSingle Tap : Shutdown computer\nDouble Tap : Restart computer\nNVDA+Shift+PageUp Increase NVDA volume\nNVDA+Shift+PageDown Decrease NVDA volume\nNVDA+Shift+NumPad Plus : Open the ear volume layer\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải VolumePower](https://github.com/chaichaimee/VolumePower/releases/download/2026.12.0/VolumePower-v2026.12.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/chaichaimee/VolumePower",
+    "downloadUrl": "https://github.com/chaichaimee/VolumePower/releases/download/2026.12.0/VolumePower-v2026.12.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-StateBeforeLabel",
+    "addonId": "StateBeforeLabel",
+    "addonName": "StateBeforeLabel",
+    "version": "2026.12.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: StateBeforeLabel (Bản 2026.12.0)",
+    "summary": "Thông tin chi tiết về tiện ích StateBeforeLabel trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "26/11/2026",
+    "timestamp": "2026-11-26T02:52:26Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Chai Chaimee** phát triển theo giấy phép **GPL v2**.\n\nAnnounces control states (Checked, Pressed, Expanded, Unavailable, Selected, Read-only) before the object name so users hear the state first. Each state type can be toggled individually in NVDA's State Before Label settings panel.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải StateBeforeLabel](https://github.com/chaichaimee/StateBeforeLabel/releases/download/2026.12.0/StateBeforeLabel-v2026.12.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/chaichaimee/StateBeforeLabel",
+    "downloadUrl": "https://github.com/chaichaimee/StateBeforeLabel/releases/download/2026.12.0/StateBeforeLabel-v2026.12.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-specialCharacter",
+    "addonId": "specialCharacter",
+    "addonName": "specialCharacter",
+    "version": "2026.12.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: specialCharacter (Bản 2026.12.0)",
+    "summary": "Thông tin chi tiết về tiện ích specialCharacter trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "26/11/2026",
+    "timestamp": "2026-11-26T02:51:51Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Chai Chaimee** phát triển theo giấy phép **GPL v2**.\n\nSpecial Character is an NVDA add-on that lets you instantly insert symbols and special characters anywhere. It features two customizable sets of twelve slots, a dedicated settings panel, and context-aware insertion logic for various apps. It also includes smart tap control, dedicated dash shortcuts, and persistent configuration.\nHot Keys:\nCtrl+0-9, Ctrl+Minus, and Ctrl+Equals : Insert Slot 1-12\nShift+Windows+. : Insert En Dash\nShift+Windows+/ : Insert Em Dash\nShift+Backspace\nSingle tap: Toggle character set\nDouble tap: Toggle On or Off\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải specialCharacter](https://github.com/chaichaimee/specialCharacter/releases/download/2026.12.0/specialCharacter-v2026.12.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/chaichaimee/specialCharacter",
+    "downloadUrl": "https://github.com/chaichaimee/specialCharacter/releases/download/2026.12.0/specialCharacter-v2026.12.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-SiteMarker",
+    "addonId": "SiteMarker",
+    "addonName": "SiteMarker",
+    "version": "2026.12.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: SiteMarker (Bản 2026.12.0)",
+    "summary": "Thông tin chi tiết về tiện ích SiteMarker trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "26/11/2026",
+    "timestamp": "2026-11-26T02:50:38Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Chai Chaimee** phát triển theo giấy phép **GPL v2**.\n\nSiteMarker streamlines web navigation for NVDA users by bookmarking specific webpage elements for instant access. Key features include site and marker managers, customizable search scopes, and automatic element clicking for hard to reach buttons, saving time on complex pages.\n\nHot Keys:\nWindows+F12\nSingle Tap : Add or Edit Marker\nDouble Tap : open Site Manager\nTriple Tap : open Marker Manager\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải SiteMarker](https://github.com/chaichaimee/SiteMarker/releases/download/2026.12.0/SiteMarker-v2026.12.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/chaichaimee/SiteMarker",
+    "downloadUrl": "https://github.com/chaichaimee/SiteMarker/releases/download/2026.12.0/SiteMarker-v2026.12.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-REGEXPlusPlus",
+    "addonId": "REGEXPlusPlus",
+    "addonName": "REGEX++",
+    "version": "2026.12.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: REGEX++ (Bản 2026.12.0)",
+    "summary": "Thông tin chi tiết về tiện ích REGEX++ trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "26/11/2026",
+    "timestamp": "2026-11-26T02:49:38Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Chai Chaimee** phát triển theo giấy phép **GPL v2**.\n\nProvides an intelligent, on-the-fly regex search, preview, and replace dialog that works in virtually any text editor  even those that have no built-in regular expression support.\nHot Keys:\nALT+Windows+F : Find and Replace REGEX Tools Dialog\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải REGEX++](https://github.com/chaichaimee/REGEXPlusPlus/releases/download/2026.12.0/REGEXPlusPlus-v2026.12.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/chaichaimee/REGEXPlusPlus",
+    "downloadUrl": "https://github.com/chaichaimee/REGEXPlusPlus/releases/download/2026.12.0/REGEXPlusPlus-v2026.12.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-zaraaxess",
+    "addonId": "zaraaxess",
+    "addonName": "ZaraAxess by L-R Productions",
+    "version": "1.0.1",
+    "title": "Hướng dẫn và đánh giá tiện ích: ZaraAxess by L-R Productions (Bản 1.0.1)",
+    "summary": "Thông tin chi tiết về tiện ích ZaraAxess by L-R Productions trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "26/11/2026",
+    "timestamp": "2026-11-25T19:10:02Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **L-R Productions** phát triển theo giấy phép **GPL v2**.\n\nTurbina o ZaraRadio com atalhos ágeis para as informações que realmente importam e calibra o foco da interface para garantir controle total da operação, sem frescura.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải ZaraAxess by L-R Productions](https://github.com/luanmusical/Zara-Access/releases/download/v1.0.1/Zara-Access.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/luanmusical/Zara-Access",
+    "downloadUrl": "https://github.com/luanmusical/Zara-Access/releases/download/v1.0.1/Zara-Access.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-rustyBraille",
+    "addonId": "rustyBraille",
+    "addonName": "Rusty Braille",
+    "version": "0.1.1",
+    "title": "Hướng dẫn và đánh giá tiện ích: Rusty Braille (Bản 0.1.1)",
+    "summary": "Thông tin chi tiết về tiện ích Rusty Braille trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "26/11/2026",
+    "timestamp": "2026-11-25T19:01:32Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Leonard de Ruijter** phát triển theo giấy phép **GPL v2+**.\n\nBraille translation powered by louis-rs, a Rust re-implementation of liblouis. Experimental.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2027.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Rusty Braille](https://github.com/LeonarddeR/rustyBraille/releases/download/0.1.1/rustyBraille-0.1.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/LeonarddeR/rustyBraille",
+    "downloadUrl": "https://github.com/LeonarddeR/rustyBraille/releases/download/0.1.1/rustyBraille-0.1.1.nvda-addon",
+    "license": "GPL v2+"
+  },
+  {
+    "id": "review-typelessAccess",
+    "addonId": "typelessAccess",
+    "addonName": "Typeless Access",
+    "version": "0.8.6",
+    "title": "Hướng dẫn và đánh giá tiện ích: Typeless Access (Bản 0.8.6)",
+    "summary": "Thông tin chi tiết về tiện ích Typeless Access trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "25/11/2026",
+    "timestamp": "2026-11-25T16:23:50Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Mohammed Alfehaida** phát triển theo giấy phép **GPL v2**.\n\nMakes the Typeless voice dictation app usable with NVDA. Announces when dictation starts and stops (a quick tap of the right Alt key), reads the dictated text back, reads the floating status bar, keeps the last transcript and can read it back or copy it, names the unlabeled sidebar buttons in focus and browse mode, reads the stats and streaks while you Tab through the page, offers a list of all controls with clear names, and adds shortcuts to the main pages. Press NVDA+Alt+9 from any program to hear your stats. Experimental. Tested with Typeless 2.11. Interface messages are in Arabic.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Typeless Access](https://github.com/Malfehaida738/typeless-access-nvda/releases/download/v0.8.6/typelessAccess-0.8.6.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/Malfehaida738/typeless-access-nvda/",
+    "downloadUrl": "https://github.com/Malfehaida738/typeless-access-nvda/releases/download/v0.8.6/typelessAccess-0.8.6.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-goldwave",
+    "addonId": "goldwave",
+    "addonName": "GoldWave",
+    "version": "26.12",
+    "title": "Hướng dẫn và đánh giá tiện ích: GoldWave (Bản 26.12)",
+    "summary": "Thông tin chi tiết về tiện ích GoldWave trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "25/11/2026",
+    "timestamp": "2026-11-25T12:46:38Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **josephsl** phát triển theo giấy phép **GPL v2**.\n\nMột tiện ích bổ sung để tăng cường quyền truy cập và sử dụng trình chỉnh sửa âm thanh GoldWave.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tiện ích đã có sẵn giao diện tiếng Việt. Giọng đọc NVDA sẽ đọc đúng các nút bấm và thông báo, bạn chỉ cần cài đặt là sử dụng được ngay."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải GoldWave](https://github.com/day-garwood/NVDA-GoldWave/releases/download/26.11.2/goldwave-26.12.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/day-garwood/NVDA-GoldWave",
+    "downloadUrl": "https://github.com/day-garwood/NVDA-GoldWave/releases/download/26.11.2/goldwave-26.12.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-enhancedTouchGestures",
+    "addonId": "enhancedTouchGestures",
+    "addonName": "Enhanced Touch Gestures",
+    "version": "26.12",
+    "title": "Hướng dẫn và đánh giá tiện ích: Enhanced Touch Gestures (Bản 26.12)",
+    "summary": "Thông tin chi tiết về tiện ích Enhanced Touch Gestures trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "25/11/2026",
+    "timestamp": "2026-11-25T12:45:49Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **josephsl** phát triển theo giấy phép **GPL v2**.\n\nThis add-on provides additional touchscreen gestures for NVDA, including focus reporting and synth settings ring gestures.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Enhanced Touch Gestures](https://github.com/kefaslungu/enhancedTouchGestures/releases/download/26.11/enhancedTouchGestures-26.12.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/kefaslungu/enhancedTouchGestures",
+    "downloadUrl": "https://github.com/kefaslungu/enhancedTouchGestures/releases/download/26.11/enhancedTouchGestures-26.12.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-wintenApps",
+    "addonId": "wintenApps",
+    "addonName": "Windows App Essentials",
+    "version": "26.12",
+    "title": "Hướng dẫn và đánh giá tiện ích: Windows App Essentials (Bản 26.12)",
+    "summary": "Thông tin chi tiết về tiện ích Windows App Essentials trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "25/11/2026",
+    "timestamp": "2026-11-25T12:44:32Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **josephsl** phát triển theo giấy phép **GPL v2**.\n\nImproving support for various apps and controls on Windows 11\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Windows App Essentials](https://github.com/josephsl/wintenApps/releases/download/26.11/wintenApps-26.12.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/josephsl/wintenApps/",
+    "downloadUrl": "https://github.com/josephsl/wintenApps/releases/download/26.11/wintenApps-26.12.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-LIMA",
+    "addonId": "LIMA",
+    "addonName": "LIMA AI",
+    "version": "0.5.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: LIMA AI (Bản 0.5.0)",
+    "summary": "Thông tin chi tiết về tiện ích LIMA AI trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "25/11/2026",
+    "timestamp": "2026-11-25T12:20:33Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Roscommon Systems** phát triển theo giấy phép **GPL v2**.\n\nLIMA AI is the NVDA add-on companion to the LIMA (Low-Vision Intelligent Machine Assistant) desktop app. Press a shortcut and NVDA speaks a brief AI description of the active screen or of the control you are focused on, ask follow-up questions about it, click any on-screen control just by describing it, toggle live narration of changes on a web page, and check how much of your monthly credit you have used. Replies can be in English, Tagalog, or Vietnamese.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải LIMA AI](https://github.com/roscommonsystems/lima-ai-nvda-addon/releases/download/v0.5.0/LIMA-0.5.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/roscommonsystems/lima-ai-nvda-addon",
+    "downloadUrl": "https://github.com/roscommonsystems/lima-ai-nvda-addon/releases/download/v0.5.0/LIMA-0.5.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-vatsal",
+    "addonId": "vatsal",
+    "addonName": "Reminder",
+    "version": "1.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: Reminder (Bản 1.0)",
+    "summary": "Thông tin chi tiết về tiện ích Reminder trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "25/11/2026",
+    "timestamp": "2026-11-25T12:09:48Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Vatsal** phát triển theo giấy phép **GPL v2**.\n\nAn NVDA addon to set reminders quickly and efficiently.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Reminder](https://github.com/thundergod60/reminder/releases/download/V1.0/reminder.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/thundergod60/reminder",
+    "downloadUrl": "https://github.com/thundergod60/reminder/releases/download/V1.0/reminder.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-whatsappDesktopAccess",
+    "addonId": "whatsappDesktopAccess",
+    "addonName": "WhatsApp Desktop Access",
+    "version": "1.2.4",
+    "title": "Hướng dẫn và đánh giá tiện ích: WhatsApp Desktop Access (Bản 1.2.4)",
+    "summary": "Thông tin chi tiết về tiện ích WhatsApp Desktop Access trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "25/11/2026",
+    "timestamp": "2026-11-25T11:48:11Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Sontech - Eyal Sonsino** phát triển theo giấy phép **GPL v2**.\n\nAccessibility improvements for WhatsApp Desktop on Windows. Keeps NVDA on the message field while typing, reads what is under the mouse, and adds commands to move to the chat list, the message list and the message field.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải WhatsApp Desktop Access](https://github.com/Eyalson/whatsapp-desktop-access/releases/download/v1.2.4/whatsappDesktopAccess-1.2.4.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/Eyalson/whatsapp-desktop-access",
+    "downloadUrl": "https://github.com/Eyalson/whatsapp-desktop-access/releases/download/v1.2.4/whatsappDesktopAccess-1.2.4.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
     "id": "review-freeAudio",
     "addonId": "freeAudio",
     "addonName": "freeAudio: Radio and more",
@@ -646,42 +1186,6 @@
     "repoUrl": "https://github.com/tonygeb23/nvdaCoach-",
     "downloadUrl": "https://github.com/tonygeb23/nvdaCoach-/releases/download/v1.7.1/nvdaCoach-1.7.1.nvda-addon",
     "license": "GPL v2"
-  },
-  {
-    "id": "review-rustyBraille",
-    "addonId": "rustyBraille",
-    "addonName": "Rusty Braille",
-    "version": "0.1.0",
-    "title": "Hướng dẫn và đánh giá tiện ích: Rusty Braille (Bản 0.1.0)",
-    "summary": "Thông tin chi tiết về tiện ích Rusty Braille trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "23/11/2026",
-    "timestamp": "2026-11-23T08:56:47Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Leonard de Ruijter** phát triển theo giấy phép **GPL v2+**.\n\nBraille translation powered by louis-rs, a Rust re-implementation of liblouis. Experimental.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2027.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Rusty Braille](https://github.com/LeonarddeR/rustyBraille/releases/download/0.1.0/rustyBraille-0.1.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/LeonarddeR/rustyBraille",
-    "downloadUrl": "https://github.com/LeonarddeR/rustyBraille/releases/download/0.1.0/rustyBraille-0.1.0.nvda-addon",
-    "license": "GPL v2+"
   },
   {
     "id": "review-internetDownloadManager",
@@ -1548,42 +2052,6 @@
     "license": "GPL v2"
   },
   {
-    "id": "review-typelessAccess",
-    "addonId": "typelessAccess",
-    "addonName": "Typeless Access",
-    "version": "0.8.5",
-    "title": "Hướng dẫn và đánh giá tiện ích: Typeless Access (Bản 0.8.5)",
-    "summary": "Thông tin chi tiết về tiện ích Typeless Access trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "19/11/2026",
-    "timestamp": "2026-11-19T00:21:03Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Mohammed Alfehaida** phát triển theo giấy phép **GPL v2**.\n\nMakes the Typeless voice dictation app usable with NVDA. Announces when dictation starts and stops (a quick tap of the right Alt key), reads the dictated text back, reads the floating status bar, keeps the last transcript and can read it back or copy it, names the unlabeled sidebar buttons in focus and browse mode, reads the stats and streaks while you Tab through the page, offers a list of all controls with clear names, and adds shortcuts to the main pages. Press NVDA+Alt+9 from any program to hear your stats. Experimental. Tested with Typeless 2.11. Interface messages are in Arabic.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Typeless Access](https://github.com/Malfehaida738/typeless-access-nvda/releases/download/v0.8.5/typelessAccess-0.8.5.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/Malfehaida738/typeless-access-nvda/",
-    "downloadUrl": "https://github.com/Malfehaida738/typeless-access-nvda/releases/download/v0.8.5/typelessAccess-0.8.5.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
     "id": "review-AIContentDescriber",
     "addonId": "AIContentDescriber",
     "addonName": "AI Content Describer",
@@ -1836,42 +2304,6 @@
     "license": "GPL v2"
   },
   {
-    "id": "review-specialCharacter",
-    "addonId": "specialCharacter",
-    "addonName": "specialCharacter",
-    "version": "2026.11.0",
-    "title": "Hướng dẫn và đánh giá tiện ích: specialCharacter (Bản 2026.11.0)",
-    "summary": "Thông tin chi tiết về tiện ích specialCharacter trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "16/11/2026",
-    "timestamp": "2026-11-16T02:22:20Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Chai Chaimee** phát triển theo giấy phép **GPL v2**.\n\nSpecial Character is an NVDA add-on that lets you instantly insert symbols and special characters anywhere. It features two customizable sets of twelve slots, a dedicated settings panel, and context-aware insertion logic for various apps. It also includes smart tap control, dedicated dash shortcuts, and persistent configuration.\nHot Keys:\nCtrl+0-9, Ctrl+Minus, and Ctrl+Equals : Insert Slot 1-12\nShift+Windows+. : Insert En Dash\nShift+Windows+/ : Insert Em Dash\nShift+Backspace\nSingle tap: Toggle character set\nDouble tap: Toggle On or Off\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải specialCharacter](https://github.com/chaichaimee/specialCharacter/releases/download/2026.11.0/specialCharacter-v2026.11.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/chaichaimee/specialCharacter",
-    "downloadUrl": "https://github.com/chaichaimee/specialCharacter/releases/download/2026.11.0/specialCharacter-v2026.11.0.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
     "id": "review-PPAWakeUp",
     "addonId": "PPAWakeUp",
     "addonName": "PPA Tatip WakeUp ตาทิพย์จงตื่น!",
@@ -1905,42 +2337,6 @@
     ],
     "repoUrl": "https://github.com/chaichaimee/PPAWakeUp",
     "downloadUrl": "https://github.com/chaichaimee/PPAWakeUp/releases/download/2026.11.3/PPAWakeUp-v2026.11.3.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-goldwave",
-    "addonId": "goldwave",
-    "addonName": "GoldWave",
-    "version": "26.11.2",
-    "title": "Hướng dẫn và đánh giá tiện ích: GoldWave (Bản 26.11.2)",
-    "summary": "Thông tin chi tiết về tiện ích GoldWave trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "16/11/2026",
-    "timestamp": "2026-11-15T18:41:57Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **josephsl** phát triển theo giấy phép **GPL v2**.\n\nMột tiện ích bổ sung để tăng cường quyền truy cập và sử dụng trình chỉnh sửa âm thanh GoldWave.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tiện ích đã có sẵn giao diện tiếng Việt. Giọng đọc NVDA sẽ đọc đúng các nút bấm và thông báo, bạn chỉ cần cài đặt là sử dụng được ngay."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải GoldWave](https://github.com/day-garwood/NVDA-GoldWave/releases/download/26.11.2/goldwave-26.11.2.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/day-garwood/NVDA-GoldWave",
-    "downloadUrl": "https://github.com/day-garwood/NVDA-GoldWave/releases/download/26.11.2/goldwave-26.11.2.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -2373,42 +2769,6 @@
     ],
     "repoUrl": "https://github.com/chaichaimee/BrowsersDictionary",
     "downloadUrl": "https://github.com/chaichaimee/BrowsersDictionary/releases/download/2026.11.1/BrowsersDictionary-v2026.11.1.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-SiteMarker",
-    "addonId": "SiteMarker",
-    "addonName": "SiteMarker",
-    "version": "2026.11.1",
-    "title": "Hướng dẫn và đánh giá tiện ích: SiteMarker (Bản 2026.11.1)",
-    "summary": "Thông tin chi tiết về tiện ích SiteMarker trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "12/11/2026",
-    "timestamp": "2026-11-12T02:26:42Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Chai Chaimee** phát triển theo giấy phép **GPL v2**.\n\nSiteMarker streamlines web navigation for NVDA users by bookmarking specific webpage elements for instant access. Key features include site and marker managers, customizable search scopes, and automatic element clicking for hard to reach buttons, saving time on complex pages.\n\nHot Keys:\nWindows+F12\nSingle Tap : Add or Edit Marker\nDouble Tap : open Site Manager\nTriple Tap : open Marker Manager\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải SiteMarker](https://github.com/chaichaimee/SiteMarker/releases/download/2026.11.1/SiteMarker-v2026.11.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/chaichaimee/SiteMarker",
-    "downloadUrl": "https://github.com/chaichaimee/SiteMarker/releases/download/2026.11.1/SiteMarker-v2026.11.1.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -2985,78 +3345,6 @@
     ],
     "repoUrl": "https://github.com/chaichaimee/simpleCopy",
     "downloadUrl": "https://github.com/chaichaimee/simpleCopy/releases/download/2026.11.0/simpleCopy-v2026.11.0.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-enhancedTouchGestures",
-    "addonId": "enhancedTouchGestures",
-    "addonName": "Enhanced Touch Gestures",
-    "version": "26.11.1",
-    "title": "Hướng dẫn và đánh giá tiện ích: Enhanced Touch Gestures (Bản 26.11.1)",
-    "summary": "Thông tin chi tiết về tiện ích Enhanced Touch Gestures trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "09/11/2026",
-    "timestamp": "2026-11-09T04:37:51Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **josephsl** phát triển theo giấy phép **GPL v2**.\n\nThis add-on provides additional touchscreen gestures for NVDA, including focus reporting and synth settings ring gestures.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Enhanced Touch Gestures](https://github.com/kefaslungu/enhancedTouchGestures/releases/download/26.11/enhancedTouchGestures-26.11.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/kefaslungu/enhancedTouchGestures",
-    "downloadUrl": "https://github.com/kefaslungu/enhancedTouchGestures/releases/download/26.11/enhancedTouchGestures-26.11.1.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-wintenApps",
-    "addonId": "wintenApps",
-    "addonName": "Windows App Essentials",
-    "version": "26.11.1",
-    "title": "Hướng dẫn và đánh giá tiện ích: Windows App Essentials (Bản 26.11.1)",
-    "summary": "Thông tin chi tiết về tiện ích Windows App Essentials trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "09/11/2026",
-    "timestamp": "2026-11-09T04:07:35Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **josephsl** phát triển theo giấy phép **GPL v2**.\n\nImproving support for various apps and controls on Windows 11\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Windows App Essentials](https://github.com/josephsl/wintenApps/releases/download/26.11/wintenApps-26.11.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/josephsl/wintenApps",
-    "downloadUrl": "https://github.com/josephsl/wintenApps/releases/download/26.11/wintenApps-26.11.1.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -4068,42 +4356,6 @@
     "license": "GPL v2"
   },
   {
-    "id": "review-whatsappDesktopAccess",
-    "addonId": "whatsappDesktopAccess",
-    "addonName": "WhatsApp Desktop Access",
-    "version": "1.2.1",
-    "title": "Hướng dẫn và đánh giá tiện ích: WhatsApp Desktop Access (Bản 1.2.1)",
-    "summary": "Thông tin chi tiết về tiện ích WhatsApp Desktop Access trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "02/11/2026",
-    "timestamp": "2026-11-02T09:30:58Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Sontech - Eyal Sonsino** phát triển theo giấy phép **GPL v2**.\n\nAccessibility improvements for WhatsApp Desktop on Windows. Keeps NVDA on the message field while typing, reads what is under the mouse, and adds commands to move to the chat list, the message list and the message field.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải WhatsApp Desktop Access](https://github.com/Eyalson/whatsapp-desktop-access/releases/download/v1.2.1/whatsappDesktopAccess-1.2.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/Eyalson/whatsapp-desktop-access",
-    "downloadUrl": "https://github.com/Eyalson/whatsapp-desktop-access/releases/download/v1.2.1/whatsappDesktopAccess-1.2.1.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
     "id": "review-YoutubeAccessPro",
     "addonId": "YoutubeAccessPro",
     "addonName": "YouTube Access Pro",
@@ -4497,42 +4749,6 @@
     ],
     "repoUrl": "https://github.com/chaichaimee/AbsoluteSite",
     "downloadUrl": "https://github.com/chaichaimee/AbsoluteSite/releases/download/2026.11.0/AbsoluteSite-v2026.11.0.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-VolumePower",
-    "addonId": "VolumePower",
-    "addonName": "VolumePower",
-    "version": "2026.11.1",
-    "title": "Hướng dẫn và đánh giá tiện ích: VolumePower (Bản 2026.11.1)",
-    "summary": "Thông tin chi tiết về tiện ích VolumePower trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "30/10/2026",
-    "timestamp": "2026-10-30T01:55:27Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Chai Chaimee** phát triển theo giấy phép **GPL v2**.\n\nVolumePower gives quick control over NVDA volume, left and right ear levels, and computer power. Adjust NVDA volume with NVDA+Shift+PageUp and PageDown, open the ear volume layer with NVDA+Shift+NumPad Plus, and shut down or restart with Alt+Windows+S using single or double tap. An audio guard restores muted or low sound at startup.\n\nHot Keys:\nAlt+Windows+S\nSingle Tap : Shutdown computer\nDouble Tap : Restart computer\nNVDA+Shift+PageUp Increase NVDA volume\nNVDA+Shift+PageDown Decrease NVDA volume\nNVDA+Shift+NumPad Plus : Open the ear volume layer\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải VolumePower](https://github.com/chaichaimee/VolumePower/releases/download/2026.11.1/VolumePower-v2026.11.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/chaichaimee/VolumePower",
-    "downloadUrl": "https://github.com/chaichaimee/VolumePower/releases/download/2026.11.1/VolumePower-v2026.11.1.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -6333,42 +6549,6 @@
     ],
     "repoUrl": "https://github.com/grisov/NVDA_Volume_Adjustment/",
     "downloadUrl": "https://github.com/grisov/NVDA_Volume_Adjustment/releases/download/v2.0.0/volumeAdjustment-2.0.0.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-LIMA",
-    "addonId": "LIMA",
-    "addonName": "LIMA AI",
-    "version": "0.4.1",
-    "title": "Hướng dẫn và đánh giá tiện ích: LIMA AI (Bản 0.4.1)",
-    "summary": "Thông tin chi tiết về tiện ích LIMA AI trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "21/10/2026",
-    "timestamp": "2026-10-21T11:43:00Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Roscommon Systems** phát triển theo giấy phép **GPL v2**.\n\nLIMA AI is the NVDA add-on companion to the LIMA (Low-Vision Intelligent Machine Assistant) desktop app. Press a shortcut and NVDA speaks a brief AI description of the active screen or of the control you are focused on, click any on-screen control just by describing it, toggle live narration of changes on a web page, and check how much of your monthly credit you have used. Replies can be in English, Tagalog, or Vietnamese.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải LIMA AI](https://github.com/roscommonsystems/lima-ai-nvda-addon/releases/download/v0.4.1/LIMA-0.4.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/roscommonsystems/lima-ai-nvda-addon",
-    "downloadUrl": "https://github.com/roscommonsystems/lima-ai-nvda-addon/releases/download/v0.4.1/LIMA-0.4.1.nvda-addon",
     "license": "GPL v2"
   },
   {

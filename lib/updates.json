@@ -1,30 +1,30 @@
 {
-  "lastChecked": "2026-11-25T08:06:37.521Z",
-  "lastCheckedVN": "25/11/2026",
+  "lastChecked": "2026-11-26T07:56:23.223Z",
+  "lastCheckedVN": "26/11/2026",
   "items": [
-    {
-      "slug": "nvda-screen-reader",
-      "projectName": "NVDA Screen Reader",
-      "category": "Phần mềm tiếp cận",
-      "type": "Trình đọc màn hình",
-      "timestamp": "2026-11-25T01:06:15Z",
-      "date": "25/11/2026",
-      "summary": "Merge beta to master (#21208)",
-      "fullMessage": "Merge beta to master (#21208)",
-      "sha": "d104e9b",
-      "url": "https://github.com/nvaccess/nvda/commit/d104e9b118f059740a773ae10493170b03225ac7"
-    },
     {
       "slug": "nvdajp-community",
       "projectName": "Cộng đồng Nhật Bản (NVDA Japanese Team)",
       "category": "Bản địa hóa & Giọng đọc",
       "type": "NVDA Nhật Bản",
-      "timestamp": "2026-11-24T08:46:42Z",
-      "date": "24/11/2026",
-      "summary": "Merge pull request #791 from nvdajp/merge/nvaccess-beta-l10nutil",
-      "fullMessage": "Merge pull request #791 from nvdajp/merge/nvaccess-beta-l10nutil\n\nchore(betajp): merge nvaccess/beta (#20796 l10nUtil.exe migration, #21207)",
-      "sha": "ef64b22",
-      "url": "https://github.com/nvdajp/nvdajp/commit/ef64b227a28f52509dc70d7d97bbb40667863ef1"
+      "timestamp": "2026-11-26T02:26:06Z",
+      "date": "26/11/2026",
+      "summary": "Merge remote-tracking branch 'nvaccess/beta' into betajp (#21162, #21218)",
+      "fullMessage": "Merge remote-tracking branch 'nvaccess/beta' into betajp (#21162, #21218)",
+      "sha": "4968c94",
+      "url": "https://github.com/nvdajp/nvdajp/commit/4968c94dd62021a0f665bd184e345186b224fc28"
+    },
+    {
+      "slug": "nvda-screen-reader",
+      "projectName": "NVDA Screen Reader",
+      "category": "Phần mềm tiếp cận",
+      "type": "Trình đọc màn hình",
+      "timestamp": "2026-11-26T01:46:01Z",
+      "date": "26/11/2026",
+      "summary": "Beta to master (#21219)",
+      "fullMessage": "Beta to master (#21219)",
+      "sha": "927dc8c",
+      "url": "https://github.com/nvaccess/nvda/commit/927dc8cc785419d764d03620ff98a2ef7daff123"
     },
     {
       "slug": "nvdaes-clip-contents-designer",
