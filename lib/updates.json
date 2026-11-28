@@ -1,18 +1,42 @@
 {
-  "lastChecked": "2026-11-27T07:57:40.550Z",
-  "lastCheckedVN": "27/11/2026",
+  "lastChecked": "2026-11-28T07:27:15.084Z",
+  "lastCheckedVN": "28/11/2026",
   "items": [
+    {
+      "slug": "google-tts-for-nvda",
+      "projectName": "Google TTS for NVDA",
+      "category": "Bộ đọc tiếng nói",
+      "type": "Addon NVDA",
+      "timestamp": "2026-11-28T05:09:40Z",
+      "date": "28/11/2026",
+      "summary": "Merge pull request #73 from phamhungvuong302/1.1",
+      "fullMessage": "Merge pull request #73 from phamhungvuong302/1.1\n\nMerge 1.1 to main",
+      "sha": "1cd20c7",
+      "url": "https://github.com/phamhungvuong302/Google-TTS-For-NVDA/commit/1cd20c722dcda216ae6909729235c826400cca28"
+    },
+    {
+      "slug": "nvdaes-clip-contents-designer",
+      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
+      "category": "Công cụ tiếp cận",
+      "type": "Addon Tây Ban Nha",
+      "timestamp": "2026-11-28T00:25:33Z",
+      "date": "28/11/2026",
+      "summary": "Update translations",
+      "fullMessage": "Update translations",
+      "sha": "24f35f8",
+      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/24f35f82663b3ebed25e457a5740b1286ca30724"
+    },
     {
       "slug": "nvda-screen-reader",
       "projectName": "NVDA Screen Reader",
       "category": "Phần mềm tiếp cận",
       "type": "Trình đọc màn hình",
-      "timestamp": "2026-11-27T06:22:50Z",
+      "timestamp": "2026-11-27T09:19:33Z",
       "date": "27/11/2026",
-      "summary": "Handle unavailable optional Windows APIs (#21034)",
-      "fullMessage": "Handle unavailable optional Windows APIs (#21034)\n\nPart of #19537; see #20843 for the design discussion and three-PR split.\n\n### Summary of the issue:\nNVDA can fail to start in Windows PE when optional Windows APIs such as\nBluetooth device identification, Magnification, or WinUSB are\nunavailable. These APIs support individual features, but importing their\nbindings or calling them unconditionally can affect the whole\napplication.\n\n### Description of user facing changes:\nNVDA can continue starting when the Magnification API, `bthprops.cpl`,\nor WinUSB is unavailable. Only the dependent functionality is affected:\nmagnifier and Screen Curtain capabilities, Bluetooth device\nidentification, or the HIMS WinUSB fallback may be unavailable. NVDA\ndoes not emulate or provide missing Windows components.\n\n### Description of developer facing changes:\nThe Magnification, Bluetooth, and WinUSB bindings expose\n`MAGNIFICATION_AVAILABLE`, `BLUETOOTH_AVAILABLE`, and\n`WINUSB_AVAILABLE`. Existing function symbols remain callable and raise\n`OSError` when their API is unavailable. Direct consumers guard optional\ncapabilities or handle the unavailable path.\n\n### Description of development approach:\nLoad optional Windows APIs behind guarded binding initialization, retain\ntheir original load errors, and handle missing capabilities at the\nfeature boundary. This preserves existing binding import paths and\nsymbols without adding Windows PE environment detection.\n\n### Testing strategy:\n- Unit tests: `.\\rununittests.bat -k test_braille.test_hims -k\ntest_core.TestInitialBrailleMessage -k\ntest_hwPortUtils.TestBluetoothDeviceInfo -k\ntest_magnifier.test_fullscreenMagnifier -k\ntest_visionEnhancementProviders.test_magnificationAPI -k\ntest_winBindings_optionalApis.TestUnavailableMagnification -k\ntest_winBindings_optionalApis.TestUnavailableWinUsb` passed (35 tests).\n- Lint: `.\\runlint.bat` passed.\n- Translation checks: `$env:PATH = \"$PWD;$env:PATH\"; .\\runcheckpot.bat`\npassed.\n- Manual test: On the tested x64 Windows PE image, started NVDA,\nverified speech with compatible audio components, opened Settings, and\nexited NVDA cleanly.\n\n### Known issues with pull request:\nFeatures that depend on an unavailable Windows API remain unavailable.\nThis change does not provide or emulate missing Windows components.\nCompatible audio components are still required for NVDA speech and sound\noutput in Windows PE.",
-      "sha": "ef9698c",
-      "url": "https://github.com/nvaccess/nvda/commit/ef9698c6b562ba41a80f9a9e49180aae528540b0"
+      "summary": "beta to master (#21229)",
+      "fullMessage": "beta to master (#21229)",
+      "sha": "f6a661e",
+      "url": "https://github.com/nvaccess/nvda/commit/f6a661e846992719dd4c8f6cf9eb5debf716a9ae"
     },
     {
       "slug": "nvdajp-community",
@@ -25,30 +49,6 @@
       "fullMessage": "Fix broken Japanese translations in changes.xliff from Crowdin",
       "sha": "3d81189",
       "url": "https://github.com/nvdajp/nvdajp/commit/3d811896cea6153ef903465c5a23828e7e3ff6ba"
-    },
-    {
-      "slug": "nvdaes-clip-contents-designer",
-      "projectName": "Cộng đồng Tây Ban Nha (Clip Contents Designer)",
-      "category": "Công cụ tiếp cận",
-      "type": "Addon Tây Ban Nha",
-      "timestamp": "2026-11-23T00:21:33Z",
-      "date": "23/11/2026",
-      "summary": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
-      "fullMessage": "Update translations for clipContentsDesigner from Crowdin (Automatic Sync)",
-      "sha": "7baf46d",
-      "url": "https://github.com/nvdaes/clipContentsDesigner/commit/7baf46dba2069f2d9daedd83513cf994a8ccb23e"
-    },
-    {
-      "slug": "google-tts-for-nvda",
-      "projectName": "Google TTS for NVDA",
-      "category": "Bộ đọc tiếng nói",
-      "type": "Addon NVDA",
-      "timestamp": "2026-10-12T12:25:12Z",
-      "date": "12/10/2026",
-      "summary": "Announced the official release of version 1.0",
-      "fullMessage": "Announced the official release of version 1.0\n\nUpdated readme.md to clearly display the 1.0 version number, release date, changelog, and latest add-on download link to improve search engine optimization performance.",
-      "sha": "943890c",
-      "url": "https://github.com/phamhungvuong302/Google-TTS-For-NVDA/commit/943890cc7a3669ba74b87295b0997420d981a16b"
     },
     {
       "slug": "nvda-network-optimizer",

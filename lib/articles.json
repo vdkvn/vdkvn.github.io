@@ -1,5 +1,149 @@
 [
   {
+    "id": "review-visAware",
+    "addonId": "visAware",
+    "addonName": "Vis Aware",
+    "version": "1.1.1",
+    "title": "Hướng dẫn và đánh giá tiện ích: Vis Aware (Bản 1.1.1)",
+    "summary": "Thông tin chi tiết về tiện ích Vis Aware trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "27/11/2026",
+    "timestamp": "2026-11-27T10:55:26Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **cary-rowen <cary-rowen@outlook.com>** phát triển theo giấy phép **GPL v2**.\n\nNVDA add-on for OCR, AI-powered image description, automatic recognition, and AI-assisted computer control.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Vis Aware](https://github.com/cary-rowen/visAware/releases/download/v1.1.1/visAware-1.1.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/cary-rowen/visAware",
+    "downloadUrl": "https://github.com/cary-rowen/visAware/releases/download/v1.1.1/visAware-1.1.1.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-markdownNavigator",
+    "addonId": "markdownNavigator",
+    "addonName": "Markdown Navigator",
+    "version": "1.0.2",
+    "title": "Hướng dẫn và đánh giá tiện ích: Markdown Navigator (Bản 1.0.2)",
+    "summary": "Thông tin chi tiết về tiện ích Markdown Navigator trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "27/11/2026",
+    "timestamp": "2026-11-27T10:46:18Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **cary-rowen <manchen_0528@outlook.com>** phát triển theo giấy phép **GPL v2**.\n\nAn NVDA add-on that provides structured navigation (headings, lists, tables, etc.) in editable text areas for Markdown files.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Markdown Navigator](https://github.com/cary-rowen/markdownNavigator/releases/download/v1.0.2/markdownNavigator-1.0.2.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/cary-rowen/markdownNavigator",
+    "downloadUrl": "https://github.com/cary-rowen/markdownNavigator/releases/download/v1.0.2/markdownNavigator-1.0.2.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-uTalk",
+    "addonId": "uTalk",
+    "addonName": "uTalk",
+    "version": "2026.12.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: uTalk (Bản 2026.12.0)",
+    "summary": "Thông tin chi tiết về tiện ích uTalk trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "27/11/2026",
+    "timestamp": "2026-11-27T09:11:04Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Chai Chaimee** phát triển theo giấy phép **GPL v2**.\n\nuTalk enhances your NVDA workflow by providing instant spoken confirmations for essential editing commands like Copy, Paste, Cut, Undo, Redo, Select All, Save, and File Operations. It features smart copy handling in browse mode, dual language profiles with quick switching, per-application rules, a choice of speech, braille or beep output, and fully customizable announcement phrases.\n\nHot Key:\nNVDA+ALT+T\nSingle Tap : Swap languages\nDouble Tap : Open uTalk settings\nTriple Tap : Turn uTalk off or on for the current application\nFour Taps : Mute or unmute uTalk announcements\n\nThe mute and current application commands can also be assigned their own keys in Input Gestures, under the uTalk category.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải uTalk](https://github.com/chaichaimee/uTalk/releases/download/2026.12.0/uTalk-v2026.12.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/chaichaimee/uTalk",
+    "downloadUrl": "https://github.com/chaichaimee/uTalk/releases/download/2026.12.0/uTalk-v2026.12.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
+    "id": "review-Listen",
+    "addonId": "Listen",
+    "addonName": "Listen",
+    "version": "2026.12.0",
+    "title": "Hướng dẫn và đánh giá tiện ích: Listen (Bản 2026.12.0)",
+    "summary": "Thông tin chi tiết về tiện ích Listen trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
+    "author": "Võ Duy Khánh & Cộng đồng NVDA",
+    "publishedDate": "27/11/2026",
+    "timestamp": "2026-11-27T09:09:40Z",
+    "sections": [
+      {
+        "heading": "1. Thông tin tiện ích",
+        "content": "Tiện ích do tác giả **Chai Chaimee** phát triển theo giấy phép **GPL v2**.\n\nControl background audio from anywhere. Auto-hides when you switch tasks, returns when you’re back.\nHot Keys:\nALT+Windows+L\nSingle Tap : open Listen Mode\nDouble Tap : Close Listen Mode\nAll control commands available in Layer Mode are documented in the add-on user guide\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
+      },
+      {
+        "heading": "2. Khả năng đọc tiếng Việt",
+        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
+      },
+      {
+        "heading": "3. Phím tắt và thao tác bàn phím",
+        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
+      },
+      {
+        "heading": "4. Tính tương thích & Ghi chú",
+        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.3**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
+      },
+      {
+        "heading": "5. Các bước cài đặt",
+        "content": "1. Nhấn [Tải Listen](https://github.com/chaichaimee/Listen/releases/download/2026.12.0/Listen-v2026.12.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
+      }
+    ],
+    "repoUrl": "https://github.com/chaichaimee/Listen",
+    "downloadUrl": "https://github.com/chaichaimee/Listen/releases/download/2026.12.0/Listen-v2026.12.0.nvda-addon",
+    "license": "GPL v2"
+  },
+  {
     "id": "review-win11_access",
     "addonId": "win11_access",
     "addonName": "Accessibility enhancement for windows 11",
@@ -1980,42 +2124,6 @@
     "license": "GPL v2"
   },
   {
-    "id": "review-markdownNavigator",
-    "addonId": "markdownNavigator",
-    "addonName": "Markdown Navigator",
-    "version": "1.0.1",
-    "title": "Hướng dẫn và đánh giá tiện ích: Markdown Navigator (Bản 1.0.1)",
-    "summary": "Thông tin chi tiết về tiện ích Markdown Navigator trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "20/11/2026",
-    "timestamp": "2026-11-20T16:52:24Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **cary-rowen <manchen_0528@outlook.com>** phát triển theo giấy phép **GPL v2**.\n\nAn NVDA add-on that provides structured navigation (headings, lists, tables, etc.) in editable text areas for Markdown files.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.1**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Markdown Navigator](https://github.com/cary-rowen/markdownNavigator/releases/download/v1.0.1/markdownNavigator-1.0.1.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/cary-rowen/markdownNavigator",
-    "downloadUrl": "https://github.com/cary-rowen/markdownNavigator/releases/download/v1.0.1/markdownNavigator-1.0.1.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
     "id": "review-symbolCompressor",
     "addonId": "symbolCompressor",
     "addonName": "Symbol and Emoji Compressor",
@@ -2193,42 +2301,6 @@
     ],
     "repoUrl": "https://github.com/serrebidev/AppleMusicNVDA",
     "downloadUrl": "https://github.com/serrebidev/AppleMusicNVDA/releases/download/v0.4.15/AppleMusic-0.4.15.nvda-addon",
-    "license": "GPL v2"
-  },
-  {
-    "id": "review-visAware",
-    "addonId": "visAware",
-    "addonName": "Vis Aware",
-    "version": "1.1.0",
-    "title": "Hướng dẫn và đánh giá tiện ích: Vis Aware (Bản 1.1.0)",
-    "summary": "Thông tin chi tiết về tiện ích Vis Aware trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "18/11/2026",
-    "timestamp": "2026-11-17T18:51:59Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **cary-rowen <cary-rowen@outlook.com>** phát triển theo giấy phép **GPL v2**.\n\nNVDA add-on for OCR, AI-powered image description, automatic recognition, and AI-assisted computer control.\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải Vis Aware](https://github.com/cary-rowen/visAware/releases/download/v1.1.0/visAware-1.1.0.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/cary-rowen/visAware",
-    "downloadUrl": "https://github.com/cary-rowen/visAware/releases/download/v1.1.0/visAware-1.1.0.nvda-addon",
     "license": "GPL v2"
   },
   {
@@ -9718,42 +9790,6 @@
     "repoUrl": "https://github.com/cary-rowen/polyglot",
     "downloadUrl": "https://github.com/cary-rowen/polyglot/releases/download/v1.3.2/polyglot-1.3.2.nvda-addon",
     "license": "GNU General Public License version 3 or later"
-  },
-  {
-    "id": "review-uTalk",
-    "addonId": "uTalk",
-    "addonName": "uTalk",
-    "version": "2026.9.9",
-    "title": "Hướng dẫn và đánh giá tiện ích: uTalk (Bản 2026.9.9)",
-    "summary": "Thông tin chi tiết về tiện ích uTalk trên NVDA: tính năng thực tế, mức độ hỗ trợ tiếng Việt, phím tắt thao tác và cách cài đặt an toàn.",
-    "author": "Võ Duy Khánh & Cộng đồng NVDA",
-    "publishedDate": "08/09/2026",
-    "timestamp": "2026-09-08T10:57:53Z",
-    "sections": [
-      {
-        "heading": "1. Thông tin tiện ích",
-        "content": "Tiện ích do tác giả **Chai Chaimee** phát triển theo giấy phép **GPL v2**.\n\nuTalk enhances your NVDA workflow by providing instant spoken confirmations for essential editing commands like Copy, Paste, Cut, Undo, Redo, Select All, Save, and File Operations. It features smart copy handling in browse mode, dual language profiles with quick switching, and fully customizable announcement phrases.\n\nHot Key:\nNVDA+ALT+T\nSingle Tap : Toggle language\nDouble Tap : open uTalk setting\n\nCách phân phối: Tiện ích đã được duyệt vào Cửa hàng Add-on Store chính thức của NVDA. Bạn có thể mở menu NVDA để cài đặt trực tiếp, hoặc tải tệp tại trang này."
-      },
-      {
-        "heading": "2. Khả năng đọc tiếng Việt",
-        "content": "Tác giả chưa tích hợp tiếng Việt nên các tùy chọn hiển thị bằng tiếng Anh. Tuy nhiên cách bố trí phím bấm tuân theo chuẩn NVDA thông thường, giọng đọc tiếng Việt vẫn đọc được các mục bình thường."
-      },
-      {
-        "heading": "3. Phím tắt và thao tác bàn phím",
-        "content": "Tiện ích không có phím tắt cố định mà tự động chạy nền hoặc xuất hiện trong menu ứng dụng tương ứng. Bạn có thể kiểm tra danh sách phím trong mục Cử chỉ nhập liệu của NVDA."
-      },
-      {
-        "heading": "4. Tính tương thích & Ghi chú",
-        "content": "- Phiên bản đã kiểm tra hoạt động tốt trên: **NVDA 2026.2**.\n- Tệp cài đặt được lấy từ kho phát hành chính thức của tác giả.\n- Tiện ích không gây xung đột âm thanh hay làm chậm thao tác phím của NVDA."
-      },
-      {
-        "heading": "5. Các bước cài đặt",
-        "content": "1. Nhấn [Tải uTalk](https://github.com/chaichaimee/uTalk/releases/download/2026.9.9/uTalk-v2026.9.9.nvda-addon) để tải tệp .nvda-addon về máy.\n2. Vào thư mục Downloads, di chuyển đến tệp vừa tải rồi nhấn Enter.\n3. Khi NVDA hiện hộp thoại xác nhận, nhấn phím Y (hoặc bấm Đồng ý).\n4. Bấm khởi động lại NVDA để kích hoạt tiện ích."
-      }
-    ],
-    "repoUrl": "https://github.com/chaichaimee/uTalk",
-    "downloadUrl": "https://github.com/chaichaimee/uTalk/releases/download/2026.9.9/uTalk-v2026.9.9.nvda-addon",
-    "license": "GPL v2"
   },
   {
     "id": "review-yaMusicHelper",
